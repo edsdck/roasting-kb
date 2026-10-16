@@ -9,8 +9,8 @@ All paths below are relative to this folder (the repo root).
 
 ## The owner (decides relevance)
 
-- Roaster: **Skywalker V1** — **infrared (IR) heated** electric home roaster, 400 g max, usually
-  **350 g** batches. Controlled and logged with **Artisan**.
+- Roaster: **Skywalker V1** — **infrared (IR) heated** electric home roaster, rated 400–500 g (sources differ; owner unsure),
+  usually **350 g** batches. Has the **heatsink mod** (OK for back-to-back roasts). Controlled and logged with **Artisan**.
 - Experience: ~40 roasts (Oct 2026). Knows the basics; wants to get better faster.
 - Because heat is mostly **radiant (IR)**, advice written for gas drum or fluid-bed machines may
   not transfer directly. Always record the machine/heat context of each source. IR-specific,
@@ -66,6 +66,8 @@ Open each candidate. **Accept** only if all are true:
 
 Otherwise register it with `--status rejected --reason "..."` (so it's never reconsidered).
 Transcript-less video/podcast that looks valuable → `--status needs-manual`.
+Sites the web tools decline (e.g. Reddit) → `--status needs-manual`; don't route around the block
+with the browser or mirrors. The owner can open them and paste the text in.
 
 **Evidence grade** (`grade`):
 - **A** — controlled experiment, peer-reviewed paper, or measured data with method

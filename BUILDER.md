@@ -9,8 +9,8 @@ may re-open a source's URL to check a claim.
 All paths are relative to this folder (the repo root).
 
 ## The owner
-Skywalker V1 — **infrared (IR) heated** electric home roaster, 400 g max, usually **350 g**
-batches, controlled/logged in **Artisan**, ~40 roasts (Oct 2026). Writes cupping notes.
+Skywalker V1 — **infrared (IR) heated** electric home roaster, rated 400–500 g (sources differ), usually **350 g**
+batches, heatsink mod fitted, controlled/logged in **Artisan**, ~40 roasts (Oct 2026). Writes cupping notes.
 The wiki's practical value is judged by: *does this help him roast better on his machine?*
 
 ## Inputs

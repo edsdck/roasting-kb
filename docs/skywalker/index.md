@@ -1,6 +1,6 @@
 # My Skywalker
 
-- **Machine:** Skywalker V1 — infrared-heated electric roaster, 400 g max
+- **Machine:** Skywalker V1 — infrared-heated electric drum roaster, rated 400–500 g (sources differ), heatsink mod fitted
 - **Usual batch:** 350 g
 - **Logging / control:** Artisan
 
