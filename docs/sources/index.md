@@ -2,7 +2,7 @@
 
 Every source collected by the Gatherer. Grades: **A** experiment/paper · **B** practitioner with data · **C** practitioner opinion · **D** marketing/unverified.
 
-*19 sources.*
+*22 sources.*
 
 | ID | Title | Type | Grade | Heat context | Status |
 |---|---|---|---|---|---|
@@ -25,3 +25,6 @@ Every source collected by the Gatherer. Grades: **A** experiment/paper · **B** 
 | S0017 | [Skywalker roaster mods (Home Roasters forum thread) — roasting-relevant posts](S0017-homeroasters-skywalker-mods-thread.md) | forum | B | IR | new |
 | S0018 | [Roast Development Time and the Prerequisite for Any Successful Roast](S0018-rao-2014-development-time-ratio.md) | article | C | multiple | new |
 | S0019 | [First Crack FAQ: What is First Crack? What is Second Crack?](S0019-sweet-marias-first-crack-faq.md) | article | C | multiple | new |
+| S0020 | [Bean Temperature at First Crack (Home-Barista thread)](S0020-home-barista-bean-temperature-at-first-crack.md) | forum | C | multiple | new |
+| S0021 | [Development time of light roasts (Home-Barista thread)](S0021-home-barista-development-time-light-roasts.md) | forum | C | multiple | new |
+| S0022 | [Nordic Roasters Forum, roasting presentation and roasting exercise (Home-Barista thread)](S0022-home-barista-nordic-roasters-forum-exercise.md) | forum | C | multiple | new |
