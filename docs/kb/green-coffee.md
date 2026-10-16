@@ -69,6 +69,6 @@ title: Green coffee
 ## Open questions
 - Measured moisture/density vs first-crack temperature and time — no data yet.
 - Does processing change the first-crack temperature, or only how it's measured/heard?
-  Roasters still split: same ±2 °C for all beans vs a new origin cracking 9–10 °F higher [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md).
+  Roasters still split: same ±2 °C for all beans vs a new origin cracking 5–5.6 °C higher [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md).
 - What is the green moisture of the coffees you roast (needed to use the weight-loss rule)?
 - How radiant heating interacts with density (surface vs core).

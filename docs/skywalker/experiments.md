@@ -33,7 +33,7 @@ the RoR visibly changes direction. Repeat once.
 and your one cupped roast (0:41) was sharp and flat — see [findings](findings.md).*
 
 **Why:** at equal colour, shorter development = brighter/sweeter, longer = roastier/bitter [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md).
-Practitioners disagree on how short is too short: Rao says 20–25 % DTR [S0018](../sources/S0018-rao-2014-development-time-ratio.md); light roasters use
+Practitioners disagree on how short is too short: Rao (one practitioner's opinion) says 20–25 % DTR [S0018](../sources/S0018-rao-2014-development-time-ratio.md); light roasters use
 13–16 % / 1:20–1:30 [S0021](../sources/S0021-home-barista-development-time-light-roasts.md); an experienced Skywalker owner's best early cup was ~1:35 (18 %) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md).
 **How:** one coffee (the Costa Rican Natural or Colombia you have now), three roasts with your usual
 path to first crack; development ≈ **1:00 / 1:45 / 2:30**. On your machine development time drives
@@ -42,8 +42,7 @@ during development for the longer ones rather than dropping earlier. Rest equall
 **Variant (2b) — by temperature, not seconds:** your id39 (+6.2 °C above first crack, 0:41) and
 id40 (+12.0 °C, 1:12) are the same coffee, so cup them blind side by side first (rest equally, ≥ 5 days).
 If id39 tastes raw/vegetal and id40 does not, repeat the pair at +6 / +9 / +12 °C. One roaster
-reports a vegetal note that stays until ~10 °F (5.6 °C) above first crack [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md); a roaster who
-dropped ~10 °F above first crack after a fast dry end found no vegetal notes but thin body [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md).
+reports a vegetal note that stays until ~5.6 °C above first crack [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md); a roaster who dropped ~5.6 °C above first crack after a fast dry end found no vegetal notes but thin body [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md).
 Your probe and first-crack call differ from theirs, so you are looking for *your* threshold.
 Because development time and ΔT move together on your machine (r = 0.78), use the heater during
 development to change one without the other if you can.

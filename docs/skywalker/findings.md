@@ -67,7 +67,7 @@ first crack with no vegetal notes but thin body [S0023](../sources/S0023-home-ba
 **2b. How far above first crack you drop (new, n=41).** Median drop is **+8.3 °C** over the
 first-crack reading (5.6–22.4 °C), and it moves with development time (r = 0.78). Four roasts ended
 under 6 °C above first crack (id4, id19, id31, id32). N3Roaster reports a vegetal note that stays
-until ~10 °F (5.6 °C) above first-crack start on his machines, independent of time, and another
+until ~5.6 °C above first-crack start on his machines, independent of time, and another
 roaster puts it at ~+6–7 °C [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md). The id39 roast (cupped sharp, very acidic, bitter) ended +6.2 °C;
 id40 (same coffee) ended +12.0 °C but has no notes yet. Different probe and first-crack convention,
 so this is a lead, not a rule. → [experiment 2](experiments.md). *Grade P, n=41 but only one cup.*

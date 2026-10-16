@@ -31,8 +31,7 @@ tipping and scorching [S0013](../sources/S0013-melheim-2023-optimal-batch-size.m
   `conf: medium` [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md) Consistent with research: shorter development = more acidity at equal
   colour [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md) [S0012](../sources/S0012-munchow-2020-roasting-conditions-multi-study.md).
 - **Vegetal / "raw" note and temperature.** One roaster finds a raw, vegetal flavour that
-  disappears abruptly about 10 °F above first-crack start regardless of time; another finds a
-  chlorophyll-like note below ~204–205 °C with first crack at ~198 °C. `conf: low` [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md) Ties
+  disappears abruptly about 5.6 °C above first-crack start regardless of time; another finds a chlorophyll-like note below ~204–205 °C (adj. ≈ 191 °C) with first crack at ~198 °C. `conf: low` [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md) Ties
   under-development to *temperature reached*, not only seconds — see [Development](development.md).
 - **Astringency.** A tongue-drying finish. Reported causes: a charge that is too cool (inside left
   under-developed while the outside hits the drop temperature) [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md); tipping, which infrared

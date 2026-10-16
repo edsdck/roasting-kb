@@ -9,9 +9,9 @@ title: Development
     - At the **same final colour**, shorter development → sweeter, more acidic, fruitier, cleaner; longer → more bitter, roasty, nutty-chocolate, astringent. Body barely changes. `conf: medium` (one strong study)
     - Measured acidity is **highest around first crack** and falls the further you roast past it. `conf: high` (two studies agree)
     - Colour alone doesn't describe a roast — log development time too. But colour (roast degree) is still the **strongest** single driver of flavour. `conf: medium`
-    - **How long is normal?** Rao's 20–25 % DTR rule vs experienced light roasters at ~13–16 % (1:20–1:30) and Nordic roasters at ~45 s. **Contested.**
+    - **How long is normal?** Rao's 20–25 % DTR guideline (one practitioner's opinion, not a rule) vs experienced light roasters at ~13–16 % (1:20–1:30) and Nordic roasters at ~45 s. **Contested.**
     - The same development time does more after a fast roast or a high RoR at first crack — compare DTR only between similar profiles. `conf: medium`
-    - **End by seconds or by temperature?** Roasters split: fixed seconds after first crack, absolute drop temperature, or both. One roaster reports a vegetal note that vanishes about 10 °F (~5.6 °C) above first-crack start whatever the time. `conf: low` **Contested.**
+    - **End by seconds or by temperature?** Roasters split: fixed seconds after first crack, absolute drop temperature, or both. One roaster reports a vegetal note that vanishes about 5.6 °C above first-crack start whatever the time. `conf: low` **Contested.**
 
 ## Concepts
 
@@ -25,7 +25,7 @@ title: Development
 - **Development time at equal colour.** One washed Colombian was roasted with the same path to
   first crack (~570 s) and the same final colour (Agtron 76), varying only development time —
   90 / 143 / 266 / 390 s — by dropping at lower temperatures for longer development
-  (204.1 → 191.1 °C). 46 experienced tasters found (15-point scale, fast → longest):
+  (204.1 → 191.1 °C reported; adj. ≈ 189 → 176 °C, see [Temperatures](temperature-adjustment.md)). 46 experienced tasters found (15-point scale, fast → longest):
   acidity 8.5 → 5.4, sweetness 8.7 → 6.3, fruit/berry 7.3 → 4.4, clean cup 7.5 → 5.5,
   bitterness 5.7 → 8.6, roasted 5.4 → 8.8, nutty/chocolate 6.0 → 8.4. Body: no significant
   difference. `conf: medium` (single study, one coffee, one roast degree) `ctx: gas-drum, 1 kg` [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md)
@@ -43,19 +43,20 @@ title: Development
 - **Development time depends on context.** Rao: development time alone is "relatively meaningless"
   without total roast time — use DTR [S0018](../sources/S0018-rao-2014-development-time-ratio.md). Practitioners add that roast speed and momentum also
   change what a given time means: 1:15 after an 8:00 roast is "more developed" than 1:15 after a
-  12:00 roast at the same drop temperature, and 1 min after entering first crack at 16 °F/min RoR
-  can match 2 min at 8 °F/min for colour and drop temperature (though not taste). DTR compares
+  12:00 roast at the same drop temperature, and 1 min after entering first crack at ~9 °C/min RoR
+  can match 2 min at ~4.5 °C/min for colour and drop temperature (though not taste). DTR compares
   cleanly only between near-identical profiles. `conf: medium` [S0018](../sources/S0018-rao-2014-development-time-ratio.md) [S0021](../sources/S0021-home-barista-development-time-light-roasts.md) [S0011](../sources/S0011-cooper-cropster-rate-of-rise-production.md)
 - **Development also happens before first crack.** Some roasters close the inner/outer bean
   temperature gap in late Maillard rather than relying on development time [S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md); an SCA panel
   (as relayed) described development taking place in Maillard too [S0021](../sources/S0021-home-barista-development-time-light-roasts.md). `conf: low`
 
 - **A temperature threshold above first crack?** N3Roaster (lab roaster, trier samples) reports a
-  raw, vegetal flavour that vanishes abruptly about 10 °F above first-crack start (380 → 390 °F on
-  his machines; second crack 430 °F, so about a fifth of the way between the cracks), whatever the
-  roast time, repeatable in blind, randomized tastings (method stated, no data shown). Marcelnl
-  independently finds a "chlorophyll-like" note below about 204–205 °C with first crack ~198 °C
-  (≈ +6–7 °C). Almico, after a fast dry end (≤ 4 min) on dense beans, dropped ~10 °F above first
+  raw, vegetal flavour that vanishes abruptly about 5.6 °C above first-crack start (first crack
+  193 °C → note gone at 199 °C, second crack 221 °C on his machines; adj. ≈ 185 → 190 → 212 °C, so
+  about a fifth of the way between the cracks), whatever the roast time, repeatable in blind,
+  randomized tastings (method stated, no data shown). Marcelnl independently finds a
+  "chlorophyll-like" note below about 204–205 °C (adj. ≈ 191 °C) with first crack ~198 °C
+  (≈ +6–7 °C). Almico, after a fast dry end (≤ 4 min) on dense beans, dropped ~5.6 °C above first
   crack about a minute after it and found no vegetal or underdeveloped notes, but thin body.
   `conf: low` (forum accounts, each on their own thermometry) [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md)
 
@@ -65,15 +66,15 @@ title: Development
   **Rounder / chocolatey / roastier:** extend development. `conf: medium` [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md) [S0007](../sources/S0007-anokye-bempah-2024-titratable-acidity.md)
 - **Labelling profiles.** Average RoR after first crack is a machine-specific shorthand for
   development speed. [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md)
-- **Don't define the end by DTR alone.** A 20 °F and a 30 °F rise after first crack can both fit
+- **Don't define the end by DTR alone.** An 11 °C and a 17 °C rise after first crack can both fit
   a 20 % DTR — also track degrees gained after first crack and end colour. `conf: medium` [S0011](../sources/S0011-cooper-cropster-rate-of-rise-production.md)
   [S0021](../sources/S0021-home-barista-development-time-light-roasts.md) Experienced home roasters drop on temperature or colour, not percentage [S0021](../sources/S0021-home-barista-development-time-light-roasts.md); Rao
   reportedly now advises dropping by colour too (second-hand) [S0021](../sources/S0021-home-barista-development-time-light-roasts.md).
 - **What light roasters actually do** (practitioner reports, not targets):
-    - drop ~385–390 °F with first crack ~370 °F → ~16 % DTR; 14–16 %, often 1:20–1:30 after FCs;
+    - drop ~196–199 °C (adj. ≈ 193–196 °C) with first crack ~188 °C → ~16 % DTR; 14–16 %, often 1:20–1:30 after FCs;
       an Ethiopia anaerobic natural at 13 % DTR (~10 min roast) was "stellar" [S0021](../sources/S0021-home-barista-development-time-light-roasts.md)
     - light Ethiopians ≤ 1:30, drop ~7–10 °C above first crack (500 g drum) [S0021](../sources/S0021-home-barista-development-time-light-roasts.md)
-    - 30 s – 1:30 after gliding into first crack at ~10–12 °F/min [S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md)
+    - 30 s – 1:30 after gliding into first crack at ~6–7 °C/min [S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md)
     - Nordic roasters (2012): ~45 s (Tim Wendelboe) on a Kenya in a shared roasting exercise, with
       very high airflow the whole roast
       [S0022](../sources/S0022-home-barista-nordic-roasters-forum-exercise.md)
@@ -82,7 +83,7 @@ title: Development
     - A fruit-forward natural: first crack ~7:30, development **1:00–1:10** ("slightly shorter … because
       it's a natural"), weight loss ~1 % above green moisture, smaller charge, higher airflow
       (Rob Hoos, drum roasters, interview) [S0025](../sources/S0025-roast-rebels-hoos-cultivars-airflow-interview.md) `ctx: drum`
-    - Very fast dry end (≤ 4 min) and a drop ~10 °F above first crack about 1 min after it: no
+    - Very fast dry end (≤ 4 min) and a drop ~5.6 °C above first crack about 1 min after it: no
       vegetal notes but thin body (Almico) [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md)
     - V2 Skywalker (250 g): development 85–100 s, DTR 16–18 %, drop ~192–194 °C [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md)
   `conf: low`
@@ -99,7 +100,7 @@ title: Development
 - **Compare times, not just ratios.** Two roasts with the same dry and development times but a
   longer middle phase gave splits of 48/33/19 % and 40/43/16 % — the percentages hide that only one
   phase changed. `conf: low` [S0028](../sources/S0028-home-barista-roasting-phase-ratios.md)
-- **Stretching to hit a %.** Slowing RoR below ~10 °F/min at first crack to reach 20 % kept the drop
+- **Stretching to hit a %.** Slowing RoR below ~5.6 °C/min at first crack to reach 20 % kept the drop
   light but often still tasted under-developed; shorter, hotter development tasted better for that
   roaster. Holding airflow high mattered for short, hot finishes. `conf: low` [S0021](../sources/S0021-home-barista-development-time-light-roasts.md) [S0022](../sources/S0022-home-barista-nordic-roasters-forum-exercise.md)
 - **Short development shifts flavour**, not just "under-develops": a Gesha moved from a 3.5 to a 2-min
@@ -146,16 +147,14 @@ title: Development
   crack.
 - The *direction* of these effects is chemistry and should hold on any heat source.
   **Inference — test it.**
-- The *numbers* won't transfer: first crack reads ≈ 182 °C on the Skywalker [S0001](../sources/S0001-skywiki-infrared-roaster.md), far below
-  the ≈ 200 °C drop temperatures in the study, and readings shift with batch size [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md). Use
-  time after first crack, weight loss and colour, not imported temperatures.
+- The *numbers* won't transfer: first crack reads ≈ 182 °C on the Skywalker [S0001](../sources/S0001-skywiki-infrared-roaster.md), far below the study's 191–204 °C drop temperatures (adj. ≈ 176–189 °C; see [Temperatures](temperature-adjustment.md)), and readings shift with batch size [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md). Even adjusted, treat imported temperatures as rough; prefer time after first crack, degrees above first crack, weight loss and colour.
 - Your roast pages in [My Skywalker](../skywalker/roast-log.md) report development time and DTR
   automatically.
 
 ## Contested
 **Is a 20–25 % DTR needed for a well-developed roast?**
 
-- **Yes (Rao, 2014):** every great batch in thousands he cupped had first crack at 75–80 % of total
+- **Yes (Rao, 2014 — one practitioner's opinion, to be taken with a grain of salt):** every great batch in thousands he cupped had first crack at 75–80 % of total
   time; a DTR of 20–25 % is a prerequisite (not a guarantee); development changed out of proportion
   to total time tends to taste baked and lose sweetness. Grade C, many commercial machines. [S0018](../sources/S0018-rao-2014-development-time-ratio.md)
 - **No, not for light roasts:** experienced light roasters sit around 13–16 % or 1:20–1:30 [S0021](../sources/S0021-home-barista-development-time-light-roasts.md);

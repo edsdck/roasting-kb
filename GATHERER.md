@@ -113,6 +113,9 @@ If fewer than 5 sources survived, go back to Pass 1 with new queries (max 2 extr
 
 ## Rules
 - Never invent quotes, numbers, authors or dates. Unknown → `unknown`.
+- Keep temperatures in the source's own unit and say which unit. When a source gives temperatures,
+  also record that machine's first-crack reading if stated — the Builder needs it to adjust
+  numbers to the Skywalker.
 - Don't fix or judge the knowledge base; just record what the source says, faithfully, including
   claims you suspect are wrong (note the suspicion in "Gatherer notes").
 - Keep source files self-contained: someone reading only that file should understand it.

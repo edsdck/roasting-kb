@@ -15,7 +15,10 @@ Topic pages, maintained by the Builder. Each statement cites its sources and car
 | [Measurement & Artisan](measurement-and-artisan.md) | What the probe reads, Skywalker temperatures, Artisan settings |
 | [Roast planning & experimenting](roast-planning.md) | Plan–execute–learn, one variable at a time, equal colour |
 | [Airflow](airflow.md) | Fan and room airflow on the Skywalker |
+| [Temperatures & adjustment](temperature-adjustment.md) | °C only; how other machines' temperatures are shifted to Skywalker readings |
 | [Myths & contested](myths-and-contested.md) | Where sources disagree |
 | [Glossary](glossary.md) | Terms |
+
+**Reading rules.** Temperatures are always °C, shown as *reported* and *adjusted to the Skywalker* — see [Temperatures & adjustment](temperature-adjustment.md). Scott Rao is one influential practitioner (grade C): his views are taken with a grain of salt, never as a rule.
 
 *Not yet covered:* cupping at home, resting & storage, roast chemistry.

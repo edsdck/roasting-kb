@@ -7,7 +7,7 @@ title: Rate of rise (RoR)
 !!! abstract "In short"
     - RoR = how many degrees per minute the bean-probe temperature is rising. It's the slope of the BT curve, not new information.
     - Use it as a **speedometer**: are you heading for first crack early or late? `conf: medium`
-    - Mainstream drum advice (Rao) says keep RoR declining smoothly and avoid a "crash" near first crack. This is **contested**, and on an IR roaster a *flat* RoR may be normal.
+    - One influential drum-roasting author (Rao; take with a grain of salt, not a rule) says keep RoR declining smoothly and avoid a "crash" near first crack. This is **contested**, and on an IR roaster a *flat* RoR may be normal.
     - RoR curves are noisy and depend on probe and software settings — check your Artisan settings before reading too much into them.
 
 ## Concepts

@@ -39,8 +39,7 @@ title: Roast phases
 - Your Artisan logs already mark CHARGE, DRY, FCs and DROP, so every roast page shows drying,
   Maillard and development durations. Your medians: drying 4:40, Maillard 4:06, development 1:08
   ([findings](../skywalker/findings.md)).
-- Phase *durations* transfer between machines better than temperatures; yellowing at
-  "160–165 °C" on a drum won't match the Skywalker's lower-reading probe [S0001](../sources/S0001-skywiki-infrared-roaster.md) [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md).
+- Phase *durations* transfer between machines better than temperatures; yellowing at "160–165 °C" on a drum (adj. ≈ 145–150 °C) won't match the Skywalker's lower-reading probe [S0001](../sources/S0001-skywiki-infrared-roaster.md) [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md).
 - **Other owners' phases (examples, not targets):**
 
     | Roast | Dry end | First crack | Drop | Split |
@@ -68,7 +67,7 @@ one Nordic roaster chose a longer drying phase for a dry, lower-quality Kenya [S
 ## Phase ratios
 - Percentages hide which phase changed: equal dry and development times with a longer middle phase
   gave 48/33/19 % and 40/43/16 % splits. Track durations as well. `conf: low` [S0028](../sources/S0028-home-barista-roasting-phase-ratios.md) Forum
-  rules of thumb: 45-35-20 % phase split and 30-20-10 °F/min RoR checkpoints [S0028](../sources/S0028-home-barista-roasting-phase-ratios.md). `ctx: gas drum`
+  rules of thumb: 45-35-20 % phase split and 17-11-5.6 °C/min RoR checkpoints (stated as 30-20-10 °F/min) [S0028](../sources/S0028-home-barista-roasting-phase-ratios.md). `ctx: gas drum`
 
 ## Open questions
 - What drying and Maillard durations do experienced Skywalker owners use at **350 g**, with cupping

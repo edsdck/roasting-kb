@@ -24,7 +24,7 @@ title: Glossary
 
 **Facing** — scorch on the bean's flat face late in the roast, from contact with hot drum walls. [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md)
 
-**First crack (FC)** — audible cracking as steam (mainly) and gases break the bean structure; mark it at regular successive pops, not the first isolated ones [S0019](../sources/S0019-sweet-marias-first-crack-faq.md). Reads ~180–185 °C on a Skywalker [S0001](../sources/S0001-skywiki-infrared-roaster.md) [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md) vs ~200 °C on convection machines [S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md).
+**First crack (FC)** — audible cracking as steam (mainly) and gases break the bean structure; mark it at regular successive pops, not the first isolated ones [S0019](../sources/S0019-sweet-marias-first-crack-faq.md). Reads ~180–185 °C on a Skywalker [S0001](../sources/S0001-skywiki-infrared-roaster.md) [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md) vs ~200 °C on convection machines (adj. ≈ 185 °C) [S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md); see [Temperatures](temperature-adjustment.md).
 
 **Flick** — late rise of RoR after a crash or near the drop. [S0008](../sources/S0008-rao-what-is-baked-coffee.md)
 

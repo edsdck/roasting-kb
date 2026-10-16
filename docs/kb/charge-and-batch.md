@@ -15,8 +15,7 @@ title: Charge & batch size
 
 - **Capacity guidelines.** ~80 % of drum capacity as a maximum; suggested minimums vary (20, 25 or
   40 %). `conf: low` `ctx: commercial drums` [S0013](../sources/S0013-melheim-2023-optimal-batch-size.md)
-- **Readings shift with batch size.** The same coffee was dropped at 440 °F in a full batch but
-  435 °F in a half batch [S0013](../sources/S0013-melheim-2023-optimal-batch-size.md); on the Skywalker smaller loads read lower because the probe sees
+- **Readings shift with batch size.** The same coffee was dropped at 227 °C in a full batch but 224 °C in a half batch (adj. ≈ 211 vs 208 °C) [S0013](../sources/S0013-melheim-2023-optimal-batch-size.md); on the Skywalker smaller loads read lower because the probe sees
   more air [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md). `conf: medium`
 - **Probe immersion.** In small batches the bean probe must be fully covered by beans or readings
   mislead. `conf: medium` [S0013](../sources/S0013-melheim-2023-optimal-batch-size.md) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md)

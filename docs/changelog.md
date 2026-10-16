@@ -20,6 +20,10 @@ Sources integrated: S0023–S0028 · Roasts parsed: 0 new
 - **EXTEND** [Glossary](kb/glossary.md) — Astringency, ΔT above FC [S0023, S0024, S0026]
 - **ROASTS** [Findings](skywalker/findings.md) — new pattern 2b: median drop +8.3 °C above first crack (n=41), four roasts under +6 °C, id39 at +6.2 °C vs id40 +12.0 °C; context added to pattern 2 and the id39 section
 - **EXTEND** [Experiments](skywalker/experiments.md) — experiment 2 gets a temperature-based variant (cup id39 vs id40 first); new experiment 7 (hotter charge, lower power, small steps); setup now logs green moisture and ΔT above FC
+- **ADD** [Temperatures & adjustment](kb/temperature-adjustment.md) — new page: all temperatures in °C; other machines' temperatures shown as reported and Skywalker-adjusted (shift = reported − (source FC − 184.5 °C), default −15.5 °C; ±4 °C; one anchor, constant offset assumed) [S0019, S0020, S0024]
+- **CORRECT** all KB pages — were: temperatures in °F and unadjusted other-machine numbers → now: °C with `adj. ≈` values (Development, Defects, Measurement, Charge & batch, Myths, Roast phases, Green coffee, Glossary; experiments and findings) — owner's rule; source files keep original units
+- **EXTEND** [Development](kb/development.md#contested), [Rate of rise](kb/rate-of-rise.md), [Myths](kb/myths-and-contested.md) — Scott Rao's claims now labelled one practitioner's opinion (grade C), not a rule — owner's rule
+- **RULES** `BUILDER.md` (°C + adjustment, Rao as grain of salt) and `GATHERER.md` (record source unit and the source machine's first-crack reading) updated so future runs follow them
 - **GAPS** rewritten (14 items; new IR astringency and green moisture items)
 
 ## 2026-10-16 — Build 4

@@ -49,6 +49,18 @@ choose exactly one action:
 Then set the source to integrated: `python3 tools/registry.py set-status S#### integrated`.
 
 ### Step 2 — Writing rules for KB pages
+- **Temperatures are always °C.** Convert °F (°C = (°F − 32) × 5/9; differences and RoR × 5/9).
+  Any absolute temperature that comes from another machine is written as reported plus the
+  Skywalker-adjusted value: `204 °C (adj. ≈ 189 °C)`. Method, shift rule (reported − (source FC −
+  184.5), default −15.5 °C) and limits are in `docs/kb/temperature-adjustment.md` — re-fit the
+  anchor (owner's median first-crack reading) when the roast data change. Temperatures that
+  already come from Skywalkers or from the owner's own roasts are not adjusted; label them as such.
+  Differences (degrees above first crack) and RoR are converted but not shifted. Source files under
+  `docs/sources/` keep the source's own units and numbers.
+- **Scott Rao is one practitioner, not an authority.** Treat his claims as grade C opinion to be
+  taken with a grain of salt: never write them as a rule or "the standard", state them as "Rao
+  advises …", give the competing views next to them, and never let his numbers override the owner's
+  data or other evidence.
 - Practical and concise. For each topic: *what it is → why it happens (mechanism) → what to do*.
 - Every factual bullet ends with citations. Write them bare as `[S0003]`; then run
   `python3 tools/link_sources.py`, which turns them into links to the source files.
