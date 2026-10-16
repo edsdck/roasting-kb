@@ -1,0 +1,6 @@
+roasts/*.alog
+roasts/*.json
+site/
+__pycache__/
+.DS_Store
+*.lock
