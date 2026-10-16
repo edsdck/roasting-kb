@@ -14,7 +14,7 @@ machine: "Commercial drum roasters (implied by charge/gas/airflow advice)"
 topics: [green-coffee, charge-and-batch, roast-phases, roast-planning]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0014 — Beyond Elevation: bean density and roasting (Roast Magazine, May/June 2025)

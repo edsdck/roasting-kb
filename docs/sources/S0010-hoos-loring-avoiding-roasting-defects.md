@@ -14,7 +14,7 @@ machine: "Written for Loring convection drum roasters; principles stated as gene
 topics: [defects, development, charge-and-batch]
 novelty: mixed
 corroborates: [S0008, S0006]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0010 — How to Avoid Roasting Defects (Rob Hoos / Loring, 2020)

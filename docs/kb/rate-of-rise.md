@@ -36,8 +36,15 @@ title: Rate of rise (RoR)
   waypoint) on time. `conf: medium` [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md) [S0001](../sources/S0001-skywiki-infrared-roaster.md)
 - **Categorizing profiles.** Average RoR after first crack can label your own profiles
   (higher = shorter development, typically brighter). Only comparable on one machine. [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md)
+- **Don't roast the software.** A textbook straight declining RoR produced worse espresso than a
+  less "perfect" curve; ask "are you roasting the software or the coffee?" `conf: low` [S0011](../sources/S0011-cooper-cropster-rate-of-rise-production.md)
+- **Window size.** RoR is computed over a window (often 30 or 60 s). A 60 s window reads directly
+  in °/min, which helps planning; shorter windows react faster but are noisier. [S0011](../sources/S0011-cooper-cropster-rate-of-rise-production.md) [S0008](../sources/S0008-rao-what-is-baked-coffee.md)
 - **Don't chase small wiggles.** Small RoR fluctuations are magnified by the derivative and are
   likely below what tasters can detect at equal colour. `conf: low` [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md)
+- **Hardware shapes the line.** Probe type, size, placement, wiring and power all add noise;
+  curves from different machines aren't comparable — match phase timings and colour instead.
+  `conf: medium` [S0011](../sources/S0011-cooper-cropster-rate-of-rise-production.md) [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md)
 - **Data quality first.** Slow (thick) probes hide crashes; heavy smoothing hides them too. Rao's
   settings: 1 s sampling, Artisan *delta span* ≤ 15 s, no extra smoothing, and a probe fast enough
   that the turning point shows by ~1:30. `conf: low` `ctx: gas-drum` [S0008](../sources/S0008-rao-what-is-baked-coffee.md) See

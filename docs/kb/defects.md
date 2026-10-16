@@ -5,38 +5,62 @@ title: Defects
 # Roast defects
 
 !!! abstract "In short"
-    - **"Baked"** is used for two different things: Rao — a flat, hollow, less sweet cup caused by an RoR *crash*; the Alstrup/Münchow study — a very *long development* at equal colour (bitter, roasty, astringent, less sweet and acidic).
-    - Baked cups (Rao's sense) lose sweetness and tartness as they cool — easy to mistake for weak green coffee.
-    - Other defects (scorched, tipped, underdeveloped) aren't covered by sources yet.
+    - Two kinds: **objective** defects you can *see* on the bean (scorching, facing, tipping, chipping) and **subjective** ones you *taste* (under-/over-development, "roasty", baked). `conf: low` [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md)
+    - **Under-developed** → malty/nutty, aggressive acidity, metallic or vegetal. **Over-developed** → muted acidity, heavy, little nuance. Don't confuse with under-/over-*roasted* (end temperature too low/high). `conf: medium`
+    - **"Baked"** has no agreed cause or even definition — RoR crash, flick, stalled temperature, or long development with a flat RoR are all proposed. **Contested.**
+    - On the Skywalker, surface defects come mainly from direct radiant heat, not hot drum metal — **Inference — test it.**
+
+## Objective defects (visible)
+
+| Defect | What you see | Usual cause | Avoid by |
+|---|---|---|---|
+| **Scorching** | Dark/black specks on the bean surface, usually before browning | Bean contact with metal that's too hot: charging too hot, too little airflow, too much early heat, thin drums | Lower early heat/charge; keep beans moving [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md) |
+| **Facing** | Scorch on the flat face, late in the roast | Beans pressed against hot drum walls as the batch swells (overfilled drum), or overheated metal late | Don't overfill; avoid overheating the drum late [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md) [S0013](../sources/S0013-melheim-2023-optimal-batch-size.md) |
+| **Tipping** | Charred spot at the germ end, usually early | Roasting too fast; bean shape, density and altitude affect susceptibility | Gentler early heat [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md) |
+| **Chipping** | Small crater blown out of the bean | Only in dark roasts around second crack; cause unconfirmed | Little flavour impact [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md) |
+
+`conf: low` — single practitioner source for most rows; larger batches raise the risk of facing,
+tipping and scorching [S0013](../sources/S0013-melheim-2023-optimal-batch-size.md).
+
+## Subjective defects (taste)
+
+- **Under-development** — too short from first crack to drop: malty/nutty, aggressive acidity,
+  metallic or vegetal. Different from *under-roasted* (end temperature too low).
+  `conf: medium` [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md) Consistent with research: shorter development = more acidity at equal
+  colour [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md) [S0012](../sources/S0012-munchow-2020-roasting-conditions-multi-study.md).
+- **Over-development** — too long after first crack: low/muted acidity, heaviness, lack of nuance.
+  Different from *over-roasted* (end temperature too high). `conf: medium` [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md) [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md)
+- **"Roasty"** — vague; usually means the taster disliked it; most often from too high an end
+  temperature. `conf: low` [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md)
 
 ## Baked
 
-**Rao's definition.** Relative to a well-executed roast, baked coffee is hollower, flatter and
-less sweet, and loses tartness, sweetness and warmth of flavour as it cools. He attributes it
-mainly to a pronounced RoR crash (drastic change in RoR slope), not to long roast times or negative
-RoR; a crash in the last ~30 s does less harm than an earlier one. Fruit-heavy coffees (naturals,
-Kenyas) hide it better. `conf: low` `ctx: gas-drum` [S0008](../sources/S0008-rao-what-is-baked-coffee.md)
+**What it tastes like** — sources agree on the description: dull, flat, hollow, bready/malty, less
+sweet; Rao adds that it loses sweetness and tartness as the cup cools (easy to blame on the green).
+`conf: medium` [S0008](../sources/S0008-rao-what-is-baked-coffee.md) [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md)
 
-**Research definition (long development).** In the development-time study, the "Baked" roast had
-390 s development at the same colour as a 90 s roast: more bitter, roasted, nutty-chocolate and
-astringent; less sweet, acidic, fruity and clean. `conf: medium` [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md)
+**What causes it — contested.** Proposed causes [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md):
 
-**Contested:** whether RoR shape itself (crash, flat, non-declining) is a cause of bad flavour —
-see [Rate of rise § Contested](rate-of-rise.md#contested). CoffeeMind has also moved away from
-defect categories altogether, preferring "how do I want it to taste?" and experiments at equal
-colour [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md).
+1. A sharp RoR **crash** after first crack — Rao's main explanation; a crash in the last ~30 s does
+   less harm `ctx: gas-drum` [S0008](../sources/S0008-rao-what-is-baked-coffee.md)
+2. A large RoR **dip followed by a rise** (flick) [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md)
+3. Bean temperature **stalling** [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md)
+4. **Long development (4+ min) with a flat RoR** [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md) — close to the research "Baked" roast:
+   390 s development at equal colour, measurably more bitter/roasted/astringent [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md)
+
+CoffeeMind argues the defect categories themselves are too blunt; ask "how do I want it to taste?"
+and experiment at equal colour [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md). See [Rate of rise § Contested](rate-of-rise.md#contested).
 
 ### How to learn to taste it
-- Cup blind, write notes, *then* compare with curves; look for a link between crashes and
-  flat/less sweet cups [S0008](../sources/S0008-rao-what-is-baked-coffee.md).
-- Isolate the variable: compare roasts that are well developed and crashed but didn't flick,
-  against smooth-RoR roasts [S0008](../sources/S0008-rao-what-is-baked-coffee.md). Keep colour equal or colour will drive the result [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md).
-
-## Underdeveloped, scorched, tipped
-*No sources integrated yet.* (Listed in the Gatherer's gaps.)
+- Cup blind, write notes, *then* look at the curves [S0008](../sources/S0008-rao-what-is-baked-coffee.md).
+- Isolate one variable and keep colour equal, or colour will decide the result [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md) [S0008](../sources/S0008-rao-what-is-baked-coffee.md).
 
 ## On the Skywalker (IR)
-- **Inference — test it:** a radiant roaster may produce flatter RoR curves without "baking" in
-  Rao's sense [S0002](../sources/S0002-skywiki-convection-vs-radiant.md). Use the flat-vs-declining experiment in
-  [experiments](../skywalker/experiments.md) and your cupping notes, rather than curve shape
-  alone, to decide.
+- **Inference — test it:** the visible defects in the table are explained by hot *metal*; on the
+  Skywalker the lamp heats bean surfaces directly [S0001](../sources/S0001-skywiki-infrared-roaster.md), so scorching/tipping risk is more likely
+  tied to high lamp power early, especially with small batches. Check beans from fast/hot roasts
+  for specks and dark tips.
+- **Inference — test it:** cause #4 (long development + flat RoR) is the one most relevant here,
+  because a flat RoR is normal on a radiant roaster [S0002](../sources/S0002-skywiki-convection-vs-radiant.md). Keep development moderate when RoR is
+  flat and taste for flatness.
+- At 350 g you're well below a level where facing from an overfilled drum is likely. [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md) [S0013](../sources/S0013-melheim-2023-optimal-batch-size.md)

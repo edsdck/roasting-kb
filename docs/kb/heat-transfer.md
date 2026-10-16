@@ -32,6 +32,10 @@ directly. The air is cooler than the beans and actually removes heat from them.
 given: beans are the main absorber and thermal mass of the system. `conf: low` (one informal test;
 the probe may also read differently with no beans around it) [S0001](../sources/S0001-skywiki-infrared-roaster.md)
 
+**Where the lamp sits matters.** A roaster with its lamp *outside* the drum (e.g. Smola S5) behaves
+more like a convection-dominant machine, unlike the Skywalker's in-drum radiant design.
+`conf: low` [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md)
+
 **Drum surface.** A darker drum absorbs more IR and helps heating; polished metal would reflect
 more. `conf: low` [S0001](../sources/S0001-skywiki-infrared-roaster.md)
 

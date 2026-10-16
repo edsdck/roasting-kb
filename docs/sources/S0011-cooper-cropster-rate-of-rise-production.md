@@ -14,7 +14,7 @@ machine: "Commercial drum roasters (Loring, Diedrich, Probat comparison; example
 topics: [rate-of-rise, roast-phases, development, measurement-and-artisan, roast-planning]
 novelty: mixed
 corroborates: [S0005, S0006]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0011 — Using Rate of Rise to your Advantage in a Production Setting (Anne Cooper / Cropster, 2021)

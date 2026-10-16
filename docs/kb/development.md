@@ -8,7 +8,7 @@ title: Development
     - **Development time** = time from first crack to drop. **DTR** = development time ÷ total roast time.
     - At the **same final colour**, shorter development → sweeter, more acidic, fruitier, cleaner; longer → more bitter, roasty, nutty-chocolate, astringent. Body barely changes. `conf: medium` (one strong study)
     - Measured acidity is **highest around first crack** and falls the further you roast past it. `conf: high` (two studies agree)
-    - Colour alone doesn't describe a roast — log development time too.
+    - Colour alone doesn't describe a roast — log development time too. But colour (roast degree) is still the **strongest** single driver of flavour. `conf: medium`
 
 ## Concepts
 
@@ -31,12 +31,21 @@ title: Development
 - **Colour isn't enough.** Two roasts at the same colour can taste clearly different because of
   development time; record both. `conf: medium` [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md)
 
+- **Multi-study confirmation.** Pooling eight sensory studies: colour was the stronger predictor
+  overall; at equal colour, development time mattered more than time to first crack; ~3 min of
+  development ≈ 2 cm less acidity on a 10 cm scale. `conf: medium` (same research group as the
+  study above) [S0012](../sources/S0012-munchow-2020-roasting-conditions-multi-study.md)
+- **What under/over-development taste like.** Under: malty/nutty, aggressive acidity, metallic or
+  vegetal. Over: muted acidity, heavy, little nuance. See [Defects](defects.md). [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md)
+
 ## In practice
 
 - **Brighter / fruitier cup:** shorter development, drop relatively soon after first crack.
   **Rounder / chocolatey / roastier:** extend development. `conf: medium` [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md) [S0007](../sources/S0007-anokye-bempah-2024-titratable-acidity.md)
 - **Labelling profiles.** Average RoR after first crack is a machine-specific shorthand for
   development speed. [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md)
+- **Don't define the end by DTR alone.** A 20 °F and a 30 °F rise after first crack can both fit
+  a 20 % DTR — also track degrees gained after first crack and end colour. `conf: low` [S0011](../sources/S0011-cooper-cropster-rate-of-rise-production.md)
 - **DTR for reference:** in the study above, the fast roast had DTR ≈ 14 % and the longest
   ≈ 41 % (computed from the reported times). [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md)
 

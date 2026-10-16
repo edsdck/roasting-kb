@@ -20,6 +20,10 @@ title: Roast planning & experimenting
   colour; otherwise you are really comparing roast degree. `conf: medium` [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md) [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md)
 - **Is it perceptible?** Small profile differences at equal colour are often undetectable even by
   professionals; test with blind discrimination (e.g. triangle) before concluding. `conf: low` [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md)
+- **Priorities.** Roast degree (colour) moves flavour most; at equal colour, development time
+  next; time to first crack least. `conf: medium` [S0012](../sources/S0012-munchow-2020-roasting-conditions-multi-study.md)
+- **Plan with checkpoints** tied to physical events (yellowing, first crack) and plan heat changes
+  ahead of them. [S0011](../sources/S0011-cooper-cropster-rate-of-rise-production.md)
 - **Big levers first.** Development time at equal colour produces clearly different cups
   (brighter vs roastier) [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md) — a good first experiment.
 - **Cup blind, then look at the curve.** [S0008](../sources/S0008-rao-what-is-baked-coffee.md)

@@ -20,12 +20,18 @@ title: Measurement & Artisan
   machines), late-roast readings are lower; first crack has been read around ~182 °C, explained by
   probe placement and the radiant environment rather than miscalibration. `conf: medium` [S0001](../sources/S0001-skywiki-infrared-roaster.md) [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md)
 - **Batch size shifts readings.** With smaller loads the probe is surrounded by more air, so it
-  reads lower. `conf: low` [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md)
+  reads lower; production roasters see the same (440 °F full vs 435 °F half batch). The probe must
+  stay buried in the beans. `conf: medium` [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md) [S0013](../sources/S0003-skywiki-renatoa-words-of-wisdom.md)
 - **Probe speed.** Thicker probes respond slowly and smooth out events like an RoR crash; Rao
   suggests ≤ 4 mm (ungrounded), and checks that the turning point appears by ~1:30. `conf: low`
   `ctx: gas-drum` [S0008](../sources/S0008-rao-what-is-baked-coffee.md)
 - **Early-roast artefact.** Right after charge, the probe is hotter than the beans and cools
   toward them, distorting the first minutes of the RoR curve. [S0008](../sources/S0008-rao-what-is-baked-coffee.md)
+
+- **Your probe and connection.** The stock Skywalker V1 probe is an **NTC thermistor**; V1 has no
+  built-in logging — community firmware on an Arduino Nano or ESP32-S3 translates the roaster's
+  signals into the **TC4 protocol** that Artisan and HiBean read. K-type thermocouple or PT100
+  upgrades exist (need the right amplifier + firmware). `conf: low` [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md)
 
 ## In practice — Artisan
 
@@ -33,6 +39,9 @@ title: Measurement & Artisan
   `ctx: gas-drum` [S0008](../sources/S0008-rao-what-is-baked-coffee.md)
 - **Don't over-read the RoR line:** the derivative amplifies probe noise; bumps look bigger than
   they are. [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md)
+- **Repeat roasts by replaying events.** Replaying a past roast's heater/fan changes (HiBean "power
+  tracking") worked as well as the still-untuned community PID. `conf: low` [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md) **Inference —
+  test it:** Artisan can load a past roast as a *background* profile and replay its events.
 - **Don't use Artisan PID aggressively on the Skywalker:** the lamp's lag causes overshoot. Use the
   data to understand the machine and plan profiles. `conf: medium` [S0001](../sources/S0001-skywiki-infrared-roaster.md) [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md)
 - **Log what matters:** first crack time, drop time, weight in/out, colour (if you can measure it),

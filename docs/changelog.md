@@ -2,6 +2,24 @@
 
 Every change the Builder makes to the knowledge base, newest first.
 
+## 2026-10-16 — Build 2
+Sources integrated: S0009–S0014 · Roasts parsed: 0
+
+- **ADD** [Roast phases](kb/roast-phases.md) — phases, checkpoints, matching phases across machines [S0011, S0012]
+- **ADD** [Charge & batch size](kb/charge-and-batch.md) — capacity guidelines, readings shift with batch size, probe immersion, Skywalker 350–450 g [S0003, S0009, S0013, S0014]
+- **ADD** [Green coffee](kb/green-coffee.md) — density vs elevation, dense vs light beans [S0014](sources/S0014-lee-2025-bean-density-roasting.md)
+- **EXTEND** [Defects](kb/defects.md) — rewritten: objective (scorching, facing, tipping, chipping) and subjective (under/over-development, roasty) defects; baked causes listed [S0010, S0013]
+- **CONTEST** [Defects § Baked](kb/defects.md#baked) — cause of "baked" now has four competing explanations [S0008, S0010]
+- **CONTEST** [Roast phases § Contested](kb/roast-phases.md#contested) — importance of pre-first-crack phases [S0011 vs S0012]
+- **EXTEND** [Development](kb/development.md) — colour is the strongest driver; multi-study support; under/over-development tastes; DTR alone isn't enough [S0010, S0011, S0012]
+- **EXTEND** [Rate of rise](kb/rate-of-rise.md) — "don't roast the software", RoR window size, hardware noise [S0011](sources/S0011-cooper-cropster-rate-of-rise-production.md)
+- **EXTEND** [Measurement & Artisan](kb/measurement-and-artisan.md) — V1 NTC probe and TC4 firmware; replaying events; batch-size effect raised to medium confidence [S0009, S0013]
+- **EXTEND** [Heat transfer](kb/heat-transfer.md) — lamp position (in-drum vs outside) [S0009](sources/S0009-skywiki-putrid-upstairs-response.md)
+- **EXTEND** [Roast planning](kb/roast-planning.md) — priorities (colour > development > time to FC), checkpoints [S0011, S0012]
+- **EXTEND** [Myths & contested](kb/myths-and-contested.md), [Glossary](kb/glossary.md)
+- **EXTEND** [Experiments](skywalker/experiments.md) — log density and DRY END; replay-a-roast experiment
+- **GAPS** updated
+
 ## 2026-10-16 — Build 1
 Sources integrated: S0001–S0008 · Roasts parsed: 0
 

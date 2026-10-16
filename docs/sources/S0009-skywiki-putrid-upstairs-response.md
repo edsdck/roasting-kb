@@ -14,7 +14,7 @@ machine: "Skywalker V1 and V2 (also compares Kaleido M2, Smola S5, Kaffelogic Na
 topics: [measurement-and-artisan, charge-and-batch, heat-transfer, equipment]
 novelty: mixed
 corroborates: [S0001]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0009 — Putrid_Upstairs Response (Skywiki)

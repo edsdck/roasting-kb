@@ -14,9 +14,9 @@ Every source collected by the Gatherer. Grades: **A** experiment/paper · **B** 
 | S0006 | [The Effect of Roast Development Time Modulations on the Sensory Profile and Chemical Composition of the Coffee Brew as Measured by NMR and DHS-GC–MS](S0006-alstrup-2020-development-time-sensory.md) | paper | A | gas-drum | integrated |
 | S0007 | [The effect of roast profiles on the dynamics of titratable acidity during coffee roasting](S0007-anokye-bempah-2024-titratable-acidity.md) | paper | A | gas-drum | integrated |
 | S0008 | [What is Baked Coffee? (MOST PROS DON'T KNOW!)](S0008-rao-what-is-baked-coffee.md) | article | C | gas-drum | integrated |
-| S0009 | [Putrid_Upstairs Response — Skywalker V1/V2 buying and setup advice](S0009-skywiki-putrid-upstairs-response.md) | forum | C | IR | new |
-| S0010 | [How to Avoid Roasting Defects (Loring technical paper)](S0010-hoos-loring-avoiding-roasting-defects.md) | article | C | multiple | new |
-| S0011 | [Using Rate of Rise to your Advantage in a Production Setting](S0011-cooper-cropster-rate-of-rise-production.md) | article | C | gas-drum | new |
-| S0012 | [Roasting Conditions and Coffee Flavor: A Multi-Study Empirical Investigation](S0012-munchow-2020-roasting-conditions-multi-study.md) | paper | A | multiple | new |
-| S0013 | [Balancing Efficiency and Quality: Identifying the Optimal Batch Size for Your Roast](S0013-melheim-2023-optimal-batch-size.md) | article | C | multiple | new |
-| S0014 | [Beyond Elevation: How Bean Density Informs Roasting and Flavor](S0014-lee-2025-bean-density-roasting.md) | article | C | gas-drum | new |
+| S0009 | [Putrid_Upstairs Response — Skywalker V1/V2 buying and setup advice](S0009-skywiki-putrid-upstairs-response.md) | forum | C | IR | integrated |
+| S0010 | [How to Avoid Roasting Defects (Loring technical paper)](S0010-hoos-loring-avoiding-roasting-defects.md) | article | C | multiple | integrated |
+| S0011 | [Using Rate of Rise to your Advantage in a Production Setting](S0011-cooper-cropster-rate-of-rise-production.md) | article | C | gas-drum | integrated |
+| S0012 | [Roasting Conditions and Coffee Flavor: A Multi-Study Empirical Investigation](S0012-munchow-2020-roasting-conditions-multi-study.md) | paper | A | multiple | integrated |
+| S0013 | [Balancing Efficiency and Quality: Identifying the Optimal Batch Size for Your Roast](S0013-melheim-2023-optimal-batch-size.md) | article | C | multiple | integrated |
+| S0014 | [Beyond Elevation: How Bean Density Informs Roasting and Flavor](S0014-lee-2025-bean-density-roasting.md) | article | C | gas-drum | integrated |

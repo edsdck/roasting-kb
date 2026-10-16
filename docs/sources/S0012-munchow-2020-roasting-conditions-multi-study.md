@@ -14,7 +14,7 @@ machine: "Probat Probatino 1 kg (flame-heated drum) in 7 studies; Loring S15 Fal
 topics: [development, roast-phases, cupping-and-evaluation, roast-planning]
 novelty: mixed
 corroborates: [S0006]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0012 — Roasting Conditions and Coffee Flavor: a multi-study investigation (Münchow et al., 2020)

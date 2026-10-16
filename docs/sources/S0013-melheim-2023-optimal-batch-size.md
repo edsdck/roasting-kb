@@ -14,7 +14,7 @@ machine: "Commercial drum and fluid-bed roasters (5–90 kg); no small home roas
 topics: [charge-and-batch, measurement-and-artisan, defects, heat-transfer]
 novelty: novel
 corroborates: [S0003]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0013 — Identifying the Optimal Batch Size (Roast Magazine, Sept/Oct 2023)
