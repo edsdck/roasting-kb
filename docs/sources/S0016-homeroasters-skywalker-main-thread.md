@@ -14,7 +14,7 @@ machine: "Skywalker V1 (ITOP CBR / ALM), mostly 250 g (renatoa) and 350 g (other
 topics: [heat-transfer, measurement-and-artisan, roast-planning, charge-and-batch, equipment, rate-of-rise]
 novelty: mixed
 corroborates: [S0001, S0003, S0009]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0016 — Skywalker main thread (Home Roasters forum)

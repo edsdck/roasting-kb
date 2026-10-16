@@ -14,7 +14,7 @@ machine: "1 kg perforated drum (OP), 500 g solid drum (hankua), Huky (STG), unsp
 topics: [development, roast-planning]
 novelty: mixed
 corroborates: [S0011]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0021 — Development time of light roasts (Home-Barista)

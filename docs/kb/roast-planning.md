@@ -27,9 +27,19 @@ title: Roast planning & experimenting
 - **Big levers first.** Development time at equal colour produces clearly different cups
   (brighter vs roastier) [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md) — a good first experiment.
 - **Cup blind, then look at the curve.** [S0008](../sources/S0008-rao-what-is-baked-coffee.md)
+- **Practise without beans.** An experienced owner simulated whole roasts on an empty machine to
+  learn how it responds to each command before risking coffee. [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md)
 
 ## On the Skywalker (IR)
 - **Inference — test it:** weight loss % is a practical stand-in for colour if you don't have a
   colour meter; keep it equal (±0.5 %) across samples in an experiment.
-- Keep fan and room airflow fixed during experiments [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md).
+- Keep fan and room airflow fixed during experiments [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md); note room temperature too — a cold
+  room or a draft changes the roast noticeably [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md).
+- **Plan, don't steer.** Use logged data to plan the next roast rather than to drive the machine in
+  real time; the lamp's inertia makes real-time steering ineffective. `conf: medium` [S0001](../sources/S0001-skywiki-infrared-roaster.md) [S0016](../sources/S0016-homeroasters-skywalker-main-thread.md)
+- **End at a planned temperature.** In manual mode the V1 panel can stop the heater automatically
+  at a set temperature (+/- keys; default 230 °C) — useful for repeatable drops. [S0016](../sources/S0016-homeroasters-skywalker-main-thread.md)
+- **Borrowed recipes need scaling:** heater % depends on mains voltage, room temperature and batch
+  size [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md). Treat other owners' numbers as a shape, not a setting — see
+  [Charge & batch](charge-and-batch.md).
 - See [experiments](../skywalker/experiments.md) for the current plan.

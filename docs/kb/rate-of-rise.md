@@ -53,7 +53,16 @@ title: Rate of rise (RoR)
 ## On the Skywalker (IR)
 
 - The Skywalker's lamp lag makes RoR respond slowly; large corrections overshoot or collapse,
-  so steer with a few early changes. `conf: medium` [S0001](../sources/S0001-skywiki-infrared-roaster.md)
+  so steer with a few early changes. `conf: medium` [S0001](../sources/S0001-skywiki-infrared-roaster.md) [S0016](../sources/S0016-homeroasters-skywalker-main-thread.md)
+- **Typical Skywalker numbers (other owners):** ~11 °C/min at dry end falling to 6–7 at first crack,
+  rarely above ~11 (renatoa, 250 g) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md); 12–14 °C/min (400 g) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md); ≤ 11 °C/min in a cool
+  room [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md). 14–20 °C/min shows up with high mains voltage or very hot settings, and an
+  experienced owner doubts that suits radiant heat (only the top layer absorbs) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md). `conf: low`
+- **Shaping it:** to avoid flat stretches and a sharp step, start reducing power around minute 4
+  and in steps (70→60→50 %) rather than the factory's single 70→50 % step at 170 °C. `conf: low`
+  [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md)
+- **The panel's RoR is a 1-minute average**, refreshed once a minute on V1 (about every 30 s on V2)
+  — use Artisan's. [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md) [S0016](../sources/S0016-homeroasters-skywalker-main-thread.md) Trier pulls and data spikes also distort Artisan's RoR [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md).
 - Its probe reads an air–bean mix where air is cooler than the beans [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md), which will also
   shape the RoR curve. **Inference — test it:** don't judge a Skywalker curve against the shape
   of a gas-drum "ideal" curve.
@@ -73,6 +82,10 @@ title: Rate of rise (RoR)
   Grade C (author also has published sensory research, [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md)). [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md)
 - **IR angle:** on a radiant roaster a flat RoR may be normal, while on convection a flat RoR
   implies rising energy input, which "can taste baked or dull". Grade C, IR reasoning. [S0002](../sources/S0002-skywiki-convection-vs-radiant.md)
+  An experienced Skywalker owner now says the "declining RoR mantra" doesn't apply to radiant
+  roasting and a flat RoR in drying is "the new normal" (opinion, 2026) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md) — though two years
+  earlier he advised a continuously declining RoR after dry end on the same machine [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md). His
+  accidental flat-RoR development tasted fine (one cup) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md).
 
 Not settled. See also [Myths & contested](myths-and-contested.md) and [Defects](defects.md).
 

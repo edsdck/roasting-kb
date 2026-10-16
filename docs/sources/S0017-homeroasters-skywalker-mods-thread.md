@@ -14,7 +14,7 @@ machine: "Skywalker V1, 227–430 g batches; stock NTC probe vs added thermocoup
 topics: [measurement-and-artisan, rate-of-rise, roast-planning, heat-transfer, equipment]
 novelty: mixed
 corroborates: [S0001, S0003, S0009, S0016]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0017 — Skywalker roaster mods thread (Home Roasters forum)

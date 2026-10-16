@@ -14,7 +14,7 @@ machine: "Skywalker V1 (ITOP CBR), 85–420 g batches, mostly 250 g (renatoa) an
 topics: [roast-planning, development, rate-of-rise, charge-and-batch, airflow, measurement-and-artisan, defects, roast-phases]
 novelty: mixed
 corroborates: [S0001, S0003]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0015 — Skywalker Roasts (Home Roasters forum thread)

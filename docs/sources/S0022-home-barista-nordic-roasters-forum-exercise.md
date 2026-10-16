@@ -14,7 +14,7 @@ machine: "Probat (Wendelboe, as relayed); Quest (dustin360); gas drums"
 topics: [development, airflow, roast-planning]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0022 — Nordic Roasters Forum roasting exercise (Home-Barista)

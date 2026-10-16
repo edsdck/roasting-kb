@@ -2,11 +2,12 @@
 
 *Maintained by the Builder from the [roast log](roast-log.md) and cupping notes. Personal evidence
 (grade **P**): the best evidence for this machine, but uncontrolled, one roaster, and only one roast
-cupped so far. Updated 2026-10-16 (Build 3), 41 roasts (Jan–Oct 2026).*
+cupped so far. Updated 2026-10-16 (Build 4), 41 roasts (Jan–Oct 2026).*
 
 !!! abstract "In short"
-    - **First crack reads ~184 °C** on your machine (median of 41 roasts; range 174–193 °C) — matching other Skywalker owners (~182 °C), far below gas-drum numbers.
-    - **Your development has shortened a lot:** median 1:37 (DTR 16.5 %) in Jan–Feb → **~1:00 (DTR ~9 %)** since June. That's shorter than the *"fast"* roast in the key development study (1:30).
+    - **First crack reads ~184 °C** on your machine (median of 41 roasts; range 174–193 °C) — matching other Skywalker owners (179–183 °C), far below the ~200 °C of convection roasters.
+    - **Honduras Honey cracks ~6 °C higher** — but those roasts were also slower, and *within* each coffee FC time barely predicts FC temperature. Coffee vs speed can't be separated yet.
+    - **Your development has shortened a lot:** median 1:37 (DTR 16.5 %) in Jan–Feb → **~1:00 (DTR ~9 %)** since June. That's shorter than the *"fast"* roast in the key development study (1:30), shorter than typical light roasters (1:20–1:30, 13–16 %) and the best roast reported by an experienced Skywalker owner (~1:35, 18 %) — but not unheard of (Nordic ~45 s).
     - Development time predicts your weight loss strongly (r = 0.72, n = 28) — more than drop temperature (r = 0.42).
     - The one roast you cupped (id39: 0:41 development, heater cut to 17 % right after first crack) tasted bitter, very acidic when cooled, with no clear flavour.
     - **Biggest gap: cupping notes.** Without them, these numbers can't tell you what tastes good.
@@ -36,12 +37,28 @@ Costa Rican Natural ~184 °C (n=4), but **Honduras Honey ~190 °C** (n=14, 185�
 [Measurement](../kb/measurement-and-artisan.md). Batch-size effects can't be separated here: all
 325 g roasts were the Honduras.
 
+*New context (Build 4):* your ~184 °C matches other owners' 179–183 °C [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md) [S0016](../sources/S0016-homeroasters-skywalker-main-thread.md) [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md).
+Some roasters see the *same* first-crack reading for every bean on consistent machines [S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md) —
+which would point to measurement or profile, not the coffee — while others find it bean-dependent
+[S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md) [S0019](../sources/S0019-sweet-marias-first-crack-faq.md). Checked against your data: across all 41 roasts, a later first crack goes with a
+higher reading (r = 0.73), but within one coffee the link is weak (Honduras r = 0.16, n=14;
+Ethiopia r = 0.05, n=10). The Honduras roasts were slower (median FC 10:28 vs ~8:30 for the others)
+*and* read higher, so coffee and speed are confounded. Also possible: naturals/honeys can crack
+quietly and be marked late [S0019](../sources/S0019-sweet-marias-first-crack-faq.md). → [experiment 6](experiments.md).
+
 **2. Development got shorter.** Jan–Feb median 1:37 (DTR 16.5 %, n=10); May–Jun 1:07 (11.2 %, n=13);
 Jul–Aug 1:00 (9.1 %, n=15); Oct 1:01 (n=3). The research shows that at equal colour, short
 development gives brighter, more acidic, fruitier cups, and longer development roastier/more bitter
 ones — but its *shortest* tested roast was 1:30 [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md) [S0012](../sources/S0012-munchow-2020-roasting-conditions-multi-study.md). Very short development tastes
 "aggressive acidity, malty/nutty, metallic or vegetal" when it overshoots [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md). Whether ~1:00 is
 right for you is the single most useful thing to test → [experiment 2](experiments.md).
+
+*New context (Build 4):* practitioners' light roasts commonly run 13–16 % DTR / 1:20–1:30 [S0021](../sources/S0021-home-barista-development-time-light-roasts.md),
+30 s – 1:30 [S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md); Rao's rule is 20–25 % [S0018](../sources/S0018-rao-2014-development-time-ratio.md) (contested for light roasts — see
+[Development](../kb/development.md#contested)). On a Skywalker, renatoa's best early cup had ~1:35
+(18 %) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md), and his accidental ~45 s still cupped well (one anecdote) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md). Your RoR at first
+crack (median 9.1 °C/min) is modest, so by the momentum argument [S0021](../sources/S0021-home-barista-development-time-light-roasts.md) your ~1:00 may develop
+less than the same time on a hotter roast — **Inference — test it.**
 
 **3. Weight loss follows development time.** Correlation 0.72 between development time and weight
 loss (n=28 roasts with output weight), vs 0.42 for drop temperature. On your machine, *how long* you
@@ -50,7 +67,10 @@ develop moves roast degree more than the drop temperature you choose. Light roas
 
 **4. Heater handling around first crack.** Typically heater ~60 % a minute before first crack,
 ~50 % at first crack, 40–55 % in development (31 logged roasts) — moderate steps, consistent with the
-advice to use few, modest changes on this lamp-driven machine [S0001](../sources/S0001-skywiki-infrared-roaster.md). **Exception: id39** — 70 % →
+advice to use few, modest changes on this lamp-driven machine [S0001](../sources/S0001-skywiki-infrared-roaster.md). Compare renatoa's
+schedule (250 g): 70 % after the turning point, then 65 → 60 → 55 → 50 % between dry end (3:31) and 5:32,
+first crack at 7:00, fan 65 → 80 % [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md) — he starts reducing earlier (around dry end/minute 4) and in more
+steps than the factory logic [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md). **Exception: id39** — 70 % →
 50 % → **17 %** within ~30 s of first crack, then dropped at 0:41.
 
 **5. The Honduras Honey series (id20–id34, 14 roasts).** Charge varied 141–186 °C, batch 325–375 g,
@@ -74,5 +94,9 @@ Cup at 5 days: *unpleasant bitterness, very acidic when cooled, no clear flavour
 
 ## What would make these findings much stronger
 1. Cupping notes for most roasts (even 3 lines: sweetness, acidity, bitterness, anything off).
+   Other owners' best results were judged by cupping — without notes, their recipes can't be
+   compared with yours.
 2. Label the coffee in Artisan every time (11 early roasts are unlabelled).
 3. Always enter the roasted weight (13 roasts have no output weight).
+4. Note room temperature and how you marked first crack (first pop vs regular pops) — both shift
+   readings and development time [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md) [S0019](../sources/S0019-sweet-marias-first-crack-faq.md).

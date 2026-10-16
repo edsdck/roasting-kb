@@ -14,7 +14,7 @@ machine: "Commercial shop drum roasters (Probat mentioned) and home air roasters
 topics: [roast-phases, development, measurement-and-artisan, green-coffee]
 novelty: mixed
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0019 — Sweet Maria's First Crack FAQ

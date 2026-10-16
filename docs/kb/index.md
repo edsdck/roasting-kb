@@ -10,7 +10,7 @@ Topic pages, maintained by the Builder. Each statement cites its sources and car
 | [Development](development.md) | First crack → drop, development time, acidity |
 | [Roast phases](roast-phases.md) | Drying, Maillard, development; phase timing vs development |
 | [Charge & batch size](charge-and-batch.md) | Capacity, batch-size effects on readings, compensating |
-| [Green coffee](green-coffee.md) | Density and how it changes heat application |
+| [Green coffee](green-coffee.md) | Density, moisture and processing; how they change heat application and first crack |
 | [Defects](defects.md) | Scorching, facing, tipping, chipping, under/over-development, baked |
 | [Measurement & Artisan](measurement-and-artisan.md) | What the probe reads, Skywalker temperatures, Artisan settings |
 | [Roast planning & experimenting](roast-planning.md) | Plan–execute–learn, one variable at a time, equal colour |
@@ -18,4 +18,4 @@ Topic pages, maintained by the Builder. Each statement cites its sources and car
 | [Myths & contested](myths-and-contested.md) | Where sources disagree |
 | [Glossary](glossary.md) | Terms |
 
-*Not yet covered:* cupping at home, resting & storage, moisture & processing, roast chemistry.
+*Not yet covered:* cupping at home, resting & storage, roast chemistry.

@@ -14,7 +14,7 @@ machine: "\"more than two dozen machines\" (unspecified commercial roasters)"
 topics: [development, roast-planning]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0018 — Rao (2014): Development time ratio as a prerequisite

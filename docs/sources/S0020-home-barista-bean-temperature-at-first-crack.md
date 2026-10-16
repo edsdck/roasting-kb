@@ -14,7 +14,7 @@ machine: "Gas drum and Stronghold (Milligan); 1 kg drum, 1–2 lb charges (EddyQ
 topics: [roast-phases, development, measurement-and-artisan, green-coffee]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0020 — Bean Temperature at First Crack (Home-Barista)
