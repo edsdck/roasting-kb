@@ -11,8 +11,6 @@ unreadably noisy on the Skywalker, lengthen the span and note the value you sett
 ## 0b. Log two extra things with every roast
 - **Green density:** weigh a fixed volume of green coffee (e.g. 100 ml in a measuring cylinder) → g/L.
   Density changes how a coffee takes heat [S0014](../sources/S0014-lee-2025-bean-density-roasting.md).
-- **Mark DRY END (yellowing) in Artisan**, so each roast page shows drying / Maillard / development
-  durations [S0011](../sources/S0011-cooper-cropster-rate-of-rise-production.md) [S0012](../sources/S0012-munchow-2020-roasting-conditions-multi-study.md).
 
 ## 1. Measure the lamp lag
 **Why:** power changes act late on this machine [S0001](../sources/S0001-skywiki-infrared-roaster.md); you need to know how late to plan changes.

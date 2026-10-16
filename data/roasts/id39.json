@@ -471,6 +471,12 @@
    -46.4
   ]
  ],
+ "axes": {
+  "ymin": 0,
+  "ymax": 275,
+  "zmin": 0,
+  "zmax": 25
+ },
  "markers": {
   "CHARGE": 0.0,
   "DRY": 276.0,

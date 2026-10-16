@@ -29,8 +29,9 @@ title: Roast phases
   then early phases. **Inference** from [S0012](../sources/S0012-munchow-2020-roasting-conditions-multi-study.md).
 
 ## On the Skywalker (IR)
-- Your Artisan logs give drying (charge → DRY), Maillard (DRY → FCs) and development (FCs → DROP)
-  automatically on each roast page — mark DRY END in Artisan for this to work.
+- Your Artisan logs already mark CHARGE, DRY, FCs and DROP, so every roast page shows drying,
+  Maillard and development durations. Your medians: drying 4:40, Maillard 4:06, development 1:08
+  ([findings](../skywalker/findings.md)).
 - Phase *durations* transfer between machines better than temperatures; yellowing at
   "160–165 °C" on a drum won't match the Skywalker's lower-reading probe [S0001](../sources/S0001-skywiki-infrared-roaster.md) [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md).
 

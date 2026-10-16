@@ -76,4 +76,3 @@ Cup at 5 days: *unpleasant bitterness, very acidic when cooled, no clear flavour
 1. Cupping notes for most roasts (even 3 lines: sweetness, acidity, bitterness, anything off).
 2. Label the coffee in Artisan every time (11 early roasts are unlabelled).
 3. Always enter the roasted weight (13 roasts have no output weight).
-4. Mark DRY END in Artisan; it's already there for most roasts — keep it.

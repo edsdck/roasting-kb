@@ -2,6 +2,10 @@
 
 Every change the Builder makes to the knowledge base, newest first.
 
+## 2026-10-16 — Fixes
+- **FIX** Roast charts now use the temperature and RoR axis ranges from each Artisan file, so curves cross where they do in Artisan (previously a fixed 0–30 RoR axis shifted the crossing ~1.5 min earlier)
+- **FIX** [Experiments](skywalker/experiments.md), [Roast phases](kb/roast-phases.md) — removed the incorrect "mark DRY END" advice; all roasts already have CHARGE, DRY, FCs and DROP marked
+
 ## 2026-10-16 — Build 3
 Sources integrated: none · Roasts parsed: 41 new (id1–id41), 1 with cupping notes
 

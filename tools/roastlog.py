@@ -198,6 +198,8 @@ def analyse(path):
             rr = ror(timex, bt, j)
             curve.append([round(timex[j] - t0, 1), r1(bt[j]), r1(et[j]) if j < len(et) else None, r1(rr)])
     m["curve"] = curve
+    # Artisan's own axis limits (temperature y, RoR z) so the chart matches what Artisan shows
+    m["axes"] = {k: d.get(k) for k in ("ymin", "ymax", "zmin", "zmax")}
     m["markers"] = {k: round(timex[i] - t0, 1) for k, i in ev.items()}
     return m
 
@@ -209,21 +211,24 @@ def svg(m):
         return ""
     tmax = max(p[0] for p in pts) or 1
     temps = [v for p in pts for v in (p[1], p[2]) if v is not None and v > 0]
-    ymax = (max(temps) // 50 + 1) * 50
-    ymin = 0
-    rmax = 30 if m["unit"] == "C" else 55
+    ax = m.get("axes") or {}
+    ymax = ax.get("ymax") or (max(temps) // 50 + 1) * 50
+    ymin = ax.get("ymin") or 0
+    rmin = ax.get("zmin") or 0
+    rmax = ax.get("zmax") or (30 if m["unit"] == "C" else 55)
     X = lambda t: L + t / tmax * (W - L - R)
     Y = lambda v: T + (1 - (v - ymin) / (ymax - ymin)) * (H - T - B)
-    YR = lambda v: T + (1 - max(0, min(v, rmax)) / rmax) * (H - T - B)
+    YR = lambda v: T + (1 - (max(rmin, min(v, rmax)) - rmin) / (rmax - rmin)) * (H - T - B)
 
     def line(idx, yf, color, width=2):
         seg = " ".join(f"{X(p[0]):.1f},{yf(p[idx]):.1f}" for p in pts if p[idx] is not None)
         return f'<polyline fill="none" stroke="{color}" stroke-width="{width}" points="{seg}"/>'
     g = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" style="max-width:100%;font:11px sans-serif">']
-    for v in range(0, int(ymax) + 1, 50):
+    for v in range(int(ymin), int(ymax) + 1, 50):
         g.append(f'<line x1="{L}" x2="{W-R}" y1="{Y(v):.1f}" y2="{Y(v):.1f}" stroke="#8884" />'
                  f'<text x="{L-6}" y="{Y(v)+4:.1f}" text-anchor="end" fill="#888">{v}</text>')
-    for v in range(0, rmax + 1, 10 if m["unit"] == "C" else 10):
+    rstep = 5 if (rmax - rmin) <= 30 else 10
+    for v in range(int(rmin), int(rmax) + 1, rstep):
         g.append(f'<text x="{W-R+6}" y="{YR(v)+4:.1f}" fill="#2a9d8f">{v}</text>')
     for t in range(0, int(tmax) + 1, 60):
         g.append(f'<text x="{X(t):.1f}" y="{H-B+16}" text-anchor="middle" fill="#888">{t//60}</text>')
@@ -263,7 +268,7 @@ def page(m):
     out = [f"# {m['date']} — {m['title']}", "", "*Generated from the Artisan file by `tools/roastlog.py` — don't edit; "
            "edit the cupping notes file instead.*", "", "| Metric | Value |", "|---|---|"]
     out += [f"| {k} | {v} |" for k, v in rows]
-    out += ["", svg(m), "", "RoR computed over a 30 s window from raw BT (may differ from Artisan's smoothed RoR).", ""]
+    out += ["", svg(m), "", "Axes use the same ranges as your Artisan file. RoR is computed over a 30 s window from raw BT, so it is a bit noisier than Artisan's smoothed RoR.", ""]
     if m["events"]:
         out += ["## Control changes", "", "| Time | Control | Value |", "|---|---|---|"]
         out += [f"| {e['t']} | {e['type']} | {e['value']:g} % |" for e in m["events"]]
