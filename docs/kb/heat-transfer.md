@@ -75,6 +75,22 @@ energy use per gram at 2500 W. `conf: medium` `ctx: IR, 1 kg lab roaster, no fla
   change rather than micro-adjusting. `conf: medium` [S0001](../sources/S0001-skywiki-infrared-roaster.md) [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md) [S0016](../sources/S0016-homeroasters-skywalker-main-thread.md) The roaster only
   accepts 5 % steps anyway, and smaller steps wouldn't move the profile much [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md).
 
+- **IR roasters tip and turn astringent easily (Kaleido: IR plus hot air).** An experienced Kaleido
+  user says infrared roasters "tip easily, leading to bitterness and astringency"; his M10 recipe:
+  charge higher, start at 70–80 % power, maximum airflow throughout, then tiny cuts (−2 % per 5 °C
+  from 160 °C), −5 % per 5 °C from 180 °C, back off before first crack, −10 % about 45 s after it.
+  His reasons: darker beans absorb more infrared so power must fall faster, and thermocouple lag
+  means corrections must come before the curve shows them. `conf: low` `ctx: Kaleido M10, large
+  batches, forced hot air` [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md)
+- **Wide power swings hurt.** The same thread blames PID-driven swings (100 % → 30 %) for
+  astringency on the M10 and recommends temperature-triggered stepwise cuts; the owner also saw
+  RoR dips at each power change and wondered whether each change briefly disturbs the IR heating.
+  `conf: low` `ctx: Kaleido M10` [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md)
+- **Charging too cool (drum roasters).** A low charge made up for with lots of heat to reach first
+  crack can leave the inside under-developed and the roast astringent; raising the charge made it
+  disappear for one drum roaster, and an IKAWA user got a pleasant cup after adding a hotter initial
+  step. `conf: low` `ctx: drum` [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md)
+
 ## On the Skywalker (IR)
 
 This page is mostly about the Skywalker already. Practical consequences:
@@ -84,6 +100,11 @@ This page is mostly about the Skywalker already. Practical consequences:
   [experiments](../skywalker/experiments.md)).
 - Keep airflow (fan setting, kitchen hood, open windows) identical between roasts you want to
   compare — see [Airflow](airflow.md).
+- **Inference — test it:** the Kaleido advice (higher charge, lower power percentage, small
+  stepwise cuts, larger cuts only late) points the same way as renatoa's advice to start reducing
+  power from about minute 4 in steps [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md) — and it adds a failure to watch for: astringency from
+  an under-developed inside. A V2 owner also finds higher fan and drum speed make heater
+  adjustments "more responsive" on light roasts [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md). See [Defects](defects.md).
 - Don't import RoR "rules" from hot-air machines without testing — see [Rate of rise](rate-of-rise.md).
 - **Inference — test it:** if only the top layer heats, very fast roasts risk uneven development on
   this machine. Before chasing short total times, check the inside of a few beans (cut or grind
@@ -93,5 +114,9 @@ This page is mostly about the Skywalker already. Practical consequences:
 - An experienced owner argues radiant roasting follows different rules from convection (a post on
   the Home Roasters forum the Gatherer couldn't locate) — worth finding.
 - Measured data on bean surface vs core temperature under IR heating; scorching/tipping risk.
+  The only measurement so far is on a fluid bed with a small dose and strong airflow: beans
+  followed inlet air within ~30 s for linear ramps (~60 s to reach ~90 % of a 40 °C step), so the
+  author doubts large internal gradients for gentle ramps [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md). `ctx: fluid bed` — it does not
+  say what an IR lamp does, and others still link fast roasts to raw cores [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md).
 - How much heat the drum itself contributes by conduction on the Skywalker.
 - Does lamp power (rather than fan) change convective cooling inside the drum?

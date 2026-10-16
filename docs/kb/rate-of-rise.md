@@ -58,6 +58,9 @@ title: Rate of rise (RoR)
   rarely above ~11 (renatoa, 250 g) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md); 12–14 °C/min (400 g) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md); ≤ 11 °C/min in a cool
   room [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md). 14–20 °C/min shows up with high mains voltage or very hot settings, and an
   experienced owner doubts that suits radiant heat (only the top layer absorbs) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md). `conf: low`
+- **A V2 owner's RoR targets (250 g, "convection-adjusted"):** dry end (150 °C) 11–12 °C/min, mid
+  Maillard 9–10, late Maillard 8–9, pre-FC 7–8, flick to 7–8 at FC, drop 4–5 °C/min; if RoR falls
+  under a floor he adds 3–5 % power. `conf: low` [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md) Compare your ~9 °C/min at first crack.
 - **Shaping it:** to avoid flat stretches and a sharp step, start reducing power around minute 4
   and in steps (70→60→50 %) rather than the factory's single 70→50 % step at 170 °C. `conf: low`
   [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md)
@@ -86,6 +89,11 @@ title: Rate of rise (RoR)
   roasting and a flat RoR in drying is "the new normal" (opinion, 2026) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md) — though two years
   earlier he advised a continuously declining RoR after dry end on the same machine [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md). His
   accidental flat-RoR development tasted fine (one cup) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md).
+
+- **Crash and flick around first crack (gas drums):** energy "where it should be" just before first
+  crack minimizes the flick-and-crash [S0028](../sources/S0028-home-barista-roasting-phase-ratios.md); one roaster avoids the pre-FC hump, crash and flick with a
+  hard gas cut 30–40 s before FC [S0028](../sources/S0028-home-barista-roasting-phase-ratios.md); on a Kaleido a plateau before first crack followed by a
+  crash was said to lose sweetness [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md). Grade C, `ctx: gas drum / IR + hot air`.
 
 Not settled. See also [Myths & contested](myths-and-contested.md) and [Defects](defects.md).
 

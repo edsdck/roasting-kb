@@ -42,4 +42,9 @@ title: Roast planning & experimenting
 - **Borrowed recipes need scaling:** heater % depends on mains voltage, room temperature and batch
   size [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md). Treat other owners' numbers as a shape, not a setting — see
   [Charge & batch](charge-and-batch.md).
+- **Pick what you trust to end the roast.** A V2 owner's rule: development time, weight loss and
+  drop temperature over colour, because lamp roasts look darker than their degree [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md). Log
+  drop temperature as degrees above first crack as well as seconds [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md) [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md).
+- **Weight-loss target.** Hoos aims for light roasts at ~1–2 % above green moisture [S0025](../sources/S0025-roast-rebels-hoos-cultivars-airflow-interview.md); get
+  your coffees' moisture before using it. `conf: low`
 - See [experiments](../skywalker/experiments.md) for the current plan.

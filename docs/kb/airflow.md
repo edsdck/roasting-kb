@@ -19,7 +19,21 @@ title: Airflow
   airflow for the whole roast to develop the coffee [S0022](../sources/S0022-home-barista-nordic-roasters-forum-exercise.md); a home roaster found that cutting
   airflow instead of raising power gave "absolutely terrible results" [S0022](../sources/S0022-home-barista-nordic-roasters-forum-exercise.md). `ctx: gas-drum`
 
+- **Contrast — a leading consultant changed his mind (2026).** Rob Hoos used to think airflow was
+  just one heat-transfer route with little effect on flavour; his airflow experiments (mainly drum
+  roasters, also seen on fluid beds) now show airflow *tastes different* and changes the
+  weight-loss curve. His research is about airflow volume and how it changes inlet and exhaust air
+  temperature; drum speed shifts the convection/conduction balance. No data shown. `conf: low`
+  `ctx: drum` [S0025](../sources/S0025-roast-rebels-hoos-cultivars-airflow-interview.md) Forum members relay it as "lower airflow raises input air temperature and
+  dries faster"; one Quest owner's inlet temperature barely changes with airflow, and nobody has
+  tested the flavour effect [S0028](../sources/S0028-home-barista-roasting-phase-ratios.md). `ctx: gas drum / electric air`
+
 ## In practice
+- **Higher fan on light roasts (V2 Skywalker, 250 g):** one owner finds higher fan and drum speed
+  best for light roasts and says it makes heater adjustments more responsive; his schedule raises
+  fan from 65 % to ~78 % through first crack. `conf: low` [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md)
+- **Kaleido (IR + hot air):** one experienced user runs maximum airflow throughout [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md).
+  `ctx: Kaleido`
 - Avoid changing airflow casually: any change "will change dramatically the roast dynamics";
   one owner could detect the speed setting of a hood ~0.5 m above the machine. `conf: low` [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md)
 - The built-in program P11 raises fan to 90 % while dropping heater to 40 % at ~170 °C
@@ -44,4 +58,7 @@ title: Airflow
   setting rather than your heater first.
 
 ## Open questions
-- Recommended fan curves from Skywalker owners at 350 g; how much a fan step changes RoR.
+- Recommended fan curves from Skywalker owners at 350 g; how much a fan step changes RoR. The
+  V2 owner's 250 g schedule [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md) is the only worked example so far.
+- Whether Hoos's airflow findings (taste, weight-loss curve) hold on a lamp-heated roaster where
+  air mainly cools. **Inference — test it:** repeat a roast with a fan step and compare weight loss.

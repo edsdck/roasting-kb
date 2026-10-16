@@ -2,13 +2,17 @@
 
 *Suggested by the Builder. One variable at a time; keep batch size (350 g), fan and room airflow
 fixed; cup blind; compare at equal roast degree (weight loss within ±0.5 % if no colour meter —
-**Inference**). Updated 2026-10-16 (Build 4).*
+**Inference**). Updated 2026-10-16 (Build 5).*
 
 ## 0. Setup first — Artisan RoR settings
 Set sampling to 1 s and delta span ≈ 15 s, minimal extra smoothing [S0008](../sources/S0008-rao-what-is-baked-coffee.md). If the RoR line becomes
 unreadably noisy on the Skywalker, lengthen the span and note the value you settled on.
 
 ## 0b. Log two extra things with every roast
+- **Green moisture:** ask the supplier or measure it; Hoos targets light-roast weight loss ~1–2 %
+  above moisture [S0025](../sources/S0025-roast-rebels-hoos-cultivars-airflow-interview.md) and wetter coffee needs more mid-roast energy [S0025](../sources/S0025-roast-rebels-hoos-cultivars-airflow-interview.md).
+- **Drop relative to first crack:** note drop BT minus first-crack BT with each roast (your data
+  show median +8.3 °C) [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md) [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md).
 - **Green density:** weigh a fixed volume of green coffee (e.g. 100 ml in a measuring cylinder) → g/L.
   Density changes how a coffee takes heat [S0014](../sources/S0014-lee-2025-bean-density-roasting.md).
 
@@ -35,6 +39,15 @@ Practitioners disagree on how short is too short: Rao says 20–25 % DTR [S0018]
 path to first crack; development ≈ **1:00 / 1:45 / 2:30**. On your machine development time drives
 weight loss (r = 0.72), so expect loss to rise with it; if you want equal degree, lower the heater
 during development for the longer ones rather than dropping earlier. Rest equally, cup blind.
+**Variant (2b) — by temperature, not seconds:** your id39 (+6.2 °C above first crack, 0:41) and
+id40 (+12.0 °C, 1:12) are the same coffee, so cup them blind side by side first (rest equally, ≥ 5 days).
+If id39 tastes raw/vegetal and id40 does not, repeat the pair at +6 / +9 / +12 °C. One roaster
+reports a vegetal note that stays until ~10 °F (5.6 °C) above first crack [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md); a roaster who
+dropped ~10 °F above first crack after a fast dry end found no vegetal notes but thin body [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md).
+Your probe and first-crack call differ from theirs, so you are looking for *your* threshold.
+Because development time and ΔT move together on your machine (r = 0.78), use the heater during
+development to change one without the other if you can.
+
 **Taste for:** acidity, sweetness, fruit vs roasted, bitterness, body — and grainy/vegetal notes,
 the classic signs of too-short development [S0019](../sources/S0019-sweet-marias-first-crack-faq.md) [S0016](../sources/S0016-homeroasters-skywalker-main-thread.md). Mark first crack the same way in all
 three (at regular pops, not the first isolated pop) [S0019](../sources/S0019-sweet-marias-first-crack-faq.md).
@@ -71,3 +84,14 @@ the *first pop* with a custom event and FCs at *regular pops* [S0019](../sources
 **Outcome:** gap persists at equal speed → it's the coffee (or how it cracks); gap shrinks → it was
 the slower profile. Either way you learn which number to trust for timing development.
 
+
+## 7. Charge hotter, lower power — does it remove "done"/astringent notes?
+**Why:** on an IR roaster (Kaleido, IR + hot air) an experienced user cut astringency with a higher
+charge, lower power percentages, small stepwise cuts and no big power swings [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md); drum users
+found cool charges left the inside behind [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md). A longer browning phase also correlated with less
+vegetal/astringent character on an IKAWA [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md). **Inference — test it** on a lamp roaster.
+**How:** one coffee, 350 g, same fan. Roast A: your usual charge and heater plan. Roast B: charge
+~10–15 °C hotter with the same or slightly lower start power, then reduce power in small steps
+from about minute 4 (as in experiment 3), no big cut at first crack. Keep first-crack time and
+development time within a few seconds of each other. Cup blind.
+**Taste for:** astringent/drying finish, "done" flavour, sweetness, vegetal/raw notes.

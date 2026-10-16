@@ -2,6 +2,26 @@
 
 Every change the Builder makes to the knowledge base, newest first.
 
+## 2026-10-16 — Build 5
+Sources integrated: S0023–S0028 · Roasts parsed: 0 new
+
+- **ADD** [Development](kb/development.md) — a possible temperature threshold above first crack (vegetal note, ~10 °F, time-independent); how roasters end the roast (seconds vs temperature vs both); more light-roast reports (Hoos natural 1:00–1:10, V2 owner 85–100 s); phase ratios hide changes [S0023, S0024, S0025, S0027, S0028]
+- **CONTEST** [Development § Contested](kb/development.md#contested) — fixed seconds or a temperature after first crack? Time-based (Theophilus, CarefreeBuzzBuzz) vs absolute drop temperature (Nunas, N3Roaster) vs both (EddyQ); no cup data [S0023, S0024]
+- **EXTEND** [Development § Contested](kb/development.md#contested), [Myths](kb/myths-and-contested.md) — "20–25 % DTR needed?" gains Hoos's 1:00–1:10 natural and a V2 owner's 85–100 s on the "no" side; new Myths row for seconds vs temperature [S0025, S0027, S0023, S0024]
+- **EXTEND** [Measurement & Artisan § Contested](kb/measurement-and-artisan.md#contested) — first-crack temperature: a third Quest account (200 °C ±2, check the probe) vs new-origin FC 9–10 °F higher and set-temperature marking; ground colour vs drop temperature logging idea [S0024](sources/S0024-home-barista-first-crack-temperature-changed.md)
+- **ADD** [Heat transfer](kb/heat-transfer.md) — IR roasters tip and turn astringent easily (Kaleido user's higher-charge / low-power / small-step recipe); PID power swings; cool charge leaves the inside behind; fluid-bed measurement of how fast beans follow air temperature (`ctx` noted) [S0026, S0023, S0027]
+- **ADD** [Defects](kb/defects.md) — vegetal note tied to temperature; astringency and its reported causes; colour can mislead on lamp roasters; astringent IR roasts [S0023, S0026, S0027]
+- **ADD** [Airflow](kb/airflow.md) — Hoos reversed his view: airflow changes taste and the weight-loss curve (no data); relayed inlet-temperature mechanism; V2 owner raises fan for light roasts; Kaleido user runs max airflow [S0025, S0028, S0027, S0026]
+- **ADD** [Green coffee](kb/green-coffee.md) — moisture and how hard to push; weight loss ~1–2 % above moisture for light roasts; cultivar and processing set timings; open question on your green moisture [S0025, S0024]
+- **EXTEND** [Charge & batch](kb/charge-and-batch.md) — V1 stable at 400 g, V1 owners at 350–400 g, a V2 250 g charge example; Hoos: charge follows batch size; cool charge under-develops the inside [S0027, S0025, S0026]
+- **EXTEND** [Roast phases](kb/roast-phases.md) — longer browning phase vs astringency; new "Phase ratios" note [S0026, S0023, S0028]
+- **EXTEND** [Rate of rise](kb/rate-of-rise.md) — a V2 owner's RoR targets; crash and flick around first crack on gas drums and Kaleido [S0027, S0028, S0026]
+- **EXTEND** [Roast planning](kb/roast-planning.md) — pick an end criterion and log ΔT above FC; weight-loss target [S0027, S0023, S0024, S0025]
+- **EXTEND** [Glossary](kb/glossary.md) — Astringency, ΔT above FC [S0023, S0024, S0026]
+- **ROASTS** [Findings](skywalker/findings.md) — new pattern 2b: median drop +8.3 °C above first crack (n=41), four roasts under +6 °C, id39 at +6.2 °C vs id40 +12.0 °C; context added to pattern 2 and the id39 section
+- **EXTEND** [Experiments](skywalker/experiments.md) — experiment 2 gets a temperature-based variant (cup id39 vs id40 first); new experiment 7 (hotter charge, lower power, small steps); setup now logs green moisture and ΔT above FC
+- **GAPS** rewritten (14 items; new IR astringency and green moisture items)
+
 ## 2026-10-16 — Build 4
 Sources integrated: S0015–S0022 · Roasts parsed: 0 new
 

@@ -14,7 +14,7 @@ machine: "Kaleido M10 (Gen 2, sealed; carbon-fibre infrared heating plus hot-air
 topics: [heat-transfer, defects, development, charge-and-batch, measurement-and-artisan]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0026 — Buyers Remorse - Kaleido M10 Astringent Roasts (Home-Barista)

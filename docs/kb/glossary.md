@@ -44,6 +44,10 @@ title: Glossary
 
 **TC4** — Artisan's serial protocol; Skywalker V1 community firmware speaks it. [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md)
 
+**Astringency** — drying, mouth-puckering finish; reported with cool charges, tipping and power swings (see [Defects](defects.md)).
+
+**ΔT above FC** — drop temperature minus first-crack reading; a way to describe development that does not depend on seconds [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md) [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md).
+
 **Tipping** — charred germ end of the bean, from roasting too fast. [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md)
 
 **Titratable acidity (TA)** — amount of acid in brewed coffee measured by titration; correlates with perceived sourness. [S0007](../sources/S0007-anokye-bempah-2024-titratable-acidity.md)

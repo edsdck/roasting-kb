@@ -14,7 +14,7 @@ machine: "Drum roasters in general (he mentions the Loring); fuel and model for 
 topics: [airflow, green-coffee, development, roast-planning, charge-and-batch]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0025 — Rob Hoos: How Cultivars & Airflow Change Your Coffee Roasting (Interview)

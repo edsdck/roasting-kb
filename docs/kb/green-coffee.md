@@ -41,6 +41,16 @@ title: Green coffee
   (Maillard), possibly darker. `conf: low` [S0014](../sources/S0014-lee-2025-bean-density-roasting.md)
 - **Flavour first.** Even if a dense coffee *can* take more heat, the desired cup decides the
   profile. [S0014](../sources/S0014-lee-2025-bean-density-roasting.md)
+- **Moisture sets how hard to push and how much weight to lose.** Per Rob Hoos: wetter coffee is
+  harder to push heat into (water resists heat uptake after boiling point), so it needs more energy
+  in the middle of the roast, shows a slightly higher turning point and can seem to run away early
+  before it lags; drier coffee may need less. For light roasts he aims for weight loss ~1–2 % above
+  the green moisture (10 % moisture → 11–12 %; 12 % → 13–14 %). `conf: low` `ctx: drum` [S0025](../sources/S0025-roast-rebels-hoos-cultivars-airflow-interview.md)
+- **Cultivar and processing set the timings.** Hoos sets roast length, development time and
+  first-crack time from cultivar and processing (naturals: slightly shorter development in his
+  fruit-forward recipe), and heat application from moisture and density. Typica and Ethiopian-type
+  cultivars prefer slightly faster roasts, Bourbon types slower; "fast" is a trend, not a rule.
+  `conf: low` [S0025](../sources/S0025-roast-rebels-hoos-cultivars-airflow-interview.md)
 - **Measure:** weigh a fixed volume of green (measuring cylinder), log g/L. [S0014](../sources/S0014-lee-2025-bean-density-roasting.md)
 
 ## On the Skywalker (IR)
@@ -50,10 +60,15 @@ title: Green coffee
 - Start logging density with each roast — see [experiments](../skywalker/experiments.md).
 - The factory auto profiles treat processing differently: preheat 200 °C (natural) / 220 °C
   (washed) / 215 °C (honey); start power 65 / 70 / 65 % [S0016](../sources/S0016-homeroasters-skywalker-main-thread.md).
+- **Inference — test it:** your median weight loss is 13.4 % (n=28). On Hoos's rule that fits
+  coffee with ~11.5–12.5 % moisture roasted light, but your green moisture is unknown — ask the
+  supplier or use a meter before reading anything into it [S0025](../sources/S0025-roast-rebels-hoos-cultivars-airflow-interview.md).
 - **Your data (P):** Honduras Honey cracks ~6 °C higher than your washed coffees — see
   [findings](../skywalker/findings.md).
 
 ## Open questions
 - Measured moisture/density vs first-crack temperature and time — no data yet.
 - Does processing change the first-crack temperature, or only how it's measured/heard?
+  Roasters still split: same ±2 °C for all beans vs a new origin cracking 9–10 °F higher [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md).
+- What is the green moisture of the coffees you roast (needed to use the weight-loss rule)?
 - How radiant heating interacts with density (surface vs core).

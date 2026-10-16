@@ -87,6 +87,8 @@ title: Measurement & Artisan
 - Compare your roasts to each other, not to published drop temperatures. Your roast pages show
   first crack and drop temperatures for this purpose.
 - Keep batch size constant when comparing temperatures (350 g vs 400 g will read differently) [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md).
+- **Inference — test it:** log ground colour (if you can get a reading) next to drop temperature;
+  one roaster found ground colour followed drop temperature better than development time [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md).
 - **Inference — test it:** with a slow-responding probe/lamp system, try a delta span around 15 s
   and see whether the curve becomes too noisy to read; adjust and note the setting.
 
@@ -96,9 +98,12 @@ title: Measurement & Artisan
 - **No — it's the measurement.** Two experienced roasters report first crack at the same reading
   for every bean over hundreds of batches (Quest: 200 °C ± 1–2; Aillio Bullet: 200 °C ± 2–3);
   probe type and placement matter far more than the bean. Grade C. [S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md)
+- **Same again on a third Quest account (2026):** FC is the same ±2 °C (200 °C on his Quests) for
+  nearly all greens; probe placement matters more than bean type; first check for a loose or bent
+  probe. He drops by absolute bean temperature [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md). Grade C.
 - **Yes — roaster, bean and profile all matter.** Another roaster finds FC "very roaster, bean and
   profile dependent" (392–405 °F on a 1 kg drum) [S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md); Sweet Maria's says readings vary with
-  measurement and altitude [S0019](../sources/S0019-sweet-marias-first-crack-faq.md). A decaf on a Skywalker cracked late (~189 °C) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md). Grade C.
+  measurement and altitude [S0019](../sources/S0019-sweet-marias-first-crack-faq.md). A decaf on a Skywalker cracked late (~189 °C) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md). A drum roaster that always cracked at 386 °F saw 395 °F with a new origin [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md); another roaster sees 390–395 °F usually and ~400 °F on a new Ethiopian [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md); a third believes FC depends on bean, entry rate and profile, and marks it at a set temperature when he cannot hear it [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md). Grade C.
 - **Possible mechanisms (untested):** a faster approach might raise the surface reading at crack
   (surface–core gap) [S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md); the probe offset may differ by coffee [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md); quiet first cracks in
   some dry-process coffees could be marked late [S0019](../sources/S0019-sweet-marias-first-crack-faq.md).

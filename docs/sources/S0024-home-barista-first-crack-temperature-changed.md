@@ -14,7 +14,7 @@ machine: "OP: Kaldi Fortis drum; Nunas: Quest M6 (and earlier air/drum roasters)
 topics: [measurement-and-artisan, development, green-coffee, myths-and-contested]
 novelty: mixed
 corroborates: [S0020]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0024 — First crack temperature changed, now what? (Home-Barista)

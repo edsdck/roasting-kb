@@ -14,7 +14,7 @@ machine: "EddyQ: North 1K (gas) and Quest M3s (electric); LBIespresso: Cormorant
 topics: [roast-phases, airflow, rate-of-rise, myths-and-contested]
 novelty: mixed
 corroborates: [S0011]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0028 — Roasting phase ratios (Home-Barista)

@@ -11,6 +11,7 @@ title: Development
     - Colour alone doesn't describe a roast — log development time too. But colour (roast degree) is still the **strongest** single driver of flavour. `conf: medium`
     - **How long is normal?** Rao's 20–25 % DTR rule vs experienced light roasters at ~13–16 % (1:20–1:30) and Nordic roasters at ~45 s. **Contested.**
     - The same development time does more after a fast roast or a high RoR at first crack — compare DTR only between similar profiles. `conf: medium`
+    - **End by seconds or by temperature?** Roasters split: fixed seconds after first crack, absolute drop temperature, or both. One roaster reports a vegetal note that vanishes about 10 °F (~5.6 °C) above first-crack start whatever the time. `conf: low` **Contested.**
 
 ## Concepts
 
@@ -49,6 +50,15 @@ title: Development
   temperature gap in late Maillard rather than relying on development time [S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md); an SCA panel
   (as relayed) described development taking place in Maillard too [S0021](../sources/S0021-home-barista-development-time-light-roasts.md). `conf: low`
 
+- **A temperature threshold above first crack?** N3Roaster (lab roaster, trier samples) reports a
+  raw, vegetal flavour that vanishes abruptly about 10 °F above first-crack start (380 → 390 °F on
+  his machines; second crack 430 °F, so about a fifth of the way between the cracks), whatever the
+  roast time, repeatable in blind, randomized tastings (method stated, no data shown). Marcelnl
+  independently finds a "chlorophyll-like" note below about 204–205 °C with first crack ~198 °C
+  (≈ +6–7 °C). Almico, after a fast dry end (≤ 4 min) on dense beans, dropped ~10 °F above first
+  crack about a minute after it and found no vegetal or underdeveloped notes, but thin body.
+  `conf: low` (forum accounts, each on their own thermometry) [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md)
+
 ## In practice
 
 - **Brighter / fruitier cup:** shorter development, drop relatively soon after first crack.
@@ -68,6 +78,27 @@ title: Development
       very high airflow the whole roast
       [S0022](../sources/S0022-home-barista-nordic-roasters-forum-exercise.md)
   `conf: low` `ctx: gas-drum / convection`
+- **More light-roast reports (2022–2026):**
+    - A fruit-forward natural: first crack ~7:30, development **1:00–1:10** ("slightly shorter … because
+      it's a natural"), weight loss ~1 % above green moisture, smaller charge, higher airflow
+      (Rob Hoos, drum roasters, interview) [S0025](../sources/S0025-roast-rebels-hoos-cultivars-airflow-interview.md) `ctx: drum`
+    - Very fast dry end (≤ 4 min) and a drop ~10 °F above first crack about 1 min after it: no
+      vegetal notes but thin body (Almico) [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md)
+    - V2 Skywalker (250 g): development 85–100 s, DTR 16–18 %, drop ~192–194 °C [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md)
+  `conf: low`
+- **How roasters end it.** Fixed time after first crack — "if I know I need 90s of development …
+  I will count those 90s and drop the coffee regardless of what the temperature is" (Theophilus), and
+  time from first crack to drop is the factor most likely to change how ordinary drinkers react
+  (CarefreeBuzzBuzz). Absolute drop temperature — Nunas drops by bean temperature and manages the
+  time to get there. Both — EddyQ drops by time past first crack for light and medium roasts, and
+  found in his own colour-meter logs that ground colour followed drop temperature better than
+  development time (taste correlation "not conclusive"). `conf: low` [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md) General filter-roast
+  advice on a Skywalker thread: aim for 3–4 degrees (20–30 s) after first crack — more gives roast
+  notes, less hay notes — and "roast to a colour" (oil on the bean means too dark); the poster does
+  not say he owns a Skywalker [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md).
+- **Compare times, not just ratios.** Two roasts with the same dry and development times but a
+  longer middle phase gave splits of 48/33/19 % and 40/43/16 % — the percentages hide that only one
+  phase changed. `conf: low` [S0028](../sources/S0028-home-barista-roasting-phase-ratios.md)
 - **Stretching to hit a %.** Slowing RoR below ~10 °F/min at first crack to reach 20 % kept the drop
   light but often still tasted under-developed; shorter, hotter development tasted better for that
   roaster. Holding airflow high mattered for short, hot finishes. `conf: low` [S0021](../sources/S0021-home-barista-development-time-light-roasts.md) [S0022](../sources/S0022-home-barista-nordic-roasters-forum-exercise.md)
@@ -88,6 +119,18 @@ title: Development
   machine, development time tracks weight loss closely (r = 0.72). See
   [findings](../skywalker/findings.md).
 
+- **Your drop relative to first crack (P, n=41):** median **+8.3 °C** above first-crack reading
+  (range 5.6–22.4 °C); four roasts (id4, id19, id31, id32) ended under 6 °C above. It moves with
+  development time (r = 0.78). id39 — the cupped roast (0:41, sharp, very acidic, bitter) — ended
+  **+6.2 °C**; id40 (same coffee, 1:12) ended +12.0 °C. N3Roaster's ~5.6 °C threshold [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md) comes
+  from other equipment, probe and first-crack convention, so it cannot be applied directly.
+  **Inference — test it:** your shortest roasts may be ending close to such a threshold; see
+  [experiment 2](../skywalker/experiments.md).
+- **A V2 owner's light recipe:** targets 85–100 s development (DTR 16–18 %, drop BT 192–194 °C,
+  weight loss 12–13 %, 250 g); asked how it tasted he answered "nice smooth acidity and fruit"
+  (not stated to be the same roast) [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md). Hoos' own fruit-forward recipe also sits at 1:00–1:10
+  [S0025](../sources/S0025-roast-rebels-hoos-cultivars-airflow-interview.md). The V2 owner adds that light roasts on these machines look darker than their degree, so
+  trust development time, weight loss and drop temperature over colour [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md).
 - **Other Skywalker owners:** renatoa's best roast of his first ~15 (a Kenya, 250 g) had 18 % DTR,
   ~1:35 development, first crack 181 °C → drop 190 °C [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md). His accidental ~45 s (10 % DTR)
   development with a flat RoR still cupped well, with no cardboard/baked taste — one anecdote
@@ -121,10 +164,22 @@ title: Development
   Grades C–B. The research's shortest roast (1:30, ~14 % DTR) was the sweetest and brightest at equal
   colour [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md).
 
+**Fixed seconds or a temperature after first crack?**
+
+- **Seconds:** treat first crack as a marker and count development time; FC temperature varies by
+  bean [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md) (Theophilus, CarefreeBuzzBuzz). Grade C.
+- **Temperature:** drop by absolute bean temperature and manage the time to get there [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md)
+  (Nunas); N3Roaster's threshold is a temperature effect independent of time [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md). Grade C.
+- **Both:** EddyQ marks first crack at a set temperature when he cannot hear it, drops by time, and
+  notes ground colour tracked drop temperature [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md). Nobody shows cup data for either strategy.
+
 Rao says he rarely cups roasts dropped well before the end of first crack and doesn't assume the
 ratio holds for them [S0018](../sources/S0018-rao-2014-development-time-ratio.md). Not settled for very light roasts — see [experiment 2](../skywalker/experiments.md).
 
 ## Open questions
-- Controlled sensory data below 1:30 development.
+- Controlled sensory data below 1:30 development — still none; the closest are N3Roaster's
+  undocumented blind tastings [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md).
+- Is the vegetal switch really a temperature a fixed distance above first crack, and does it move
+  with machine and probe? [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md)
 - Development-time studies on other origins/processes and other roast degrees.
 - Can consumers (not just professionals) tell these differences? [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md) notes this is untested.

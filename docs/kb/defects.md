@@ -30,6 +30,15 @@ tipping and scorching [S0013](../sources/S0013-melheim-2023-optimal-batch-size.m
   roasts [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md) [S0016](../sources/S0016-homeroasters-skywalker-main-thread.md). Different from *under-roasted* (end temperature too low).
   `conf: medium` [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md) Consistent with research: shorter development = more acidity at equal
   colour [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md) [S0012](../sources/S0012-munchow-2020-roasting-conditions-multi-study.md).
+- **Vegetal / "raw" note and temperature.** One roaster finds a raw, vegetal flavour that
+  disappears abruptly about 10 °F above first-crack start regardless of time; another finds a
+  chlorophyll-like note below ~204–205 °C with first crack at ~198 °C. `conf: low` [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md) Ties
+  under-development to *temperature reached*, not only seconds — see [Development](development.md).
+- **Astringency.** A tongue-drying finish. Reported causes: a charge that is too cool (inside left
+  under-developed while the outside hits the drop temperature) [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md); tipping, which infrared
+  heating makes easy [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md); large power swings [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md); a plateau before first crack followed by a
+  crash [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md); a short browning phase (more astringent and vegetal with a shorter one on an
+  IKAWA) [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md). `conf: low` `ctx: drum / IR + hot air / fluid bed`; no controlled test.
 - **Over-development** — too long after first crack: low/muted acidity, heaviness, lack of nuance.
   Different from *over-roasted* (end temperature too high). `conf: medium` [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md) [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md)
 - **"Roasty"** — vague; usually means the taster disliked it; most often from too high an end
@@ -74,6 +83,14 @@ and experiment at equal colour [S0005](../sources/S0005-coffeemind-rate-of-rise-
 - **Charred ("charcoal") beans:** a few completely black beans per roast are common on Skywalkers
   (3–4 per 250 g was normal for one owner). They come from beans thrown up to lamp level; a
   slightly faster drum motor raised his count to 8. Pick them out after each roast. `conf: low` [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md)
+- **Astringent roasts on an IR machine** (Kaleido, not a Skywalker): same colour and weight loss
+  as an excellent Kaffelogic roast, but astringent; fixed by a higher charge, lower power
+  percentages and gradual stepwise cuts [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md). **Inference — test it:** if a Skywalker roast tastes
+  astringent or "done", suspect fast hot early power (tipping) and cool charges before blaming
+  development time. `conf: low`
+- **Colour can mislead on lamp roasters.** A V2 owner says light roasts "don't come out looking
+  light" and advises trusting development time, weight loss and drop temperature over colour
+  [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md); compare whole-bean vs ground colour as suggested below.
 - **Dark outside, under-developed inside:** an experienced owner's fastest (~7 min) roasts looked
   darker than average but were under-developed inside, which he links to surface heating by the
   lamp [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md) [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md). `conf: low` **Inference — test it:** compare whole-bean vs ground colour on

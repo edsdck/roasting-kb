@@ -36,6 +36,12 @@ title: Charge & batch size
   colour, and confirm by cupping. [S0013](../sources/S0013-melheim-2023-optimal-batch-size.md) [S0011](../sources/S0011-cooper-cropster-rate-of-rise-production.md)
 - Keep the batch size fixed when comparing roasts — otherwise temperatures aren't comparable.
 
+- **Charge follows batch size, not processing** — Hoos's rule for his drum roaster; wetter coffee
+  may need a hotter preheat or different airflow instead [S0025](../sources/S0025-roast-rebels-hoos-cultivars-airflow-interview.md). `conf: low` `ctx: drum`
+- **Charge too low → under-developed inside.** Compensating a low charge with lots of heat to reach
+  first crack can leave the bean's inside behind (astringent cups); a higher charge fixed it for
+  one drum roaster [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md). `conf: low` `ctx: drum`
+
 ## On the Skywalker (IR)
 - Rated 400–500 g (sources differ) [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md); users prefer 350–450 g [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md). 350 g = 70–88 % of
   capacity.
@@ -43,6 +49,9 @@ title: Charge & batch size
   sessions [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md).
 - **Inference — test it:** "10 °C per kg" doesn't scale down meaningfully; a 50 g change is
   ~14 % of your batch. Measure it instead: [experiment 4](../skywalker/experiments.md).
+- A Gen 1 owner calls the machine "very stable for a 400 g load" [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md); two V1 owners work at
+  350–400 g (one with 45 batches) [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md). A V2 owner's light-roast recipe uses 250 g with a charge BT of
+  180 °C at 60 % power [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md) — different model, smaller batch. `conf: low`
 - Owners call 350–400 g the machine's comfortable range [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md); the factory start levels
   (65–70 % heater) were probably tuned for 350–400 g [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md).
 - **Preheat — what the factory does:** 200 °C (naturals), 220 °C (washed), 215 °C (honey), heater

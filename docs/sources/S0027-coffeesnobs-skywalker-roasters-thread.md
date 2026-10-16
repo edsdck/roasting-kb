@@ -14,7 +14,7 @@ machine: "Skywalker V1 (350–400 g batches: TomPoland, royk1000, KenCasAus) and
 topics: [charge-and-batch, development, heat-transfer, roast-planning, airflow, measurement-and-artisan]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0027 — Skywalker Roasters (CoffeeSnobs thread)

@@ -63,7 +63,12 @@ colour, but not zero [S0012](../sources/S0012-munchow-2020-roasting-conditions-m
 sweetness [S0011](../sources/S0011-cooper-cropster-rate-of-rise-production.md). Not strictly contradictory — the practitioner example may also differ in
 development and colour. Other practitioners also put weight on late Maillard (closing the
 inner/outer temperature gap there [S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md); development "takes place in Maillard, too" [S0021](../sources/S0021-home-barista-development-time-light-roasts.md)), and
-one Nordic roaster chose a longer drying phase for a dry, lower-quality Kenya [S0022](../sources/S0022-home-barista-nordic-roasters-forum-exercise.md). Open.
+one Nordic roaster chose a longer drying phase for a dry, lower-quality Kenya [S0022](../sources/S0022-home-barista-nordic-roasters-forum-exercise.md). On an IKAWA a longer browning phase went with less vegetal and astringent character [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md), and mikelipino extends the browning phase between dry end and first crack to avoid raw, vegetal light roasts [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md). Counter-note: one roaster measured fast internal response on a fluid bed, doubting large internal gradients [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md). Open.
+
+## Phase ratios
+- Percentages hide which phase changed: equal dry and development times with a longer middle phase
+  gave 48/33/19 % and 40/43/16 % splits. Track durations as well. `conf: low` [S0028](../sources/S0028-home-barista-roasting-phase-ratios.md) Forum
+  rules of thumb: 45-35-20 % phase split and 30-20-10 °F/min RoR checkpoints [S0028](../sources/S0028-home-barista-roasting-phase-ratios.md). `ctx: gas drum`
 
 ## Open questions
 - What drying and Maillard durations do experienced Skywalker owners use at **350 g**, with cupping

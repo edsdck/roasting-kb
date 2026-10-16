@@ -60,6 +60,18 @@ right for you is the single most useful thing to test → [experiment 2](experim
 crack (median 9.1 °C/min) is modest, so by the momentum argument [S0021](../sources/S0021-home-barista-development-time-light-roasts.md) your ~1:00 may develop
 less than the same time on a hotter roast — **Inference — test it.**
 
+*New context (Build 5):* more practitioner reports: a fruit-forward natural at 1:00–1:10 by Rob Hoos
+[S0025](../sources/S0025-roast-rebels-hoos-cultivars-airflow-interview.md), a V2 Skywalker owner at 85–100 s (DTR 16–18 %) [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md), and a roaster who dropped ~1 min after
+first crack with no vegetal notes but thin body [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md). Still no controlled data below 1:30.
+
+**2b. How far above first crack you drop (new, n=41).** Median drop is **+8.3 °C** over the
+first-crack reading (5.6–22.4 °C), and it moves with development time (r = 0.78). Four roasts ended
+under 6 °C above first crack (id4, id19, id31, id32). N3Roaster reports a vegetal note that stays
+until ~10 °F (5.6 °C) above first-crack start on his machines, independent of time, and another
+roaster puts it at ~+6–7 °C [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md). The id39 roast (cupped sharp, very acidic, bitter) ended +6.2 °C;
+id40 (same coffee) ended +12.0 °C but has no notes yet. Different probe and first-crack convention,
+so this is a lead, not a rule. → [experiment 2](experiments.md). *Grade P, n=41 but only one cup.*
+
 **3. Weight loss follows development time.** Correlation 0.72 between development time and weight
 loss (n=28 roasts with output weight), vs 0.42 for drop temperature. On your machine, *how long* you
 develop moves roast degree more than the drop temperature you choose. Light roasts throughout
@@ -89,6 +101,11 @@ Cup at 5 days: *unpleasant bitterness, very acidic when cooled, no clear flavour
   shows no crash. **Not resolvable from one cup.**
 - **Bitterness** is unexpected in a light, short roast. Possible: brew/extraction, rest time, or the
   coffee. Worth re-tasting id40 (same coffee, 1:12 development) side by side.
+
+Added in Build 5: id39 ended only **+6.2 °C** above its first-crack reading (median +8.3 °C), close to
+the ~+5.6–7 °C where one roaster says a vegetal note disappears [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md) — consistent with the
+"under-developed" reading, but same caveats as above. id40 (same coffee, +12.0 °C) is the natural
+comparison once it has rested.
 
 **n = 1 — treat as a lead, not a finding.**
 

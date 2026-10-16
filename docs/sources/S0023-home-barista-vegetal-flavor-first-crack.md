@@ -14,7 +14,7 @@ machine: "N3Roaster: lab roaster with trier; Marcelnl: own drum roaster; GDM528:
 topics: [development, heat-transfer, roast-phases, defects, measurement-and-artisan]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0023 — Transition from vegetal flavor during first crack (Home-Barista)
