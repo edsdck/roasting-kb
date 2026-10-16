@@ -2,7 +2,7 @@
 
 *Suggested by the Builder. One variable at a time; keep batch size (350 g), fan and room airflow
 fixed; cup blind; compare at equal roast degree (weight loss within ±0.5 % if no colour meter —
-**Inference**). Updated 2026-10-16 (Build 2).*
+**Inference**). Updated 2026-10-16 (Build 3).*
 
 ## 0. Setup first — Artisan RoR settings
 Set sampling to 1 s and delta span ≈ 15 s, minimal extra smoothing [S0008](../sources/S0008-rao-what-is-baked-coffee.md). If the RoR line becomes
@@ -20,10 +20,15 @@ unreadably noisy on the Skywalker, lengthen the span and note the value you sett
 the RoR visibly changes direction. Repeat once.
 **Outcome:** a number ("my lag ≈ X s") to plan all future changes earlier by.
 
-## 2. Development time at equal degree (replicate the key study on IR)
+## 2. Development time at equal degree — **do this next**
+*Your roasts have settled at ~1:00 development (DTR ~9 %), shorter than anything in the research,
+and your one cupped roast (0:41) was sharp and flat — see [findings](findings.md).*
+
 **Why:** at equal colour, shorter development = brighter/sweeter, longer = roastier/bitter [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md).
-**How:** one coffee, three roasts with the same path to first crack; development ≈ 1:00 / 1:45 /
-2:30, adjusting drop so weight loss is equal. Rest equally, cup blind.
+**How:** one coffee (the Costa Rican Natural or Colombia you have now), three roasts with your usual
+path to first crack; development ≈ **1:00 / 1:45 / 2:30**. On your machine development time drives
+weight loss (r = 0.72), so expect loss to rise with it; if you want equal degree, lower the heater
+during development for the longer ones rather than dropping earlier. Rest equally, cup blind.
 **Taste for:** acidity, sweetness, fruit vs roasted, bitterness, body.
 
 ## 3. Flat vs declining RoR after drying

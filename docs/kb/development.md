@@ -51,6 +51,11 @@ title: Development
 
 ## On the Skywalker (IR)
 
+- **Your data (P, n=41):** development has drifted from ~1:37 (DTR 16.5 %) early in the year to
+  ~1:00 (DTR ~9 %) since June — shorter than the shortest roast in the studies above. On your
+  machine, development time tracks weight loss closely (r = 0.72). See
+  [findings](../skywalker/findings.md).
+
 - The *direction* of these effects is chemistry and should hold on any heat source.
   **Inference — test it.**
 - The *numbers* won't transfer: first crack reads ≈ 182 °C on the Skywalker [S0001](../sources/S0001-skywiki-infrared-roaster.md), far below

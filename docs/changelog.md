@@ -2,6 +2,16 @@
 
 Every change the Builder makes to the knowledge base, newest first.
 
+## 2026-10-16 — Build 3
+Sources integrated: none · Roasts parsed: 41 new (id1–id41), 1 with cupping notes
+
+- **ADD** [Roast log](skywalker/roast-log.md) — 41 roast pages with curves, phases and heater/fan changes
+- **ADD** [Findings](skywalker/findings.md) — first crack ~184.5 °C; development shortened to ~1:00; development time drives weight loss; heater handling; id39 cupping analysis
+- **EXTEND** [Measurement & Artisan](kb/measurement-and-artisan.md), [Development](kb/development.md) — personal evidence notes
+- **EXTEND** [Experiments](skywalker/experiments.md) — development-time experiment promoted to "do next", tailored to current roasts
+- **FIX** roast parser: handles Artisan's −1 dropouts, missing ET probe, kg weights, Skywalker heater/fan naming
+- **GAPS** updated
+
 ## 2026-10-16 — Build 2
 Sources integrated: S0009–S0014 · Roasts parsed: 0
 

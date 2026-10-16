@@ -53,12 +53,39 @@ def idx_at(timex, t):
     return len(timex) - 1
 
 
+def clean(vals):
+    """Replace dropouts (Artisan writes -1 when a reading fails) by linear interpolation."""
+    v = [None if (x is None or x <= 0) else float(x) for x in vals]
+    good = [i for i, x in enumerate(v) if x is not None]
+    if not good:
+        return [0.0] * len(v)
+    # despike: a reading more than 10 degrees away from the median of its neighbours is a glitch
+    for i in good:
+        nb = sorted(v[j] for j in range(max(0, i - 6), min(len(v), i + 7)) if v[j] is not None)
+        if len(nb) >= 5 and abs(v[i] - nb[len(nb) // 2]) > 10:
+            v[i] = None
+    good = [i for i, x in enumerate(v) if x is not None]
+    out = list(v)
+    for i in range(len(v)):
+        if out[i] is None:
+            lo = max((g for g in good if g < i), default=None)
+            hi = min((g for g in good if g > i), default=None)
+            if lo is None:
+                out[i] = v[hi]
+            elif hi is None:
+                out[i] = v[lo]
+            else:
+                out[i] = v[lo] + (v[hi] - v[lo]) * (i - lo) / (hi - lo)
+    return out
+
+
 def analyse(path):
     d = load_alog(path)
     stem = os.path.splitext(os.path.basename(path))[0]
     timex = d.get("timex") or []
-    et = d.get("temp1") or []
-    bt = d.get("temp2") or []
+    # Artisan writes -1 for channels that aren't connected (the Skywalker V1 has no ET probe)
+    et = [None if (v is None or v < 0) else v for v in (d.get("temp1") or [])]
+    bt = clean(d.get("temp2") or [])
     ti = list(d.get("timeindex") or [-1, 0, 0, 0, 0, 0, 0, 0]) + [0] * 8
     comp = d.get("computed") or {}
     unit = d.get("mode", "C")
@@ -78,6 +105,10 @@ def analyse(path):
             return None, None, None
         return timex[i] - t0, bt[i], (et[i] if i < len(et) else None)
 
+    def cval(key, fallback):
+        v = comp.get(key)
+        return fallback if (v is None or v == -1 or v == -1.0) else v
+
     # turning point: min BT in first 3 min after charge
     tp_t = tp_bt = None
     if n:
@@ -95,9 +126,12 @@ def analyse(path):
     maillard = (fcs_t - dry_t) if (fcs_t is not None and dry_t is not None) else None
     w = d.get("weight") or [0, 0, "g"]
     win, wout = (float(w[0] or 0), float(w[1] or 0))
-    loss = ((win - wout) / win * 100) if win and wout else comp.get("weight_loss")
+    if len(w) > 2 and str(w[2]).lower() == "kg":
+        win, wout = win * 1000, wout * 1000
+    loss = ((win - wout) / win * 100) if win and wout else None
     ror_fc = ror(timex, bt, ev["FCs"]) if "FCs" in ev else None
-    ror_fc60 = ror(timex, bt, idx_at(timex, timex[ev["FCs"]] + 60)) if "FCs" in ev else None
+    ror_fc60 = (ror(timex, bt, idx_at(timex, timex[ev["FCs"]] + 60))
+                if "FCs" in ev and "DROP" in ev and timex[ev["DROP"]] - timex[ev["FCs"]] >= 60 else None)
     ror_drop = ror(timex, bt, ev["DROP"]) if "DROP" in ev else None
     # peak RoR after turning point
     peak = None
@@ -115,24 +149,31 @@ def analyse(path):
             val = d["specialeventsvalue"][k]
             label = (d.get("specialeventsStrings") or [""] * 999)[k]
             name = etypes[typ] if typ < len(etypes) else str(typ)
-            events.append({"t": fmt_t(timex[i] - t0), "type": name,
-                           "value": round((val - 1) * 10), "label": label})
+            name = {"Burner": "Heater", "Air": "Fan"}.get(name, name) if "skywalker" in str(d.get("roastertype", "")).lower() else name
+            try:
+                value = float(label)
+            except (TypeError, ValueError):
+                value = max(0, round((val - 1) * 10))
+            events.append({"t": fmt_t(timex[i] - t0), "sec": round(timex[i] - t0), "type": name, "value": value})
         except Exception:
             pass
     cup = (d.get("cuppingnotes") or "").strip()
     for ext in (".md", ".txt"):
         side = os.path.join(RDIR, stem + ext)
         if os.path.exists(side):
-            cup = (cup + "\n\n" if cup else "") + open(side, encoding="utf-8").read().strip()
+            note = open(side, encoding="utf-8").read().strip()
+            note = re.sub(r"(?m)^(#{1,3}) ", lambda mm: "#" * (len(mm.group(1)) + 2) + " ", note)  # nest under page headings
+            cup = (cup + "\n\n" if cup else "") + note
     m = {
         "stem": stem,
         "date": d.get("roastisodate") or d.get("roastdate") or "",
-        "title": d.get("title") or stem,
+        "title": (d.get("title") if d.get("title") not in (None, "", "Roaster Scope") else (d.get("beans") or stem)).strip(),
+        "roaster": d.get("roastertype") or "",
         "beans": (d.get("beans") or "").strip(),
         "unit": unit,
         "weight_in": win or None, "weight_out": wout or None,
         "weight_loss_pct": r1(loss),
-        "charge_bt": r1(comp.get("CHARGE_BT", charge_bt)), "charge_et": r1(comp.get("CHARGE_ET", charge_et)),
+        "charge_bt": r1(cval("CHARGE_BT", charge_bt)), "charge_et": r1(cval("CHARGE_ET", charge_et)),
         "tp_time": fmt_t(tp_t), "tp_bt": r1(tp_bt),
         "dry_time": fmt_t(dry_t), "dry_bt": r1(dry_bt),
         "fcs_time": fmt_t(fcs_t), "fcs_bt": r1(fcs_bt), "fcs_et": r1(fcs_et),
@@ -140,6 +181,10 @@ def analyse(path):
         "maillard_time": fmt_t(maillard), "dev_time": fmt_t(dev), "dtr_pct": r1(dtr),
         "ror_peak": r1(peak), "ror_at_fcs": r1(ror_fc), "ror_fcs_plus60": r1(ror_fc60), "ror_at_drop": r1(ror_drop),
         "whole_color": d.get("whole_color") or "", "ground_color": d.get("ground_color") or "",
+        "density_gl": (lambda x: round(x[0] / x[2] * (1000 if str(x[3]).lower() in ("ml",) else 1), 1) if x and x[0] else "")(d.get("density")),
+        "heater_at_charge": next((e["value"] for e in events if e["type"] == "Heater" and e["sec"] <= 5), ""),
+        "heater_changes": sum(1 for e in events if e["type"] == "Heater" and e["sec"] > 5),
+        "fan_changes": sum(1 for e in events if e["type"] == "Fan"),
         "roasting_notes": (d.get("roastingnotes") or "").strip(),
         "cupping_notes": cup,
         "events": events,
@@ -163,7 +208,7 @@ def svg(m):
     if not pts:
         return ""
     tmax = max(p[0] for p in pts) or 1
-    temps = [v for p in pts for v in (p[1], p[2]) if v is not None]
+    temps = [v for p in pts for v in (p[1], p[2]) if v is not None and v > 0]
     ymax = (max(temps) // 50 + 1) * 50
     ymin = 0
     rmax = 30 if m["unit"] == "C" else 55
@@ -188,7 +233,8 @@ def svg(m):
             continue
         g.append(f'<line x1="{X(t):.1f}" x2="{X(t):.1f}" y1="{T}" y2="{H-B}" stroke="#999" stroke-dasharray="3,3"/>'
                  f'<text x="{X(t)+3:.1f}" y="{T+10}" fill="#888">{k}</text>')
-    g.append(line(2, Y, "#e76f51"))
+    if any(p[2] is not None for p in pts):
+        g.append(line(2, Y, "#e76f51"))
     g.append(line(1, Y, "#4a7fb5", 2.5))
     g.append(line(3, YR, "#2a9d8f", 1.5))
     g.append(f'<text x="{L+8}" y="{H-B-8}" fill="#4a7fb5">BT</text><text x="{L+32}" y="{H-B-8}" fill="#e76f51">ET</text>'
@@ -199,10 +245,11 @@ def svg(m):
 
 def page(m):
     u = "°" + m["unit"]
+    m = {k: ("—" if v is None or v == "" else v) for k, v in m.items()}
     rows = [
         ("Beans", m["beans"] or "—"),
         ("Batch in / out", f"{m['weight_in'] or '—'} g / {m['weight_out'] or '—'} g · loss {m['weight_loss_pct'] or '—'} %"),
-        ("Charge", f"BT {m['charge_bt']}{u} · ET {m['charge_et']}{u}"),
+        ("Charge", f"BT {m['charge_bt']}{u}" + (f" · ET {m['charge_et']}{u}" if m['charge_et'] != "—" else "")),
         ("Turning point", f"{m['tp_time']} @ {m['tp_bt']}{u}"),
         ("Dry end", f"{m['dry_time'] or '—'} @ {m['dry_bt'] or '—'}{u}"),
         ("First crack", f"{m['fcs_time'] or '—'} @ {m['fcs_bt'] or '—'}{u}"),
@@ -217,7 +264,7 @@ def page(m):
     out += ["", svg(m), "", "RoR computed over a 30 s window from raw BT (may differ from Artisan's smoothed RoR).", ""]
     if m["events"]:
         out += ["## Control changes", "", "| Time | Control | Value |", "|---|---|---|"]
-        out += [f"| {e['t']} | {e['type']} | {e['label'] or e['value']} |" for e in m["events"]]
+        out += [f"| {e['t']} | {e['type']} | {e['value']:g} % |" for e in m["events"]]
         out.append("")
     out += ["## Roasting notes", "", m["roasting_notes"] or "*none*", "", "## Cupping notes", "",
             m["cupping_notes"] or "*none yet — add `roasts/" + m["stem"] + ".md`*", ""]

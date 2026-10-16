@@ -48,6 +48,9 @@ title: Measurement & Artisan
   and cupping notes. Colour plus development time describes a roast better than colour alone [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md).
 
 ## On the Skywalker (IR)
+- **Your data (P, n=41):** first crack median 184.5 °C (174–193 °C), confirming the low readings;
+  Honduras Honey ran ~6 °C higher than washed coffees at the same batch size — see
+  [findings](../skywalker/findings.md).
 - Compare your roasts to each other, not to published drop temperatures. Your roast pages show
   first crack and drop temperatures for this purpose.
 - Keep batch size constant when comparing temperatures (350 g vs 400 g will read differently) [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md).
