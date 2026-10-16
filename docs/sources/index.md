@@ -2,7 +2,7 @@
 
 Every source collected by the Gatherer. Grades: **A** experiment/paper · **B** practitioner with data · **C** practitioner opinion · **D** marketing/unverified.
 
-*22 sources.*
+*28 sources.*
 
 | ID | Title | Type | Grade | Heat context | Status |
 |---|---|---|---|---|---|
@@ -28,3 +28,9 @@ Every source collected by the Gatherer. Grades: **A** experiment/paper · **B** 
 | S0020 | [Bean Temperature at First Crack (Home-Barista thread)](S0020-home-barista-bean-temperature-at-first-crack.md) | forum | C | multiple | integrated |
 | S0021 | [Development time of light roasts (Home-Barista thread)](S0021-home-barista-development-time-light-roasts.md) | forum | C | multiple | integrated |
 | S0022 | [Nordic Roasters Forum, roasting presentation and roasting exercise (Home-Barista thread)](S0022-home-barista-nordic-roasters-forum-exercise.md) | forum | C | multiple | integrated |
+| S0023 | [Transition from vegetal flavor during first crack (Home-Barista)](S0023-home-barista-vegetal-flavor-first-crack.md) | forum | C | multiple | new |
+| S0024 | [First crack temperature changed, now what? (Home-Barista)](S0024-home-barista-first-crack-temperature-changed.md) | forum | C | multiple | new |
+| S0025 | [Rob Hoos: How Cultivars & Airflow Change Your Coffee Roasting (Interview)](S0025-roast-rebels-hoos-cultivars-airflow-interview.md) | video | C | multiple | new |
+| S0026 | [Buyers Remorse - Kaleido M10 Astringent Roasts (Home-Barista)](S0026-home-barista-kaleido-m10-astringent-roasts.md) | forum | C | IR | new |
+| S0027 | [Skywalker Roasters (CoffeeSnobs thread)](S0027-coffeesnobs-skywalker-roasters-thread.md) | forum | C | IR | new |
+| S0028 | [Roasting phase ratios (Home-Barista)](S0028-home-barista-roasting-phase-ratios.md) | forum | C | gas-drum | new |
