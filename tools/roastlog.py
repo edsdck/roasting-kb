@@ -237,8 +237,10 @@ def svg(m):
         g.append(line(2, Y, "#e76f51"))
     g.append(line(1, Y, "#4a7fb5", 2.5))
     g.append(line(3, YR, "#2a9d8f", 1.5))
-    g.append(f'<text x="{L+8}" y="{H-B-8}" fill="#4a7fb5">BT</text><text x="{L+32}" y="{H-B-8}" fill="#e76f51">ET</text>'
-             f'<text x="{L+56}" y="{H-B-8}" fill="#2a9d8f">RoR (°{m["unit"]}/min, right axis)</text>')
+    has_et = any(p[2] is not None for p in pts)
+    g.append(f'<text x="{L+8}" y="{H-B-8}" fill="#4a7fb5">BT</text>'
+             + (f'<text x="{L+32}" y="{H-B-8}" fill="#e76f51">ET</text>' if has_et else '')
+             + f'<text x="{L+(56 if has_et else 32)}" y="{H-B-8}" fill="#2a9d8f">RoR (°{m["unit"]}/min, right axis)</text>')
     g.append("</svg>")
     return "".join(g)
 
