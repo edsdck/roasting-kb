@@ -10,3 +10,9 @@ Source for the wiki. Maintained by two agents (see `GATHERER.md`, `BUILDER.md`).
 - `runs/` — Gatherer run logs
 
 Local preview: `pip install -r requirements.txt && mkdocs serve`
+
+## Publishing
+Pushing `main` triggers `.github/workflows/deploy.yml`, which builds the site with MkDocs in GitHub
+Actions and deploys it to GitHub Pages. The Builder pushes with `tools/push.sh`, using a
+fine-grained token in `.github-token` (gitignored, never committed) limited to this repo with
+**Contents: read & write** and **Workflows: read & write**.
