@@ -167,7 +167,7 @@ def analyse(path):
     m = {
         "stem": stem,
         "date": d.get("roastisodate") or d.get("roastdate") or "",
-        "title": (d.get("title") if d.get("title") not in (None, "", "Roaster Scope") else (d.get("beans") or stem)).strip(),
+        "title": (d.get("title") if d.get("title") not in (None, "", "Roaster Scope") else (d.get("beans") or f"Unlabelled ({stem})")).strip(),
         "roaster": d.get("roastertype") or "",
         "beans": (d.get("beans") or "").strip(),
         "unit": unit,
@@ -248,7 +248,7 @@ def page(m):
     m = {k: ("—" if v is None or v == "" else v) for k, v in m.items()}
     rows = [
         ("Beans", m["beans"] or "—"),
-        ("Batch in / out", f"{m['weight_in'] or '—'} g / {m['weight_out'] or '—'} g · loss {m['weight_loss_pct'] or '—'} %"),
+        ("Batch in / out", f"{m['weight_in']} g / {m['weight_out']} g · loss {m['weight_loss_pct']} %"),
         ("Charge", f"BT {m['charge_bt']}{u}" + (f" · ET {m['charge_et']}{u}" if m['charge_et'] != "—" else "")),
         ("Turning point", f"{m['tp_time']} @ {m['tp_bt']}{u}"),
         ("Dry end", f"{m['dry_time'] or '—'} @ {m['dry_bt'] or '—'}{u}"),
@@ -259,7 +259,7 @@ def page(m):
         ("Color (whole / ground)", f"{m['whole_color'] or '—'} / {m['ground_color'] or '—'}"),
     ]
     out = [f"# {m['date']} — {m['title']}", "", "*Generated from the Artisan file by `tools/roastlog.py` — don't edit; "
-           "edit the cupping notes file instead.*", "", "| | |", "|---|---|"]
+           "edit the cupping notes file instead.*", "", "| Metric | Value |", "|---|---|"]
     out += [f"| {k} | {v} |" for k, v in rows]
     out += ["", svg(m), "", "RoR computed over a 30 s window from raw BT (may differ from Artisan's smoothed RoR).", ""]
     if m["events"]:
@@ -293,12 +293,14 @@ def main():
             json.dump(m, f, indent=1, ensure_ascii=False)
         with open(os.path.join(PAGES, m["stem"] + ".md"), "w", encoding="utf-8") as f:
             f.write(page(m))
-    lines = ["# Roast log", "", f"*{len(ms)} roasts, generated from Artisan files.*", "",
-             "| Date | Roast | Beans | In g | Loss % | FC | Drop | Dev | DTR % | Drop BT | Cupped |",
-             "|---|---|---|---|---|---|---|---|---|---|---|"]
+    lines = ["# Roast log", "", f"*{len(ms)} roasts, newest first, generated from Artisan files. "
+             "Click a date for the curve, phases, heater/fan changes and cupping notes.*", "",
+             "| Date | Coffee | g | Loss % | FC | Dev | DTR % | Drop °C | Cupped |",
+             "|---|---|---|---|---|---|---|---|---|"]
     for m in reversed(ms):
-        lines.append(f"| {m['date']} | [{m['title']}](roasts/{m['stem']}.md) | {m['beans'][:40]} | {m['weight_in'] or ''} | "
-                     f"{m['weight_loss_pct'] or ''} | {m['fcs_time']} | {m['drop_time']} | {m['dev_time']} | "
+        g = f"{m['weight_in']:g}" if m['weight_in'] else ""
+        lines.append(f"| [{m['date']}](roasts/{m['stem']}.md) | {m['title'][:40]} | {g} | "
+                     f"{m['weight_loss_pct'] or ''} | {m['fcs_time']} | {m['dev_time']} | "
                      f"{m['dtr_pct'] or ''} | {m['drop_bt'] or ''} | {'✓' if m['cupping_notes'] else ''} |")
     with open(os.path.join(ROOT, "docs", "skywalker", "roast-log.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")

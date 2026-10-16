@@ -2,7 +2,7 @@
 
 *Generated from the Artisan file by `tools/roastlog.py` — don't edit; edit the cupping notes file instead.*
 
-| | |
+| Metric | Value |
 |---|---|
 | Beans | Ethiopia Guji Washed (Kurume/GR1) |
 | Batch in / out | 350.0 g / 302.0 g · loss 13.7 % |

@@ -1,8 +1,8 @@
-# 2026-02-08 — id9
+# 2026-02-08 — Unlabelled (id9)
 
 *Generated from the Artisan file by `tools/roastlog.py` — don't edit; edit the cupping notes file instead.*
 
-| | |
+| Metric | Value |
 |---|---|
 | Beans | — |
 | Batch in / out | 350.0 g / 304.0 g · loss 13.1 % |
