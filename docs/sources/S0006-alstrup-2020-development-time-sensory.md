@@ -14,7 +14,7 @@ machine: "Probat Probatino 1 kg drum roaster (burner), logged with Cropster"
 topics: [development, cupping-and-evaluation, roast-chemistry, defects]
 novelty: novel
 corroborates: []
-status: new
+kb_status: integrated
 ---
 
 # S0006 — Development time modulations: sensory and chemical effects (Alstrup et al., 2020)

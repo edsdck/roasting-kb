@@ -14,7 +14,7 @@ machine: "Probat P5 natural-gas drum, 4 kg batches (80 % capacity), preheat 210 
 topics: [roast-chemistry, roast-phases, development, rate-of-rise]
 novelty: novel
 corroborates: []
-status: new
+kb_status: integrated
 ---
 
 # S0007 — Roast profiles and titratable acidity dynamics (Anokye-Bempah et al., 2024)

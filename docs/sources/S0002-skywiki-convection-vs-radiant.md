@@ -14,7 +14,7 @@ machine: "Skywalker (general)"
 topics: [heat-transfer, rate-of-rise, defects]
 novelty: novel
 corroborates: []
-status: new
+kb_status: integrated
 ---
 
 # S0002 — Convection vs Radiant (Skywiki / Renatoa)

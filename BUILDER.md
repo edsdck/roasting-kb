@@ -14,7 +14,7 @@ batches, controlled/logged in **Artisan**, ~40 roasts (Oct 2026). Writes cupping
 The wiki's practical value is judged by: *does this help him roast better on his machine?*
 
 ## Inputs
-- `docs/sources/S*.md` with `status: new` → `python3 tools/registry.py list --status new`
+- `docs/sources/S*.md` with `kb_status: new` → `python3 tools/registry.py list --status new`
 - New Artisan logs in `roasts/` (`*.alog`, with optional cupping notes `<same-name>.md` or
   `.txt`, or in Artisan's cupping-notes field)
 
@@ -50,7 +50,8 @@ Then set the source to integrated: `python3 tools/registry.py set-status S#### i
 
 ### Step 2 — Writing rules for KB pages
 - Practical and concise. For each topic: *what it is → why it happens (mechanism) → what to do*.
-- Every factual bullet ends with citations: `[S0003](../sources/S0003-slug.md)`.
+- Every factual bullet ends with citations. Write them bare as `[S0003]`; then run
+  `python3 tools/link_sources.py`, which turns them into links to the source files.
 - Confidence tag on each key statement: **high** (≥2 independent A/B sources agree, no credible
   conflict) · **medium** (one A/B, or several C agreeing) · **low** (single C/D) · **contested**.
   Write it as `` `conf: high` ``.
@@ -94,7 +95,7 @@ Sources integrated: S0001–S0006 · Roasts parsed: 2 new
 ```
 
 ### Step 6 — Verify and commit
-1. `python3 tools/registry.py build-index`
+1. `python3 tools/registry.py build-index` and `python3 tools/link_sources.py`
 2. Check links/build: `mkdocs build --strict -q` if mkdocs is installed (pip install
    mkdocs-material); otherwise `python3 tools/check_links.py`. Fix all errors.
 3. Re-read every page you changed once, as the owner would.

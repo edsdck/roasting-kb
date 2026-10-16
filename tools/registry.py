@@ -132,7 +132,7 @@ def cmd_set_status(a):
     for r in hit:
         r["status"] = a.status
         if r["file"] and os.path.exists(os.path.join(ROOT, r["file"])):
-            set_frontmatter(os.path.join(ROOT, r["file"]), "status", a.status)
+            set_frontmatter(os.path.join(ROOT, r["file"]), "kb_status", a.status)
     save(rows)
     print(f"{a.id} -> {a.status}")
 
@@ -179,7 +179,7 @@ def cmd_build_index(a):
         name = os.path.basename(p)
         title = (fm.get("title") or name).replace("|", "\\|")
         lines.append(f"| {fm.get('id','')} | [{title}]({name}) | {fm.get('type','')} | {fm.get('grade','')} | "
-                     f"{fm.get('heat','')} | {fm.get('status','')} |")
+                     f"{fm.get('heat','')} | {fm.get('kb_status','')} |")
     with open(os.path.join(SRC, "index.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
     print(f"index: {len(files)} sources")

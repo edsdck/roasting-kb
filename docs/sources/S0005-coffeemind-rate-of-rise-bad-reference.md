@@ -14,7 +14,7 @@ machine: "General commercial (flame/hot-air) drum roasters"
 topics: [rate-of-rise, roast-planning, cupping-and-evaluation, defects, measurement-and-artisan]
 novelty: novel
 corroborates: []
-status: new
+kb_status: integrated
 ---
 
 # S0005 — Why Rate of Rise is a bad reference point (CoffeeMind podcast ep. 17)

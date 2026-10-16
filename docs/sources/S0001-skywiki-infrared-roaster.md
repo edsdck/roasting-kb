@@ -14,7 +14,7 @@ machine: "Skywalker (version not stated), built-in program P11"
 topics: [heat-transfer, measurement-and-artisan, roast-planning, airflow]
 novelty: novel
 corroborates: []
-status: new
+kb_status: integrated
 ---
 
 # S0001 — Infrared Roaster (Skywiki)

@@ -1,7 +1,19 @@
 # Knowledge base
 
-Topic pages are created and updated by the Builder as sources come in.
+Topic pages, maintained by the Builder. Each statement cites its sources and carries a confidence tag
+(see [Home](../index.md#how-to-read-it)).
 
 | Page | Covers |
 |---|---|
-| *(no pages yet)* | |
+| [Heat transfer](heat-transfer.md) | Radiation vs convection, why the Skywalker behaves differently, lag |
+| [Rate of rise](rate-of-rise.md) | What RoR is and isn't, crash and flick, the declining-RoR debate |
+| [Development](development.md) | First crack → drop, development time, acidity |
+| [Defects](defects.md) | Baked (two definitions); others pending |
+| [Measurement & Artisan](measurement-and-artisan.md) | What the probe reads, Skywalker temperatures, Artisan settings |
+| [Roast planning & experimenting](roast-planning.md) | Plan–execute–learn, one variable at a time, equal colour |
+| [Airflow](airflow.md) | Fan and room airflow on the Skywalker |
+| [Myths & contested](myths-and-contested.md) | Where sources disagree |
+| [Glossary](glossary.md) | Terms |
+
+*Not yet covered:* green coffee, charge & batch, roast phases (drying/Maillard), cupping at home,
+resting & storage, other defects.

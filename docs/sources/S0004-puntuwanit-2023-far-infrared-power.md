@@ -14,7 +14,7 @@ machine: "Horizontal roaster with far-infrared (FIR) heaters, 1 kg batches"
 topics: [heat-transfer, roast-phases]
 novelty: novel
 corroborates: []
-status: new
+kb_status: integrated
 ---
 
 # S0004 — Optimization of Far Infrared Radiation Power for Roasting Coffee (2023)

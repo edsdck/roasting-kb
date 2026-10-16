@@ -14,7 +14,7 @@ machine: "Commercial drum roasters (Probat G60 example), Cropster"
 topics: [rate-of-rise, defects, measurement-and-artisan, development]
 novelty: novel
 corroborates: []
-status: new
+kb_status: integrated
 ---
 
 # S0008 — What is Baked Coffee? (Scott Rao, 2018)

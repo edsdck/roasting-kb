@@ -14,7 +14,7 @@ machine: "Skywalker"
 topics: [heat-transfer, measurement-and-artisan, airflow, charge-and-batch]
 novelty: mixed
 corroborates: [S0001]
-status: new
+kb_status: integrated
 ---
 
 # S0003 — Renatoa Words of Wisdom (Skywiki)

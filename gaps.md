@@ -1,22 +1,23 @@
 # Gaps — what the Gatherer should look for next
 
-*Maintained by the Builder. Most important first. Initial seed list (2026-10-16), KB is empty.*
+*Maintained by the Builder. Most important first. Updated 2026-10-16 (Build 1).*
 
-1. **IR heat transfer in roasting** — how radiant heating differs from conduction/convection
-   (bean surface vs core, scorching/tipping risk, response lag). Angles: Kaleido / far-infrared
-   roaster communities, heat-transfer papers, "infrared coffee roaster profile".
-2. **Skywalker V1 specifically** — real-world profiles, Artisan setup, probe placement and what
-   the reported temperature actually measures, known quirks, batch-size limits. Angles: forums,
-   r/roasting, YouTube, AliExpress community reviews, Artisan GitHub discussions.
-3. **Roast phases & development** — drying / Maillard / development, development time ratio,
-   end temperature vs time. Angles: Rao, Hoos, Barista Hustle, Coffee ad Astra.
-4. **Rate of rise** — declining RoR, flick and crash: what they are, causes, whether they matter
-   (contested area — get both sides with data).
-5. **Defects** — baked, underdeveloped, scorched, tipped, flat: how to taste and how to fix.
-6. **Charge temperature & batch size** on small electric roasters; preheat and between-batch
-   protocol.
-7. **Green coffee** — density, moisture, processing method, and how each changes the profile.
-8. **Cupping & evaluation at home** — simple protocol, roast color, weight loss as a development
-   proxy.
-9. **Resting / degassing** — how long after roasting for filter vs espresso.
-10. **Measurement** — thermocouple types, probe lag, Artisan RoR smoothing settings.
+1. **Skywalker V1 practicals** — Artisan setup (device/port, probe, delta span & smoothing),
+   real roast profiles with cupping notes, recommended preheat/charge for 350–400 g. Angles:
+   Skywiki remaining pages, nirecue YouTube "First Roast Walkthrough" and "Artisan Setup Guide"
+   (transcripts), Skywalker Discord summaries, r/roasting, Home Roaster Forum (Renatoa).
+2. **Flat vs declining RoR on IR roasters** — any IR (Skywalker, Kaleido) logs paired with taste;
+   anything beyond reasoning ([contested](docs/kb/myths-and-contested.md)).
+3. **Charge temperature & batch size** on small electric/IR roasters; preheat and between-batch protocol.
+4. **Roast phases** — drying and Maillard: what changes flavour, typical time splits; Rao, Hoos,
+   Barista Hustle, Coffee ad Astra.
+5. **Other defects** — underdeveloped, scorched, tipped: taste, causes, fixes (risk of scorching/
+   tipping under radiant heat specifically).
+6. **Green coffee** — density, moisture, processing and how they change the profile.
+7. **Home cupping & roast degree** — simple protocol, weight loss vs colour, cheap colour measurement.
+8. **Resting / degassing** — filter vs espresso timelines.
+9. **Development time on other coffees/degrees** — to raise confidence beyond one study (S0006).
+10. **RoR crash controlled studies** — sensory data at equal colour/development (to test S0008 vs S0005).
+
+Leftovers from the last gather run (see `runs/2026-10-16-gather.md`): Home-Barista RoR thread,
+Cropster RoR post, DCN "Baked beans: water content", DCN/Roast "Flavor development: time and colour".

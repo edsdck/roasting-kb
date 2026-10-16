@@ -14,7 +14,7 @@ machine: ""              # e.g. "Probat L12, 6 kg batches"; "" if n/a
 topics: []               # use KB page names: development, rate-of-rise, ...
 novelty: novel           # novel | corroborating | mixed
 corroborates: []         # source ids this repeats
-status: new              # new | integrated | superseded
+kb_status: new           # new | integrated | superseded
 ---
 
 # S0000 — Title
