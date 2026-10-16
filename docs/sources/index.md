@@ -2,7 +2,7 @@
 
 Every source collected by the Gatherer. Grades: **A** experiment/paper · **B** practitioner with data · **C** practitioner opinion · **D** marketing/unverified.
 
-*14 sources.*
+*19 sources.*
 
 | ID | Title | Type | Grade | Heat context | Status |
 |---|---|---|---|---|---|
@@ -20,3 +20,8 @@ Every source collected by the Gatherer. Grades: **A** experiment/paper · **B** 
 | S0012 | [Roasting Conditions and Coffee Flavor: A Multi-Study Empirical Investigation](S0012-munchow-2020-roasting-conditions-multi-study.md) | paper | A | multiple | integrated |
 | S0013 | [Balancing Efficiency and Quality: Identifying the Optimal Batch Size for Your Roast](S0013-melheim-2023-optimal-batch-size.md) | article | C | multiple | integrated |
 | S0014 | [Beyond Elevation: How Bean Density Informs Roasting and Flavor](S0014-lee-2025-bean-density-roasting.md) | article | C | gas-drum | integrated |
+| S0015 | [Skywalker Roasts (Home Roasters forum thread)](S0015-homeroasters-skywalker-roasts-thread.md) | forum | B | IR | new |
+| S0016 | [Skywalker, the ALM chinese one pound roaster (Home Roasters forum main thread)](S0016-homeroasters-skywalker-main-thread.md) | forum | C | IR | new |
+| S0017 | [Skywalker roaster mods (Home Roasters forum thread) — roasting-relevant posts](S0017-homeroasters-skywalker-mods-thread.md) | forum | B | IR | new |
+| S0018 | [Roast Development Time and the Prerequisite for Any Successful Roast](S0018-rao-2014-development-time-ratio.md) | article | C | multiple | new |
+| S0019 | [First Crack FAQ: What is First Crack? What is Second Crack?](S0019-sweet-marias-first-crack-faq.md) | article | C | multiple | new |
