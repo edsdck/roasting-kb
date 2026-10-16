@@ -103,7 +103,7 @@ Sources integrated: S0001–S0006 · Roasts parsed: 2 new
    permitted", file deletion isn't allowed in this folder yet: request delete permission for the
    folder (git must remove its own lock files), then remove the leftover `.git/*.lock` files you
    caused and retry. Then run `bash tools/push.sh`: it pushes with the repo-scoped token in
-   `.github-token`, and GitHub Actions then builds and publishes the site (never build or commit
+   `local.settings.json`, and GitHub Actions then builds and publishes the site (never build or commit
    `site/` yourself). If it reports NO TOKEN / NO REMOTE / PUSH FAILED, tell the owner — don't try
    other ways to push.
 5. Report to the owner in a few lines: biggest additions/corrections, anything contested, top

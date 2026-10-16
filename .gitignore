@@ -3,4 +3,4 @@ roasts/*.json
 site/
 __pycache__/
 .DS_Store
-.github-token
+local.settings.json
