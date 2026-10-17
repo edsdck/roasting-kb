@@ -2,7 +2,7 @@
 
 Every source collected by the Gatherer. Grades: **A** experiment/paper · **B** practitioner with data · **C** practitioner opinion · **D** marketing/unverified.
 
-*35 sources.*
+*42 sources.*
 
 | ID | Title | Type | Grade | Heat context | Status |
 |---|---|---|---|---|---|
@@ -41,3 +41,10 @@ Every source collected by the Gatherer. Grades: **A** experiment/paper · **B** 
 | S0033 | [Modeling and simulation of coffee bean heating during roasting: effect of heat generation](S0033-bustos-vanegas-2025-bean-heating-model-heat-generation.md) | paper | A | gas-drum | new |
 | S0034 | [Stretchin' Out the Roast pt. 2 (Sweet Maria's Coffee Library)](S0034-sweet-marias-stretchin-out-the-roast-pt2.md) | article | B | electric-drum | new |
 | S0035 | [Stretchin' Out the Roast pt. 3 (Sweet Maria's Coffee Library)](S0035-sweet-marias-stretchin-out-the-roast-pt3.md) | article | B | electric-drum | new |
+| S0036 | [Hacea Roast Approach Experience with three Ethiopian coffees (Home-Barista thread)](S0036-home-barista-hacea-roast-approach-tasting-kit.md) | forum | B | multiple | new |
+| S0037 | [Multi-sensory evaluation of Gayo Arabica coffee with various roasting times during the development phase](S0037-fadhil-2025-gayo-arabica-development-phase-roasting-time.md) | paper | A | gas-drum | new |
+| S0038 | [Hacea Coffee's Roast Philosophy (Home-Barista thread)](S0038-home-barista-hacea-coffees-roast-philosophy.md) | forum | C | multiple | new |
+| S0039 | [Roast Approach: Roast Phases For Profile Development (Hacea Coffee Source)](S0039-hacea-roast-phases-for-profile-development.md) | article | C | gas-drum | new |
+| S0040 | [Roast Approach: Rwanda Nyamasheke Muhororo Natural (Hacea Coffee Source)](S0040-hacea-roast-approach-rwanda-muhororo-natural.md) | article | B | gas-drum | new |
+| S0041 | [Roast Approach: Swiss Water Process Rwanda Muhororo Natural (Hacea Coffee Source)](S0041-hacea-roast-approach-swiss-water-rwanda-muhororo.md) | article | B | gas-drum | new |
+| S0042 | [Time-Resolved Gravimetric Method To Assess Degassing of Roasted Coffee](S0042-smrke-2018-time-resolved-gravimetric-degassing.md) | paper | A | gas-drum | new |
