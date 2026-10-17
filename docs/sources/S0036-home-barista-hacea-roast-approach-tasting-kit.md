@@ -14,7 +14,7 @@ machine: "Hacea samples: Proaster 1.5 kg drum (gas, per the Hacea posts; batch s
 topics: [development, roast-phases, roast-planning, measurement-and-artisan]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0036 — Hacea Roast Approach tasting kit (Home-Barista thread)

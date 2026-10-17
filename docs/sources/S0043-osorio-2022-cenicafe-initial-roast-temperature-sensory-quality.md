@@ -14,7 +14,7 @@ machine: "Not named. Five 5 kg work units per lot, loaded at five different init
 topics: [charge-and-batch, temperature-adjustment, roast-planning, roast-phases]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0043 — Efecto de las temperaturas y tiempos de tueste en la calidad sensorial del café (Cenicafé, 2022)

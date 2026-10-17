@@ -38,6 +38,7 @@ tipping and scorching [S0013](../sources/S0013-melheim-2023-optimal-batch-size.m
   heating makes easy [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md); large power swings [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md); a plateau before first crack followed by a
   crash [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md); a short browning phase (more astringent and vegetal with a shorter one on an
   IKAWA) [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md). `conf: low` `ctx: drum / IR + hot air / fluid bed`; no controlled test.
+- **Astringency from a dense or decaf seed (gas drum).** A Swiss Water decaf (density 1.20 g/ml) was astringent and sweet-less on every standard profile and at three charge temperatures; three roasts with a lower-heat "soak" plus longer-restricted airflow removed it, the least-soak one best. Three changes at once, so the cause is not isolated. `conf: low` `ctx: gas-drum, 400 g` [S0041](../sources/S0041-hacea-roast-approach-swiss-water-rwanda-muhororo.md) The Kaleido fix (a higher charge with lower power percentages) and this one (a gentler start plus less air) do not obviously point the same way — see [Myths & contested](myths-and-contested.md).
 - **Over-development** — too long after first crack: low/muted acidity, heaviness, lack of nuance.
   Different from *over-roasted* (end temperature too high). `conf: medium` [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md) [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md)
 - **"Roasty"** — vague; usually means the taster disliked it; most often from too high an end
@@ -49,6 +50,8 @@ tipping and scorching [S0013](../sources/S0013-melheim-2023-optimal-batch-size.m
 sweet; Rao adds that it loses sweetness and tartness as the cup cools (easy to blame on the green).
 `conf: medium` [S0008](../sources/S0008-rao-what-is-baked-coffee.md) [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md)
 
+**Definitions differ.** Matt Perger's, as forum members quote an article that is now gone: a lack of sweetness or dark-roast flavours in a coffee that is not dark; on his grid, dark and under-developed is "ashy, bitter", light and developed is bright and sweet. A stall has no taste of its own but usually leaves an under-developed, flat coffee; the usual mechanism quoted (Rao) is a stall letting sugar chains cross-link, which one member doubts applies before development. Second-hand, grade C. `conf: low` [S0044](../sources/S0044-home-barista-matt-perger-on-roast-development.md)
+
 **What causes it — contested.** Proposed causes [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md):
 
 1. A sharp RoR **crash** after first crack — Rao's main explanation; a crash in the last ~30 s does
@@ -59,6 +62,7 @@ sweet; Rao adds that it loses sweetness and tartness as the cup cools (easy to b
    390 s development at equal colour, measurably more bitter/roasted/astringent [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md)
 5. **Development out of proportion to total roast time** — Rao's 2014 view: changing development
    time without regard to total time "often create[s] baked flavors and destroy[s] sweetness" [S0018](../sources/S0018-rao-2014-development-time-ratio.md)
+6. A **first crack that stalls or stops** — one of five Rwanda roasts stalled in crack and tasted baked; the author's rule is never to let first crack stop or fall below where it began `ctx: electric drum, sample roaster` [S0034](../sources/S0034-sweet-marias-stretchin-out-the-roast-pt2.md)
 
 Against the flat-RoR explanations: on a Skywalker, ~30 s of flat (zero) RoR during a ~45 s
 development produced no cardboard/baked taste in one owner's cup [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md) — one anecdote.

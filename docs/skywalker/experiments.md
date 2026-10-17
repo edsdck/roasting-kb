@@ -2,7 +2,7 @@
 
 *Suggested by the Builder. One variable at a time; keep batch size (350 g), fan and room airflow
 fixed; cup blind; compare at equal roast degree (weight loss within ±0.5 % if no colour meter —
-**Inference**). Updated 2026-10-16 (Build 5).*
+**Inference**). Updated 2026-10-17 (Build 6).*
 
 ## 0. Setup first — Artisan RoR settings
 Set sampling to 1 s and delta span ≈ 15 s, minimal extra smoothing [S0008](../sources/S0008-rao-what-is-baked-coffee.md). If the RoR line becomes
@@ -13,6 +13,7 @@ unreadably noisy on the Skywalker, lengthen the span and note the value you sett
   above moisture [S0025](../sources/S0025-roast-rebels-hoos-cultivars-airflow-interview.md) and wetter coffee needs more mid-roast energy [S0025](../sources/S0025-roast-rebels-hoos-cultivars-airflow-interview.md).
 - **Drop relative to first crack:** note drop BT minus first-crack BT with each roast (your data
   show median +8.3 °C) [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md) [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md).
+- **Rest days and probe depth:** write down how many days the beans rested before tasting, and how far the probe tip sits into the pile (one Quest owner's first-crack reading rose ~11 °C when he pushed the probe in) [S0045](../sources/S0045-home-barista-quest-m6-first-crack-temperature-probe-depth.md) [S0036](../sources/S0036-home-barista-hacea-roast-approach-tasting-kit.md).
 - **Green density:** weigh a fixed volume of green coffee (e.g. 100 ml in a measuring cylinder) → g/L.
   Density changes how a coffee takes heat [S0014](../sources/S0014-lee-2025-bean-density-roasting.md).
 
@@ -26,7 +27,7 @@ identical from roast to roast — it's part of the profile.
 **Why:** power changes act late on this machine [S0001](../sources/S0001-skywiki-infrared-roaster.md); you need to know how late to plan changes.
 **How:** in a normal roast, make one clean power step (e.g. −10 %) mid-Maillard. Note the time until
 the RoR visibly changes direction. Repeat once.
-**Outcome:** a number ("my lag ≈ X s") to plan all future changes earlier by.
+**Outcome:** a number ("my lag ≈ X s") to plan all future changes earlier by. For scale: drum roasters quote 30 s or more from a heat change to the beans [S0046](../sources/S0046-home-barista-why-ror-is-a-bad-reference-webinar.md).
 
 ## 2. Development time at equal degree — **do this next**
 *Your roasts have settled at ~1:00 development (DTR ~9 %), shorter than anything in the research,
@@ -39,6 +40,7 @@ Practitioners disagree on how short is too short: Rao (one practitioner's opinio
 path to first crack; development ≈ **1:00 / 1:45 / 2:30**. On your machine development time drives
 weight loss (r = 0.72), so expect loss to rise with it; if you want equal degree, lower the heater
 during development for the longer ones rather than dropping earlier. Rest equally, cup blind.
+**Rest:** let every sample rest the same time — **at least a week, two if you can wait** — and taste each at day 7, 14 and 28 if you can. Forum advice for light roasts runs from a week to 4–6 weeks [S0036](../sources/S0036-home-barista-hacea-roast-approach-tasting-kit.md), and id39 was cupped at 5 days; if the cup changes more with rest than between roasts, rest is the bigger lever (see [Resting & degassing](../kb/resting-and-storage.md)).
 **Variant (2b) — by temperature, not seconds:** your id39 (+6.2 °C above first crack, 0:41) and
 id40 (+12.0 °C, 1:12) are the same coffee, so cup them blind side by side first (rest equally, ≥ 5 days).
 If id39 tastes raw/vegetal and id40 does not, repeat the pair at +6 / +9 / +12 °C. One roaster
@@ -79,7 +81,7 @@ time barely predicts the reading — see [findings](findings.md).*
 [S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md); others find it bean-dependent [S0019](../sources/S0019-sweet-marias-first-crack-faq.md) [S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md). Your data can't separate coffee from speed.
 **How:** roast the Honduras Honey and a washed coffee (e.g. the Ethiopian) back-to-back at 350 g with
 the same preheat and heater/fan plan, aiming for the **same first-crack time**. In Artisan, mark
-the *first pop* with a custom event and FCs at *regular pops* [S0019](../sources/S0019-sweet-marias-first-crack-faq.md). Note room temperature.
+the *first pop* with a custom event and FCs at *regular pops* [S0019](../sources/S0019-sweet-marias-first-crack-faq.md). Note room temperature, and re-seat the probe at the same depth each time (a Quest M6 read ~11 °C higher after the tip was pushed in from ~1 to ~1.75 in [S0045](../sources/S0045-home-barista-quest-m6-first-crack-temperature-probe-depth.md)).
 **Outcome:** gap persists at equal speed → it's the coffee (or how it cracks); gap shrinks → it was
 the slower profile. Either way you learn which number to trust for timing development.
 
@@ -93,4 +95,6 @@ vegetal/astringent character on an IKAWA [S0026](../sources/S0026-home-barista-k
 ~10–15 °C hotter with the same or slightly lower start power, then reduce power in small steps
 from about minute 4 (as in experiment 3), no big cut at first crack. Keep first-crack time and
 development time within a few seconds of each other. Cup blind.
+**Arm C (optional, "soak"):** same charge as A, but start power and fan ~10 points lower until about minute 2, then bring power up so first crack still lands within seconds of A. It is borrowed from a gas-drum fix for a dense decaf that tasted astringent on standard profiles [S0041](../sources/S0041-hacea-roast-approach-swiss-water-rwanda-muhororo.md) — one coffee, three things changed at once — so treat it as a probe, not a recipe.
+**Read the result carefully:** a Colombian production test found charge temperature changed roast time but not the cup at medium colour [S0043](../sources/S0043-osorio-2022-cenicafe-initial-roast-temperature-sensory-quality.md). If A and B end with the same first-crack time and development, a cup difference points to the power plan and the steps, not to the charge number.
 **Taste for:** astringent/drying finish, "done" flavour, sweetness, vegetal/raw notes.

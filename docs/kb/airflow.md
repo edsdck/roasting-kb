@@ -9,6 +9,7 @@ title: Airflow
     - Airflow changes alter roast dynamics a lot; even a kitchen hood above the roaster is noticeable.
     - Fan is a **faster, finer** lever than the heater during development — but the factory profiles already run it at 80–90 % late, leaving little room. `conf: low`
     - Room temperature and drafts act mainly through the air drawn through the drum: in a cold room, lower the fan. `conf: low`
+    - On a gas drum a Rwandan natural and its decaf tasted green or astringent until airflow was **restricted for longer than usual** (normally 100 % just before first crack); on IR/hot-air machines others run maximum airflow. **Contested**, different heat sources. `conf: low`
 
 ## Concepts
 - In a radiant roaster the air is cooler than the beans and takes heat from them [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md); it is
@@ -56,6 +57,15 @@ title: Airflow
   — still **test it** on your machine and note how big a fan step it takes.
 - **Inference — test it:** if your room temperature changes with the seasons, re-check your fan
   setting rather than your heater first.
+
+## Contested
+
+**Restricted or high airflow?**
+
+- **Restrict it:** a natural Red Bourbon from Rwanda lost over 15 % on four standard profiles and tasted green, tart and sweet-less; restricting airflow all roast cut loss to 14.5 % (about 0.75 points less) at a similar end temperature and development time and gave a balanced, fruit-forward cup [S0040](../sources/S0040-hacea-roast-approach-rwanda-muhororo-natural.md). Its Swiss Water decaf was astringent on every standard profile; three roasts that combined a lower-heat "soak" with longer-restricted airflow removed the astringency [S0041](../sources/S0041-hacea-roast-approach-swiss-water-rwanda-muhororo.md). Grade B, `ctx: gas-drum, 400 g in a 1.5 kg drum`, one coffee each, airflow changed together with other things.
+- **Keep it high:** a Kaleido user runs maximum airflow throughout [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md); a V2 Skywalker owner raises the fan from 65 % to ~78 % through first crack and finds light roasts best with higher fan and drum speed [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md). Grade C.
+- **Possible reading (not stated by the sources):** the gas-drum writer's usual practice is full airflow just before first crack and the change was to restrict it for longer, so the 'restrict' and 'keep high' accounts may describe different stretches of the roast; the machines also remove heat with air to very different degrees.
+- **Inference — test it:** on the Skywalker the fan *removes* heat from the beans, so a lower fan setting also makes the roast faster. A fan-only test is confounded unless you compensate power or compare at equal timing.
 
 ## Open questions
 - Recommended fan curves from Skywalker owners at 350 g; how much a fan step changes RoR. The

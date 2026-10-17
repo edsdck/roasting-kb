@@ -14,7 +14,7 @@ machine: "Quest M6 (OP, 400 g batches, Phidgets RTD PT1000 probe, Artisan); Ques
 topics: [measurement-and-artisan, charge-and-batch, airflow, roast-phases]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0045 — Quest M6 - First crack temperature? RTD probes (Home-Barista thread)

@@ -14,7 +14,7 @@ machine: "Mixed: Quest (electric) in NoStream's numbers; gas drums elsewhere; ba
 topics: [rate-of-rise, defects, development, myths-and-contested]
 novelty: mixed
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0044 — Matt Perger on Roast Development (Home-Barista thread)

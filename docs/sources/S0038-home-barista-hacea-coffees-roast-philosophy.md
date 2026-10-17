@@ -14,7 +14,7 @@ machine: "Hacea: Proaster 1.5 kg drum; drgary: IKAWA Home (100 g charge) and a 1
 topics: [development, roast-phases, myths-and-contested, measurement-and-artisan]
 novelty: corroborating
 corroborates: [S0036]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0038 — Hacea Coffee's roast philosophy (Home-Barista thread)

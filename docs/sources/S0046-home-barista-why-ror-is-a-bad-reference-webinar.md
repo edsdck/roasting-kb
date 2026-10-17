@@ -14,7 +14,7 @@ machine: "Mixed: Hottop and Quest (electric), Cormorant, Bella Taiwan and Huky (
 topics: [rate-of-rise, heat-transfer, measurement-and-artisan, myths-and-contested, temperature-adjustment]
 novelty: mixed
 corroborates: [S0044]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0046 — Why RoR is a bad reference for ... [webinar] (Home-Barista thread)

@@ -14,7 +14,7 @@ machine: "'Super Roaster' horizontal batch roaster with LPG burner (5 kg capacit
 topics: [development, roast-phases, roast-planning]
 novelty: mixed
 corroborates: [S0006]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0037 — Gayo Arabica: development-phase length vs cup (Fadhil et al., 2025)

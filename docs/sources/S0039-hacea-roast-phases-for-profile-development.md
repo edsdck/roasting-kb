@@ -14,7 +14,7 @@ machine: "Proaster 1.5 kg drum (gas); mentions an Aillio Bullet read -25 °F low
 topics: [roast-phases, development, roast-planning, temperature-adjustment]
 novelty: corroborating
 corroborates: [S0038]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0039 — Roast phases for profile development (Hacea, 2026)

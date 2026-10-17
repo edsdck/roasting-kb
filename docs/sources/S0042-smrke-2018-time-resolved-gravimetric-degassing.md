@@ -14,7 +14,7 @@ machine: "Whole beans: Probat Probatino 1 kg batch (gas burner); ground coffee: 
 topics: [roast-planning, green-coffee, glossary]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0042 — Degassing of roasted coffee measured by weight (Smrke et al., 2018)

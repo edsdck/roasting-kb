@@ -14,7 +14,7 @@ machine: "Not stated for most posters; LBIespresso: Cormorant (500 g batches) an
 topics: [green-coffee, roast-planning, development]
 novelty: corroborating
 corroborates: [S0030]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0032 — Green coffee weight loss (Home-Barista thread)

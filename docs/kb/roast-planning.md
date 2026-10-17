@@ -29,6 +29,10 @@ title: Roast planning & experimenting
 - **Cup blind, then look at the curve.** [S0008](../sources/S0008-rao-what-is-baked-coffee.md)
 - **Practise without beans.** An experienced owner simulated whole roasts on an empty machine to
   learn how it responds to each command before risking coffee. [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md)
+- **Change one stage and hold the rest.** Sweet Maria's three-part test is a template: lengthen the drying stage, or the first crack itself, by 30–60 s while the other stages and the ~30 s finish after the end of crack stay fixed, then cup with two panels. `ctx: electric drum` [S0034](../sources/S0034-sweet-marias-stretchin-out-the-roast-pt2.md) [S0035](../sources/S0035-sweet-marias-stretchin-out-the-roast-pt3.md)
+- **Use a sample kit as a calibration.** Hacea's 9 × 30 g kit (three profiles × three coffees) let members compare their own roasts of the same profile against a reference; the lesson is to line up seconds per phase, not temperatures. `conf: low` [S0036](../sources/S0036-home-barista-hacea-roast-approach-tasting-kit.md)
+- **When a roast goes wrong, learn rather than rescue.** A ROEST owner's stalled batch ended light and under-developed (193.5 °C at 6:03); moving the inlet-temperature decline later gave a better coffee (195.8 °C at 6:01). Münchow's point as relayed: if the graphs show a roast is already off, it is too late to fix it meaningfully. `conf: low` `ctx: hot-air` [S0046](../sources/S0046-home-barista-why-ror-is-a-bad-reference-webinar.md)
+- **Rest all samples equally before cupping** — rest advice runs from a week to 4–6 weeks for very light roasts, so uneven rest can decide a comparison. See [Resting & degassing](resting-and-storage.md). `conf: low` [S0036](../sources/S0036-home-barista-hacea-roast-approach-tasting-kit.md)
 
 ## On the Skywalker (IR)
 - **Inference — test it:** weight loss % is a practical stand-in for colour if you don't have a
@@ -48,3 +52,4 @@ title: Roast planning & experimenting
 - **Weight-loss target.** Hoos aims for light roasts at ~1–2 % above green moisture [S0025](../sources/S0025-roast-rebels-hoos-cultivars-airflow-interview.md); get
   your coffees' moisture before using it. `conf: low`
 - See [experiments](../skywalker/experiments.md) for the current plan.
+- **Cup after a set rest.** Your one cupped roast (id39) was tasted after 5 days. Plan to taste an experiment's samples on the same day and at the same rest (a week or more for your light roasts is a safe start, per the forum range) — see [Resting & degassing](resting-and-storage.md).

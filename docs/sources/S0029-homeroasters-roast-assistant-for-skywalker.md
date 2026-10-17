@@ -14,7 +14,7 @@ machine: "Skywalker (version and batch size not stated); controlled from the ori
 topics: [rate-of-rise, roast-phases, development, measurement-and-artisan, heat-transfer]
 novelty: mixed
 corroborates: [S0016, S0017]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0029 — Roast Assistant for Skywalker (Home Roasters forum thread)

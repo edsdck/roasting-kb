@@ -14,7 +14,7 @@ machine: "No single machine; QC example mentions a 5 kg Diedrich and a 15 kg Lor
 topics: [green-coffee, roast-planning]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0030 — Understanding Roast Yield and Loss (Royal Coffee)

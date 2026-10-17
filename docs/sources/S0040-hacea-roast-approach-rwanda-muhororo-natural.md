@@ -14,7 +14,7 @@ machine: "Proaster 1.5 kg drum on natural gas, 400 g batches (about 35 % of capa
 topics: [development, green-coffee, airflow, defects, roast-planning]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0040 — Hacea Roast Approach: Rwanda Muhororo Natural (2026)

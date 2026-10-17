@@ -14,7 +14,7 @@ machine: "EddyQ: Quest M3s (electric; baseline 800 W, roughly 80–100 CFM by hi
 topics: [green-coffee, heat-transfer, airflow, roast-phases, measurement-and-artisan]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0031 — Add moisture during a roast? (Home-Barista thread)

@@ -10,6 +10,7 @@ title: Charge & batch size
     - Skywalker owners mostly roast **350–450 g**; your 350 g is in that range. [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md)
     - Small batches: make sure the probe stays buried in the beans — on the Skywalker, below ~250 g it may not be. `conf: medium`
     - **Don't use the Skywalker's factory preheat** (100 % heater, no air): preheat at roasting-level power (≤ 75–80 %) with ≥ 40–50 % air, and avoid the 100 % heat spike at charge. `conf: medium`
+    - **Charge temperature mostly moves time.** In a Colombian production test, charges from 170 to 230 °C changed roast time from about 11.5 to 8.4 min but left the cup score unchanged when every roast was stopped at the same medium colour. `conf: medium` for that test (grade A, 5 kg units, six varieties); whether it holds for light roasts or on a lamp roaster is unknown. **Contested** against the "too-cool charge → astringent" report.
 
 ## Concepts
 
@@ -40,6 +41,8 @@ title: Charge & batch size
 - **Charge too low → under-developed inside.** Compensating a low charge with lots of heat to reach
   first crack can leave the bean's inside behind (astringent cups); a higher charge fixed it for
   one drum roaster [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md). `conf: low` `ctx: drum`
+- **Charge temperature in a production test (Cenicafé).** Six Colombian improved varieties were each roasted in five 5 kg work units per lot at charge temperatures of 200 °C (base), 215, 230, 185 and 170 °C, always stopped at Agtron/SCA 55–65 (medium). Average roast time was 11.47 min at 170 °C and 8.39 min at 230 °C (about 3 s per degree of charge); by variety, from 8.03 min (Castillo El Tambo) to 11.90 min (Castillo Pueblo Bello). Five Q-Graders found cup scores depended on variety (Castillo El Tambo 83.00 best, Castillo General 81.96 lowest) and not on charge temperature. Not reported: first-crack time or temperature, weight loss, rest days, heat source or roaster. Charge temperatures are as reported (adj. ≈ 155–215 °C with the default −15.5 °C shift, rough because a charge reading is not a first-crack reading). `conf: medium` for medium roasts; no light-roast or development-time data [S0043](../sources/S0043-osorio-2022-cenicafe-initial-roast-temperature-sensory-quality.md)
+- **Preheat/charge numbers from other machines are not portable:** Quest owners charge at about 380 °F (193 °C) for a 4.5-min yellow on 400 g in an M6, or at 482–485 °F (250–252 °C) with yellow at ~4 min and a ~9.5-min roast; the fan goes to maximum after BT 150 °C and the heater to about half once first crack is under way (reported; adj. ≈ 178 / 235 °C for the two charges) `conf: low` `ctx: electric drum, Quest M6` [S0045](../sources/S0045-home-barista-quest-m6-first-crack-temperature-probe-depth.md)
 
 ## On the Skywalker (IR)
 - Rated 400–500 g (sources differ) [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md); users prefer 350–450 g [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md). 350 g = 70–88 % of
@@ -72,3 +75,13 @@ title: Charge & batch size
   temperature; a 125 V owner overshot badly using a 230 V recipe. `conf: low` [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md)
 - **Cooling big batches:** above ~430 g the stock tray struggles (beans still hot after 3 min); an
   external cooler did 430 g in under a minute. [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md)
+
+- **Your charge (P):** median 181 °C (range 108–205 °C, n=41). Among the 37 roasts charged at 170 °C or above (median 185 °C) a higher charge goes with a shorter roast: total time r = −0.58 (about −4.3 s per °C), time to first crack r = −0.67 (about −5.4 s per °C). That is the same order as the production test's ~3 s per °C [S0043](../sources/S0043-osorio-2022-cenicafe-initial-roast-temperature-sensory-quality.md). Only four roasts charged lower (id5 108 °C, id28 141.5, id29 152.9, id30 166.4); their first crack came between 7:12 and 12:21, so there is no clean low-charge test. Across all 41, r = −0.48. **Inference — test it:** treat charge temperature as a time lever, and if you want to know whether a lower charge changes the cup, hold final weight loss equal and cup both.
+
+## Contested
+
+**Does a charge that is too cool hurt the cup?**
+
+- **Yes:** on a drum roaster, compensating a low charge with plenty of heat to reach first crack left the inside behind and the cup astringent; a higher charge fixed it [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md). Grade C, `ctx: drum`.
+- **No (within a medium-roast target):** 170 °C charges took ~3 min longer than 230 °C ones and scored the same [S0043](../sources/S0043-osorio-2022-cenicafe-initial-roast-temperature-sensory-quality.md). Grade A, 5 kg units, medium roasts only.
+- **Not strictly in conflict:** the astringent case combined a low charge with a hard push; the production test only slowed the roast. **Inference — test it:** the damage may come from how much heat is applied while the beans are still wet, not from the charge number itself. Neither source covers a 350 g lamp roast aimed at light colour.

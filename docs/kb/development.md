@@ -12,6 +12,7 @@ title: Development
     - **How long is normal?** Rao's 20–25 % DTR guideline (one practitioner's opinion, not a rule) vs experienced light roasters at ~13–16 % (1:20–1:30) and Nordic roasters at ~45 s. **Contested.**
     - The same development time does more after a fast roast or a high RoR at first crack — compare DTR only between similar profiles. `conf: medium`
     - **End by seconds or by temperature?** Roasters split: fixed seconds after first crack, absolute drop temperature, or both. One roaster reports a vegetal note that vanishes about 5.6 °C above first-crack start whatever the time. `conf: low` **Contested.**
+    - **Two more development experiments, both short = better but both confounded.** A gas-drum Gayo (development 2:50 / 3:50 / 4:50) scored 85 / 82 / 81, but the shortest was also the lightest (Agtron 55 vs 45 vs 35). On a Probat sample roaster, panels preferred *longer* first-crack stretches (2:00–2:28) for body and sweetness; the shortest crack had the brightest acidity. `conf: low`
 
 ## Concepts
 
@@ -59,6 +60,9 @@ title: Development
   (≈ +6–7 °C). Almico, after a fast dry end (≤ 4 min) on dense beans, dropped ~5.6 °C above first
   crack about a minute after it and found no vegetal or underdeveloped notes, but thin body.
   `conf: low` (forum accounts, each on their own thermometry) [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md)
+- **A third study: washed Gayo, 2 kg gas drum.** Drying and Maillard were fixed at 4:00 each and development set to 2:50 / 3:50 / 4:50 (total 10:50 / 11:50 / 12:50; DTR 26 / 32 / 38 %, calculated). Two Q Graders scored 85 / 82 / 81 and nine panellists ranked the shortest first (TOPSIS 0.909) but the longest (0.427) above the middle one (0.260). Colour was not held constant: Agtron 55 / 45 / 35, drop 213.6 / 221.6 / 219.2 °C reported (adj. ≈ 201 / 213 / 211 °C, using each roast's end-of-Maillard reading as first crack). One roast per treatment, no weight loss reported. The direction matches the equal-colour study, but time and colour are mixed. `conf: low` `ctx: gas-drum, 2 kg, one coffee` [S0037](../sources/S0037-fadhil-2025-gayo-arabica-development-phase-roasting-time.md)
+- **Stretching first crack itself.** One Rwanda Bourbon on a Probat PRE-1Z sample roaster (batch not stated) was roasted five times with earlier airflow lengthening the crack, each ended about 25 s after the last audible crack. First-crack length (calculated from the printed times) 1:07 / 1:23 / ~1:48 / 2:28 / 2:00, i.e. 1:32 / 1:46 / ~2:34 / 2:53 / 2:22 from first-crack start to drop. The 2:00 and 2:28 roasts had fuller, syrupier mouthfeel and sweeter finishes and were preferred by two panels; the shortest crack had the brightest, clearest acidity; sweetness itself changed little. The third roast stalled in first crack and tasted baked. The author's rule: never let first crack stop or fall below the rate at which it began. `conf: low` (grade B, one coffee, informal panels) `ctx: electric drum, sample roaster` [S0034](../sources/S0034-sweet-marias-stretchin-out-the-roast-pt2.md)
+- **Hacea's view of post-crack time.** Their four-phase scheme ends with "post-crack development" and says a long one adds bitterness; the sample kit's profiles differ in seconds per phase, not in colour, and the informal panel did not agree on a favourite (washed best with the quicker profiles, the natural best with the longest). Grade C–B, a handful of tasters. `conf: low` `ctx: gas-drum` [S0039](../sources/S0039-hacea-roast-phases-for-profile-development.md) [S0036](../sources/S0036-home-barista-hacea-roast-approach-tasting-kit.md)
 
 ## In practice
 
@@ -150,6 +154,8 @@ title: Development
 - The *numbers* won't transfer: first crack reads ≈ 182 °C on the Skywalker [S0001](../sources/S0001-skywiki-infrared-roaster.md), far below the study's 191–204 °C drop temperatures (adj. ≈ 176–189 °C; see [Temperatures](temperature-adjustment.md)), and readings shift with batch size [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md). Even adjusted, treat imported temperatures as rough; prefer time after first crack, degrees above first crack, weight loss and colour.
 - Your roast pages in [My Skywalker](../skywalker/roast-log.md) report development time and DTR
   automatically.
+- **Compare with the 2025 and Probat results:** your ~1:08 development (DTR 11 %) is shorter than the shortest first-crack-to-drop stretch in the Probat series (1:32, calculated) [S0034](../sources/S0034-sweet-marias-stretchin-out-the-roast-pt2.md) and far below the Gayo's 2:50 [S0037](../sources/S0037-fadhil-2025-gayo-arabica-development-phase-roasting-time.md). Both favoured the shorter roast on acidity or total score, but neither held colour constant, so neither says your 1:00 is too short or right. **Inference — test it:** the open question for you is still whether 1:30 beats 1:00 at equal weight loss — [experiment 2](../skywalker/experiments.md).
+- **Inference — test it:** "never let first crack stall" [S0034](../sources/S0034-sweet-marias-stretchin-out-the-roast-pt2.md) is easier to break on a lamp roaster entering first crack at ~9 °C/min than on a hot gas drum; look at your RoR in the 30 s after first crack starts, not only at the cut itself.
 
 ## Contested
 **Is a 20–25 % DTR needed for a well-developed roast?**
@@ -163,12 +169,15 @@ title: Development
   Grades C–B. The research's shortest roast (1:30, ~14 % DTR) was the sweetest and brightest at equal
   colour [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md).
 
+- **Light roasts can't meet 20 %, but it can be done:** boar_d_laze says Rao's proportions apply only roughly from City/C+ to Full City, NoStream says Nordic roasts take a shorter development to keep sugars intact, while cimarronEric reaches 20 % with a hard charge and a light drop ("not easy without stalling or baking, but doable"). A Quest roaster gets ~1:45, 20 %, drop 15–25 °F (8–14 °C) after first-crack start [S0044](../sources/S0044-home-barista-matt-perger-on-roast-development.md). Arithmetic by 9Sbeans: with first crack read at 390 °F and second crack at 440 °F, a 4-minute development to second crack needs an average RoR of at least 12.5 °F/min (6.9 °C/min) — at odds with a "car slowing to a stop" finish [S0044](../sources/S0044-home-barista-matt-perger-on-roast-development.md). Grade C.
+
 **Fixed seconds or a temperature after first crack?**
 
 - **Seconds:** treat first crack as a marker and count development time; FC temperature varies by
   bean [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md) (Theophilus, CarefreeBuzzBuzz). Grade C.
 - **Temperature:** drop by absolute bean temperature and manage the time to get there [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md)
   (Nunas); N3Roaster's threshold is a temperature effect independent of time [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md). Grade C.
+- **Fix a marker temperature for first crack.** Hacea now marks first crack at a fixed 385 °F (196 °C; adj. ≈ 185 °C) rather than by ear, because the audible crack varies with bean irregularity and with how well the roaster lets you hear it; one roast that cracked at 389 °F and tasted sharp, bitter and sweet-less turned out, re-marked at 385, to have a short caramelization and a long post-crack phase [S0036](../sources/S0036-home-barista-hacea-roast-approach-tasting-kit.md) [S0038](../sources/S0038-home-barista-hacea-coffees-roast-philosophy.md). Theophilus does the same at 203 °C on an air fluid-bed roaster, where it coincides with a RoR dip [S0038](../sources/S0038-home-barista-hacea-coffees-roast-philosophy.md). Grade C.
 - **Both:** EddyQ marks first crack at a set temperature when he cannot hear it, drops by time, and
   notes ground colour tracked drop temperature [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md). Nobody shows cup data for either strategy.
 
@@ -182,3 +191,5 @@ ratio holds for them [S0018](../sources/S0018-rao-2014-development-time-ratio.md
   with machine and probe? [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md)
 - Development-time studies on other origins/processes and other roast degrees.
 - Can consumers (not just professionals) tell these differences? [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md) notes this is untested.
+- Does a longer, deliberate first crack (2:00+ on a sample roaster [S0034](../sources/S0034-sweet-marias-stretchin-out-the-roast-pt2.md)) improve a light roast on a lamp roaster, and at what rate of rise?
+- Would the Gayo result hold at equal colour on a gas drum? Only the shorter-than-1:30 end of the range is untested in controlled studies [S0037](../sources/S0037-fadhil-2025-gayo-arabica-development-phase-roasting-time.md).

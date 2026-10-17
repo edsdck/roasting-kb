@@ -14,7 +14,7 @@ machine: "Proaster 1.5 kg drum on natural gas, 400 g batches (about 35 % of capa
 topics: [defects, heat-transfer, airflow, roast-planning, green-coffee]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0041 — Hacea Roast Approach: Swiss Water decaf Rwanda Muhororo (2026)

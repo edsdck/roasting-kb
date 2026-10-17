@@ -14,7 +14,7 @@ machine: "Direct gas-burning roaster (Rod Bel, 4 burners), drum at 45 rpm; a sin
 topics: [heat-transfer, roast-phases, green-coffee]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0033 — Modeling and simulation of coffee bean heating during roasting: effect of heat generation

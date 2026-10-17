@@ -10,6 +10,7 @@ title: Measurement & Artisan
     - Probe type and placement move the number by 10–20 °C; what matters is that *your* probe is consistent through development. `conf: medium`
     - **Does first-crack temperature depend on the coffee?** Some roasters see the same reading for every bean; others (and your Honduras Honey) don't. **Contested.**
     - Treat temperatures as machine-specific; compare by time, events (first crack), weight loss and colour.
+    - **Probe depth alone moved one Quest M6's first-crack reading by ~11 °C** (362–369 °F with the tip about 1 in into the drum, 380–390 °F at about 1.75 in) — more than your own first-crack spread (SD 4.3 °C). Check depth before trusting any first-crack temperature. `conf: low` (one owner, two roasts)
 
 ## Concepts
 
@@ -101,18 +102,23 @@ title: Measurement & Artisan
 - **Same again on a third Quest account (2026):** FC is the same ±2 °C (200 °C on his Quests) for
   nearly all greens; probe placement matters more than bean type; first check for a loose or bent
   probe. He drops by absolute bean temperature [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md). Grade C.
+- **Probe depth is a measurement effect big enough to mimic a coffee effect.** A Quest M6 owner (400 g, Phidgets PT1000, Artisan) read first crack at 362–369 °F (183–187 °C); other owners give the usual ~392 °F (200 °C ± 1), a M3 at ~392 vs an M3S at ~400 °F with the same probes and meter. Suggested reasons for the low reading: the tip is only about 1 in into the drum, a small batch does not cover it, and the metal shield pulls heat out of the tip. After pushing the probe in to about 1.75 in the same roaster read 380–390 °F (193–199 °C). Grade C, a clear before/after. [S0045](../sources/S0045-home-barista-quest-m6-first-crack-temperature-probe-depth.md)
 - **Yes — roaster, bean and profile all matter.** Another roaster finds FC "very roaster, bean and
   profile dependent" (200–207 °C on a 1 kg drum; adj. ≈ 185–192 °C) [S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md); Sweet Maria's says readings vary with
   measurement and altitude [S0019](../sources/S0019-sweet-marias-first-crack-faq.md). A decaf on a Skywalker cracked late (~189 °C) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md). A drum roaster that always cracked at 197 °C (adj. ≈ 185 °C) saw 202 °C (adj. ≈ 190 °C) with a new origin [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md); another roaster sees 199–202 °C usually (adj. ≈ 185–188 °C) and ~204 °C (adj. ≈ 189 °C) on a new Ethiopian [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md); a third believes FC depends on bean, entry rate and profile, and marks it at a set temperature when he cannot hear it [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md). Grade C.
 - **Possible mechanisms (untested):** a faster approach might raise the surface reading at crack
   (surface–core gap) [S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md); the probe offset may differ by coffee [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md); quiet first cracks in
   some dry-process coffees could be marked late [S0019](../sources/S0019-sweet-marias-first-crack-faq.md).
+- **Moisture alone doesn't set it (one test):** dehydrated green beans still cracked audibly at the same temperature as normal green, which argues against a simple residual-moisture explanation for what sets the first-crack reading. `ctx: IKAWA, fluid bed` [S0031](../sources/S0031-home-barista-add-moisture-during-a-roast.md)
 - **Your data (P):** across all roasts, later first crack goes with a higher reading (r = 0.73,
   n=41), but *within* one coffee the link is weak (Honduras r = 0.16, Ethiopia r = 0.05). The
   Honduras roasts were both slower and higher-reading, so coffee and roast speed can't be separated
   yet.
 
 Open — see [experiments](../skywalker/experiments.md).
+
+- **Your first-crack spread (P, n=41):** SD 4.3 °C; range 173.8–193.2 °C (19.4 °C wide); 23 of 41 within ±3.5 °C of the median 184.5 °C. renatoa's reference is 182 °C with about a 7-degree spread by origin on a Skywalker [S0029](../sources/S0029-homeroasters-roast-assistant-for-skywalker.md) — consistent in size with your middle half but narrower than your full range. The Quest M6 probe-depth change (~11 °C) [S0045](../sources/S0045-home-barista-quest-m6-first-crack-temperature-probe-depth.md) is larger than your whole interquartile spread, so a loose, moved or re-seated probe can fake a coffee effect on yours too. **Inference — test it:** note probe depth and whether the tip is covered by the 350 g pile each time you re-seat it.
+- **Optional tool:** renatoa built a spy-only ESP32 add-on that reads the roaster's panel protocol, shows time, temperature, RoR, power and air on an LCD (later an Android app) and auto-detects charge, turning point, dry end, first crack and drop, with a trend arrow for the RoR; control stays on the original panel. Grade C, a forum post, not a product. [S0029](../sources/S0029-homeroasters-roast-assistant-for-skywalker.md)
 
 ## Open questions
 - Recommended Artisan smoothing/delta-span on a Skywalker from experienced owners.

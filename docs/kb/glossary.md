@@ -6,15 +6,21 @@ title: Glossary
 
 **Agtron** — colour scale for roasted coffee (higher = lighter). Agtron 76 is a light roast. [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md)
 
+**Astringency** — drying, mouth-puckering finish; reported with cool charges, tipping and power swings (see [Defects](defects.md)).
+
 **Auto / Assist / Manual** — Skywalker V1 control modes: Auto runs a fixed preset (preheat, power, fan, drop temperature by processing and roast degree); Assist lets you decide the end; Manual is full control. [S0016](../sources/S0016-homeroasters-skywalker-main-thread.md)
 
 **BT / ET** — bean temperature (probe in the bean pile) / environment temperature (air in the drum). On the Skywalker BT reads an air–bean mix. [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md)
+
+**Caramelization phase (Hacea)** — in Hacea's four-phase scheme, the stretch from about 340 °F (171 °C; adj. ≈ 160 °C) to a first-crack mark fixed at 385 °F (196 °C; adj. ≈ 185 °C); Maillard is 300–340 °F. [S0039](../sources/S0039-hacea-roast-phases-for-profile-development.md)
 
 **Charge** — loading green beans into the preheated roaster; time zero.
 
 **Chipping** — small crater blown out of a bean in dark roasts. [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md)
 
 **Crash** — sudden drop in RoR, typically around first crack, often linked to moisture release. [S0008](../sources/S0008-rao-what-is-baked-coffee.md)
+
+**Degassing** — release of CO₂ trapped in roasted beans, slow (hundreds of hours for whole beans) and much larger for dark roasts than light. See [Resting & degassing](resting-and-storage.md). [S0042](../sources/S0042-smrke-2018-time-resolved-gravimetric-degassing.md)
 
 **Delta span** — Artisan's window (seconds) for computing RoR. Shorter = more responsive, noisier. [S0008](../sources/S0008-rao-what-is-baked-coffee.md)
 
@@ -38,15 +44,17 @@ title: Glossary
 
 **Preheat** — heating the empty roaster before charge. The Skywalker factory preheat runs the lamp at 100 % with no air; owners preheat at roasting power with air on. [S0016](../sources/S0016-homeroasters-skywalker-main-thread.md)
 
+**Probe depth** — how far the bean-probe tip sits into the drum; on one Quest M6, going from ~1 in to ~1.75 in raised the first-crack reading by ~11 °C. [S0045](../sources/S0045-home-barista-quest-m6-first-crack-temperature-probe-depth.md)
+
 **Rate of rise (RoR)** — °/min rise of bean temperature. [S0008](../sources/S0008-rao-what-is-baked-coffee.md)
 
 **Scorching** — dark specks on bean surfaces from too-hot metal contact. [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md)
 
-**TC4** — Artisan's serial protocol; Skywalker V1 community firmware speaks it. [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md)
-
-**Astringency** — drying, mouth-puckering finish; reported with cool charges, tipping and power swings (see [Defects](defects.md)).
+**Soak** — a period of lower heat early in the roast, used by Hacea for a dense decaf that came out astringent; not a standard term. [S0041](../sources/S0041-hacea-roast-approach-swiss-water-rwanda-muhororo.md)
 
 **ΔT above FC** — drop temperature minus first-crack reading; a way to describe development that does not depend on seconds [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md) [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md).
+
+**TC4** — Artisan's serial protocol; Skywalker V1 community firmware speaks it. [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md)
 
 **Tipping** — charred germ end of the bean, from roasting too fast. [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md)
 

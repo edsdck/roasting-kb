@@ -34,21 +34,21 @@ Every source collected by the Gatherer. Grades: **A** experiment/paper · **B** 
 | S0026 | [Buyers Remorse - Kaleido M10 Astringent Roasts (Home-Barista)](S0026-home-barista-kaleido-m10-astringent-roasts.md) | forum | C | IR | integrated |
 | S0027 | [Skywalker Roasters (CoffeeSnobs thread)](S0027-coffeesnobs-skywalker-roasters-thread.md) | forum | C | IR | integrated |
 | S0028 | [Roasting phase ratios (Home-Barista)](S0028-home-barista-roasting-phase-ratios.md) | forum | C | gas-drum | integrated |
-| S0029 | [Roast Assistant for Skywalker (Home Roasters forum thread)](S0029-homeroasters-roast-assistant-for-skywalker.md) | forum | C | IR | new |
-| S0030 | [Understanding Roast Yield and Loss (Royal Coffee)](S0030-royal-coffee-understanding-roast-yield-and-loss.md) | article | C | n/a | new |
-| S0031 | [Add moisture during a roast? (Home-Barista thread)](S0031-home-barista-add-moisture-during-a-roast.md) | forum | B | multiple | new |
-| S0032 | [Green coffee weight loss (Home-Barista thread)](S0032-home-barista-green-coffee-weight-loss.md) | forum | C | multiple | new |
-| S0033 | [Modeling and simulation of coffee bean heating during roasting: effect of heat generation](S0033-bustos-vanegas-2025-bean-heating-model-heat-generation.md) | paper | A | gas-drum | new |
-| S0034 | [Stretchin' Out the Roast pt. 2 (Sweet Maria's Coffee Library)](S0034-sweet-marias-stretchin-out-the-roast-pt2.md) | article | B | electric-drum | new |
-| S0035 | [Stretchin' Out the Roast pt. 3 (Sweet Maria's Coffee Library)](S0035-sweet-marias-stretchin-out-the-roast-pt3.md) | article | B | electric-drum | new |
-| S0036 | [Hacea Roast Approach Experience with three Ethiopian coffees (Home-Barista thread)](S0036-home-barista-hacea-roast-approach-tasting-kit.md) | forum | B | multiple | new |
-| S0037 | [Multi-sensory evaluation of Gayo Arabica coffee with various roasting times during the development phase](S0037-fadhil-2025-gayo-arabica-development-phase-roasting-time.md) | paper | A | gas-drum | new |
-| S0038 | [Hacea Coffee's Roast Philosophy (Home-Barista thread)](S0038-home-barista-hacea-coffees-roast-philosophy.md) | forum | C | multiple | new |
-| S0039 | [Roast Approach: Roast Phases For Profile Development (Hacea Coffee Source)](S0039-hacea-roast-phases-for-profile-development.md) | article | C | gas-drum | new |
-| S0040 | [Roast Approach: Rwanda Nyamasheke Muhororo Natural (Hacea Coffee Source)](S0040-hacea-roast-approach-rwanda-muhororo-natural.md) | article | B | gas-drum | new |
-| S0041 | [Roast Approach: Swiss Water Process Rwanda Muhororo Natural (Hacea Coffee Source)](S0041-hacea-roast-approach-swiss-water-rwanda-muhororo.md) | article | B | gas-drum | new |
-| S0042 | [Time-Resolved Gravimetric Method To Assess Degassing of Roasted Coffee](S0042-smrke-2018-time-resolved-gravimetric-degassing.md) | paper | A | gas-drum | new |
-| S0043 | [Efecto de las temperaturas y tiempos de tueste en la calidad sensorial del café (Osorio Pérez & Pabón Usaquén, Revista Cenicafé 2022)](S0043-osorio-2022-cenicafe-initial-roast-temperature-sensory-quality.md) | paper | A | n/a | new |
-| S0044 | [Matt Perger on Roast Development (Home-Barista thread)](S0044-home-barista-matt-perger-on-roast-development.md) | forum | C | multiple | new |
-| S0045 | [Quest M6 - First crack temperature? RTD probes (Home-Barista thread)](S0045-home-barista-quest-m6-first-crack-temperature-probe-depth.md) | forum | C | electric-drum | new |
-| S0046 | [Why RoR is a bad reference for ... [webinar] (Home-Barista thread)](S0046-home-barista-why-ror-is-a-bad-reference-webinar.md) | forum | C | multiple | new |
+| S0029 | [Roast Assistant for Skywalker (Home Roasters forum thread)](S0029-homeroasters-roast-assistant-for-skywalker.md) | forum | C | IR | integrated |
+| S0030 | [Understanding Roast Yield and Loss (Royal Coffee)](S0030-royal-coffee-understanding-roast-yield-and-loss.md) | article | C | n/a | integrated |
+| S0031 | [Add moisture during a roast? (Home-Barista thread)](S0031-home-barista-add-moisture-during-a-roast.md) | forum | B | multiple | integrated |
+| S0032 | [Green coffee weight loss (Home-Barista thread)](S0032-home-barista-green-coffee-weight-loss.md) | forum | C | multiple | integrated |
+| S0033 | [Modeling and simulation of coffee bean heating during roasting: effect of heat generation](S0033-bustos-vanegas-2025-bean-heating-model-heat-generation.md) | paper | A | gas-drum | integrated |
+| S0034 | [Stretchin' Out the Roast pt. 2 (Sweet Maria's Coffee Library)](S0034-sweet-marias-stretchin-out-the-roast-pt2.md) | article | B | electric-drum | integrated |
+| S0035 | [Stretchin' Out the Roast pt. 3 (Sweet Maria's Coffee Library)](S0035-sweet-marias-stretchin-out-the-roast-pt3.md) | article | B | electric-drum | integrated |
+| S0036 | [Hacea Roast Approach Experience with three Ethiopian coffees (Home-Barista thread)](S0036-home-barista-hacea-roast-approach-tasting-kit.md) | forum | B | multiple | integrated |
+| S0037 | [Multi-sensory evaluation of Gayo Arabica coffee with various roasting times during the development phase](S0037-fadhil-2025-gayo-arabica-development-phase-roasting-time.md) | paper | A | gas-drum | integrated |
+| S0038 | [Hacea Coffee's Roast Philosophy (Home-Barista thread)](S0038-home-barista-hacea-coffees-roast-philosophy.md) | forum | C | multiple | integrated |
+| S0039 | [Roast Approach: Roast Phases For Profile Development (Hacea Coffee Source)](S0039-hacea-roast-phases-for-profile-development.md) | article | C | gas-drum | integrated |
+| S0040 | [Roast Approach: Rwanda Nyamasheke Muhororo Natural (Hacea Coffee Source)](S0040-hacea-roast-approach-rwanda-muhororo-natural.md) | article | B | gas-drum | integrated |
+| S0041 | [Roast Approach: Swiss Water Process Rwanda Muhororo Natural (Hacea Coffee Source)](S0041-hacea-roast-approach-swiss-water-rwanda-muhororo.md) | article | B | gas-drum | integrated |
+| S0042 | [Time-Resolved Gravimetric Method To Assess Degassing of Roasted Coffee](S0042-smrke-2018-time-resolved-gravimetric-degassing.md) | paper | A | gas-drum | integrated |
+| S0043 | [Efecto de las temperaturas y tiempos de tueste en la calidad sensorial del café (Osorio Pérez & Pabón Usaquén, Revista Cenicafé 2022)](S0043-osorio-2022-cenicafe-initial-roast-temperature-sensory-quality.md) | paper | A | n/a | integrated |
+| S0044 | [Matt Perger on Roast Development (Home-Barista thread)](S0044-home-barista-matt-perger-on-roast-development.md) | forum | C | multiple | integrated |
+| S0045 | [Quest M6 - First crack temperature? RTD probes (Home-Barista thread)](S0045-home-barista-quest-m6-first-crack-temperature-probe-depth.md) | forum | C | electric-drum | integrated |
+| S0046 | [Why RoR is a bad reference for ... [webinar] (Home-Barista thread)](S0046-home-barista-why-ror-is-a-bad-reference-webinar.md) | forum | C | multiple | integrated |

@@ -14,7 +14,7 @@ machine: "Probat PRE-1Z electric sample roaster (drum); batch size not stated"
 topics: [roast-phases, development, roast-planning]
 novelty: novel
 corroborates: [S0034]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0035 — Stretchin' Out the Roast pt. 3 (Sweet Maria's Coffee Library)

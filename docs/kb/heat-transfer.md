@@ -10,6 +10,8 @@ title: Heat transfer
     - Its "lag" comes from the lamp, which keeps glowing after you cut power — make changes early and in small steps.
     - Because heat delivery behaves differently, curve shapes and temperatures from hot-air machines don't transfer 1:1.
     - Only the top layer of the tumbling pile catches the radiation at any moment; owners think this is why very fast, hot Skywalker roasts come out dark outside and under-developed inside. `conf: low`
+    - A fitted single-bean model of a *gas* drum puts radiation ahead of convection (overall coefficient 60–103 vs a calculated convective 16–17 W m⁻² °C⁻¹), so "drums are convection, the Skywalker is radiation" is less clean than often told. `conf: low` `ctx: gas-drum`
+    - Beans heat unevenly: the model's Biot numbers (0.48–0.82) mean the inside lags the surface, which fits owners' "dark outside, raw inside" reports from fast roasts. `conf: low`
 
 ## Concepts
 
@@ -63,6 +65,22 @@ limit in under a minute at only 50 % heater. [S0016](../sources/S0016-homeroaste
 bean temperature and much shorter roasts (1000 W: 81 min → 3000 W: 18 min), with the lowest
 energy use per gram at 2500 W. `conf: medium` `ctx: IR, 1 kg lab roaster, no flavour data` [S0004](../sources/S0004-puntuwanit-2023-far-infrared-power.md)
 
+**Radiation also dominates in a gas drum (model).** Single Catuaí beans held at the centre of a
+gas-fired drum (45 rpm) at constant air temperatures of 200–280 °C were fitted with a lumped model.
+The fitted overall coefficient (convection + radiation) rose from 60 to 103 W m⁻² °C⁻¹ with
+temperature, against a calculated convective coefficient of only 16–17; the authors attribute the
+gap to radiation from the hot walls and the low air speed inside a rotating drum. R² of the fit
+0.973–0.994. `conf: medium` for the numbers (peer-reviewed, grade A), `conf: low` for "radiation
+dominates", which rests on the difference between a fitted and a calculated coefficient. `ctx:
+gas-drum, single bean, constant air temperature` [S0033](../sources/S0033-bustos-vanegas-2025-bean-heating-model-heat-generation.md)
+
+**Evaporation matters more than the reactions, and the inside lags.** In the same model the
+heat taken up by evaporation changes the bean temperature more than the heat released by
+exothermic reactions, which are assumed to start at about 150 °C bean temperature; ignoring the
+exotherm underestimates temperature. Biot numbers of 0.48–0.82 are not small, so the model's one
+temperature per bean hides a surface that runs ahead of the core. `conf: medium` `ctx: gas-drum,
+single bean` [S0033](../sources/S0033-bustos-vanegas-2025-bean-heating-model-heat-generation.md)
+
 ## In practice
 
 - **Thermal inertia / lag.** On the Skywalker the lag comes from the lamp, which keeps radiating
@@ -109,6 +127,11 @@ This page is mostly about the Skywalker already. Practical consequences:
 - **Inference — test it:** if only the top layer heats, very fast roasts risk uneven development on
   this machine. Before chasing short total times, check the inside of a few beans (cut or grind
   separately) from your fastest roasts.
+- **Inference — test it:** if hot walls already carry most of the heat in a gas drum [S0033](../sources/S0033-bustos-vanegas-2025-bean-heating-model-heat-generation.md), the
+  lamp is a stronger version of the same mechanism rather than a different kind. The practical
+  advice (early, small steps; judge changes after the lag) is unchanged, but "RoR rules do not
+  transfer because the heat arrives differently" is weaker than it sounds — the argument has to
+  rest on lag and on the top-layer effect, not on radiation alone.
 
 ## Open questions
 - An experienced owner argues radiant roasting follows different rules from convection (a post on
@@ -120,3 +143,4 @@ This page is mostly about the Skywalker already. Practical consequences:
   say what an IR lamp does, and others still link fast roasts to raw cores [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md).
 - How much heat the drum itself contributes by conduction on the Skywalker.
 - Does lamp power (rather than fan) change convective cooling inside the drum?
+- Does the radiation share keep rising with temperature on the Skywalker, as the fitted coefficient did on the gas drum (60 → 103 W m⁻² °C⁻¹ from 200 to 280 °C)? [S0033](../sources/S0033-bustos-vanegas-2025-bean-heating-model-heat-generation.md)
