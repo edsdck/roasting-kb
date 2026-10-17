@@ -2,6 +2,9 @@
 
 Every change the Builder makes to the knowledge base, newest first.
 
+## 2026-10-17 — Fixes
+- **CORRECT** [Build 6 changelog entry](#2026-10-17-build-6) — was: a link to `../gaps.md`, which lies outside the docs folder and made the strict site build fail → now: plain `gaps.md`. The local link checker now also flags links that leave `docs/`.
+
 ## 2026-10-17 — Build 6
 Sources integrated: S0029–S0046 · Roasts parsed: 0 new
 
@@ -22,7 +25,7 @@ Sources integrated: S0029–S0046 · Roasts parsed: 0 new
 - **EXTEND** [Glossary](kb/glossary.md) and [Index](kb/index.md) — Caramelization phase (Hacea), Degassing, Soak, Probe depth; new Resting & degassing row; "not yet covered" now cupping at home, storage and staling, roast chemistry [S0039, S0041, S0042, S0045]
 - **ROASTS** [Findings](skywalker/findings.md) — 0 new roasts; new patterns 6 (charge is a time lever) and 7 (dry end later than other owners'); weight loss by development bucket (12.6 → 14.2 %); context on first-crack spread, development and heater handling; id39 was cupped at only 5 days [S0043, S0029, S0032, S0030, S0034, S0037, S0044, S0042]
 - **EXTEND** [Experiments](skywalker/experiments.md) — rest ≥ 1–2 weeks (taste at day 7/14/28) added to experiment 2; optional "soak" arm and a read-the-result note in experiment 7; probe depth and rest days added to the setup log and experiment 6 [S0036, S0041, S0043, S0045]
-- **EXTEND** [Gaps](../gaps.md) — rewritten to 15 items: new charge-temperature-for-light-roasts gap, probe-depth and Bullet findings under first crack, resting folded together with storage
+- **EXTEND** `gaps.md` — rewritten to 15 items: new charge-temperature-for-light-roasts gap, probe-depth and Bullet findings under first crack, resting folded together with storage
 - **SKIP** — IKAWA set-points and humidity curves, the colour-meter readings and the steam-rig details (machine-specific, not transferable to a sealed lamp roaster); S0033's prose "80–90 % higher" overall coefficient disagrees with its own table, so the table values were used
 
 ## 2026-10-16 — Build 5
