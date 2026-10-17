@@ -2,7 +2,7 @@
 
 Every source collected by the Gatherer. Grades: **A** experiment/paper · **B** practitioner with data · **C** practitioner opinion · **D** marketing/unverified.
 
-*42 sources.*
+*46 sources.*
 
 | ID | Title | Type | Grade | Heat context | Status |
 |---|---|---|---|---|---|
@@ -48,3 +48,7 @@ Every source collected by the Gatherer. Grades: **A** experiment/paper · **B** 
 | S0040 | [Roast Approach: Rwanda Nyamasheke Muhororo Natural (Hacea Coffee Source)](S0040-hacea-roast-approach-rwanda-muhororo-natural.md) | article | B | gas-drum | new |
 | S0041 | [Roast Approach: Swiss Water Process Rwanda Muhororo Natural (Hacea Coffee Source)](S0041-hacea-roast-approach-swiss-water-rwanda-muhororo.md) | article | B | gas-drum | new |
 | S0042 | [Time-Resolved Gravimetric Method To Assess Degassing of Roasted Coffee](S0042-smrke-2018-time-resolved-gravimetric-degassing.md) | paper | A | gas-drum | new |
+| S0043 | [Efecto de las temperaturas y tiempos de tueste en la calidad sensorial del café (Osorio Pérez & Pabón Usaquén, Revista Cenicafé 2022)](S0043-osorio-2022-cenicafe-initial-roast-temperature-sensory-quality.md) | paper | A | n/a | new |
+| S0044 | [Matt Perger on Roast Development (Home-Barista thread)](S0044-home-barista-matt-perger-on-roast-development.md) | forum | C | multiple | new |
+| S0045 | [Quest M6 - First crack temperature? RTD probes (Home-Barista thread)](S0045-home-barista-quest-m6-first-crack-temperature-probe-depth.md) | forum | C | electric-drum | new |
+| S0046 | [Why RoR is a bad reference for ... [webinar] (Home-Barista thread)](S0046-home-barista-why-ror-is-a-bad-reference-webinar.md) | forum | C | multiple | new |
