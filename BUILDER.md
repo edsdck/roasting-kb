@@ -95,6 +95,10 @@ Keep it to ~10–15 items, most important first, each with suggested search angl
 the Gatherer's suggestions in the latest `runs/*-gather.md`.
 
 ### Step 5 — Changelog
+**Hard rule: no changelog entry, no commit.** Every commit that changes anything in `docs/kb/`,
+`docs/skywalker/` or `gaps.md` must also change `docs/changelog.md` — a full build, a small fix or an
+addendum alike (use "## YYYY-MM-DD — Fixes" for non-build edits). Every ADD / EXTEND / CORRECT /
+CONTEST / SKIP you made gets a line with the sources in brackets, and CORRECT lines say was → now.
 Prepend to `docs/changelog.md` (below the intro):
 ```
 ## YYYY-MM-DD — Build N
@@ -111,6 +115,8 @@ Sources integrated: S0001–S0006 · Roasts parsed: 2 new
 2. Check links/build: `mkdocs build --strict -q` if mkdocs is installed (pip install
    mkdocs-material); otherwise `python3 tools/check_links.py`. Fix all errors.
 3. Re-read every page you changed once, as the owner would.
+   Before committing, confirm the changelog is staged: `git add -A && git diff --cached --name-only |
+   grep -q '^docs/changelog.md$' || echo "CHANGELOG MISSING"` — if it prints that, stop and write the entry.
 4. `git add -A && git commit -m "Build N: …"`. If git warns "unable to unlink … Operation not
    permitted", file deletion isn't allowed in this folder yet: request delete permission for the
    folder (git must remove its own lock files), then remove the leftover `.git/*.lock` files you
