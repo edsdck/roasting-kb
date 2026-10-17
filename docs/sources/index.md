@@ -2,7 +2,7 @@
 
 Every source collected by the Gatherer. Grades: **A** experiment/paper · **B** practitioner with data · **C** practitioner opinion · **D** marketing/unverified.
 
-*28 sources.*
+*35 sources.*
 
 | ID | Title | Type | Grade | Heat context | Status |
 |---|---|---|---|---|---|
@@ -34,3 +34,10 @@ Every source collected by the Gatherer. Grades: **A** experiment/paper · **B** 
 | S0026 | [Buyers Remorse - Kaleido M10 Astringent Roasts (Home-Barista)](S0026-home-barista-kaleido-m10-astringent-roasts.md) | forum | C | IR | integrated |
 | S0027 | [Skywalker Roasters (CoffeeSnobs thread)](S0027-coffeesnobs-skywalker-roasters-thread.md) | forum | C | IR | integrated |
 | S0028 | [Roasting phase ratios (Home-Barista)](S0028-home-barista-roasting-phase-ratios.md) | forum | C | gas-drum | integrated |
+| S0029 | [Roast Assistant for Skywalker (Home Roasters forum thread)](S0029-homeroasters-roast-assistant-for-skywalker.md) | forum | C | IR | new |
+| S0030 | [Understanding Roast Yield and Loss (Royal Coffee)](S0030-royal-coffee-understanding-roast-yield-and-loss.md) | article | C | n/a | new |
+| S0031 | [Add moisture during a roast? (Home-Barista thread)](S0031-home-barista-add-moisture-during-a-roast.md) | forum | B | multiple | new |
+| S0032 | [Green coffee weight loss (Home-Barista thread)](S0032-home-barista-green-coffee-weight-loss.md) | forum | C | multiple | new |
+| S0033 | [Modeling and simulation of coffee bean heating during roasting: effect of heat generation](S0033-bustos-vanegas-2025-bean-heating-model-heat-generation.md) | paper | A | gas-drum | new |
+| S0034 | [Stretchin' Out the Roast pt. 2 (Sweet Maria's Coffee Library)](S0034-sweet-marias-stretchin-out-the-roast-pt2.md) | article | B | electric-drum | new |
+| S0035 | [Stretchin' Out the Roast pt. 3 (Sweet Maria's Coffee Library)](S0035-sweet-marias-stretchin-out-the-roast-pt3.md) | article | B | electric-drum | new |
