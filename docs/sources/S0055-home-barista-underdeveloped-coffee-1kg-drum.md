@@ -14,7 +14,7 @@ machine: "OP: solid-drum gas roaster from Vietnam (FC roasters), described as a 
 topics: [development, defects, roast-phases, charge-and-batch, rate-of-rise]
 novelty: mixed
 corroborates: [S0044, S0036]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0055 — Home-Barista: underdeveloped coffee on a 1 kg drum (2024)

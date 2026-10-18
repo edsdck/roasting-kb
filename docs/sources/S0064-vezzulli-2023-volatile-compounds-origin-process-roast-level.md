@@ -14,7 +14,7 @@ machine: "IKAWA Model V2-PRO sample roaster, 50 g (±0.5 g) batches, chamber pre
 topics: [green-coffee, roast-phases]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0064 — Vezzulli et al. 2023: volatile fingerprints of origin, process and roast level (46 specialty lots)

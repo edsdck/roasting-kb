@@ -14,7 +14,7 @@ machine: "OP: '2k MCR roaster' (burner-heated drum), 750 g batches (also 1500 g)
 topics: [airflow, heat-transfer, rate-of-rise, measurement-and-artisan]
 novelty: mixed
 corroborates: [S0045]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0054 — Home-Barista: conduction vs convection test results are confusing (2026)

@@ -14,7 +14,7 @@ machine: "n/a (production roasting in general)"
 topics: [roast-planning, green-coffee, charge-and-batch]
 novelty: corroborating
 corroborates: [S0030, S0032]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0059 — Hoos: weight-loss % as a roast-degree and consistency check

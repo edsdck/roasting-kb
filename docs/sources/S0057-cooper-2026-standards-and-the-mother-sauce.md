@@ -14,7 +14,7 @@ machine: "Roasting machine for the samples not stated; Ikawa and Probat BRZ are 
 topics: [roast-planning, development, roast-phases]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0057 — Cooper 2026: proposed phase-time recipe standards for a light roast, from blind tastings

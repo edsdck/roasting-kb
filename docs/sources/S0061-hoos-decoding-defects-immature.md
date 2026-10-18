@@ -14,7 +14,7 @@ machine: "n/a (green-coffee defect; quakers appear after roasting)"
 topics: [green-coffee, defects]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0061 — Hoos: immature beans, quakers and astringency

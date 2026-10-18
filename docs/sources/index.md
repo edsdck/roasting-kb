@@ -52,21 +52,21 @@ Every source collected by the Gatherer. Grades: **A** experiment/paper · **B** 
 | S0044 | [Matt Perger on Roast Development (Home-Barista thread)](S0044-home-barista-matt-perger-on-roast-development.md) | forum | C | multiple | integrated |
 | S0045 | [Quest M6 - First crack temperature? RTD probes (Home-Barista thread)](S0045-home-barista-quest-m6-first-crack-temperature-probe-depth.md) | forum | C | electric-drum | integrated |
 | S0046 | [Why RoR is a bad reference for ... [webinar] (Home-Barista thread)](S0046-home-barista-why-ror-is-a-bad-reference-webinar.md) | forum | C | multiple | integrated |
-| S0047 | [Aillio Bullet R1 Roaster: Testing Airflow with Rwanda Kageyo (Sweet Maria's Coffee Library)](S0047-sweet-marias-bullet-r1-airflow-test-rwanda-kageyo.md) | article | B | induction-drum | new |
-| S0048 | [Effects of different coffee storage methods on coffee freshness after opening of packages](S0048-smrke-2022-coffee-storage-methods-after-opening.md) | paper | A | n/a | new |
-| S0049 | [What is the Shelf Life of Roasted Coffee? A Literature Review on Coffee Staling (SCAA)](S0049-sage-2012-shelf-life-roasted-coffee-staling-review.md) | article | B | n/a | new |
-| S0050 | [How to Identify Roast Defects in Coffee Beans Based on the Volatile Compound Profile](S0050-rusinek-2022-roast-defects-volatile-compound-profile.md) | paper | A | gas-drum | new |
-| S0051 | [Designing a Light Roast Profile - Colombian Washed (2) (Firescope / Cropster)](S0051-cho-2023-firescope-light-roast-colombian-washed-2.md) | article | C | multiple | new |
-| S0052 | [Can you actually taste the difference between coffee roasted on a conduction roaster versus a convection roaster? (Desnudo Coffee)](S0052-desnudo-2026-conduction-vs-convection-taste.md) | article | B | multiple | new |
-| S0053 | [Desnudo Coffee Conduction vs. Convection article (Home-Barista thread, Jan 2026)](S0053-home-barista-desnudo-conduction-convection-thread-roest-airflow.md) | forum | B | electric-drum | new |
-| S0054 | [Conduction vs Convection test results are confusing (Home-Barista thread, Jul-Aug 2026)](S0054-home-barista-conduction-vs-convection-test-results-are-confusing.md) | forum | C | multiple | new |
-| S0055 | [Underdeveloped coffee (Home-Barista thread, Apr 2024)](S0055-home-barista-underdeveloped-coffee-1kg-drum.md) | forum | C | gas-drum | new |
-| S0056 | [Can You Taste the Roasting System? Matching Roasting Profiles on Different Machines (Roast magazine, May/June 2019)](S0056-cooper-hoos-2019-can-you-taste-the-roasting-system.md) | article | A | multiple | new |
-| S0057 | [Standards and The Mother Sauce: Roast Profile Recipe Standards for Oceania (Roast Summit Melbourne tasting report, March 2026)](S0057-cooper-2026-standards-and-the-mother-sauce.md) | article | B | multiple | new |
-| S0058 | [How to adjust coffee roaster airflow (the \"lighter method\") (Hoos Coffee Consulting)](S0058-hoos-how-to-adjust-coffee-roaster-airflow-lighter-method.md) | article | B | gas-drum | new |
-| S0059 | [Why take weight loss % (Hoos Coffee Consulting)](S0059-hoos-why-take-weight-loss-percentage.md) | article | C | n/a | new |
-| S0060 | [Roasting Defects (Hoos Coffee Consulting)](S0060-hoos-roasting-defects-vocabulary.md) | article | C | n/a | new |
-| S0061 | [Decoding Defects: Immature (Hoos Coffee Consulting)](S0061-hoos-decoding-defects-immature.md) | article | C | n/a | new |
-| S0062 | [How to Calculate Weight Loss in Coffee Roasting (Sweet Maria's Coffee Library)](S0062-sweet-marias-how-to-calculate-weight-loss.md) | article | C | multiple | new |
-| S0063 | [Roast Level / Flavour Profile Strategies (Anne Cooper, Equilibrium Master Roasters chart)](S0063-cooper-eqmr-roast-level-flavour-profile-strategies-chart.md) | article | C | n/a | new |
-| S0064 | [Volatile Compounds in Green and Roasted Arabica Specialty Coffee: Discrimination of Origins, Post-Harvesting Processes, and Roasting Level](S0064-vezzulli-2023-volatile-compounds-origin-process-roast-level.md) | paper | A | fluid-bed | new |
+| S0047 | [Aillio Bullet R1 Roaster: Testing Airflow with Rwanda Kageyo (Sweet Maria's Coffee Library)](S0047-sweet-marias-bullet-r1-airflow-test-rwanda-kageyo.md) | article | B | induction-drum | integrated |
+| S0048 | [Effects of different coffee storage methods on coffee freshness after opening of packages](S0048-smrke-2022-coffee-storage-methods-after-opening.md) | paper | A | n/a | integrated |
+| S0049 | [What is the Shelf Life of Roasted Coffee? A Literature Review on Coffee Staling (SCAA)](S0049-sage-2012-shelf-life-roasted-coffee-staling-review.md) | article | B | n/a | integrated |
+| S0050 | [How to Identify Roast Defects in Coffee Beans Based on the Volatile Compound Profile](S0050-rusinek-2022-roast-defects-volatile-compound-profile.md) | paper | A | gas-drum | integrated |
+| S0051 | [Designing a Light Roast Profile - Colombian Washed (2) (Firescope / Cropster)](S0051-cho-2023-firescope-light-roast-colombian-washed-2.md) | article | C | multiple | integrated |
+| S0052 | [Can you actually taste the difference between coffee roasted on a conduction roaster versus a convection roaster? (Desnudo Coffee)](S0052-desnudo-2026-conduction-vs-convection-taste.md) | article | B | multiple | integrated |
+| S0053 | [Desnudo Coffee Conduction vs. Convection article (Home-Barista thread, Jan 2026)](S0053-home-barista-desnudo-conduction-convection-thread-roest-airflow.md) | forum | B | electric-drum | integrated |
+| S0054 | [Conduction vs Convection test results are confusing (Home-Barista thread, Jul-Aug 2026)](S0054-home-barista-conduction-vs-convection-test-results-are-confusing.md) | forum | C | multiple | integrated |
+| S0055 | [Underdeveloped coffee (Home-Barista thread, Apr 2024)](S0055-home-barista-underdeveloped-coffee-1kg-drum.md) | forum | C | gas-drum | integrated |
+| S0056 | [Can You Taste the Roasting System? Matching Roasting Profiles on Different Machines (Roast magazine, May/June 2019)](S0056-cooper-hoos-2019-can-you-taste-the-roasting-system.md) | article | A | multiple | integrated |
+| S0057 | [Standards and The Mother Sauce: Roast Profile Recipe Standards for Oceania (Roast Summit Melbourne tasting report, March 2026)](S0057-cooper-2026-standards-and-the-mother-sauce.md) | article | B | multiple | integrated |
+| S0058 | [How to adjust coffee roaster airflow (the \"lighter method\") (Hoos Coffee Consulting)](S0058-hoos-how-to-adjust-coffee-roaster-airflow-lighter-method.md) | article | B | gas-drum | integrated |
+| S0059 | [Why take weight loss % (Hoos Coffee Consulting)](S0059-hoos-why-take-weight-loss-percentage.md) | article | C | n/a | integrated |
+| S0060 | [Roasting Defects (Hoos Coffee Consulting)](S0060-hoos-roasting-defects-vocabulary.md) | article | C | n/a | integrated |
+| S0061 | [Decoding Defects: Immature (Hoos Coffee Consulting)](S0061-hoos-decoding-defects-immature.md) | article | C | n/a | integrated |
+| S0062 | [How to Calculate Weight Loss in Coffee Roasting (Sweet Maria's Coffee Library)](S0062-sweet-marias-how-to-calculate-weight-loss.md) | article | C | multiple | integrated |
+| S0063 | [Roast Level / Flavour Profile Strategies (Anne Cooper, Equilibrium Master Roasters chart)](S0063-cooper-eqmr-roast-level-flavour-profile-strategies-chart.md) | article | C | n/a | integrated |
+| S0064 | [Volatile Compounds in Green and Roasted Arabica Specialty Coffee: Discrimination of Origins, Post-Harvesting Processes, and Roasting Level](S0064-vezzulli-2023-volatile-compounds-origin-process-roast-level.md) | paper | A | fluid-bed | integrated |

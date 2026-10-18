@@ -14,7 +14,7 @@ machine: "Mixed: sample roaster (100 g), home air and drum roasters; no single m
 topics: [roast-planning, green-coffee]
 novelty: corroborating
 corroborates: [S0030, S0032, S0059]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0062 — Sweet Maria's: weight loss by roast-level name, and why it can mislead

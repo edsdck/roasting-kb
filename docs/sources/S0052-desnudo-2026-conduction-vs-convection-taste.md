@@ -14,7 +14,7 @@ machine: "Roastery history: 1 kg drum, 5 kg Diedrich drum, 35 kg Loring, Sivetz 
 topics: [airflow, heat-transfer, defects]
 novelty: mixed
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0052 — Desnudo Coffee (2026): lowering fan speed on a fluid bed raised a blind cup score

@@ -14,7 +14,7 @@ machine: "Giesen W1A (2020) and Easyster 1.8 (2021), 1000 g charges"
 topics: [defects, development, airflow, roast-planning]
 novelty: mixed
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0051 — Cho 2023: three light-roast profiles of one Colombian washed coffee, with defects and fixes

@@ -14,7 +14,7 @@ machine: "Probat UG15 (4 kg), Loring S35 (7 kg), Diedrich IR-5 (2 kg) for the Fi
 topics: [heat-transfer, roast-planning, myths-and-contested, measurement-and-artisan]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0056 — Cooper and Hoos 2019: matched profiles on different roasters were hard to tell apart

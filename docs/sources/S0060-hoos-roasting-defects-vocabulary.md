@@ -14,7 +14,7 @@ machine: "n/a (vocabulary and causes, drum roasters implied)"
 topics: [defects, glossary, development]
 novelty: mixed
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0060 — Hoos: a vocabulary of roasting defects (tipping, scorching, facing, under/over-developed)

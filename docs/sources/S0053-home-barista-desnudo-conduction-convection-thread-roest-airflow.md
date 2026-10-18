@@ -14,7 +14,7 @@ machine: "Roest L200 (electric heater, drum; batch size not stated). Other owner
 topics: [airflow, heat-transfer]
 novelty: mixed
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0053 — Desnudo conduction vs convection thread: Roest high-airflow vs low-airflow test (Home-Barista, 2026)

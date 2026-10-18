@@ -14,7 +14,7 @@ machine: "n/a (storage study on commercially roasted Arabica; roast degree not s
 topics: [resting-and-storage, green-coffee]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0048 — Smrke et al. 2022: how to store coffee after the bag is opened

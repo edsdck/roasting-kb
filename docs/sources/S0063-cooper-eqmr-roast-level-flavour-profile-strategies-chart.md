@@ -14,7 +14,7 @@ machine: "not stated"
 topics: [roast-planning, development, roast-phases]
 novelty: mixed
 corroborates: [S0057]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0063 — Cooper: a chart of phase times and the flavour each is meant to give

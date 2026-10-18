@@ -2,7 +2,7 @@
 
 *Maintained by the Builder from the [roast log](roast-log.md) and cupping notes. Personal evidence
 (grade **P**): the best evidence for this machine, but uncontrolled, one roaster, and only one roast
-cupped so far. Updated 2026-10-17 (Build 6), 41 roasts (Jan–Oct 2026).*
+cupped so far. Updated 2026-10-18 (Build 7), 41 roasts (Jan–Oct 2026).*
 
 !!! abstract "In short"
     - **First crack reads ~184 °C** on your machine (median of 41 roasts; range 174–193 °C) — matching other Skywalker owners (179–183 °C), far below the ~200 °C of convection roasters.
@@ -69,6 +69,8 @@ first crack with no vegetal notes but thin body [S0023](../sources/S0023-home-ba
 
 *New context (Build 6):* two more studies, both favouring the shorter development but neither at equal colour: a 2 kg gas-drum Gayo at 2:50 / 3:50 / 4:50 scored 85 / 82 / 81 while getting darker (Agtron 55 / 45 / 35) [S0037](../sources/S0037-fadhil-2025-gayo-arabica-development-phase-roasting-time.md), and a Probat series found panels preferring *longer* first-crack stretches (2:00–2:28) for body and sweetness, with the shortest crack brightest [S0034](../sources/S0034-sweet-marias-stretchin-out-the-roast-pt2.md). Your 1:00 is below every tested value (Gayo 2:50, Probat 1:32 from first-crack start to drop, calculated). Quest roasters report ~1:45, 20 % DTR and a drop 15–25 °F (8–14 °C) after first crack [S0044](../sources/S0044-home-barista-matt-perger-on-roast-development.md); yours drops +8.3 °C. Still no controlled data below 1:30.
 
+*New context (Build 7):* the newest recipe-style source puts a very light washed roast at 1:00–1:20 of development and a natural at 45 s–1:00 [S0057](../sources/S0057-cooper-2026-standards-and-the-mother-sauce.md), and the same author's chart gives 1:00 (natural) and 1:30 (washed) for "sweet, light, round" light roasts [S0063](../sources/S0063-cooper-eqmr-roast-level-flavour-profile-strategies-chart.md) — your ~1:00 is inside that range. The opposite pole is a gas-drum beginner thread where about a minute of development tasted grassy and experienced posters want 2:00–2:15 [S0055](../sources/S0055-home-barista-underdeveloped-coffee-1kg-drum.md); that roaster also charged cool and had the ET probe in the exhaust, and no fix was cupped. Neither side is a controlled test, so the question stays open → [experiment 2](experiments.md).
+
 **2b. How far above first crack you drop (new, n=41).** Median drop is **+8.3 °C** over the
 first-crack reading (5.6–22.4 °C), and it moves with development time (r = 0.78). Four roasts ended
 under 6 °C above first crack (id4, id19, id31, id32). N3Roaster reports a vegetal note that stays
@@ -77,12 +79,16 @@ roaster puts it at ~+6–7 °C [S0023](../sources/S0023-home-barista-vegetal-fla
 id40 (same coffee) ended +12.0 °C but has no notes yet. Different probe and first-crack convention,
 so this is a lead, not a rule. → [experiment 2](experiments.md). *Grade P, n=41 but only one cup.*
 
+*New context (Build 7):* the forum baseline for a new machine is 2:00 and a rise of 15–20 °F, i.e. 8.3–11.1 °C above first crack [S0055](../sources/S0055-home-barista-underdeveloped-coffee-1kg-drum.md); your median +8.3 °C is the bottom of that range, and four of your roasts sit below 6 °C. A stray first pop can come 5.6–8.3 °C before the main crack [S0055](../sources/S0055-home-barista-underdeveloped-coffee-1kg-drum.md), so if you mark the first pop your ΔT is inflated by up to that much, and if you mark regular pops it is not — which one do you use? The 2026 recipe's "+4–5 degrees" after first crack has no stated unit and is read on that roaster's probe [S0057](../sources/S0057-cooper-2026-standards-and-the-mother-sauce.md), so it cannot be compared with your ΔT.
+
 **3. Weight loss follows development time.** Correlation 0.72 between development time and weight
 loss (n=28 roasts with output weight), vs 0.42 for drop temperature. On your machine, *how long* you
 develop moves roast degree more than the drop temperature you choose. Light roasts throughout
 (12–16 % loss).
 
 *New context (Build 6), by development bucket (28 roasts with output weight):* under 0:50 (n=2) 12.6 % loss; 0:50–1:10 (n=12) mean 13.2 % (12.3–14.3); 1:10–1:30 (n=4) 13.2 %; 1:30 and over (n=10) 14.2 % (13.1–15.9). Home roasters log 11–15 %, mostly 13–14 % [S0032](../sources/S0032-home-barista-green-coffee-weight-loss.md); very light drops are ~10 % [S0030](../sources/S0030-royal-coffee-understanding-roast-yield-and-loss.md). Your lightest-looking roasts (12–13 %) are therefore not "very light" by weight loss. Green moisture is unknown, so loss cannot be read as a degree on its own [S0030](../sources/S0030-royal-coffee-understanding-roast-yield-and-loss.md).
+
+*New context (Build 7):* your median 13.4 % equals Sweet Maria's City+ (13.3 %) and falls between Hoos's light (11–13 %) and medium (14–16 %) bands [S0059](../sources/S0059-hoos-why-take-weight-loss-percentage.md) [S0062](../sources/S0062-sweet-marias-how-to-calculate-weight-loss.md). Within one coffee your loss spans 12.3–14.5 % (Ethiopian Washed, n=9, SD 0.7 points) and 13.3–13.8 % (Honduras Honey, n=5); Hoos's repeatability limit is 0.5 points from the baseline [S0059](../sources/S0059-hoos-why-take-weight-loss-percentage.md). Because loss follows your development time (r = 0.72) part of that spread is development, not scale error. Hoos's rule also needs green moisture, which you do not log.
 
 **4. Heater handling around first crack.** Typically heater ~60 % a minute before first crack,
 ~50 % at first crack, 40–55 % in development (31 logged roasts) — moderate steps, consistent with the
@@ -101,6 +107,8 @@ FC 9:46). No cupping notes, so flavour effects are unknown.
 **6. Charge temperature is a time lever (new, n=41).** Among the 37 roasts charged at 170 °C or above (median 184.9 °C) a higher charge goes with shorter total time (r = −0.58, about −4.3 s per °C) and earlier first crack (r = −0.67, about −5.4 s per °C). Four roasts charged lower (id5 108 °C, id28 141.5, id29 152.9, id30 166.4) cracked between 7:12 and 12:21, so they do not give a clean low-charge test. All 41: r = −0.48. A Colombian production test (170–230 °C charges, 5 kg units, medium colour) gave about 3 s per °C and *no* change in cup score [S0043](../sources/S0043-osorio-2022-cenicafe-initial-roast-temperature-sensory-quality.md). Whether that holds for light roasts on your machine is untested. → [experiment 7](experiments.md).
 
 **7. Dry end is later than other owners' (new, n=41).** Median 4:40, range 3:55–7:00; 12 of 41 ended drying by 4:30 and 29 later. renatoa's target is 3:30–4:30 from charge, and he has seen others at nearly 6 min [S0029](../sources/S0029-homeroasters-roast-assistant-for-skywalker.md). A Probat test found a ~35 s change in the drying stage audible in the cup [S0035](../sources/S0035-sweet-marias-stretchin-out-the-roast-pt3.md). No cup data link your dry end to anything yet.
+
+*New context (Build 7):* the 2026 light-roast grid is 4:00–4:30 to yellow, 3:00–3:30 Maillard and 1:00–1:20 development [S0057](../sources/S0057-cooper-2026-standards-and-the-mother-sauce.md); your medians are 4:40 / 4:06 / 1:08. Your later dry end and longer Maillard are both a little above it; a larger batch may need 30 s to 1:00 longer before yellow [S0057](../sources/S0057-cooper-2026-standards-and-the-mother-sauce.md), which may account for part of it (**Inference — test it**). The chart's claim that cutting the middle phase by 30 s costs sweetness and body [S0063](../sources/S0063-cooper-eqmr-roast-level-flavour-profile-strategies-chart.md) is untested on your machine → [experiment 9](experiments.md).
 
 ## The one cupped roast — id39 (Costa Rican Natural, 2026-10-09)
 Development 0:41 (DTR 7.4 %), drop 192 °C, loss 12.9 %, heater cut to 17 % after first crack.

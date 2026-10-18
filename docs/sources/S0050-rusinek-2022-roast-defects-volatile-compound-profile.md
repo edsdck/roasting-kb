@@ -14,7 +14,7 @@ machine: "Coffed SR 5 (double-walled drum; burner, combustion fan, drum speed co
 topics: [defects, development, roast-phases]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0050 — Rusinek et al. 2022: volatile-compound fingerprints of underdeveloped and overdeveloped roasts

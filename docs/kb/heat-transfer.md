@@ -12,6 +12,8 @@ title: Heat transfer
     - Only the top layer of the tumbling pile catches the radiation at any moment; owners think this is why very fast, hot Skywalker roasts come out dark outside and under-developed inside. `conf: low`
     - A fitted single-bean model of a *gas* drum puts radiation ahead of convection (overall coefficient 60–103 vs a calculated convective 16–17 W m⁻² °C⁻¹), so "drums are convection, the Skywalker is radiation" is less clean than often told. `conf: low` `ctx: gas-drum`
     - Beans heat unevenly: the model's Biot numbers (0.48–0.82) mean the inside lags the surface, which fits owners' "dark outside, raw inside" reports from fast roasts. `conf: low`
+    - A relayed figure for a 250 lb drum goes the other way — about 90 % convection, 7 % radiation, 3.5 % conduction — and the original was not found. **Contested**, below. `conf: low`
+    - **Profile may matter more than machine type.** With time to yellow, first crack, development and end colour matched, expert tasters picked the odd cup in a blind triangle about 30 % of the time (chance 25–33 %) across a Probat, a Loring and a 2 kg Diedrich IR-5 [S0056](../sources/S0056-cooper-hoos-2019-can-you-taste-the-roasting-system.md). A roastery still reports its Diedrich giving more body and sweetness than its Loring [S0052](../sources/S0052-desnudo-2026-conduction-vs-convection-taste.md). A pilot, no significance test. `conf: low` `ctx: 2–7 kg drums`
 
 ## Concepts
 
@@ -80,6 +82,8 @@ exothermic reactions, which are assumed to start at about 150 °C bean temperatu
 exotherm underestimates temperature. Biot numbers of 0.48–0.82 are not small, so the model's one
 temperature per bean hides a surface that runs ahead of the core. `conf: medium` `ctx: gas-drum,
 single bean` [S0033](../sources/S0033-bustos-vanegas-2025-bean-heating-model-heat-generation.md)
+- **Matched profiles on three roasters (pilot).** Cooper and Hoos roasted one coffee on a Probat UG15 (4 kg), a Loring S35 (7 kg) and a Diedrich IR-5 (2 kg) to the same time to yellow (about 4:30), first crack (about 8:52–9:06), development (1:45–1:47, 16.1–16.7 %) and end colour (within 3 Agtron points, whole bean about 66, ground 84–86). Temperature was deliberately not matched because the probes differ. At one event 163 of 529 triangles found the odd cup (about 31 %), across all events 499 of 1,689 (29.5 %), against a stated chance of 25–33 %. The authors read this as the machine not causing the difference and the roast profile being the main driver. No coffee named, no p-values; the article does not describe the IR-5's heating, so "IR" is the model name only. `conf: low` `ctx: drum, 2–7 kg` [S0056](../sources/S0056-cooper-hoos-2019-can-you-taste-the-roasting-system.md)
+- **Drum speed changed the bean curve more than airflow did (gas drum).** With the environment temperature held, 40 to 80 rpm changed the bean-temperature slope strongly; at the highest speed the roaster struggled to hold the set ET, which the poster puts down to lofted beans taking heat from the drum. A reply argues that a drum at 260–288 °C (500–550 °F) in development may radiate more heat than it conducts, and calls this controversial. `conf: low` `ctx: gas drum` [S0054](../sources/S0054-home-barista-conduction-vs-convection-test-results-are-confusing.md)
 
 ## In practice
 
@@ -123,6 +127,7 @@ This page is mostly about the Skywalker already. Practical consequences:
   power from about minute 4 in steps [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md) — and it adds a failure to watch for: astringency from
   an under-developed inside. A V2 owner also finds higher fan and drum speed make heater
   adjustments "more responsive" on light roasts [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md). See [Defects](defects.md).
+- **Inference — test it:** if matched time and colour make roasters hard to tell apart [S0056](../sources/S0056-cooper-hoos-2019-can-you-taste-the-roasting-system.md), the Skywalker's lamp is a means to reproduce a *time* profile (yellow, first crack, development, end colour), not a reason to write off drum recipes. Match phases and weight loss, not temperatures. The pilot used 2–7 kg drums, so a 350 g lamp roaster is untested.
 - Don't import RoR "rules" from hot-air machines without testing — see [Rate of rise](rate-of-rise.md).
 - **Inference — test it:** if only the top layer heats, very fast roasts risk uneven development on
   this machine. Before chasing short total times, check the inside of a few beans (cut or grind
@@ -132,6 +137,15 @@ This page is mostly about the Skywalker already. Practical consequences:
   advice (early, small steps; judge changes after the lag) is unchanged, but "RoR rules do not
   transfer because the heat arrives differently" is weaker than it sounds — the argument has to
   rest on lag and on the top-layer effect, not on radiation alone.
+
+## Contested
+
+**How much of a drum's heat is radiation?**
+
+- **Radiation first:** the fitted single-bean model puts radiation ahead of convection on a gas drum (overall coefficient 60–103 vs a calculated convective 16–17 W m⁻² °C⁻¹) [S0033](../sources/S0033-bustos-vanegas-2025-bean-heating-model-heat-generation.md). A forum member argues a 260–288 °C drum may radiate more than it conducts in development [S0054](../sources/S0054-home-barista-conduction-vs-convection-test-results-are-confusing.md). `conf: low`
+- **Convection overwhelmingly:** a poster's reading of a 2007 Roast Magazine article (Schwartzberg and Adluri) for a 250 lb drum: about 90 % convection, 7 % radiation, 3.5 % conduction; the original was not found. Another reply gives a rule of thumb of 30 : 70 conduction to convection for a direct drum and 15 : 85 for an indirect one, with no source. `conf: low` [S0054](../sources/S0054-home-barista-conduction-vs-convection-test-results-are-confusing.md)
+- **Possible reading (not stated by the sources):** the figures describe different things — a lab model fitted to one bean, a 250 lb production drum, a late-roast hot drum — and a "share" of heat is not the same as a heat-transfer coefficient.
+- **"It does not matter for the cup":** another_jim, as quoted, calls the radiation-conduction-convection debate pointless for taste [S0054](../sources/S0054-home-barista-conduction-vs-convection-test-results-are-confusing.md), and matched profiles on three roasters were hard to tell apart [S0056](../sources/S0056-cooper-hoos-2019-can-you-taste-the-roasting-system.md).
 
 ## Open questions
 - An experienced owner argues radiant roasting follows different rules from convection (a post on

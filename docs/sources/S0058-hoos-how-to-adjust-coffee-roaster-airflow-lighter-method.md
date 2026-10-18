@@ -14,7 +14,7 @@ machine: "A drum roaster with exhaust, bean and inlet temperature probes; model,
 topics: [airflow, heat-transfer, defects, roast-planning]
 novelty: mixed
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0058 — Hoos: use the exhaust-to-bean temperature gap, not a lighter, to judge roaster airflow

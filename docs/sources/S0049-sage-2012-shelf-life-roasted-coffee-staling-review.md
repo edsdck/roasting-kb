@@ -14,7 +14,7 @@ machine: "n/a (literature review)"
 topics: [resting-and-storage]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0049 — Sage (SCAA, 2012): literature review on coffee staling and shelf life

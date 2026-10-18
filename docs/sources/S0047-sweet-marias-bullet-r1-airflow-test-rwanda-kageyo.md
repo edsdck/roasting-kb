@@ -14,7 +14,7 @@ machine: "Aillio Bullet R1 (induction-heated steel drum), 440 g batches, slow dr
 topics: [airflow, rate-of-rise, roast-phases]
 novelty: mixed
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0047 — Bullet R1 airflow test: setting 1 vs 9 on the same coffee (Sweet Maria's, 2019)
