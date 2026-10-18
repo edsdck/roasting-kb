@@ -2,7 +2,7 @@
 
 Every source collected by the Gatherer. Grades: **A** experiment/paper · **B** practitioner with data · **C** practitioner opinion · **D** marketing/unverified.
 
-*62 sources.*
+*64 sources.*
 
 | ID | Title | Type | Grade | Heat context | Status |
 |---|---|---|---|---|---|
@@ -68,3 +68,5 @@ Every source collected by the Gatherer. Grades: **A** experiment/paper · **B** 
 | S0060 | [Roasting Defects (Hoos Coffee Consulting)](S0060-hoos-roasting-defects-vocabulary.md) | article | C | n/a | new |
 | S0061 | [Decoding Defects: Immature (Hoos Coffee Consulting)](S0061-hoos-decoding-defects-immature.md) | article | C | n/a | new |
 | S0062 | [How to Calculate Weight Loss in Coffee Roasting (Sweet Maria's Coffee Library)](S0062-sweet-marias-how-to-calculate-weight-loss.md) | article | C | multiple | new |
+| S0063 | [Roast Level / Flavour Profile Strategies (Anne Cooper, Equilibrium Master Roasters chart)](S0063-cooper-eqmr-roast-level-flavour-profile-strategies-chart.md) | article | C | n/a | new |
+| S0064 | [Volatile Compounds in Green and Roasted Arabica Specialty Coffee: Discrimination of Origins, Post-Harvesting Processes, and Roasting Level](S0064-vezzulli-2023-volatile-compounds-origin-process-roast-level.md) | paper | A | fluid-bed | new |

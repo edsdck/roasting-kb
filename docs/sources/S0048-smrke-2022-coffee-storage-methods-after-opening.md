@@ -4,7 +4,7 @@ title: "Effects of different coffee storage methods on coffee freshness after op
 url: "https://digitalcollection.zhaw.ch/bitstream/11475/26687/3/2022_Smrke-etal_Effects-of-different-coffee-storage-methods-on-coffee-freshness_FPSL.pdf"
 type: paper
 author: "Samo Smrke, Anne Adam, Alexia Mühlemann, Philipp Lantz, Chahan Yeretzian"
-author_credentials: "Peer-reviewed paper, Food Packaging and Shelf Life 33:100893 (2022); full text from the ZHAW (Zurich University of Applied Sciences) repository."
+author_credentials: "Peer-reviewed paper, Food Packaging and Shelf Life 33:100893 (2022). Affiliations printed on the paper include the ZHAW Coffee Excellence Center (Switzerland) and Tchibo GmbH (Hamburg), which also supplied the coffee."
 published: 2022
 accessed: 2026-10-18
 language: en
@@ -29,7 +29,7 @@ Roasted Arabica whole beans from one roast batch (Tchibo, Hamburg) in nitrogen-f
    > "The screw cap packaging was the best performing storage method." — *Abstract*
 2. **C2** — Moving beans into a container made them lose freshness faster than keeping them in the original package.
    > "transferring beans into a container resulted in a faster loss of freshness" — *Abstract*
-3. **C3** — Slope of the 2-butanone/2-methylfuran index (higher = faster loss): canister 0.0667, tape 0.0583, clip 0.0399, screw cap 0.0327; unopened reference slightly negative. All pairwise differences p < 0.001.
+3. **C3** — Slope of the 2-butanone/2-methylfuran index (higher = faster loss): canister 0.06669, tape 0.05827, clip 0.03987, screw cap 0.03269; the unopened reference was stable with a slight downward slope (-0.0099, p < 0.001). Slopes differed significantly between any two methods (p < 0.001).
 4. **C4** — Once opened, the headspace inside the package is replaced by air regardless of closure.
    > "the whole HS inside the packaging is rapidly replaced by air" — *Section 3.4 (CO2 and O2 content)*
 5. **C5** — Methanethiol fell to about 15 % of its start within eight weeks in every opened package (about 33 % in the unopened reference), so that marker did not separate closures; dimethyl disulfide rose, mostly in the first three weeks, as an oxidation product.
@@ -42,7 +42,7 @@ Roasted Arabica whole beans from one roast batch (Tchibo, Hamburg) in nitrogen-f
 |---|---|---|---|
 | Rest before opening | 3 weeks after roasting | one roast batch, 1 kg foil bags with one-way valve, nitrogen-filled | C1 |
 | Test length / sampling | 9 weeks; sampled twice weekly, 49 g per sample; freshness indices weekly | 5 parallel replicates per method | C1 |
-| Index slope (2-butanone/2-methylfuran) | canister 0.06669; tape 0.05827; clip 0.03987; screw cap 0.03269 | units not stated in the paper text read | C3 |
+| Index slope (2-butanone/2-methylfuran) | canister 0.06669; tape 0.05827; clip 0.03987; screw cap 0.03269; unopened reference -0.0099 | linear model over the 9 weeks; Table 1 gives no units | C3 |
 | Methanethiol | about 15 % of start after 8 weeks (opened); about 33 % (unopened reference) | GC/MS signal | C5 |
 | Roast degree, origin, sensory data | not stated | | — |
 
@@ -50,4 +50,4 @@ Roasted Arabica whole beans from one roast batch (Tchibo, Hamburg) in nitrogen-f
 *Gatherer judgement:* Roaster-independent. For a home roaster who stores 350 g batches in small containers, this is one of few replicated, measured comparisons of storage after opening: the original valved bag with its closure beat a transferred canister on the chemical index. Limits: the beans were a commercial roast in a nitrogen-flushed bag, not a home roast, the container was not purged, and without sensory data "faster loss of the index" is not "worse taste".
 
 ## Gatherer notes
-Read via WebFetch; the four quotes above were returned verbatim with section names, the other values are paraphrased from the text. Slope units and the exact "reference" slope (reported as a small negative number, about -0.01) were not confirmed in the fetched text, so the reference value is omitted from the table. Gap 12.
+First read via WebFetch, then checked against the PDF text itself (owner supplied the file in inbox/): all four quotes match exactly, and the slope values and the reference slope (-0.0099) are as printed. The study covers 9 weeks only, and the authors tie the beans to one commercial Tchibo roast, so roast degree and origin remain unknown. Gap 12.
