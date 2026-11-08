@@ -101,7 +101,7 @@ source files can refer to them. Updated 2026-11-08 (Build 8).*
     small radiant or hot-air roaster, and the Cooper/Hoos follow-up material.
 
 18. **Bitterness and a recurring off-flavour in light lamp roasts** (new, high priority — from the owner's cups) —
-    bitterness in all four cupped roasts (0:41–1:30 development, two or three coffees, 5–23 days rest)
+    bitterness in all four cupped roasts (0:41–1:30 development, two coffees, 5–23 days rest)
     plus a recurring unnamed flavour with a bitter aftertaste. Need: what makes short light roasts
     bitter (charred/tipped beans, smoke or chaff on radiant roasters, quakers, extraction), any
     sensory vocabulary for "ashy/smoky" vs "roasty" faults, and Skywalker/Kaleido owners reporting
@@ -109,7 +109,7 @@ source files can refer to them. Updated 2026-11-08 (Build 8).*
     "chaff"), Home-Barista "bitter light roast", Hoos "Tipping and its Avoidance", Sweet Maria's
     cupping glossary, SCA flavour wheel / WCR sensory lexicon entries for ashy, smoky, rubber.
 
-Owner-side questions (not for the Gatherer): what coffee and roasted weight was id42; which pop did
+Owner-side questions (not for the Gatherer): fix id42 in Artisan (beans, 350 g batch, roasted weight); which pop did
 you mark as first crack on id40 (it read 173.8 °C, your lowest); can you place the "infamous" flavour
 in a family (ashy/smoky, rubbery, papery, vegetal, burnt sugar); how do you brew for tasting (grind,
 water temperature, ratio); do you pick out black beans after roasting; record two minutes of idle

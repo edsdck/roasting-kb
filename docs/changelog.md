@@ -2,6 +2,11 @@
 
 Every change the Builder makes to the knowledge base, newest first.
 
+## 2026-11-08 — Fixes
+- **CORRECT** [findings](skywalker/findings.md#cupped-roasts) — was: "id42 (400 g) vs id41 (350 g): batch, development, drying and rest all differed, coffee unlabelled" → now: same Colombia, 350 g, only development changed (1:01 → 1:30), per the owner; 1:30 sweeter and less bitter is the cleanest development pair so far; the logs' later heater step in drying and the rest difference are noted. Owner's statement over the Artisan file, which says 400 g with no beans.
+- **CORRECT** [Charge & batch](kb/charge-and-batch.md) — removed "Your first 400 g roast (id42)": it wasn't a 400 g roast. Experiment 4 no longer counts it as a data point.
+- **EXTEND** [experiments](skywalker/experiments.md) — experiment 2: the 1:00 and 1:30 arms are done (id41, id42); add 2:15 and repeat 1:30.
+
 ## 2026-11-08 — Build 8
 Sources integrated: S0065–S0071 · Roasts parsed: 1 new (id42) · Cupping notes: 2 new (id40, id41)
 

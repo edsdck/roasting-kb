@@ -48,8 +48,9 @@ and your one cupped roast (0:41) was sharp and flat — see [findings](findings.
 **Why:** at equal colour, shorter development = brighter/sweeter, longer = roastier/bitter [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md).
 Practitioners disagree on how short is too short: Rao (one practitioner's opinion) says 20–25 % DTR [S0018](../sources/S0018-rao-2014-development-time-ratio.md); light roasters use
 13–16 % / 1:20–1:30 [S0021](../sources/S0021-home-barista-development-time-light-roasts.md); an experienced Skywalker owner's best early cup was ~1:35 (18 %) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md). Newer: a 2026 recipe proposes 1:00–1:20 for a very light roast [S0057](../sources/S0057-cooper-2026-standards-and-the-mother-sauce.md), a chart gives 1:00 (natural) or 1:30 (washed) [S0063](../sources/S0063-cooper-eqmr-roast-level-flavour-profile-strategies-chart.md), and a gas-drum thread wants 2:00–2:15 for a new machine or coffee [S0055](../sources/S0055-home-barista-underdeveloped-coffee-1kg-drum.md) — so the three arms below sit on those three numbers.
-**Lead (Build 8):** id42 (1:30, 400 g) tasted sweeter and less bitter than id41 (1:01, 350 g), but
-batch, drying and rest differed too. Keep the batch at 350 g for all three arms.
+**Lead (Build 8):** you already ran the first two arms on the Colombia — id41 at 1:01 and id42 at
+1:30, only development changed — and 1:30 tasted sweeter and less bitter. Add the 2:15 arm and repeat
+1:30 once; keep the heater step into drying at the same second (it slipped 38 s in id42).
 **How:** one coffee (the Costa Rican Natural or Colombia you have now), three roasts with your usual
 path to first crack; development ≈ **1:00 / 1:30 / 2:15**. On your machine development time drives
 weight loss (r = 0.72), so expect loss to rise with it; if you want equal degree, lower the heater
@@ -80,8 +81,7 @@ if unsure they differ [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-refer
 **Why:** smaller loads read lower on this probe [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md).
 **How:** same settings, two batch sizes; note first-crack temperature and time.
 **Outcome:** a correction you can use when changing batch size.
-**First data point (id42, 400 g):** dry end 5:35 vs your 350 g median 4:40, first crack 181.2 °C vs
-184.5 °C — but it is one roast of an unlabelled coffee. Do the pair on one coffee, same day. The 70 %
+No data point yet (id42's Artisan file says 400 g, but it was a 350 g repeat of id41). The 70 %
 rule of thumb puts good control at about 350 g on a 500 g-rated roaster [S0070](../sources/S0070-home-barista-kaleido-m2-lite-charge-temperature-batch-size.md).
 
 ## 5. Repeat a good roast by replaying its events
@@ -136,7 +136,7 @@ coffee, same development and weight loss.
 **Outcome:** whether you taste the closure at all. If not, it does not matter for your volumes.
 
 ## 11. Hunt the bitterness — one roast, split several ways
-*Bitterness is in all four of your cupped roasts, across development 0:41–1:30, two or three coffees and 5–23 days of rest, plus a recurring "infamous" flavour with a bitter aftertaste — see [findings](findings.md#cupped-roasts).*
+*Bitterness is in all four of your cupped roasts, across development 0:41–1:30, two coffees and 5–23 days of rest, plus a recurring "infamous" flavour with a bitter aftertaste — see [findings](findings.md#cupped-roasts).*
 
 **Why:** development time is a weak lever on bitterness at equal colour (one trained panel found no significant difference [S0065](../sources/S0065-alstrup-sca-body-roast-degree-development-time.md)), so the cause may be outside the profile. This experiment needs no new roasting skill: it splits **one** batch so the roast is held constant. **Inference — test it.**
 **How:** take one normal 350 g roast (rest 10–14 days).

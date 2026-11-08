@@ -9,8 +9,8 @@ cupped so far. Updated 2026-11-08 (Build 8), 42 roasts (Jan–Nov 2026).*
     - **Honduras Honey cracks ~6 °C higher** — but those roasts were also slower, and *within* each coffee FC time barely predicts FC temperature. Coffee vs speed can't be separated yet.
     - **Your development has shortened a lot:** median 1:37 (DTR 16.5 %) in Jan–Feb → **~1:00 (DTR ~9 %)** since June. That's shorter than the *"fast"* roast in the key development study (1:30), shorter than typical light roasters (1:20–1:30, 13–16 %) and the best roast reported by an experienced Skywalker owner (~1:35, 18 %) — but not unheard of (Nordic ~45 s).
     - Development time predicts your weight loss strongly (r = 0.72, n = 28) — more than drop temperature (r = 0.42).
-    - **New in Build 8 — four cupped roasts.** **Bitterness shows up in all four** (0:41 to 1:30 development, +6 to +12 °C above first crack, two or three coffees, 5 to 23 days of rest), along with a recurring flavour you call "infamous", with a bitter aftertaste. Development time doesn't explain it; acidity does follow it (very acidic at 0:41 → light at 1:30). → [Cupped roasts](#cupped-roasts), [experiment 11](experiments.md).
-    - **id42 (400 g, 1:30 development) beat id41 (350 g, 1:01)** side by side — sweeter, more tea-like body, weaker bitterness — but batch, development, drying and rest all differed, and id42's coffee isn't labelled.
+    - **New in Build 8 — four cupped roasts.** **Bitterness shows up in all four** (0:41 to 1:30 development, +6 to +12 °C above first crack, two coffees, 5 to 23 days of rest), along with a recurring flavour you call "infamous", with a bitter aftertaste. Development time doesn't explain it; acidity does follow it (very acidic at 0:41 → light at 1:30). → [Cupped roasts](#cupped-roasts), [experiment 11](experiments.md).
+    - **id42 (1:30 development) beat id41 (1:01)** side by side — sweeter, more tea-like body, weaker bitterness. You changed only development time on the same coffee, so this is your cleanest pair so far; rest (6 vs 23 days) and a later heater step in drying still differed.
     - **id40 tasted "flat or baked"** with no RoR crash in the log; it had the shortest Maillard of all 42 roasts (2:50) and the lowest first-crack reading (173.8 °C).
     - **New in Build 6:** a higher charge goes with a faster roast (about −4 s per °C of charge, r = −0.58 among the 37 roasts charged at 170 °C or above) — the same order as a Colombian production test, where the cup did not change with charge at medium colour. Most of your roasts (29 of 41) end drying later than the 3:30–4:30 window one Skywalker owner uses. Weight loss rises from ~13 % at 1:00 development to ~14 % at 1:30 or more.
     - **Biggest gap now: one variable at a time.** The cupping notes are coming in — thank you. What's missing is pairs of roasts that differ in only one thing, so a cup difference can be pinned on something.
@@ -125,7 +125,7 @@ Four roasts have notes now. *Rest* = days from roast to the tasting quoted; ΔT 
 | [id39](roasts/id39.md) | Costa Rican Natural | 350 g | 4:36 / 3:56 | 0:41 (7.4 %) | +6.2 °C | 8.5 | 5 d | unpleasant bitterness, very acidic when cooled, no clear flavour, medium body |
 | [id40](roasts/id40.md) | Costa Rican Natural | 350 g | 4:40 / 2:50 | 1:12 (13.8 %) | +12.0 °C | 9.4 | 13 d | flat or baked, a bit of smoke or lingering bitterness, a tiny acidity |
 | [id41](roasts/id41.md) | Colombia Washed, Striped Red Bourbon | 350 g | 5:02 / 3:03 | 1:01 (11.1 %) | +9.8 °C | 8.8 | 18–23 d | bitterness easing over the days to "small or almost none"; acidity balanced, not sour; tea-like body and sweetness; the "infamous" flavour with a bitter aftertaste |
-| [id42](roasts/id42.md) | not labelled | 400 g | 5:35 / 3:13 | 1:30 (14.6 %) | +12.0 °C | 4.3 | 6 d | next to id41: more tea-like body, sweeter, weaker bitterness, light acidity |
+| [id42](roasts/id42.md) | Colombia Washed (same as id41, per you; not labelled in Artisan) | 350 g (Artisan file says 400 g) | 5:35 / 3:13 | 1:30 (14.6 %) | +12.0 °C | 4.3 | 6 d | next to id41: more tea-like body, sweeter, weaker bitterness, light acidity |
 
 **What the four say (P, n=4, uncontrolled):**
 
@@ -164,7 +164,12 @@ Same coffee as id39 with longer development (1:12 vs 0:41) and ΔT (+12.0 vs +6.
 - **Lowest first-crack reading of all 42 (173.8 °C, 10.7 °C under your median).** Either first crack was marked early (a stray pop can lead the main crack by 5.6–8.3 °C [S0055](../sources/S0055-home-barista-underdeveloped-coffee-1kg-drum.md)) — then real development was shorter and ΔT smaller than logged — or the probe sat differently that day [S0045](../sources/S0045-home-barista-quest-m6-first-crack-temperature-probe-depth.md). Do you remember which pop you marked?
 
 ### id41 vs id42 (2026-10-16 vs 2026-11-02)
-id42 was sweeter, with more tea-like body and weaker bitterness, tasted side by side on 2026-11-08. Many things differed at once: batch 400 vs 350 g, development 1:30 vs 1:01, dry end 5:35 vs 5:02, RoR at drop 4.3 vs 8.8 °C/min, and rest 6 vs 23 days. id42's coffee and roasted weight aren't recorded — if it is the same Colombia, it's your best single pair so far for "a bit longer development, gentler finish". The sweeter-with-longer result runs against the 46-taster study [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md) but not against the trained-panel null [S0065](../sources/S0065-alstrup-sca-body-roast-degree-development-time.md); with this many differences it can't decide between them. → [experiment 2](experiments.md), [experiment 4](experiments.md).
+id42 was sweeter, with more tea-like body and weaker bitterness, tasted side by side on 2026-11-08. You roasted it as a repeat of id41 with **only development time changed** (1:01 → 1:30, DTR 11.1 → 14.6 %, ΔT +9.8 → +12.0 °C), the finish stretched with a slower heater ramp-down (65 → 48 → 30 % vs 60 → 55 → 50 → 0 %), so RoR at drop fell to 4.3 vs 8.8 °C/min. That makes it your best single test of development so far: **longer development, sweeter and less bitter** (P, n=1 pair). Two things to keep in mind:
+
+- **The logs differ a little before first crack:** the heater step to 80 % came at 1:46 in id42 vs 1:08 in id41, and the fan step at 5:42 vs 5:05, which fits the later dry end (5:35 vs 5:02) and first crack (8:48 vs 8:05). The time to first crack still changed by 43 s, which the research says matters less than development at equal colour [S0012](../sources/S0012-munchow-2020-roasting-conditions-multi-study.md).
+- **Rest differed:** id42 was tasted at 6 days, id41 at 23. Rest usually helps light roasts, so the younger roast winning makes the result stronger, not weaker.
+
+The result runs against the 46-taster study, where shorter development was sweeter [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md), and fits the trained-panel result that sweetness barely moves with development [S0065](../sources/S0065-alstrup-sca-body-roast-degree-development-time.md) — or neither, since your 1:01 → 1:30 is a smaller step at a lighter colour than both. Repeat it once (experiment 2) before building on it. **Please fix id42 in Artisan:** the beans field is empty and the batch says 400 g; add the roasted weight too.
 
 *Cupped roasts: n = 4 — leads, not findings.*
 
@@ -172,7 +177,7 @@ id42 was sweeter, with more tea-like body and weaker bitterness, tasted side by 
 1. Cupping notes for most roasts (even 3 lines: sweetness, acidity, bitterness, anything off).
    Other owners' best results were judged by cupping — without notes, their recipes can't be
    compared with yours.
-2. Label the coffee in Artisan every time (11 early roasts and id42 are unlabelled).
+2. Label the coffee in Artisan every time (11 early roasts and id42 are unlabelled), and check the batch weight field (id42 says 400 g).
 3. Always enter the roasted weight (14 roasts have no output weight, including id42).
 4. Note probe depth, room temperature and how you marked first crack (first pop vs regular pops) — both shift
    readings and development time [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md) [S0019](../sources/S0019-sweet-marias-first-crack-faq.md) [S0045](../sources/S0045-home-barista-quest-m6-first-crack-temperature-probe-depth.md).

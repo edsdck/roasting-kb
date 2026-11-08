@@ -53,11 +53,6 @@ title: Charge & batch size
 - Rated 400–500 g (sources differ) [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md); users prefer 350–450 g [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md). 350 g = 70–88 % of
   capacity — on the 70 % rule of thumb [S0070](../sources/S0070-home-barista-kaleido-m2-lite-charge-temperature-batch-size.md) it is at or above the "good control" point, so 400 g
   (80–100 %) leaves less headroom. **Inference — test it.**
-- **Your first 400 g roast (P, n=1, id42):** dry end 5:35 (your 350 g median 4:40), first crack
-  8:48 at 181.2 °C (350 g median 184.5 °C), development 1:30, with the same 70–80 % heater start. One
-  roast of an unlabelled coffee: the later dry end fits more beans needing more heat [S0070](../sources/S0070-home-barista-kaleido-m2-lite-charge-temperature-batch-size.md), but the
-  lower first-crack reading is the opposite of "bigger batch reads higher" [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md), so it says
-  nothing yet → [experiment 4](../skywalker/experiments.md).
 - Heatsink mod fitted → back-to-back roasts are reasonable; watch drum-motor heat in long
   sessions [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md).
 - **Inference — test it:** "10 °C per kg" doesn't scale down meaningfully; a 50 g change is
