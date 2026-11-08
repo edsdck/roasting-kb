@@ -2,6 +2,15 @@
 
 Every change the Builder makes to the knowledge base, newest first.
 
+## 2026-11-08 — Fixes: cupping notes renumbered, roast id43
+Roasts parsed: 1 new (id43) · Owner renumbered his note files: the "flat or baked" note was id41's, the multi-day notes and the 41-vs-42 comparison were id42's; id40 has no notes.
+- **CORRECT** [findings](skywalker/findings.md#cupped-roasts) — was: four cupped roasts, id40 "flat or baked", id41 tasted at 18–23 days, "acidity follows development" → now: three cupped roasts (id39, id41, id42), id41 "flat or baked" at 13 days, id42 tasted at 1–6 days; "shorter development was the worse cup both times" replaces the acidity trend, which no longer holds with the right labels. id40 keeps only its log observations (lowest first-crack reading, high fan, shortest Maillard).
+- **CORRECT** [Defects § Skywalker](kb/defects.md) — was: "Your id40 … cupped flat or baked" → now: id41, with its own numbers (RoR 10.3 → 8.8, development 1:01, Maillard 3:03) and the better 1:30 repeat; bitterness "all four" → "all three".
+- **CORRECT** [Development § Skywalker](kb/development.md) — "Your cups so far" rewritten for n=3 and id43.
+- **CORRECT** [experiments](skywalker/experiments.md) and [gaps.md] — id40 references moved to id41; counts and rest days fixed.
+- **ROASTS** id43 (Costa Rica Sarchimor, the new earlier-cut plan) parsed: RoR at first crack 9.1 vs id39's 11.5 °C/min, first crack at the same time (8:33), development 1:30, weight loss 14.6 % (highest of five Costa Rica roasts); added to findings with the owner's "too dark for 1:30" note; medians table refreshed (n=43).
+- **TOOLS** `tools/roastlog.py` — Artisan roasting notes typed with literal `\n` now render as line breaks.
+
 ## 2026-11-08 — Fixes
 - **CORRECT** [findings](skywalker/findings.md#cupped-roasts) — was: "id42 (400 g) vs id41 (350 g): batch, development, drying and rest all differed, coffee unlabelled" → now: same Colombia, 350 g, only development changed (1:01 → 1:30), per the owner; 1:30 sweeter and less bitter is the cleanest development pair so far; the logs' later heater step in drying and the rest difference are noted. Owner's statement over the Artisan file, which says 400 g with no beans.
 - **CORRECT** [Charge & batch](kb/charge-and-batch.md) — removed "Your first 400 g roast (id42)": it wasn't a 400 g roast. Experiment 4 no longer counts it as a data point.

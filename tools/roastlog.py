@@ -185,7 +185,7 @@ def analyse(path):
         "heater_at_charge": next((e["value"] for e in events if e["type"] == "Heater" and e["sec"] <= 5), ""),
         "heater_changes": sum(1 for e in events if e["type"] == "Heater" and e["sec"] > 5),
         "fan_changes": sum(1 for e in events if e["type"] == "Fan"),
-        "roasting_notes": (d.get("roastingnotes") or "").strip(),
+        "roasting_notes": (d.get("roastingnotes") or "").replace("\\n", "\n").strip(),
         "cupping_notes": cup,
         "events": events,
     }

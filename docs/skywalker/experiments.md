@@ -4,7 +4,7 @@
 fixed; cup blind; compare at equal roast degree (weight loss within ±0.5 % if no colour meter —
 **Inference**). Updated 2026-11-08 (Build 8).*
 
-**Next up, in order:** **11** (bitterness in all four cups) → **2** (development, now with an id41/id42 lead) → **9** (id40's short Maillard) → **0** (a 10-minute idle-noise check).
+**Next up, in order:** **11** (bitterness in all three cups) → **2** (development: 1:30 beat 1:01 on the Colombia; on the Costa Rica try ~1:10 with id43's plan) → **9** (short Maillard) → **0** (a 10-minute idle-noise check).
 
 ## 0. Setup first — Artisan RoR settings
 Set sampling to 1 s and delta span ≈ 15 s, minimal extra smoothing [S0008](../sources/S0008-rao-what-is-baked-coffee.md). If the RoR line becomes
@@ -126,9 +126,10 @@ development time within a few seconds of each other. Cup blind.
 **Why:** a one-page chart expects the same light roast to taste less sweet, with less body and more acidity and fruit when the middle phase is cut from 4:00 to 3:30 [S0063](../sources/S0063-cooper-eqmr-roast-level-flavour-profile-strategies-chart.md); your median Maillard is 4:06 and the 2026 recipe uses 3:00–3:30 [S0057](../sources/S0057-cooper-2026-standards-and-the-mother-sauce.md). Chart and recipe, not a test. A Probat series found a 30–40 s change in drying audible, though that changed total time as well [S0035](../sources/S0035-sweet-marias-stretchin-out-the-roast-pt3.md).
 **How:** one coffee, 350 g. Roast A: your usual plan (Maillard ~4:00). Roast B: same dry end, a little more power in browning so first crack comes ~30 s sooner; hold development (~1:08) and weight loss equal. Mark first crack the same way (see 0b). Cup blind.
 **Taste for:** sweetness and body against acidity and fruit.
-**Your lead (Build 8):** id40 had the shortest Maillard of all your roasts (2:50) and tasted "flat or
-baked" — so run it the other way too: a roast B' with Maillard ~3:45 against your recent ~3:00, same
-coffee, same development and weight loss.
+**Your lead (Build 8):** id41 (Maillard 3:03, development 1:01) tasted "flat or baked"; its repeat
+with 1:30 development (Maillard 3:13) was better, so development may explain it. If flatness comes back
+at 1:30, run it the other way too: Maillard ~3:45 against your recent ~3:00, same coffee, same
+development and weight loss.
 
 ## 10. (Optional) Portions or one big container — after four weeks
 **Why:** the only measured storage test found a screw-cap bag best and a transferred-to-canister coffee worst on a chemical index, with no taste data [S0048](../sources/S0048-smrke-2022-coffee-storage-methods-after-opening.md); the review says loss is fastest early and oxygen is the driver [S0049](../sources/S0049-sage-2012-shelf-life-roasted-coffee-staling-review.md). **Inference — test it:** at home, headspace and reopening are what you control.
@@ -136,14 +137,14 @@ coffee, same development and weight loss.
 **Outcome:** whether you taste the closure at all. If not, it does not matter for your volumes.
 
 ## 11. Hunt the bitterness — one roast, split several ways
-*Bitterness is in all four of your cupped roasts, across development 0:41–1:30, two coffees and 5–23 days of rest, plus a recurring "infamous" flavour with a bitter aftertaste — see [findings](findings.md#cupped-roasts).*
+*Bitterness is in all three of your cupped roasts, across development 0:41–1:30, two coffees and 5–23 days of rest, plus a recurring "infamous" flavour with a bitter aftertaste — see [findings](findings.md#cupped-roasts).*
 
 **Why:** development time is a weak lever on bitterness at equal colour (one trained panel found no significant difference [S0065](../sources/S0065-alstrup-sca-body-roast-degree-development-time.md)), so the cause may be outside the profile. This experiment needs no new roasting skill: it splits **one** batch so the roast is held constant. **Inference — test it.**
 **How:** take one normal 350 g roast (rest 10–14 days).
 
 - **A — sort:** pick out every fully black ("charcoal") bean, which lamp roasters throw up to lamp level [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md), and every pale, flat quaker [S0061](../sources/S0061-hoos-decoding-defects-immature.md). Brew sorted vs unsorted side by side, same recipe. If it's the black beans, taste a few of them alone in a small brew.
 - **B — brew:** same sorted beans, two brews that differ in one thing only: one step coarser grind, *or* water 5 °C cooler. If bitterness moves with the brew, it's extraction, not the roast.
-- **C — rest:** keep a sealed portion and taste it again at week 4 (id41 changed a lot between days 18 and 21).
+- **C — rest:** keep a sealed portion and taste it again at week 4 (id42 changed a lot between days 1 and 4).
 
 **Taste for:** where the bitterness sits (front of the tongue, or "deep in the mouth" as in id41), whether it lingers, and whether the "infamous" flavour comes and goes with it. Name its family if you can (ashy/smoky, rubbery, papery, vegetal, burnt sugar).
 **Outcome:** if A or B removes it, you've saved yourself months of profile changes; if nothing does, it's in the roast or the green, and experiments 2, 3 and 9 are the next place to look.

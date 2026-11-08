@@ -1,12 +1,13 @@
 # Roast log
 
-*42 roasts, newest first, generated from Artisan files. Click a date for the curve, phases, heater/fan changes and cupping notes.*
+*43 roasts, newest first, generated from Artisan files. Click a date for the curve, phases, heater/fan changes and cupping notes.*
 
 | Date | Coffee | g | Loss % | FC | Dev | DTR % | Drop °C | Cupped |
 |---|---|---|---|---|---|---|---|---|
-| [2026-11-02](roasts/id42.md) | Unlabelled (id42) | 400 |  | 8:48 | 1:30 | 14.6 | 193.2 |  |
+| [2026-11-08](roasts/id43.md) | Costa Rica Sarchimor | 350 | 14.6 | 8:33 | 1:30 | 14.9 | 196.2 | ✓ |
+| [2026-11-02](roasts/id42.md) | Unlabelled (id42) | 400 |  | 8:48 | 1:30 | 14.6 | 193.2 | ✓ |
 | [2026-10-16](roasts/id41.md) | Colombia Washed - Striped Red Bourbon | 350 | 12.3 | 8:05 | 1:01 | 11.1 | 190.4 | ✓ |
-| [2026-10-16](roasts/id40.md) | Costa Rican Natural - Sarchimor | 350 | 12.0 | 7:30 | 1:12 | 13.8 | 185.8 | ✓ |
+| [2026-10-16](roasts/id40.md) | Costa Rican Natural - Sarchimor | 350 | 12.0 | 7:30 | 1:12 | 13.8 | 185.8 |  |
 | [2026-10-09](roasts/id39.md) | Costa Rican Natural - Sarchimor | 350 | 12.9 | 8:32 | 0:41 | 7.4 | 192.0 | ✓ |
 | [2026-08-20](roasts/id38.md) | Costa Rican Natural - Sarchimor | 350 | 13.4 | 8:21 | 1:08 | 11.9 | 194.4 |  |
 | [2026-08-04](roasts/id37.md) | Brazilian Natural | 350 | 14.3 | 10:41 | 1:30 | 12.3 | 196.2 |  |

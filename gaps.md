@@ -23,7 +23,7 @@ source files can refer to them. Updated 2026-11-08 (Build 8).*
    "Roasting on a Kaleido" (2026-01), Kaleido Sniper thread, kaleidoroasters.com manual-mode article;
    Hoos "Tipping and its Avoidance"; Keys to the Shop RoR #18 and the Springer far-infrared paper
    (both needs-manual); Skywalker Discord summaries.
-3. **Skywalker at 350 g with cupping notes** — the owner now has four cupped roasts (all bitter; see item 18), but no other owner's 350 g V1 cup notes — still no V1 350 g profile with cup notes (S0027 has impressions only; recipes are 250 g). Angles: Home Roasters threads 7105
+3. **Skywalker at 350 g with cupping notes** — the owner now has three cupped roasts (all bitter; see item 18), but no other owner's 350 g V1 cup notes — still no V1 350 g profile with cup notes (S0027 has impressions only; recipes are 250 g). Angles: Home Roasters threads 7105
    and 7103; HiBean community light-roast profiles; Nirecue videos; TomPoland's V1 review video;
    Roastetta Skywalker V1 entries with notes.
 4. **Why first crack reads different on one machine** — probe depth moved one Quest by ~11 °C
@@ -45,7 +45,7 @@ source files can refer to them. Updated 2026-11-08 (Build 8).*
    vs S0017); two C-grade forum threads (S0044, S0046) argue the physics but give no cup data. Find
    renatoa's radiant-vs-convection post (homeroasters post 80382), a measured declining-vs-flat
    comparison with tasting, and any IR logs paired with taste (Kaleido, Rubasse, DigiRosto users).
-7. **What causes "baked", and what it means** — Build 8: the owner's id40 cupped "flat or baked" with no crash on a smoothed NTC probe and the shortest Maillard of his roasts (2:50); S0067 shows a thick probe can hide a post-crack dip on slightly baked batches. Need: anything on short Maillard and flatness, and whether radiant roasters hide or show dips — practitioner views only, now four definitions
+7. **What causes "baked", and what it means** — Build 8: the owner's id41 cupped "flat or baked" with no crash on a smoothed NTC probe, development 1:01 and Maillard 3:03, and the 1:30 repeat was better; S0067 shows a thick probe can hide a post-crack dip on slightly baked batches. Need: anything on short Maillard and flatness, and whether radiant roasters hide or show dips — practitioner views only, now four definitions
    (RoR crash; long development at equal colour; Perger's "lack of sweetness in a coffee that isn't
    dark", second-hand; and Hoos's refusal to use the word, S0060) and a seventh proposed cause
    (long low-temperature roasting or heat/airflow out of balance, S0051). Controlled sensory work
@@ -101,7 +101,7 @@ source files can refer to them. Updated 2026-11-08 (Build 8).*
     small radiant or hot-air roaster, and the Cooper/Hoos follow-up material.
 
 18. **Bitterness and a recurring off-flavour in light lamp roasts** (new, high priority — from the owner's cups) —
-    bitterness in all four cupped roasts (0:41–1:30 development, two coffees, 5–23 days rest)
+    bitterness in all three cupped roasts (0:41–1:30 development, two coffees, 1–23 days rest)
     plus a recurring unnamed flavour with a bitter aftertaste. Need: what makes short light roasts
     bitter (charred/tipped beans, smoke or chaff on radiant roasters, quakers, extraction), any
     sensory vocabulary for "ashy/smoky" vs "roasty" faults, and Skywalker/Kaleido owners reporting
