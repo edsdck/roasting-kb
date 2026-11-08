@@ -19,7 +19,7 @@ cupped so far. Updated 2026-11-08 (Build 8, notes renumbered), 43 roasts (Jan–
 
 | | Median | Range |
 |---|---|---|
-| Batch | 350 g | 325–400 g |
+| Batch | 350 g | 325–385 g |
 | Charge BT | 181 °C | 108–205 °C |
 | Turning point | ~1:04 | — |
 | Dry end (yellow) | 4:40 @ ~145 °C | 3:55–7:00 |
@@ -124,7 +124,7 @@ Three roasts have cup notes (Build 8; your note files were renumbered — the "f
 |---|---|---|---|---|---|---|---|
 | [id39](roasts/id39.md) | Costa Rican Natural | 4:36 / 3:56 | 0:41 (7.4 %) | +6.2 °C | 11.5 / 8.5 | 5 d | unpleasant bitterness, very acidic when cooled, no clear flavour, medium body |
 | [id41](roasts/id41.md) | Colombia Washed, Striped Red Bourbon | 5:02 / 3:03 | 1:01 (11.1 %) | +9.8 °C | 10.3 / 8.8 | 13 d | flat or baked, a bit of smoke or lingering bitterness; bitterness the same when cooled, a tiny acidity |
-| [id42](roasts/id42.md) | Colombia (same as id41, per you; not labelled in Artisan) | 5:35 / 3:13 | 1:30 (14.6 %) | +12.0 °C | 10.1 / 4.3 | 1–6 d | some bitterness early, easing to "small or almost none" by day 4; acidity balanced, not sour; tea-like body and sweetness; the "infamous" flavour |
+| [id42](roasts/id42.md) | Colombia (same as id41) | 5:35 / 3:13 | 1:30 (14.6 %) | +12.0 °C | 10.1 / 4.3 | 1–6 d | some bitterness early, easing to "small or almost none" by day 4; acidity balanced, not sour; tea-like body and sweetness; the "infamous" flavour |
 | [id43](roasts/id43.md) | Costa Rica Sarchimor (natural) | 4:21 / 4:12 | 1:30 (14.9 %) | +10.4 °C | 9.1 / 4.5 | — | not cupped; roasting note: "too dark for 1:30 dev" |
 
 **What the three say (P, n=3, uncontrolled):**
@@ -168,7 +168,7 @@ id42 was sweeter, with more tea-like body and weaker bitterness, tasted side by 
 - **The logs differ a little before first crack:** the heater step to 80 % came at 1:46 in id42 vs 1:08 in id41, and the fan step at 5:42 vs 5:05, which fits the later dry end (5:35 vs 5:02) and first crack (8:48 vs 8:05). The time to first crack still changed by 43 s, which the research says matters less than development at equal colour [S0012](../sources/S0012-munchow-2020-roasting-conditions-multi-study.md).
 - **Rest differed:** in the side-by-side id42 was 6 days old and id41 23. Rest usually helps light roasts, so the younger roast winning makes the result stronger, not weaker.
 
-The result runs against the 46-taster study, where shorter development was sweeter [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md), and fits the trained-panel result that sweetness barely moves with development [S0065](../sources/S0065-alstrup-sca-body-roast-degree-development-time.md) — or neither, since your 1:01 → 1:30 is a smaller step at a lighter colour than both. Repeat it once (experiment 2) before building on it. **Please fix id42 in Artisan:** the beans field is empty and the batch says 400 g; add the roasted weight too.
+The result runs against the 46-taster study, where shorter development was sweeter [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md), and fits the trained-panel result that sweetness barely moves with development [S0065](../sources/S0065-alstrup-sca-body-roast-degree-development-time.md) — or neither, since your 1:01 → 1:30 is a smaller step at a lighter colour than both. Repeat it once (experiment 2) before building on it.
 
 ### id43 (Costa Rica Sarchimor, 2026-11-08) — your new plan
 Charge 180.6 °C at 70 % / fan 40 %, 80 % after the turning point (1:07), fan 55 % at 5:00, heater 70 → 60 → 50 % at 5:30 / 6:30 / 7:30, fan 65 % at 8:07, 40 % at 8:40, drop at 1:30. Against id39 (same coffee, same start):
@@ -184,7 +184,7 @@ Charge 180.6 °C at 70 % / fan 40 %, 80 % after the turning point (1:07), fan 55
 1. Cupping notes for most roasts (even 3 lines: sweetness, acidity, bitterness, anything off).
    Other owners' best results were judged by cupping — without notes, their recipes can't be
    compared with yours.
-2. Label the coffee in Artisan every time (11 early roasts and id42 are unlabelled), and check the batch weight field (id42 says 400 g).
+2. Label the coffee in Artisan every time (11 early roasts are unlabelled), and check the batch weight field.
 3. Always enter the roasted weight (14 roasts have no output weight, including id42).
 4. Note probe depth, room temperature and how you marked first crack (first pop vs regular pops) — both shift
    readings and development time [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md) [S0019](../sources/S0019-sweet-marias-first-crack-faq.md) [S0045](../sources/S0045-home-barista-quest-m6-first-crack-temperature-probe-depth.md).

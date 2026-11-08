@@ -2,6 +2,9 @@
 
 Every change the Builder makes to the knowledge base, newest first.
 
+## 2026-11-08 — Fixes: id42 Artisan file
+- **CORRECT** id42 Artisan file (owner's confirmation): beans set to Colombia Washed - Striped Red Bourbon, batch 400 → 350 g; roasted weight unknown, left blank. Roast page and [roast log](skywalker/roast-log.md) regenerated; [findings](skywalker/findings.md) no longer ask for the fix. Original file backed up outside the repo before editing.
+
 ## 2026-11-08 — Fixes: cupping notes renumbered, roast id43
 Roasts parsed: 1 new (id43) · Owner renumbered his note files: the "flat or baked" note was id41's, the multi-day notes and the 41-vs-42 comparison were id42's; id40 has no notes.
 - **CORRECT** [findings](skywalker/findings.md#cupped-roasts) — was: four cupped roasts, id40 "flat or baked", id41 tasted at 18–23 days, "acidity follows development" → now: three cupped roasts (id39, id41, id42), id41 "flat or baked" at 13 days, id42 tasted at 1–6 days; "shorter development was the worse cup both times" replaces the acidity trend, which no longer holds with the right labels. id40 keeps only its log observations (lowest first-crack reading, high fan, shortest Maillard).

@@ -109,7 +109,7 @@ source files can refer to them. Updated 2026-11-08 (Build 8).*
     "chaff"), Home-Barista "bitter light roast", Hoos "Tipping and its Avoidance", Sweet Maria's
     cupping glossary, SCA flavour wheel / WCR sensory lexicon entries for ashy, smoky, rubber.
 
-Owner-side questions (not for the Gatherer): fix id42 in Artisan (beans, 350 g batch, roasted weight); which pop did
+Owner-side questions (not for the Gatherer):  which pop did
 you mark as first crack on id40 (it read 173.8 °C, your lowest); can you place the "infamous" flavour
 in a family (ashy/smoky, rubbery, papery, vegetal, burnt sugar); how do you brew for tasting (grind,
 water temperature, ratio); do you pick out black beans after roasting; record two minutes of idle

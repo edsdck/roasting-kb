@@ -81,7 +81,7 @@ if unsure they differ [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-refer
 **Why:** smaller loads read lower on this probe [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md).
 **How:** same settings, two batch sizes; note first-crack temperature and time.
 **Outcome:** a correction you can use when changing batch size.
-No data point yet (id42's Artisan file says 400 g, but it was a 350 g repeat of id41). The 70 %
+No data point yet. The 70 %
 rule of thumb puts good control at about 350 g on a 500 g-rated roaster [S0070](../sources/S0070-home-barista-kaleido-m2-lite-charge-temperature-batch-size.md).
 
 ## 5. Repeat a good roast by replaying its events
