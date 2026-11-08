@@ -63,7 +63,9 @@ sweet; Rao adds that it loses sweetness and tartness as the cup cools (easy to b
 **What causes it — contested.** Proposed causes [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md):
 
 1. A sharp RoR **crash** after first crack — Rao's main explanation; a crash in the last ~30 s does
-   less harm `ctx: gas-drum` [S0008](../sources/S0008-rao-what-is-baked-coffee.md)
+   less harm `ctx: gas-drum` [S0008](../sources/S0008-rao-what-is-baked-coffee.md); a crash can be invisible on a thick probe — Hoos's roastery found a negative RoR after first
+   crack only after fitting a thin probe, on batches that had looked on-profile and tasted slightly
+   baked `ctx: drum` [S0067](../sources/S0067-hoos-our-world-through-a-keyhole-thermocouple-limits.md)
 2. A large RoR **dip followed by a rise** (flick) [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md)
 3. Bean temperature **stalling** [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md)
 4. **Long development (4+ min) with a flat RoR** [S0010](../sources/S0010-hoos-loring-avoiding-roasting-defects.md) — close to the research "Baked" roast:
@@ -92,6 +94,13 @@ and experiment at equal colour [S0005](../sources/S0005-coffeemind-rate-of-rise-
 - **Inference — test it:** cause #4 (long development + flat RoR) is the one most relevant here,
   because a flat RoR is normal on a radiant roaster [S0002](../sources/S0002-skywiki-convection-vs-radiant.md). Keep development moderate when RoR is
   flat and taste for flatness.
+- **Your id40 (Costa Rican Natural, P, n=1):** cupped "flat or baked", with a bit of smoke or
+  lingering bitterness and only a tiny acidity. Its log shows no RoR crash (11.0 °C/min at first
+  crack, 9.4 at drop), development 1:12 and the shortest Maillard of all your roasts (2:50). Causes 1–3
+  can't be ruled out from your slow, smoothed probe [S0067](../sources/S0067-hoos-our-world-through-a-keyhole-thermocouple-limits.md) [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md); a squeezed middle phase is
+  the other candidate, since a chart links shorter Maillard to less sweetness and body [S0063](../sources/S0063-cooper-eqmr-roast-level-flavour-profile-strategies-chart.md).
+  **Inference — test it** (experiment 9 in [experiments](../skywalker/experiments.md)).
+- **Inference — test it:** bitterness turns up in all four of your cupped roasts, and you describe a recurring flavour with a bitter aftertaste. Before blaming the profile, pick out the fully black ("charcoal") beans that lamp roasters throw up [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md) and any pale quakers [S0061](../sources/S0061-hoos-decoding-defects-immature.md), and brew a picked and an unpicked portion of the same roast side by side. See [findings](../skywalker/findings.md#cupped-roasts).
 - At 350 g you're well below a level where facing from an overfilled drum is likely. [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md) [S0013](../sources/S0013-melheim-2023-optimal-batch-size.md)
 - **Charred ("charcoal") beans:** a few completely black beans per roast are common on Skywalkers
   (3–4 per 250 g was normal for one owner). They come from beans thrown up to lamp level; a

@@ -16,6 +16,7 @@ title: Charge & batch size
 
 - **Capacity guidelines.** ~80 % of drum capacity as a maximum; suggested minimums vary (20, 25 or
   40 %). `conf: low` `ctx: commercial drums` [S0013](../sources/S0013-melheim-2023-optimal-batch-size.md)
+- **About 70 % of rating on small electric roasters.** A forum rule of thumb for good control is ~70 % of rated capacity (350 g for a 500 g rating); one member's 600 g roaster works best near 460 g (77 %). The thread's Kaleido owner roasted 1 lb with an ~8 min dry end and a 12:52 roast, which replies read as too little headroom. `conf: low` `ctx: IR/hybrid, electric` [S0070](../sources/S0070-home-barista-kaleido-m2-lite-charge-temperature-batch-size.md)
 - **Readings shift with batch size.** The same coffee was dropped at 227 °C in a full batch but 224 °C in a half batch (adj. ≈ 211 vs 208 °C) [S0013](../sources/S0013-melheim-2023-optimal-batch-size.md); on the Skywalker smaller loads read lower because the probe sees
   more air [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md). `conf: medium`
 - **Probe immersion.** In small batches the bean probe must be fully covered by beans or readings
@@ -38,6 +39,10 @@ title: Charge & batch size
 
 - **Charge follows batch size, not processing** — Hoos's rule for his drum roaster; wetter coffee
   may need a hotter preheat or different airflow instead [S0025](../sources/S0025-roast-rebels-hoos-cultivars-airflow-interview.md). `conf: low` `ctx: drum`
+  Home-Barista posters agree: batch size first, density second (and often too small an effect to
+  matter); more beans need more heat; low-mass home and sample roasters feel the charge mostly in the
+  early roast; and charge is "among the last things" to change when fixing a roast. To learn its
+  effect, roast one coffee twice at two charges [S0070](../sources/S0070-home-barista-kaleido-m2-lite-charge-temperature-batch-size.md). `conf: low`
 - **Charge too low → under-developed inside.** Compensating a low charge with lots of heat to reach
   first crack can leave the bean's inside behind (astringent cups); a higher charge fixed it for
   one drum roaster [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md). `conf: low` `ctx: drum`
@@ -46,7 +51,13 @@ title: Charge & batch size
 
 ## On the Skywalker (IR)
 - Rated 400–500 g (sources differ) [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md); users prefer 350–450 g [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md). 350 g = 70–88 % of
-  capacity.
+  capacity — on the 70 % rule of thumb [S0070](../sources/S0070-home-barista-kaleido-m2-lite-charge-temperature-batch-size.md) it is at or above the "good control" point, so 400 g
+  (80–100 %) leaves less headroom. **Inference — test it.**
+- **Your first 400 g roast (P, n=1, id42):** dry end 5:35 (your 350 g median 4:40), first crack
+  8:48 at 181.2 °C (350 g median 184.5 °C), development 1:30, with the same 70–80 % heater start. One
+  roast of an unlabelled coffee: the later dry end fits more beans needing more heat [S0070](../sources/S0070-home-barista-kaleido-m2-lite-charge-temperature-batch-size.md), but the
+  lower first-crack reading is the opposite of "bigger batch reads higher" [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md), so it says
+  nothing yet → [experiment 4](../skywalker/experiments.md).
 - Heatsink mod fitted → back-to-back roasts are reasonable; watch drum-motor heat in long
   sessions [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md).
 - **Inference — test it:** "10 °C per kg" doesn't scale down meaningfully; a 50 g change is

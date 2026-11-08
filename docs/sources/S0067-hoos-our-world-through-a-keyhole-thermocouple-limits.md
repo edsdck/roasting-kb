@@ -14,7 +14,7 @@ machine: "Drop-door and faceplate thermocouples of 1.6, 3.2 and 6.4 mm on a Lori
 topics: [measurement-and-artisan, rate-of-rise, defects]
 novelty: mixed
 corroborates: [S0045, S0054]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0067 — Hoos: thermocouple limits ("Our World Through a Keyhole")

@@ -14,7 +14,7 @@ machine: "OP: Kaleido M2 (a hybrid heater, see S0070 notes), 5th roast, cheap Rw
 topics: [measurement-and-artisan, rate-of-rise]
 novelty: corroborating
 corroborates: [S0068]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0071 — Home-Barista: spiky RoR on a Kaleido M2 in Artisan

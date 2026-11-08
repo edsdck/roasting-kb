@@ -70,10 +70,10 @@ Every source collected by the Gatherer. Grades: **A** experiment/paper · **B** 
 | S0062 | [How to Calculate Weight Loss in Coffee Roasting (Sweet Maria's Coffee Library)](S0062-sweet-marias-how-to-calculate-weight-loss.md) | article | C | multiple | integrated |
 | S0063 | [Roast Level / Flavour Profile Strategies (Anne Cooper, Equilibrium Master Roasters chart)](S0063-cooper-eqmr-roast-level-flavour-profile-strategies-chart.md) | article | C | n/a | integrated |
 | S0064 | [Volatile Compounds in Green and Roasted Arabica Specialty Coffee: Discrimination of Origins, Post-Harvesting Processes, and Roasting Level](S0064-vezzulli-2023-volatile-compounds-origin-process-roast-level.md) | paper | A | fluid-bed | integrated |
-| S0065 | [Modulating Perception: roast degree, development time and perceived body (Alstrup, SCA 25 Magazine, Issue 5)](S0065-alstrup-sca-body-roast-degree-development-time.md) | article | B | n/a | new |
-| S0066 | [A universal color curve for roasted arabica coffee (Anokye-Bempah et al., Scientific Reports 2025)](S0066-anokye-bempah-2025-universal-color-curve-roasted-arabica.md) | paper | A | gas-drum | new |
-| S0067 | [Our World Through a Keyhole: Understanding the Limitations of Thermocouple Readings (Rob Hoos, Roast 2017; Daily Coffee News 2019)](S0067-hoos-our-world-through-a-keyhole-thermocouple-limits.md) | article | B | multiple | new |
-| S0068 | [On Idle Noise (MaKoMo, Artisan blog, March 2019)](S0068-makomo-artisan-blog-on-idle-noise-rtd-vs-tc-ror-delay.md) | article | B | n/a | new |
-| S0069 | [On Idle Noise (Home-Barista thread t57637, pages 1 and 6, 2019)](S0069-home-barista-on-idle-noise-thread-artisan-delta-span.md) | forum | C | multiple | new |
-| S0070 | [Question from a new coffee roaster: charge temperatures (Home-Barista thread t104791, Aug-Sep 2026)](S0070-home-barista-kaleido-m2-lite-charge-temperature-batch-size.md) | forum | C | IR | new |
-| S0071 | [New to Artisan, RoR curve help please (Home-Barista thread t92299, Feb 2024)](S0071-home-barista-new-to-artisan-ror-curve-help-kaleido-m2.md) | forum | C | IR | new |
+| S0065 | [Modulating Perception: roast degree, development time and perceived body (Alstrup, SCA 25 Magazine, Issue 5)](S0065-alstrup-sca-body-roast-degree-development-time.md) | article | B | n/a | integrated |
+| S0066 | [A universal color curve for roasted arabica coffee (Anokye-Bempah et al., Scientific Reports 2025)](S0066-anokye-bempah-2025-universal-color-curve-roasted-arabica.md) | paper | A | gas-drum | integrated |
+| S0067 | [Our World Through a Keyhole: Understanding the Limitations of Thermocouple Readings (Rob Hoos, Roast 2017; Daily Coffee News 2019)](S0067-hoos-our-world-through-a-keyhole-thermocouple-limits.md) | article | B | multiple | integrated |
+| S0068 | [On Idle Noise (MaKoMo, Artisan blog, March 2019)](S0068-makomo-artisan-blog-on-idle-noise-rtd-vs-tc-ror-delay.md) | article | B | n/a | integrated |
+| S0069 | [On Idle Noise (Home-Barista thread t57637, pages 1 and 6, 2019)](S0069-home-barista-on-idle-noise-thread-artisan-delta-span.md) | forum | C | multiple | integrated |
+| S0070 | [Question from a new coffee roaster: charge temperatures (Home-Barista thread t104791, Aug-Sep 2026)](S0070-home-barista-kaleido-m2-lite-charge-temperature-batch-size.md) | forum | C | IR | integrated |
+| S0071 | [New to Artisan, RoR curve help please (Home-Barista thread t92299, Feb 2024)](S0071-home-barista-new-to-artisan-ror-curve-help-kaleido-m2.md) | forum | C | IR | integrated |

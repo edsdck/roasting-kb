@@ -14,7 +14,7 @@ machine: "Bench tests on a table (probe and meter at room temperature, 0.5 s sam
 topics: [measurement-and-artisan, rate-of-rise]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0068 — MaKoMo: "On Idle Noise" (Artisan RoR noise and delay)

@@ -10,6 +10,8 @@ title: Measurement & Artisan
     - Probe type and placement move the number by 10–20 °C; what matters is that *your* probe is consistent through development. `conf: medium`
     - **Does first-crack temperature depend on the coffee?** Some roasters see the same reading for every bean; others (and your Honduras Honey) don't. **Contested.**
     - Treat temperatures as machine-specific; compare by time, events (first crack), weight loss and colour.
+    - **The RoR line is always late — by half the delta span** (15 s span → 7.5 s late), and smoothing adds more. Cut noise at the source, then use the shortest span that is still readable. `conf: medium`
+    - **Colour is the profile-independent marker:** in a 39-roast study ground coffee read the same colour at first crack (L* ≈ 30) whatever the profile or origin — but colour numbers don't transfer between meters. `conf: medium` `ctx: gas-drum`
     - **Probe depth alone moved one Quest M6's first-crack reading by ~11 °C** (362–369 °F with the tip about 1 in into the drum, 380–390 °F at about 1.75 in) — more than your own first-crack spread (SD 4.3 °C). Check depth before trusting any first-crack temperature. `conf: low` (one owner, two roasts)
 
 ## Concepts
@@ -41,6 +43,10 @@ title: Measurement & Artisan
 - **Probe speed.** Thicker probes respond slowly and smooth out events like an RoR crash; Rao
   suggests ≤ 4 mm (ungrounded), and checks that the turning point appears by ~1:30. `conf: low`
   `ctx: gas-drum` [S0008](../sources/S0008-rao-what-is-baked-coffee.md)
+- **Probe thickness changes the curve, not the coffee.** Hoos ran 1.6, 3.2 and 6.4 mm thermocouples in the same roast: turnaround came at 0:47, 1:43 and 2:46, and only the thinnest probe showed the reaction to a burner change around first crack. After his roastery swapped a 6.4 mm for a 1.6 mm drop-door probe, the thin one showed a **negative RoR after first crack** on batches that looked on-profile on the thick probe and tasted slightly baked. Placement adds to this through exposure to airflow and radiant energy. His conclusion: readings are relative, good for consistency, and quality is checked by colour, weight loss and cupping. `conf: medium` (one B source, measured) `ctx: drum` [S0067](../sources/S0067-hoos-our-world-through-a-keyhole-thermocouple-limits.md)
+- **…but thinner is not simply better.** MaKoMo (works on Artisan) uses a 3 mm probe as the compromise between speed, noise and durability: thinner probes break sooner and need more smoothing, the sheath's mass acts as a useful filter, and "RTDs are slower than thermocouples" is misleading. He also questions the hot-water method of Hoos's speed test. Drum bean RoR rarely exceeds 30 °C/min after dry end, so a system need not be faster than that. `conf: low` [S0068](../sources/S0068-makomo-artisan-blog-on-idle-noise-rtd-vs-tc-ror-delay.md)
+- **Colour at the milestones is nearly fixed.** UC Davis sampled 39 roasts every minute (seven very different 16-minute profiles, three coffees, 5 kg Probat): every ground sample fell on one curve in L*a*b* space, and the colour at colour change, first crack and second crack barely moved with profile or origin (L* 62.4 ± 2.6 / **29.7 ± 1.9** / 20.0 ± 1). Faster profiles only got there sooner. A check against 20 published studies mostly agreed. `conf: medium` (one A study; same dataset as [S0007](../sources/S0007-anokye-bempah-2024-titratable-acidity.md)) `ctx: gas-drum` [S0066](../sources/S0066-anokye-bempah-2025-universal-color-curve-roasted-arabica.md)
+- **Colour numbers are instrument-specific.** There is no agreed definition of light/medium/dark, and an Agtron number on one device "may not correspond to the same value on other devices"; the study measured ground coffee on a lab spectrophotometer [S0066](../sources/S0066-anokye-bempah-2025-universal-color-curve-roasted-arabica.md). Compare colours only from the same meter and the same grind.
 - **Early-roast artefact.** Right after charge, the probe is hotter than the beans and cools
   toward them, distorting the first minutes of the RoR curve. [S0008](../sources/S0008-rao-what-is-baked-coffee.md)
 - **Your probe and connection.** The stock Skywalker V1 probe is an **NTC thermistor**; V1 has no
@@ -61,6 +67,9 @@ title: Measurement & Artisan
 
 - **RoR settings (Rao):** 1 s sampling, *delta span* ≤ 15 s, no additional smoothing. `conf: low`
   `ctx: gas-drum` [S0008](../sources/S0008-rao-what-is-baked-coffee.md)
+- **Span and smoothing are the same trade.** A longer delta span, averaging smoothing and a longer sampling interval all make the RoR smoother *and later*; the lag from the span alone is half its length. MaKoMo cut idle noise at the source (3 mm PT100 RTD on a quiet meter: noise StdDev 2.64 → 0.09) and now runs a 1 s span with no smoothing; Artisan's "optimal smoothing", which avoids the time shift, only works offline (not while recording). Low-resolution readings (0–1 decimal) add digital noise to the RoR. `conf: medium` [S0068](../sources/S0068-makomo-artisan-blog-on-idle-noise-rtd-vs-tc-ror-delay.md)
+- **What others run.** A Santoker with RTDs: 1 s sampling, 10 s span (≥ 5 s late); a Mill City 1 kg needed 15 s and stayed noisier; a home roaster with a K-type at 15 s span saw "quite a bit of delay", and after switching to an RTD ran 1 s / no smoothing / 1 s span [S0069](../sources/S0069-home-barista-on-idle-noise-thread-artisan-delta-span.md). On a Kaleido M2 (IR/hybrid) owners call a spiky RoR normal and say to read the general shape; one used a 20 s / 40 Delta BT filter with polyfit and optimal smoothing [S0071](../sources/S0071-home-barista-new-to-artisan-ror-curve-help-kaleido-m2.md) — about 10 s of lag by the half-span rule, and the optimal part applies only after the roast [S0068](../sources/S0068-makomo-artisan-blog-on-idle-noise-rtd-vs-tc-ror-delay.md). `conf: low`
+- **Measure idle noise to pick a span.** Record ~2 minutes with nothing happening (0.5–1 s sampling), look at how much the RoR wanders, then take the smallest span that removes it; real roasts may need a bit more [S0068](../sources/S0068-makomo-artisan-blog-on-idle-noise-rtd-vs-tc-ror-delay.md). A probe that is dead still looks quieter than it is — let the temperature drift a little while you test [S0069](../sources/S0069-home-barista-on-idle-noise-thread-artisan-delta-span.md).
 - **Don't over-read the RoR line:** the derivative amplifies probe noise; bumps look bigger than
   they are. [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md)
 - **Spikes and trier pulls.** The Skywalker's data stream contains occasional temperature spikes,
@@ -81,7 +90,7 @@ title: Measurement & Artisan
   and cupping notes. Colour plus development time describes a roast better than colour alone [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md).
 
 ## On the Skywalker (IR)
-- **Your data (P, n=41):** first crack median 184.5 °C (174–193 °C), in line with other owners;
+- **Your data (P, n=42):** first crack median 184.5 °C (174–193 °C), in line with other owners;
   Honduras Honey ran ~6 °C higher than washed coffees at the same batch size — see
   [findings](../skywalker/findings.md).
 - The V1 panel's RoR is a once-a-minute average, not a live RoR — use Artisan's. [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md) [S0016](../sources/S0016-homeroasters-skywalker-main-thread.md)
@@ -92,6 +101,15 @@ title: Measurement & Artisan
   one roaster found ground colour followed drop temperature better than development time [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md).
 - **Inference — test it:** with a slow-responding probe/lamp system, try a delta span around 15 s
   and see whether the curve becomes too noisy to read; adjust and note the setting.
+  *Build 8:* do it by measurement instead of by eye — with the drum turning, fan at your usual
+  setting and the heater off (or steady), record two minutes and pick the shortest span that
+  flattens the RoR [S0068](../sources/S0068-makomo-artisan-blog-on-idle-noise-rtd-vs-tc-ror-delay.md). Remember the price: 15 s span = 7.5 s late, on top of the lamp lag. The RoR
+  on your roast pages here is computed over 30 s, so it is about 15 s late (derived from [S0068](../sources/S0068-makomo-artisan-blog-on-idle-noise-rtd-vs-tc-ror-delay.md)).
+- **Inference — test it:** your stock NTC probe is already rolling-averaged by the roaster [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md),
+  which behaves like a thick probe: a short RoR dip after first crack — the kind Hoos's thin probe
+  revealed on "slightly baked" batches [S0067](../sources/S0067-hoos-our-world-through-a-keyhole-thermocouple-limits.md) — may not show on your curve at all. A flat-looking
+  development on your log is not proof that there was no dip.
+- **Inference — test it:** colour is the one roast-degree marker that barely moves with the profile [S0066](../sources/S0066-anokye-bempah-2025-universal-color-curve-roasted-arabica.md). If you get any colour reading (phone app or meter), always grind the same way and use the same device, and log it with weight loss; it is the best way to compare roasts whose times differ.
 - **Inference — test it:** four things that are not the coffee have each been shown to move a first-crack reading by several degrees — probe depth (~11 °C on a Quest [S0045](../sources/S0045-home-barista-quest-m6-first-crack-temperature-probe-depth.md)), probe type (~11 °C between K-type and RTD on a gas drum [S0054](../sources/S0054-home-barista-conduction-vs-convection-test-results-are-confusing.md)), which pop you call (a stray pop can lead the main crack by 5.6–8.3 °C [S0055](../sources/S0055-home-barista-underdeveloped-coffee-1kg-drum.md)) and, on one hot-air drum, airflow [S0053](../sources/S0053-home-barista-desnudo-conduction-convection-thread-roest-airflow.md). Your first-crack readings have a 19.4 °C full range (SD 4.3 °C); keep depth, probe, call and fan fixed before reading any of it as a coffee effect.
 - The 2019 matched-profile pilot left temperature out on purpose, because probes differ between machines, and matched times and colour instead [S0056](../sources/S0056-cooper-hoos-2019-can-you-taste-the-roasting-system.md) — the same reason this base prefers time after first crack to absolute temperature.
 
@@ -122,9 +140,9 @@ title: Measurement & Artisan
 
 Open — see [experiments](../skywalker/experiments.md).
 
-- **Your first-crack spread (P, n=41):** SD 4.3 °C; range 173.8–193.2 °C (19.4 °C wide); 23 of 41 within ±3.5 °C of the median 184.5 °C. renatoa's reference is 182 °C with about a 7-degree spread by origin on a Skywalker [S0029](../sources/S0029-homeroasters-roast-assistant-for-skywalker.md) — consistent in size with your middle half but narrower than your full range. The Quest M6 probe-depth change (~11 °C) [S0045](../sources/S0045-home-barista-quest-m6-first-crack-temperature-probe-depth.md) is larger than your whole interquartile spread, so a loose, moved or re-seated probe can fake a coffee effect on yours too. **Inference — test it:** note probe depth and whether the tip is covered by the 350 g pile each time you re-seat it.
+- **Your first-crack spread (P, n=42):** SD 4.3 °C; range 173.8–193.2 °C (19.4 °C wide; the low end is id40); 24 of 42 within ±3.5 °C of the median 184.5 °C. renatoa's reference is 182 °C with about a 7-degree spread by origin on a Skywalker [S0029](../sources/S0029-homeroasters-roast-assistant-for-skywalker.md) — consistent in size with your middle half but narrower than your full range. The Quest M6 probe-depth change (~11 °C) [S0045](../sources/S0045-home-barista-quest-m6-first-crack-temperature-probe-depth.md) is larger than your whole interquartile spread, so a loose, moved or re-seated probe can fake a coffee effect on yours too. **Inference — test it:** note probe depth and whether the tip is covered by the 350 g pile each time you re-seat it.
 - **Optional tool:** renatoa built a spy-only ESP32 add-on that reads the roaster's panel protocol, shows time, temperature, RoR, power and air on an LCD (later an Android app) and auto-detects charge, turning point, dry end, first crack and drop, with a trend arrow for the RoR; control stays on the original panel. Grade C, a forum post, not a product. [S0029](../sources/S0029-homeroasters-roast-assistant-for-skywalker.md)
 
 ## Open questions
-- Recommended Artisan smoothing/delta-span on a Skywalker from experienced owners.
+- Recommended Artisan smoothing/delta-span on a Skywalker from experienced owners — still none; general method now known (idle noise, half-span lag [S0068](../sources/S0068-makomo-artisan-blog-on-idle-noise-rtd-vs-tc-ror-delay.md)) and the closest IR-type setting is one Kaleido owner's 20 s / 40 [S0071](../sources/S0071-home-barista-new-to-artisan-ror-curve-help-kaleido-m2.md). An idle-noise recording on your own V1 would answer it.
 - Why first crack reads higher for some coffees on the same machine (above).

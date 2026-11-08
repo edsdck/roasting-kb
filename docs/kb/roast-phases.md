@@ -17,6 +17,15 @@ title: Roast phases
 - **Phase timing vs development.** Across eight sensory studies, at equal colour, development time
   affected every attribute measured while time to first crack affected only some; colour (roast
   degree) was the strongest predictor of all. `conf: medium` [S0012](../sources/S0012-munchow-2020-roasting-conditions-multi-study.md) [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md)
+- **Colour marks the phases, whatever the profile.** In 39 roasts on seven very different
+  16-minute profiles, ground-coffee colour at colour change, first crack and second crack was
+  nearly the same for every profile and origin (L* ≈ 62 / 30 / 20); faster profiles (high early
+  RoR) just reached each colour sooner, and the "defect" profiles (RoR crash, big flick) followed
+  almost the same colour path as the fast-start one. `conf: medium` `ctx: gas-drum, 5 kg` [S0066](../sources/S0066-anokye-bempah-2025-universal-color-curve-roasted-arabica.md)
+- **The colour-only view, tasted.** In a trained-panel test, five roasts changing only colour
+  (Agtron 98 → darker, development ~2:15) differed clearly — lightest acidic and dried-fruit,
+  darker bitter, gritty, roasted — while four roasts changing only development differed much less
+  [S0065](../sources/S0065-alstrup-sca-body-roast-degree-development-time.md). Same direction as the multi-study result above. `conf: medium`
 - **Early phases matter (practitioner view).** Of two espresso roasts, the one that went fast
   through the first two phases had low body and sweetness and a dry, tart, bitter finish compared
   with a more gradual roast; many roasters "aim for first crack, then think about development".
@@ -47,6 +56,9 @@ title: Roast phases
 - Your Artisan logs already mark CHARGE, DRY, FCs and DROP, so every roast page shows drying,
   Maillard and development durations. Your medians: drying 4:40, Maillard 4:06, development 1:08
   ([findings](../skywalker/findings.md)).
+- **Inference — test it:** the colour milestones above were found on 16-minute drum roasts and
+  ground samples [S0066](../sources/S0066-anokye-bempah-2025-universal-color-curve-roasted-arabica.md); whether a ~9-minute lamp roast reaches the same colour at first crack is
+  untested, and lamp roasts can look darker outside than in [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md). Compare ground, not whole beans.
 - Phase *durations* transfer between machines better than temperatures; yellowing at "160–165 °C" on a drum (adj. ≈ 145–150 °C) won't match the Skywalker's lower-reading probe [S0001](../sources/S0001-skywiki-infrared-roaster.md) [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md).
 - **Other owners' phases (examples, not targets):**
 

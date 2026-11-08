@@ -14,7 +14,7 @@ machine: "Santoker 500 (RTD probes), Mill City North 1 kg, and several home setu
 topics: [measurement-and-artisan, rate-of-rise]
 novelty: corroborating
 corroborates: [S0068]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0069 — Home-Barista: "On Idle Noise" thread (Artisan delta-span settings)

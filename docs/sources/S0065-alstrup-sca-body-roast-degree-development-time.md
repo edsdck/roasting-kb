@@ -14,7 +14,7 @@ machine: "Not stated in the article (roasts logged in Cropster). Do not assume: 
 topics: [development, defects]
 novelty: mixed
 corroborates: [S0006]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0065 — Alstrup (SCA 25 Magazine): body, roast degree and development time

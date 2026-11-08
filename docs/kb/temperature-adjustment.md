@@ -12,8 +12,8 @@ title: Temperatures & adjustment
     - **Probe depth and probe make move first-crack readings by 10–20 °C** (one Quest M6: ~11 °C from depth alone; Aillio Bullets are reported at both ~182 and ~200 °C), so an adjusted value is only as good as the source's probe. Where a source states its own first-crack reading, use that, not a generic 200 °C.
 
 ## Method
-1. **Anchor on first crack.** Your 41 roasts read first crack at a median of **184.5 °C**
-   (middle half 182.9–189.0 °C, SD 4.3 °C; 183.8 °C without the Honduras Honey, which reads ~190 °C).
+1. **Anchor on first crack.** Your 42 roasts read first crack at a median of **184.5 °C** (re-fitted in Build 8: unchanged)
+   (middle half 182.8–188.8 °C, SD 4.3 °C; 183.6 °C without the Honduras Honey, which reads ~190 °C).
    Other Skywalker owners log 179–183 °C [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md) [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md). Reference machines read first crack at
    about **200 °C** (Quest 200 °C ± 2, Aillio Bullet 200 °C ± 2–3 [S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md); a Quest M6 owner,
    200 °C ± 2 [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md); Sweet Maria's cites 201–208 °C [S0019](../sources/S0019-sweet-marias-first-crack-faq.md)).

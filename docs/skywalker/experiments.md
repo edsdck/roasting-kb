@@ -2,11 +2,22 @@
 
 *Suggested by the Builder. One variable at a time; keep batch size (350 g), fan and room airflow
 fixed; cup blind; compare at equal roast degree (weight loss within ±0.5 % if no colour meter —
-**Inference**). Updated 2026-10-18 (Build 7).*
+**Inference**). Updated 2026-11-08 (Build 8).*
+
+**Next up, in order:** **11** (bitterness in all four cups) → **2** (development, now with an id41/id42 lead) → **9** (id40's short Maillard) → **0** (a 10-minute idle-noise check).
 
 ## 0. Setup first — Artisan RoR settings
 Set sampling to 1 s and delta span ≈ 15 s, minimal extra smoothing [S0008](../sources/S0008-rao-what-is-baked-coffee.md). If the RoR line becomes
 unreadably noisy on the Skywalker, lengthen the span and note the value you settled on.
+
+**Better (Build 8) — measure it once:** preheat as usual, then with the drum turning and the fan at
+your normal setting hold the heater steady (or off) and record ~2 minutes with no beans; read how
+much the RoR wanders. Try spans of 5, 10, 15 and 20 s on that recording and keep the shortest that
+removes the wander; real roasts may need a little more [S0068](../sources/S0068-makomo-artisan-blog-on-idle-noise-rtd-vs-tc-ror-delay.md). Let the temperature drift slightly
+while recording — a dead-still probe looks quieter than it is [S0069](../sources/S0069-home-barista-on-idle-noise-thread-artisan-delta-span.md). Every span costs half its
+length in delay (15 s → 7.5 s) [S0068](../sources/S0068-makomo-artisan-blog-on-idle-noise-rtd-vs-tc-ror-delay.md); the one IR-type owner's setting on record, 20 s / 40 with
+polyfit and optimal smoothing on a Kaleido [S0071](../sources/S0071-home-barista-new-to-artisan-ror-curve-help-kaleido-m2.md), costs ~10 s and its optimal part works only
+after the roast [S0068](../sources/S0068-makomo-artisan-blog-on-idle-noise-rtd-vs-tc-ror-delay.md). **Outcome:** your span, and how late your RoR is.
 
 ## 0b. Log two extra things with every roast
 - **Green moisture:** ask the supplier or measure it; Hoos targets light-roast weight loss ~1–2 %
@@ -30,13 +41,15 @@ identical from roast to roast — it's part of the profile.
 the RoR visibly changes direction. Repeat once.
 **Outcome:** a number ("my lag ≈ X s") to plan all future changes earlier by. For scale: drum roasters quote 30 s or more from a heat change to the beans [S0046](../sources/S0046-home-barista-why-ror-is-a-bad-reference-webinar.md).
 
-## 2. Development time at equal degree — **do this next**
+## 2. Development time at equal degree
 *Your roasts have settled at ~1:00 development (DTR ~9 %), shorter than anything in the research,
 and your one cupped roast (0:41) was sharp and flat — see [findings](findings.md).*
 
 **Why:** at equal colour, shorter development = brighter/sweeter, longer = roastier/bitter [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md).
 Practitioners disagree on how short is too short: Rao (one practitioner's opinion) says 20–25 % DTR [S0018](../sources/S0018-rao-2014-development-time-ratio.md); light roasters use
 13–16 % / 1:20–1:30 [S0021](../sources/S0021-home-barista-development-time-light-roasts.md); an experienced Skywalker owner's best early cup was ~1:35 (18 %) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md). Newer: a 2026 recipe proposes 1:00–1:20 for a very light roast [S0057](../sources/S0057-cooper-2026-standards-and-the-mother-sauce.md), a chart gives 1:00 (natural) or 1:30 (washed) [S0063](../sources/S0063-cooper-eqmr-roast-level-flavour-profile-strategies-chart.md), and a gas-drum thread wants 2:00–2:15 for a new machine or coffee [S0055](../sources/S0055-home-barista-underdeveloped-coffee-1kg-drum.md) — so the three arms below sit on those three numbers.
+**Lead (Build 8):** id42 (1:30, 400 g) tasted sweeter and less bitter than id41 (1:01, 350 g), but
+batch, drying and rest differed too. Keep the batch at 350 g for all three arms.
 **How:** one coffee (the Costa Rican Natural or Colombia you have now), three roasts with your usual
 path to first crack; development ≈ **1:00 / 1:30 / 2:15**. On your machine development time drives
 weight loss (r = 0.72), so expect loss to rise with it; if you want equal degree, lower the heater
@@ -67,6 +80,9 @@ if unsure they differ [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-refer
 **Why:** smaller loads read lower on this probe [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md).
 **How:** same settings, two batch sizes; note first-crack temperature and time.
 **Outcome:** a correction you can use when changing batch size.
+**First data point (id42, 400 g):** dry end 5:35 vs your 350 g median 4:40, first crack 181.2 °C vs
+184.5 °C — but it is one roast of an unlabelled coffee. Do the pair on one coffee, same day. The 70 %
+rule of thumb puts good control at about 350 g on a 500 g-rated roaster [S0070](../sources/S0070-home-barista-kaleido-m2-lite-charge-temperature-batch-size.md).
 
 ## 5. Repeat a good roast by replaying its events
 **Why:** replaying heater/fan changes reproduced roasts as well as PID on Skywalkers [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md).
@@ -110,8 +126,24 @@ development time within a few seconds of each other. Cup blind.
 **Why:** a one-page chart expects the same light roast to taste less sweet, with less body and more acidity and fruit when the middle phase is cut from 4:00 to 3:30 [S0063](../sources/S0063-cooper-eqmr-roast-level-flavour-profile-strategies-chart.md); your median Maillard is 4:06 and the 2026 recipe uses 3:00–3:30 [S0057](../sources/S0057-cooper-2026-standards-and-the-mother-sauce.md). Chart and recipe, not a test. A Probat series found a 30–40 s change in drying audible, though that changed total time as well [S0035](../sources/S0035-sweet-marias-stretchin-out-the-roast-pt3.md).
 **How:** one coffee, 350 g. Roast A: your usual plan (Maillard ~4:00). Roast B: same dry end, a little more power in browning so first crack comes ~30 s sooner; hold development (~1:08) and weight loss equal. Mark first crack the same way (see 0b). Cup blind.
 **Taste for:** sweetness and body against acidity and fruit.
+**Your lead (Build 8):** id40 had the shortest Maillard of all your roasts (2:50) and tasted "flat or
+baked" — so run it the other way too: a roast B' with Maillard ~3:45 against your recent ~3:00, same
+coffee, same development and weight loss.
 
 ## 10. (Optional) Portions or one big container — after four weeks
 **Why:** the only measured storage test found a screw-cap bag best and a transferred-to-canister coffee worst on a chemical index, with no taste data [S0048](../sources/S0048-smrke-2022-coffee-storage-methods-after-opening.md); the review says loss is fastest early and oxygen is the driver [S0049](../sources/S0049-sage-2012-shelf-life-roasted-coffee-staling-review.md). **Inference — test it:** at home, headspace and reopening are what you control.
 **How:** after one roast, split ~300 g into two airtight containers: A is one small full jar opened only on the tasting day; B is the same beans in a larger container opened daily. Rest and store the same way; cup blind at week 4.
 **Outcome:** whether you taste the closure at all. If not, it does not matter for your volumes.
+
+## 11. Hunt the bitterness — one roast, split several ways
+*Bitterness is in all four of your cupped roasts, across development 0:41–1:30, two or three coffees and 5–23 days of rest, plus a recurring "infamous" flavour with a bitter aftertaste — see [findings](findings.md#cupped-roasts).*
+
+**Why:** development time is a weak lever on bitterness at equal colour (one trained panel found no significant difference [S0065](../sources/S0065-alstrup-sca-body-roast-degree-development-time.md)), so the cause may be outside the profile. This experiment needs no new roasting skill: it splits **one** batch so the roast is held constant. **Inference — test it.**
+**How:** take one normal 350 g roast (rest 10–14 days).
+
+- **A — sort:** pick out every fully black ("charcoal") bean, which lamp roasters throw up to lamp level [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md), and every pale, flat quaker [S0061](../sources/S0061-hoos-decoding-defects-immature.md). Brew sorted vs unsorted side by side, same recipe. If it's the black beans, taste a few of them alone in a small brew.
+- **B — brew:** same sorted beans, two brews that differ in one thing only: one step coarser grind, *or* water 5 °C cooler. If bitterness moves with the brew, it's extraction, not the roast.
+- **C — rest:** keep a sealed portion and taste it again at week 4 (id41 changed a lot between days 18 and 21).
+
+**Taste for:** where the bitterness sits (front of the tongue, or "deep in the mouth" as in id41), whether it lingers, and whether the "infamous" flavour comes and goes with it. Name its family if you can (ashy/smoky, rubbery, papery, vegetal, burnt sugar).
+**Outcome:** if A or B removes it, you've saved yourself months of profile changes; if nothing does, it's in the roast or the green, and experiments 2, 3 and 9 are the next place to look.

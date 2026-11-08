@@ -14,7 +14,7 @@ machine: "OP: Kaleido M2 Lite (rated max 500 g per yakster), 1 lb (about 454 g) 
 topics: [charge-and-batch, rate-of-rise]
 novelty: mixed
 corroborates: [S0013]
-kb_status: new
+kb_status: integrated
 ---
 
 # S0070 — Home-Barista: charge temperature, batch size and a Kaleido M2 Lite

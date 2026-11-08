@@ -6,7 +6,7 @@ title: Development
 
 !!! abstract "In short"
     - **Development time** = time from first crack to drop. **DTR** = development time ÷ total roast time.
-    - At the **same final colour**, shorter development → sweeter, more acidic, fruitier, cleaner; longer → more bitter, roasty, nutty-chocolate, astringent. Body barely changes. `conf: medium` (one strong study)
+    - At the **same final colour**, shorter development → sweeter, more acidic, fruitier, cleaner; longer → more bitter, roasty, nutty-chocolate, astringent. Body barely changes (a trained panel in the same research group agrees). `conf: medium` (one strong study) — *but* that trained panel found sweetness and bitterness **not** significantly different across development times, so the sweetness/bitterness part is **contested**.
     - Measured acidity is **highest around first crack** and falls the further you roast past it. `conf: high` (two studies agree)
     - Colour alone doesn't describe a roast — log development time too. But colour (roast degree) is still the **strongest** single driver of flavour. `conf: medium`
     - **How long is normal?** Rao's 20–25 % DTR guideline (one practitioner's opinion, not a rule) vs experienced light roasters at ~13–16 % (1:20–1:30) and Nordic roasters at ~45 s. **Contested.**
@@ -31,6 +31,8 @@ title: Development
   acidity 8.5 → 5.4, sweetness 8.7 → 6.3, fruit/berry 7.3 → 4.4, clean cup 7.5 → 5.5,
   bitterness 5.7 → 8.6, roasted 5.4 → 8.8, nutty/chocolate 6.0 → 8.4. Body: no significant
   difference. `conf: medium` (single study, one coffee, one roast degree) `ctx: gas-drum, 1 kg` [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md)
+- **A second panel from the same group (trained, n=10).** A magazine write-up of the master's-thesis experiment behind this work held colour at Agtron 75 and varied development from 1:15 to 6:32 (with a colour series at a fixed ~2:15 alongside). Colour changed the cup clearly; development changed it "much" less, body did not rise with development (the starting hypothesis failed), and sweetness and bitterness were **not** statistically different. The article gives no means or p-values. `conf: low` for the sweetness/bitterness null (text only, figures not read); machine and batch not stated [S0065](../sources/S0065-alstrup-sca-body-roast-degree-development-time.md)
+- **Probably the same roasts, two reports.** The paper's longest roast (390 s) matches the article's 6:32, but its shortest is 90 s where the article says 1:15, and the colours are Agtron 76 vs 75; neither source explains the difference (a different first-crack mark is one possibility). Treat 1:15 as the nearest controlled data point to your ~1:00, not as a new independent study [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md) [S0065](../sources/S0065-alstrup-sca-body-roast-degree-development-time.md)
 - **Chemistry.** Longer development lowered chlorogenic acid (5-CQA 3.52 → 2.44 mM); caffeine
   stayed roughly constant. [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md)
 - **Colour isn't enough.** Two roasts at the same colour can taste clearly different because of
@@ -123,8 +125,8 @@ title: Development
 
 ## On the Skywalker (IR)
 
-- **Your data (P, n=41):** development has drifted from ~1:37 (DTR 16.5 %) early in the year to
-  ~1:00 (DTR ~9 %) since June — shorter than the shortest roast in the studies above. On your
+- **Your data (P, n=42):** development has drifted from ~1:37 (DTR 16.5 %) early in the year to
+  ~1:00 (DTR ~9 %) since June — shorter than the shortest roast in the studies above (1:15–1:30). On your
   machine, development time tracks weight loss closely (r = 0.72). See
   [findings](../skywalker/findings.md).
 
@@ -135,6 +137,7 @@ title: Development
   from other equipment, probe and first-crack convention, so it cannot be applied directly.
   **Inference — test it:** your shortest roasts may be ending close to such a threshold; see
   [experiment 2](../skywalker/experiments.md).
+- **Your cups so far (P, n=4, Build 8).** Acidity went down as development went up — id39 0:41 "very acidic", id41 1:01 "balanced", id40 1:12 "tiny bit of acidity", id42 1:30 "light acidity" — in line with acidity falling after first crack [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md) [S0007](../sources/S0007-anokye-bempah-2024-titratable-acidity.md). Bitterness was there in all four, from 0:41 to 1:30, so it does not look like a development-time effect. Two or three coffees, different rest days, uncontrolled. See [findings](../skywalker/findings.md#cupped-roasts).
 - **A V2 owner's light recipe:** targets 85–100 s development (DTR 16–18 %, drop BT 192–194 °C,
   weight loss 12–13 %, 250 g); asked how it tasted he answered "nice smooth acidity and fruit"
   (not stated to be the same roast) [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md). Hoos' own fruit-forward recipe also sits at 1:00–1:10
@@ -193,12 +196,17 @@ title: Development
 - **Longer is the safe baseline:** another_jim takes new coffees to at least 2:15 after first crack starts and Trjelenc suggests 2:00 and 8.3–11.1 °C as a starting point for a new roaster [S0055](../sources/S0055-home-barista-underdeveloped-coffee-1kg-drum.md); Milligan adds that more Maillard is not the usual answer and good light roasts group the cracks tightly by keeping RoR up into first crack [S0055](../sources/S0055-home-barista-underdeveloped-coffee-1kg-drum.md). Grade C, a beginner's thread on a gas drum.
 - **What separates them:** the recipe side measures time on its own probe and machine (unknown), the forum side starts from a beginner whose roasts were also cool-charged and exhaust-probed. They also count first crack differently (consecutive pops [S0057](../sources/S0057-cooper-2026-standards-and-the-mother-sauce.md) vs a 190 °C marker [S0055](../sources/S0055-home-barista-underdeveloped-coffee-1kg-drum.md)). Neither tested the other's number. For the middle of the range see Probat's series, whose shortest crack-to-drop stretch was 1:32 [S0034](../sources/S0034-sweet-marias-stretchin-out-the-roast-pt2.md).
 
+**Does development time change sweetness and bitterness at equal colour?** — `conf: contested`
+
+- **Yes:** 46 experienced tasters rated the 90 s roast sweeter (8.7 vs 6.3) and less bitter (5.7 vs 8.6) than the 390 s roast at Agtron 76; peer-reviewed, one washed Colombian [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md).
+- **Not significantly:** a 10-person trained panel, blind, in booths, on what appear to be the same kind of roasts (Agtron 75, 1:15–6:32), found sweetness and bitterness not statistically different and the differences overall "much smaller" than across colours [S0065](../sources/S0065-alstrup-sca-body-roast-degree-development-time.md). Magazine article, no numbers in the text.
+- **What may separate them:** panel size and type (46 experienced tasters vs 10 trained panellists), scale, and possibly the roasts themselves; neither source compares the two. Both agree that body does not change and that colour matters more. **For you:** don't expect development time alone to fix bitterness — see the bitterness pattern in [findings](../skywalker/findings.md).
+
 Rao says he rarely cups roasts dropped well before the end of first crack and doesn't assume the
 ratio holds for them [S0018](../sources/S0018-rao-2014-development-time-ratio.md). Not settled for very light roasts — see [experiment 2](../skywalker/experiments.md).
 
 ## Open questions
-- Controlled sensory data below 1:30 development — still none; the closest are N3Roaster's
-  undocumented blind tastings [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md).
+- Controlled sensory data below 1:15 development — still none. The nearest is the trained-panel write-up at 1:15 (Agtron 75, medium, no "grassy" attribute) [S0065](../sources/S0065-alstrup-sca-body-roast-degree-development-time.md), probably the same series as the 90 s roast in [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md); below that only N3Roaster's undocumented blind tastings [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md).
 - Is the vegetal switch really a temperature a fixed distance above first crack, and does it move
   with machine and probe? [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md)
 - Development-time studies on other origins/processes and other roast degrees.

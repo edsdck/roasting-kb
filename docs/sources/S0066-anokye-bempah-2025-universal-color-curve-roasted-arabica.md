@@ -14,7 +14,7 @@ machine: "Probat P5 model 2, a 5 kg commercial batch/drum roaster (profiles set 
 topics: [roast-phases, green-coffee, measurement-and-artisan]
 novelty: novel
 corroborates: []
-kb_status: new
+kb_status: integrated
 ---
 
 # S0066 — A universal colour curve for roasted arabica (UC Davis, 2025)

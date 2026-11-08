@@ -45,6 +45,8 @@ title: Rate of rise (RoR)
   less "perfect" curve; ask "are you roasting the software or the coffee?" `conf: low` [S0011](../sources/S0011-cooper-cropster-rate-of-rise-production.md)
 - **Window size.** RoR is computed over a window (often 30 or 60 s). A 60 s window reads directly
   in °/min, which helps planning; shorter windows react faster but are noisier. [S0011](../sources/S0011-cooper-cropster-rate-of-rise-production.md) [S0008](../sources/S0008-rao-what-is-baked-coffee.md)
+  The price of a window is time: the RoR lags by half the window (30 s window → 15 s late), and
+  smoothing adds more [S0068](../sources/S0068-makomo-artisan-blog-on-idle-noise-rtd-vs-tc-ror-delay.md). `conf: medium`
 - **Don't chase small wiggles.** Small RoR fluctuations are magnified by the derivative and are
   likely below what tasters can detect at equal colour. `conf: low` [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md)
 - **Hardware shapes the line.** Probe type, size, placement, wiring and power all add noise;
@@ -52,7 +54,11 @@ title: Rate of rise (RoR)
   `conf: medium` [S0011](../sources/S0011-cooper-cropster-rate-of-rise-production.md) [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md)
 - **Data quality first.** Slow (thick) probes hide crashes; heavy smoothing hides them too. Rao's
   settings: 1 s sampling, Artisan *delta span* ≤ 15 s, no extra smoothing, and a probe fast enough
-  that the turning point shows by ~1:30. `conf: low` `ctx: gas-drum` [S0008](../sources/S0008-rao-what-is-baked-coffee.md) See
+  that the turning point shows by ~1:30. `conf: low` `ctx: gas-drum` [S0008](../sources/S0008-rao-what-is-baked-coffee.md) Hoos measured
+  the probe effect: turnaround moved by about a minute per probe size (1.6 → 6.4 mm), and a thin
+  probe exposed a negative RoR after first crack that a thick one hid, on batches that tasted
+  slightly baked `conf: medium` `ctx: drum` [S0067](../sources/S0067-hoos-our-world-through-a-keyhole-thermocouple-limits.md). MaKoMo's counterpoint: past a point a faster
+  probe only adds noise, and a 3 mm probe is his compromise [S0068](../sources/S0068-makomo-artisan-blog-on-idle-noise-rtd-vs-tc-ror-delay.md). See
   [Measurement & Artisan](measurement-and-artisan.md).
 
 ## On the Skywalker (IR)
@@ -71,6 +77,10 @@ title: Rate of rise (RoR)
   [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md)
 - **The panel's RoR is a 1-minute average**, refreshed once a minute on V1 (about every 30 s on V2)
   — use Artisan's. [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md) [S0016](../sources/S0016-homeroasters-skywalker-main-thread.md) Trier pulls and data spikes also distort Artisan's RoR [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md).
+- **Inference — test it:** the stock NTC reading is already rolling-averaged inside the roaster
+  [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md), so it acts like a slow probe: short dips after first crack [S0067](../sources/S0067-hoos-our-world-through-a-keyhole-thermocouple-limits.md) and the lamp's
+  response to a heater cut may be smeared. A clean, flat development on your log is weaker
+  evidence than it looks; a faster second probe would show it.
 - Its probe reads an air–bean mix where air is cooler than the beans [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md), which will also
   shape the RoR curve. **Inference — test it:** don't judge a Skywalker curve against the shape
   of a gas-drum "ideal" curve.
