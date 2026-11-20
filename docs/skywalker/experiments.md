@@ -2,9 +2,9 @@
 
 *Suggested by the Builder. One variable at a time; keep batch size (350 g), fan and room airflow
 fixed; cup blind; compare at equal roast degree (weight loss within ±0.5 % if no colour meter —
-**Inference**). Updated 2026-11-20 (Build 9).*
+**Inference**). Updated 2026-11-20 (Build 10).*
 
-**Next up, in order:** **11** (bitterness in all four cups — start with arm B, the brew split, since you now suspect the grind) → **2** (development: 1:30 beat the shorter roast on both coffees; repeat 1:30 before going shorter) → **9** (short Maillard) → **0** (a 10-minute idle-noise check).
+**Next up, in order:** **11** (bitterness in all four cups — arm B's coarser-grind half is done and did not remove it; next the cooler-water half, then arm A, picking out charcoal beans) → **2** (development: 1:30 beat the shorter roast on both coffees; repeat 1:30 before going shorter) → **9** (short Maillard) → **0** (a 10-minute idle-noise check).
 
 ## 0. Setup first — Artisan RoR settings
 Set sampling to 1 s and delta span ≈ 15 s, minimal extra smoothing [S0008](../sources/S0008-rao-what-is-baked-coffee.md). If the RoR line becomes
@@ -144,6 +144,7 @@ development and weight loss.
 
 - **A — sort:** pick out every fully black ("charcoal") bean, which lamp roasters throw up to lamp level [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md), and every pale, flat quaker [S0061](../sources/S0061-hoos-decoding-defects-immature.md). Brew sorted vs unsorted side by side, same recipe. If it's the black beans, taste a few of them alone in a small brew.
 - **B — brew (do this first, it is free):** same beans, two brews that differ in one thing only: one step coarser grind, *or* water 5 °C cooler. Use the same method for every roast you compare (you tasted id43 on a V60 one day and in a side-by-side the next, and judged it differently) and write down grind setting, dose, water and time. If bitterness moves with the brew, it's extraction, not the roast. Try it on id39 or id40 too, which are the bitterest and old enough that rest is no longer the question.
+**Result so far (Build 10, id40, 2026-11-20):** usual grind vs 10 micro-steps coarser, same roast (35 days rest), tasted at 8, 11 and 16 min. Coarser: more acidic, bitterness similar at first and little in either cup later; a second taster picked the finer cup blind (more body and acidity). So bitterness didn't fall with a coarser grind — keep your usual grind and try cooler water next. Don't go coarser again; if you want a second grind point, try one step *finer* only after the water test.
 - **C — rest:** keep a sealed portion and taste it again at week 4 (id42 changed a lot between days 1 and 4).
 
 **Taste for:** where the bitterness sits (front of the tongue, or "deep in the mouth" as in id41), whether it lingers, and whether the "infamous" flavour comes and goes with it. Name its family if you can (ashy/smoky, rubbery, papery, vegetal, burnt sugar).

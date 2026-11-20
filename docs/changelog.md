@@ -2,6 +2,13 @@
 
 Every change the Builder makes to the knowledge base, newest first.
 
+## 2026-11-20 — Build 10
+Sources integrated: none · Roasts parsed: 0 new · Cupping notes: 1 new (id40, a grind test)
+- **ROASTS** [findings](skywalker/findings.md#cupped-roasts) — id40 now has notes: usual grind vs 10 micro-steps coarser. Coarser was more acidic with similar or little bitterness; a second taster picked the finer cup blind (more body). Five cupped roasts (n=5).
+- **CORRECT** [findings § id40](skywalker/findings.md) — was: "no cup notes" → now: brew-test notes from 2026-11-20 (day 35); the in-short and table updated. "Grind may be the cause" from Build 9 is weakened, not ruled out (one brew, one blind call).
+- **EXTEND** [experiments § 11](skywalker/experiments.md) — arm B coarser-grind half done, with the result; next is cooler water, then arm A.
+- **EXTEND** [Development](kb/development.md), [Defects](kb/defects.md) and `gaps.md` — counts (n=5) and the grind result.
+
 ## 2026-11-20 — Build 9
 Sources integrated: none (no new sources) · Roasts parsed: 0 new · Cupping notes: updated for id42 (day 9) and id43 (days 3, 10, 11)
 - **ROASTS** [findings](skywalker/findings.md#cupped-roasts) — now four cupped roasts (n=4). id43 cupped fruity with balanced acidity and "more fruit-ish" than id39/id40, despite the owner's "too dark for 1:30" note; id42 day 9: almost no acidity, light smoky/ashy bitterness. Roast pages regenerated from the notes.
