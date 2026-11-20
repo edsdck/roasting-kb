@@ -6,5 +6,5 @@
 
 ## Pages
 - [Roast log](roast-log.md) — every roast, parsed from Artisan files
-- [Findings](findings.md) — what my roasts show so far
-- [Experiments](experiments.md) — what to try next
+- [Findings](findings.md) — where things stand and what to do next; [details and evidence](findings-detail.md)
+- [Experiments](experiments.md) — status board and the next tests; [background and sources](experiments-detail.md)

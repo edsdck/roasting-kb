@@ -1,0 +1,150 @@
+# Experiments — background and evidence
+
+*The full text behind [Experiments](experiments.md): why each experiment is worth running, with the sources, and every variant. Use the short page to decide what to do; read here when you want the reasoning. This page is the evidence log, so some lines were written earlier: where a status here differs from the short page, the short page is current.*
+
+## 0. Setup first — Artisan RoR settings
+Set sampling to 1 s and delta span ≈ 15 s, minimal extra smoothing [S0008](../sources/S0008-rao-what-is-baked-coffee.md). If the RoR line becomes
+unreadably noisy on the Skywalker, lengthen the span and note the value you settled on.
+
+**Better (Build 8) — measure it once:** preheat as usual, then with the drum turning and the fan at
+your normal setting hold the heater steady (or off) and record ~2 minutes with no beans; read how
+much the RoR wanders. Try spans of 5, 10, 15 and 20 s on that recording and keep the shortest that
+removes the wander; real roasts may need a little more [S0068](../sources/S0068-makomo-artisan-blog-on-idle-noise-rtd-vs-tc-ror-delay.md). Let the temperature drift slightly
+while recording — a dead-still probe looks quieter than it is [S0069](../sources/S0069-home-barista-on-idle-noise-thread-artisan-delta-span.md). Every span costs half its
+length in delay (15 s → 7.5 s) [S0068](../sources/S0068-makomo-artisan-blog-on-idle-noise-rtd-vs-tc-ror-delay.md); the one IR-type owner's setting on record, 20 s / 40 with
+polyfit and optimal smoothing on a Kaleido [S0071](../sources/S0071-home-barista-new-to-artisan-ror-curve-help-kaleido-m2.md), costs ~10 s and its optimal part works only
+after the roast [S0068](../sources/S0068-makomo-artisan-blog-on-idle-noise-rtd-vs-tc-ror-delay.md). **Outcome:** your span, and how late your RoR is.
+
+## 0b. Log two extra things with every roast
+- **Green moisture:** ask the supplier or measure it; Hoos targets light-roast weight loss ~1–2 %
+  above moisture [S0025](../sources/S0025-roast-rebels-hoos-cultivars-airflow-interview.md) and wetter coffee needs more mid-roast energy [S0025](../sources/S0025-roast-rebels-hoos-cultivars-airflow-interview.md).
+- **Drop relative to first crack:** note drop BT minus first-crack BT with each roast (your data
+  show median +8.3 °C) [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md) [S0024](../sources/S0024-home-barista-first-crack-temperature-changed.md).
+- **How you mark first crack:** note the time of the first stray pop *and* of the regular pops (three or more in about a second). A stray pop can lead the main crack by 5.6–8.3 °C [S0055](../sources/S0055-home-barista-underdeveloped-coffee-1kg-drum.md), and the 2026 tasting report called it at consecutive pops [S0057](../sources/S0057-cooper-2026-standards-and-the-mother-sauce.md); your development time and ΔT depend on which you use.
+- **Rest days and probe depth:** write down how many days the beans rested before tasting, and how far the probe tip sits into the pile (one Quest owner's first-crack reading rose ~11 °C when he pushed the probe in) [S0045](../sources/S0045-home-barista-quest-m6-first-crack-temperature-probe-depth.md) [S0036](../sources/S0036-home-barista-hacea-roast-approach-tasting-kit.md).
+- **Green density:** weigh a fixed volume of green coffee (e.g. 100 ml in a measuring cylinder) → g/L.
+  Density changes how a coffee takes heat [S0014](../sources/S0014-lee-2025-bean-density-roasting.md).
+
+## 0c. Lamp-friendly preheat (setup, not an experiment)
+Experienced owners avoid the factory preheat (100 % heater, fan off): preheat in manual at your
+roasting power (≤ 75–80 %) with ≥ 40–50 % air, and start the roast timer *before* charging so the
+heater doesn't jump to 100 % when you open the door [S0016](../sources/S0016-homeroasters-skywalker-main-thread.md) [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md). Keep the preheat routine
+identical from roast to roast — it's part of the profile.
+
+## 1. Measure the lamp lag
+**Result from your logs (Build 11, id39–id43, rough):** the BT RoR starts to react about 15–30 s after a heater step and has mostly settled by ~60 s. A −10 point step before first crack lowers it by about 1–2 °C/min over a minute; after first crack the effect is larger, roughly 0.35 °C/min per heater point (−17 points: 10.5 → 4.3 °C/min in 60 s). Natural RoR decline is mixed in, steps near the drop are cut off, and n is five roasts. A check on id45 predicted 3–4 °C/min at the drop and saw ~5.5, so the post-crack figure is probably slightly high. Plan changes about 30 s before you want to see them.
+**Why:** power changes act late on this machine [S0001](../sources/S0001-skywiki-infrared-roaster.md); you need to know how late to plan changes.
+**How:** in a normal roast, make one clean power step (e.g. −10 %) mid-Maillard. Note the time until
+the RoR visibly changes direction. Repeat once.
+**Outcome:** a number ("my lag ≈ X s") to plan all future changes earlier by. For scale: drum roasters quote 30 s or more from a heat change to the beans [S0046](../sources/S0046-home-barista-why-ror-is-a-bad-reference-webinar.md).
+
+## 2. Development time at equal degree
+*Your roasts have settled at ~1:00 development (DTR ~9 %), shorter than anything in the research,
+and your one cupped roast (0:41) was sharp and flat — see [findings](findings.md).*
+
+**Why:** at equal colour, shorter development = brighter/sweeter, longer = roastier/bitter [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md).
+Practitioners disagree on how short is too short: Rao (one practitioner's opinion) says 20–25 % DTR [S0018](../sources/S0018-rao-2014-development-time-ratio.md); light roasters use
+13–16 % / 1:20–1:30 [S0021](../sources/S0021-home-barista-development-time-light-roasts.md); an experienced Skywalker owner's best early cup was ~1:35 (18 %) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md). Newer: a 2026 recipe proposes 1:00–1:20 for a very light roast [S0057](../sources/S0057-cooper-2026-standards-and-the-mother-sauce.md), a chart gives 1:00 (natural) or 1:30 (washed) [S0063](../sources/S0063-cooper-eqmr-roast-level-flavour-profile-strategies-chart.md), and a gas-drum thread wants 2:00–2:15 for a new machine or coffee [S0055](../sources/S0055-home-barista-underdeveloped-coffee-1kg-drum.md) — so the three arms below sit on those three numbers.
+**Lead (Build 9):** you already ran the first two arms on the Colombia — id41 at 1:01 and id42 at
+1:30, only development changed — and 1:30 tasted sweeter and less bitter. On the Costa Rica, id43 (1:30, earlier heater cuts) cupped fruitier than id39 (0:41) despite looking too dark, so the 1:30 arm has now won twice (two coffees, different plans, small n). Add the 2:15 arm and repeat
+1:30 once; keep the heater step into drying at the same second (it slipped 38 s in id42).
+**How:** one coffee (the Costa Rican Natural or Colombia you have now), three roasts with your usual
+path to first crack; development ≈ **1:00 / 1:30 / 2:15**. On your machine development time drives
+weight loss (r = 0.72), so expect loss to rise with it; if you want equal degree, lower the heater
+during development for the longer ones rather than dropping earlier. Rest equally, cup blind.
+**Rest:** let every sample rest the same time — **at least a week, two if you can wait** — and taste each at day 7, 14 and 28 if you can. Forum advice for light roasts runs from a week to 4–6 weeks [S0036](../sources/S0036-home-barista-hacea-roast-approach-tasting-kit.md), and id39 was cupped at 5 days; if the cup changes more with rest than between roasts, rest is the bigger lever (see [Resting & degassing](../kb/resting-and-storage.md)).
+**Variant (2b) — by temperature, not seconds:** your id39 (+6.2 °C above first crack, 0:41) and
+id40 (+12.0 °C, 1:12) are the same coffee, so cup them blind side by side first (rest equally, ≥ 5 days).
+If id39 tastes raw/vegetal and id40 does not, repeat the pair at +6 / +9 / +12 °C. One roaster
+reports a vegetal note that stays until ~5.6 °C above first crack [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md); a roaster who dropped ~5.6 °C above first crack after a fast dry end found no vegetal notes but thin body [S0023](../sources/S0023-home-barista-vegetal-flavor-first-crack.md).
+Your probe and first-crack call differ from theirs, so you are looking for *your* threshold.
+Because development time and ΔT move together on your machine (r = 0.78), use the heater during
+development to change one without the other if you can.
+
+**Taste for:** acidity, sweetness, fruit vs roasted, bitterness, body — and grainy/vegetal notes,
+the classic signs of too-short development [S0019](../sources/S0019-sweet-marias-first-crack-faq.md) [S0016](../sources/S0016-homeroasters-skywalker-main-thread.md). Mark first crack the same way in all
+three (at regular pops, not the first isolated pop) [S0019](../sources/S0019-sweet-marias-first-crack-faq.md).
+
+## 3. Flat vs declining RoR after drying
+**Why:** IR theory says a flat RoR may be fine here [S0002](../sources/S0002-skywiki-convection-vs-radiant.md); drum advice says avoid crashes and keep
+RoR declining [S0008](../sources/S0008-rao-what-is-baked-coffee.md). Contested.
+**How:** same coffee, same first-crack time, development time and weight loss; roast A holds power
+steady after drying (flatter RoR), roast B steps power down from ~minute 4 in 5–10 % steps
+(70 → 60 → 50 %, as an experienced owner recommends [S0017](../sources/S0017-homeroasters-skywalker-mods-thread.md)). Cup blind; triangle test
+if unsure they differ [S0005](../sources/S0005-coffeemind-rate-of-rise-bad-reference.md).
+**Taste for:** hollowness/flatness, sweetness, does it hold up as it cools [S0008](../sources/S0008-rao-what-is-baked-coffee.md).
+
+## 4. 350 g vs 400 g — how readings shift
+**Why:** smaller loads read lower on this probe [S0003](../sources/S0003-skywiki-renatoa-words-of-wisdom.md).
+**How:** same settings, two batch sizes; note first-crack temperature and time.
+**Outcome:** a correction you can use when changing batch size.
+No data point yet. The 70 %
+rule of thumb puts good control at about 350 g on a 500 g-rated roaster [S0070](../sources/S0070-home-barista-kaleido-m2-lite-charge-temperature-batch-size.md).
+
+## 5. Repeat a good roast by replaying its events
+**Why:** replaying heater/fan changes reproduced roasts as well as PID on Skywalkers [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md).
+**How:** load your best recent roast as the Artisan background profile and replay its events on the
+same coffee and batch size. **Inference — test it:** compare first-crack time, drop time and cup.
+**Outcome:** tells you how repeatable the machine is — the baseline every other experiment needs.
+
+## 6. Why does Honduras Honey crack hotter — the coffee or the speed?
+*Your Honduras roasts crack ~6 °C higher, but they were also slower; within each coffee, first-crack
+time barely predicts the reading — see [findings](findings.md).*
+
+**Why:** some roasters see first crack at the same reading for every bean on a consistent machine
+[S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md); others find it bean-dependent [S0019](../sources/S0019-sweet-marias-first-crack-faq.md) [S0020](../sources/S0020-home-barista-bean-temperature-at-first-crack.md). Your data can't separate coffee from speed.
+**How:** roast the Honduras Honey and a washed coffee (e.g. the Ethiopian) back-to-back at 350 g with
+the same preheat and heater/fan plan, aiming for the **same first-crack time**. In Artisan, mark
+the *first pop* with a custom event and FCs at *regular pops* [S0019](../sources/S0019-sweet-marias-first-crack-faq.md). Note room temperature, and re-seat the probe at the same depth each time (a Quest M6 read ~11 °C higher after the tip was pushed in from ~1 to ~1.75 in [S0045](../sources/S0045-home-barista-quest-m6-first-crack-temperature-probe-depth.md)).
+**Outcome:** gap persists at equal speed → it's the coffee (or how it cracks); gap shrinks → it was
+the slower profile. Either way you learn which number to trust for timing development.
+
+
+## 7. Charge hotter, lower power — does it remove "done"/astringent notes?
+**Why:** on an IR roaster (Kaleido, IR + hot air) an experienced user cut astringency with a higher
+charge, lower power percentages, small stepwise cuts and no big power swings [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md); drum users
+found cool charges left the inside behind [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md). A longer browning phase also correlated with less
+vegetal/astringent character on an IKAWA [S0026](../sources/S0026-home-barista-kaleido-m10-astringent-roasts.md). **Inference — test it** on a lamp roaster.
+**How:** one coffee, 350 g, same fan. Roast A: your usual charge and heater plan. Roast B: charge
+~10–15 °C hotter with the same or slightly lower start power, then reduce power in small steps
+from about minute 4 (as in experiment 3), no big cut at first crack. Keep first-crack time and
+development time within a few seconds of each other. Cup blind.
+**Arm C (optional, "soak"):** same charge as A, but start power and fan ~10 points lower until about minute 2, then bring power up so first crack still lands within seconds of A. It is borrowed from a gas-drum fix for a dense decaf that tasted astringent on standard profiles [S0041](../sources/S0041-hacea-roast-approach-swiss-water-rwanda-muhororo.md) — one coffee, three things changed at once — so treat it as a probe, not a recipe.
+**Read the result carefully:** a Colombian production test found charge temperature changed roast time but not the cup at medium colour [S0043](../sources/S0043-osorio-2022-cenicafe-initial-roast-temperature-sensory-quality.md). If A and B end with the same first-crack time and development, a cup difference points to the power plan and the steps, not to the charge number.
+**Taste for:** astringent/drying finish, "done" flavour, sweetness, vegetal/raw notes.
+
+
+## 8. A fan step, with the heat held — is it airflow or just speed?
+**Why:** airflow results are mixed and every test changed something else with it. A Bullet half-batch ran ~30 s slower at high air and cupped brighter [S0047](../sources/S0047-sweet-marias-bullet-r1-airflow-test-rwanda-kageyo.md); lower air looked no worse on a fluid bed and a Roest [S0052](../sources/S0052-desnudo-2026-conduction-vs-convection-taste.md) [S0053](../sources/S0053-home-barista-desnudo-conduction-convection-thread-roest-airflow.md); Hoos thinks most people set it too low [S0058](../sources/S0058-hoos-how-to-adjust-coffee-roaster-airflow-lighter-method.md); and with the heat held the bean curve barely moved on a gas drum [S0054](../sources/S0054-home-barista-conduction-vs-convection-test-results-are-confusing.md). On the Skywalker the fan only removes heat, so a fan step changes speed. **Inference — test it.**
+**How:** one coffee, 350 g, same preheat, same heater plan. Roast A: your usual fan. Roast B: fan ±15 points from dry end (before half the roast is done [S0058](../sources/S0058-hoos-how-to-adjust-coffee-roaster-airflow-lighter-method.md); go lower if your fan is already at 80–90 % late) with the heater nudged by 5–10 % so first crack lands within about 10 s of A. Optional roast C: the same fan step with no heater change, to see the pure speed effect. Hold development and weight loss equal. Note the first-crack and drop readings — one Roest read higher bean temperatures with more air [S0053](../sources/S0053-home-barista-desnudo-conduction-convection-thread-roest-airflow.md).
+**Outcome:** (1) how many seconds a fan step costs, (2) whether the cup differs when timing is matched. Cup blind, same rest.
+
+## 9. Maillard 4:00 versus 3:30
+**Why:** a one-page chart expects the same light roast to taste less sweet, with less body and more acidity and fruit when the middle phase is cut from 4:00 to 3:30 [S0063](../sources/S0063-cooper-eqmr-roast-level-flavour-profile-strategies-chart.md); your median Maillard is 4:06 and the 2026 recipe uses 3:00–3:30 [S0057](../sources/S0057-cooper-2026-standards-and-the-mother-sauce.md). Chart and recipe, not a test. A Probat series found a 30–40 s change in drying audible, though that changed total time as well [S0035](../sources/S0035-sweet-marias-stretchin-out-the-roast-pt3.md).
+**How:** one coffee, 350 g. Roast A: your usual plan (Maillard ~4:00). Roast B: same dry end, a little more power in browning so first crack comes ~30 s sooner; hold development (~1:08) and weight loss equal. Mark first crack the same way (see 0b). Cup blind.
+**Taste for:** sweetness and body against acidity and fruit.
+**Your lead (Build 8):** id41 (Maillard 3:03, development 1:01) tasted "flat or baked"; its repeat
+with 1:30 development (Maillard 3:13) was better, so development may explain it. If flatness comes back
+at 1:30, run it the other way too: Maillard ~3:45 against your recent ~3:00, same coffee, same
+development and weight loss.
+
+## 10. (Optional) Portions or one big container — after four weeks
+**Why:** the only measured storage test found a screw-cap bag best and a transferred-to-canister coffee worst on a chemical index, with no taste data [S0048](../sources/S0048-smrke-2022-coffee-storage-methods-after-opening.md); the review says loss is fastest early and oxygen is the driver [S0049](../sources/S0049-sage-2012-shelf-life-roasted-coffee-staling-review.md). **Inference — test it:** at home, headspace and reopening are what you control.
+**How:** after one roast, split ~300 g into two airtight containers: A is one small full jar opened only on the tasting day; B is the same beans in a larger container opened daily. Rest and store the same way; cup blind at week 4.
+**Outcome:** whether you taste the closure at all. If not, it does not matter for your volumes.
+
+## 11. Hunt the bitterness — one roast, split several ways
+*Bitterness is in all four of your cupped roasts, across development 0:41–1:30, two coffees and 1–41 days of rest, plus a recurring "infamous" flavour with a bitter aftertaste — weakest in id43. On 2026-11-19 you wondered about your grind size — see [findings](findings.md#cupped-roasts).*
+
+**Why:** development time is a weak lever on bitterness at equal colour (one trained panel found no significant difference [S0065](../sources/S0065-alstrup-sca-body-roast-degree-development-time.md)), so the cause may be outside the profile. This experiment needs no new roasting skill: it splits **one** batch so the roast is held constant. **Inference — test it.**
+**How:** take one normal 350 g roast (rest 10–14 days).
+
+- **A — sort:** pick out every fully black ("charcoal") bean, which lamp roasters throw up to lamp level [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md), and every pale, flat quaker [S0061](../sources/S0061-hoos-decoding-defects-immature.md). Brew sorted vs unsorted side by side, same recipe. If it's the black beans, taste a few of them alone in a small brew.
+- **B — brew (written before the 2026-11-20 results; see the status note below):** same beans, two brews that differ in one thing only: one step coarser grind, *or* water 5 °C cooler. Use the same method for every roast you compare (you tasted id43 on a V60 one day and in a side-by-side the next, and judged it differently) and write down grind setting, dose, water and time. If bitterness moves with the brew, it's extraction, not the roast. Try it on id39 or id40 too, which are the bitterest and old enough that rest is no longer the question.
+**Status (Build 11):** you say store-bought coffee tastes good on your setup, your storage is the same as for store-bought, you cool with a custom cooler, and you always pick out charred beans — so brewing, storage, cooling and charcoal beans are unlikely causes, and arm A is already part of your routine. What is left: the roaster never having been cleaned (arm D), the profile, and the green coffee.
+**Result so far (Build 10, id40, 2026-11-20):** usual grind vs 10 micro-steps coarser, same roast (35 days rest), tasted at 8, 11 and 16 min. Coarser: more acidic, bitterness similar at first and little in either cup later; a second taster picked the finer cup blind (more body and acidity). So bitterness didn't fall with a coarser grind — keep your usual grind and try cooler water next. Don't go coarser again; if you want a second grind point, try one step *finer* only after the water test.
+- **D — clean the roaster (added Build 11, probably the most informative):** you have never cleaned it. Roast the 1:30 plan again right after cleaning (chaff tray, drum and chimney; keep liquid off the lamps and electronics) and taste it blind beside an uncleaned-roaster roast of the same plan (id45's 1:30 partner or id42's, if you have any left). If the "infamous" flavour weakens, the dirty roaster was the cause. **Inference — test it.**
+- **C — rest:** keep a sealed portion and taste it again at week 4 (id42 changed a lot between days 1 and 4).
+
+**Taste for:** where the bitterness sits (front of the tongue, or "deep in the mouth" as in id41), whether it lingers, and whether the "infamous" flavour comes and goes with it. Name its family if you can (ashy/smoky, rubbery, papery, vegetal, burnt sugar).
+**Outcome:** if A or B removes it, you've saved yourself months of profile changes; if nothing does, it's in the roast or the green, and experiments 2, 3 and 9 are the next place to look.

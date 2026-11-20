@@ -2,18 +2,25 @@
 
 Every change the Builder makes to the knowledge base, newest first.
 
+## 2026-11-20 — Build 13: findings and experiments restructured
+Sources integrated: none · Roasts parsed: 0 new · Layout change only — no cited statement was removed
+- **EXTEND** [Findings](skywalker/findings.md) — rewritten as a short page: where things stand, what to do next, one table of the five cupped roasts, the id44 vs id45 test, the typical-roast table, and a one-row-per-pattern table. The long write-ups moved unchanged to [Findings — details](skywalker/findings-detail.md), with the bold pattern paragraphs turned into headings so they can be linked.
+- **EXTEND** [Experiments](skywalker/experiments.md) — rewritten as a status board plus the two live experiments (2 and 11), a per-roast logging checklist, and one short paragraph for each of the rest. The full text moved unchanged to [Experiments — background](skywalker/experiments-detail.md). Experiment 5 marked done in effect (id44 replayed id42's plan).
+- **EXTEND** [My Skywalker](skywalker/index.md) and the nav (`.pages`) — links to the two detail pages. Changelog links to the id44/id45 sections now point at the detail page.
+- Reviewed twice as two cold readers (the roaster deciding what to do; an auditor checking numbers and consistency); fixes after the first round: glossary link, shorter table cell, experiment 5 wording, index links. After the second: a note on each detail page that the short page is current, and the stale "do this first" on the brew arm.
+
 ## 2026-11-20 — Fixes: id44/id45 coffee
 - **CORRECT** [findings](skywalker/findings.md) — was: "if Santa Barbara is a different green lot from id41/id42, id44/id45 can't be compared with them" → now: same coffee as id41/id42 (owner's confirmation); those four roasts form one series at 1:01 / 1:30 / 1:30 / 2:14 development.
 
 ## 2026-11-20 — Build 12
 Sources integrated: none · Roasts parsed: 1 new (id44) · Cupping notes: none new
-- **ROASTS** [findings](skywalker/findings.md#id44-colombia-santa-barbara-washed-2026-11-20-the-130-partner) — id44 (Colombia Santa Barbara Washed, 1:30 development, drop 193.8 °C, +12.1 °C above first crack, loss 13.7 %) added as the 1:30 partner of id45, with a side-by-side table. It reproduces id42 closely; id45 reached first crack 29 s later. Medians table refreshed (n=45).
+- **ROASTS** [findings](skywalker/findings-detail.md#id44-colombia-santa-barbara-washed-2026-11-20-the-130-partner) — id44 (Colombia Santa Barbara Washed, 1:30 development, drop 193.8 °C, +12.1 °C above first crack, loss 13.7 %) added as the 1:30 partner of id45, with a side-by-side table. It reproduces id42 closely; id45 reached first crack 29 s later. Medians table refreshed (n=45).
 - **CORRECT** [findings](skywalker/findings.md) — was: "the 1:30 roast planned for today is not in the folder" and a separate id45 summary bullet → now: id44 is in the folder, same coffee label as id45; one pair bullet replaces them. The open question left: whether Santa Barbara is a different lot from id41/id42.
 - **EXTEND** [experiments § 2](skywalker/experiments.md) and [Development](kb/development.md) — both arms roasted; cup comparison due about 2026-11-30 to 12-04.
 
 ## 2026-11-20 — Build 11
 Sources integrated: none · Roasts parsed: 1 new (id45; the planned 1:30 partner is not in the folder) · Cupping notes: none new
-- **ROASTS** [findings](skywalker/findings.md#id45-colombia-santa-barbara-washed-2026-11-20-the-215-test) — id45 (Colombia Santa Barbara Washed, 2:14 development, drop 200.5 °C, +17.4 °C above first crack, loss 15.1 %) added with a RoR check against the plan; not cupped. Medians table refreshed (n=44).
+- **ROASTS** [findings](skywalker/findings-detail.md#id45-colombia-santa-barbara-washed-2026-11-20-the-215-test) — id45 (Colombia Santa Barbara Washed, 2:14 development, drop 200.5 °C, +17.4 °C above first crack, loss 15.1 %) added with a RoR check against the plan; not cupped. Medians table refreshed (n=44).
 - **EXTEND** [experiments § 1](skywalker/experiments.md) — lamp lag measured from logs: ~15–30 s dead time, mostly settled by 60 s, ~0.35 °C/min per heater point after first crack (rough, n=5; id45 suggests slightly less).
 - **EXTEND** [experiments § 11](skywalker/experiments.md) — new arm D (clean the roaster, repeat the 1:30 plan); status note: store-bought coffee tastes fine, storage and cooling match, charred beans already picked, so brewing/storage/cooling are unlikely causes.
 - **CORRECT** [Defects § Skywalker](kb/defects.md) — was: "check your brew with a one-step change … cooler water is untested" → now: brewing looks fine; test the roaster before/after cleaning. Reason: owner's statements of 2026-11-20.

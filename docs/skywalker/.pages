@@ -4,4 +4,6 @@ nav:
   - roast-log.md
   - findings.md
   - experiments.md
+  - findings-detail.md
+  - experiments-detail.md
   - ...
