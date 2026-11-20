@@ -2,6 +2,12 @@
 
 Every change the Builder makes to the knowledge base, newest first.
 
+## 2026-11-20 — Build 12
+Sources integrated: none · Roasts parsed: 1 new (id44) · Cupping notes: none new
+- **ROASTS** [findings](skywalker/findings.md#id44-colombia-santa-barbara-washed-2026-11-20-the-130-partner) — id44 (Colombia Santa Barbara Washed, 1:30 development, drop 193.8 °C, +12.1 °C above first crack, loss 13.7 %) added as the 1:30 partner of id45, with a side-by-side table. It reproduces id42 closely; id45 reached first crack 29 s later. Medians table refreshed (n=45).
+- **CORRECT** [findings](skywalker/findings.md) — was: "the 1:30 roast planned for today is not in the folder" and a separate id45 summary bullet → now: id44 is in the folder, same coffee label as id45; one pair bullet replaces them. The open question left: whether Santa Barbara is a different lot from id41/id42.
+- **EXTEND** [experiments § 2](skywalker/experiments.md) and [Development](kb/development.md) — both arms roasted; cup comparison due about 2026-11-30 to 12-04.
+
 ## 2026-11-20 — Build 11
 Sources integrated: none · Roasts parsed: 1 new (id45; the planned 1:30 partner is not in the folder) · Cupping notes: none new
 - **ROASTS** [findings](skywalker/findings.md#id45-colombia-santa-barbara-washed-2026-11-20-the-215-test) — id45 (Colombia Santa Barbara Washed, 2:14 development, drop 200.5 °C, +17.4 °C above first crack, loss 15.1 %) added with a RoR check against the plan; not cupped. Medians table refreshed (n=44).

@@ -2,7 +2,7 @@
 
 *Maintained by the Builder from the [roast log](roast-log.md) and cupping notes. Personal evidence
 (grade **P**): the best evidence for this machine, but uncontrolled, one roaster, and five roasts
-cupped so far. Updated 2026-11-20 (Build 11, id45), 44 roasts (Jan–Nov 2026).*
+cupped so far. Updated 2026-11-20 (Build 12, id44), 45 roasts (Jan–Nov 2026).*
 
 !!! abstract "In short"
     - **First crack reads ~184 °C** on your machine (median of 41 roasts; range 174–193 °C) — matching other Skywalker owners (179–183 °C), far below the ~200 °C of convection roasters.
@@ -13,23 +13,23 @@ cupped so far. Updated 2026-11-20 (Build 11, id45), 44 roasts (Jan–Nov 2026).*
     - **First brew-split test (Build 10, id40, 2026-11-20): grind was not the bitterness.** Same roast brewed at your usual grind and 10 micro-steps coarser, tasted at 8, 11 and 16 minutes: the coarser cup was more acidic, bitterness similar at first and little in either cup later; a second taster picked the finer cup blind, with more body. So a coarser grind bought acidity, not less bitterness. One brew, small n — see [Cupped roasts](#cupped-roasts).
     - **Longer development won on the Colombia:** id41 (1:01) cupped "flat or baked" with a bit of smoke; id42 (1:30, only development changed) was sweeter, with tea-like body and weaker bitterness. Your best lead so far.
     - **id43 (Costa Rica, 2026-11-08)** ran your new plan: the earlier heater cuts brought RoR at first crack down from 11.5 (id39) to 9.1 °C/min, and with 1:30 of development it lost 14.6 % — the most of your five Costa Rica roasts — so you thought it too dark. **The cup disagreed:** fruity with balanced acidity at 3 days, tastier on a V60 at 10 days, and "more fruit-ish" than id39 and id40 at 11 days, with the "infamous" flavour weak and fading. Your best-tasting Costa Rica so far (P, n=1).
-    - **id45 (Colombia Santa Barbara Washed, 2026-11-20) — the 2:15 finish.** Followed the temperature-triggered plan almost to the second: development 2:14 (DTR 20.0 %), drop 200.5 °C (**+17.4 °C above first crack**, against your median +8.5), weight loss 15.1 % (second highest of 30 recorded). RoR declined smoothly with no stall: ~10 °C/min through first crack, 5.5 at 10:30, 5.7 at the drop (Artisan) — a bit above the 3–4 predicted from your heater-step responses. Not cupped; its 1:30 partner isn't in the folder yet, and the coffee is labelled differently from id41/id42 (Santa Barbara, not Striped Red Bourbon) — see [id45](#id45-colombia-santa-barbara-washed-2026-11-20-the-215-test).
+    - **id44 vs id45 (Colombia Santa Barbara Washed, both 2026-11-20) — the 1:30 / 2:14 pair, not cupped yet.** Both followed the temperature-triggered plan closely (id44 at 14:42, id45 at 15:13). id44: development 1:30, drop 193.8 °C (+12.1 °C above first crack), loss 13.7 %; id45: development 2:14, drop 200.5 °C (**+17.4 °C**), loss 15.1 % (second highest of 31 recorded). RoR declined smoothly in both and neither stalled (5.3 and 5.7 °C/min at the drop, a bit above the 3–4 I predicted for id45). id44 also reproduces id42 closely (+12.0 °C, RoR 10.4 vs 10.1 at first crack). The pair differs in degree as well as development, and id45 reached first crack 29 s later — see [id44](#id44-colombia-santa-barbara-washed-2026-11-20-the-130-partner) and [id45](#id45-colombia-santa-barbara-washed-2026-11-20-the-215-test).
     - **New in Build 6:** a higher charge goes with a faster roast (about −4 s per °C of charge, r = −0.58 among the 37 roasts charged at 170 °C or above) — the same order as a Colombian production test, where the cup did not change with charge at medium colour. Most of your roasts (29 of 41) end drying later than the 3:30–4:30 window one Skywalker owner uses. Weight loss rises from ~13 % at 1:00 development to ~14 % at 1:30 or more.
     - **Biggest gap now: one variable at a time.** The cupping notes are coming in — thank you. What's missing is pairs of roasts that differ in only one thing, so a cup difference can be pinned on something.
 
-## Your typical roast (median, 44 roasts)
+## Your typical roast (median, 45 roasts)
 
 | | Median | Range |
 |---|---|---|
 | Batch | 350 g | 325–385 g |
 | Charge BT | 181 °C | 108–205 °C |
 | Turning point | ~1:01 | — |
-| Dry end (yellow) | 4:42 @ ~145 °C | 3:55–7:00 |
-| First crack | 8:51 @ **184.5 °C** | 7:12–13:23 / 174–193 °C |
-| Development | **1:10** · DTR 11.3 % | 0:41–2:41 · 7–27 % |
-| Drop BT | 193.7 °C | 186–206 °C |
-| Total time | 10:26 | 8:27–14:23 |
-| Weight loss | 13.4 % (n=30) | 12.0–15.9 % |
+| Dry end (yellow) | 4:43 @ ~145 °C | 3:55–7:00 |
+| First crack | 8:48 @ **184.5 °C** | 7:12–13:23 / 174–193 °C |
+| Development | **1:12** · DTR 11.4 % | 0:41–2:41 · 7–27 % |
+| Drop BT | 193.8 °C | 186–206 °C |
+| Total time | 10:18 | 8:27–14:23 |
+| Weight loss | 13.4 % (n=31) | 12.0–15.9 % |
 | RoR at first crack | 9.1 °C/min | 5.8–11.5 |
 
 ## Patterns
@@ -188,9 +188,28 @@ The "Roast 2" arm of the development test, roasted today from the temperature-tr
 
 - **The plan was followed closely** — the first heater step came at the turning point (1:07, BT 82 °C rather than the BT 90 °C written in the plan), the fan and the two later pre-crack heater steps hit their BT targets within 1 °C, and the three post-crack cuts landed within a few seconds of plan.
 - **RoR check:** 10.1 at 8:30, 10.8 at 9:00, 9.6 at 9:30, 7.4 at 10:00, 5.5 at 10:30, 5.7 at the drop (Artisan). Smooth decline, no stall. The earlier "stalls if cut to 33 %" worry never came up because the plan was softened to 45 %. The model from your heater steps predicted 3–4 °C/min at the drop; the log shows about 5.5, so the response per heater point after first crack is probably a little smaller than estimated (n = 1 check).
-- **It is a dark roast for you:** +17.4 °C above first crack (range of all 44: +5.6 to +22.4), DTR 20.0 % (only id2 at 20.6 and id5 at 27.2 are higher), weight loss 15.1 % (second highest of 30; id2 15.9, id43 and id3 14.6). Of your earlier cupped roasts the longest was 1:30. Expect the 2:15 cup, if different from the 1:30 one, to differ in roast degree as well as development — the two can't be separated without a colour reading.
-- **Not yet a pair:** the 1:30 roast planned for today is not in the folder (the Artisan numbering skips id44). And the label reads *Santa Barbara*, not *Striped Red Bourbon* — if it is a different green lot from id41/id42, then neither roast can be compared with those two. Tell me which it is.
+- **It is a dark roast for you:** +17.4 °C above first crack (range of all 45: +5.6 to +22.4), DTR 20.0 % (only id2 at 20.6 and id5 at 27.2 are higher), weight loss 15.1 % (second highest of 30; id2 15.9, id43 and id3 14.6). Of your earlier cupped roasts the longest was 1:30. Expect the 2:15 cup, if different from the 1:30 one, to differ in roast degree as well as development — the two can't be separated without a colour reading.
+- **The pair:** the 1:30 partner is id44, same coffee and day, see below. The label is *Santa Barbara* for both, not *Striped Red Bourbon* like id41/id42 — if it is a different green lot from those two, id44/id45 can't be compared with them (tell me which).
 - **No cupping notes yet.** Rest to ~10–14 days (about 2026-11-30 to 12-04), blind, with the same brew.
+
+### id44 (Colombia Santa Barbara Washed, 2026-11-20) — the 1:30 partner
+Roasted first (14:42), id42's finish on the temperature-triggered plan: charge 181.3 °C at 70 % / fan 40 %; heater 80 % at 1:07 (BT 84 °C); fan 50 % at 5:07 (BT 145); heater 70 % at 5:52 (BT 154) and 65 % at 7:56 (BT 177); first crack 8:25 at 181.7 °C; fan 70 % at 8:28; heater 48 % at 8:43 (first crack +0:18), 30 % at 9:02 (+0:37) — a stray 58 % shows at 8:58, probably the dial passing through; drop 9:55 at 193.8 °C. Dry end 5:03, Maillard 3:22, development 1:30 (DTR 15.1 %), loss 13.7 %. RoR 10.4 at first crack, 8.4 a minute later, 5.3 at the drop.
+
+- **It reproduces id42:** development 1:30 and +12.1 vs +12.0 °C above first crack, drop 193.8 vs 193.2 °C, RoR 10.4 vs 10.1 at first crack, 5.3 vs 4.3 at the drop. It reached first crack 23 s earlier (8:25 vs 8:48) because the first heater step came at the turning point and not 47 s later. With the BT triggers the same recipe is repeatable on your machine (n = 2).
+- **Compared with id45 (the pair):**
+
+| | id44 (1:30) | id45 (2:14) |
+|---|---|---|
+| Dry end | 5:03 | 5:27 |
+| First crack | 8:25 @ 181.7 °C | 8:54 @ 183.1 °C |
+| Maillard | 3:22 | 3:27 |
+| Development (DTR) | 1:30 (15.1 %) | 2:14 (20.0 %) |
+| Drop BT / above first crack | 193.8 °C / +12.1 °C | 200.5 °C / +17.4 °C |
+| Weight loss | 13.7 % | 15.1 % |
+| RoR at first crack / drop | 10.4 / 5.3 | 10.0 / 5.7 |
+
+  They are the same recipe up to first crack, but id45 was ~25–30 s slower to dry end and first crack although it ran second, with the machine warm. A 29 s later first crack matters less than development at equal colour in the research [S0012](../sources/S0012-munchow-2020-roasting-conditions-multi-study.md) — but the pair does differ in roast degree (1.4 points of weight loss, 6.7 °C of drop), not only in development.
+- **Not cupped yet.** Rest both 10–14 days (about 2026-11-30 to 12-04), blind with a second taster, same brew; note which cup you prefer and whether the "infamous" flavour is stronger or weaker in either. Both came from an uncleaned roaster, so they are also your pre-cleaning baseline (experiment 11, arm D).
 
 *Cupped roasts: n = 5 — leads, not findings.*
 

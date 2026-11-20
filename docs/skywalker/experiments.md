@@ -2,9 +2,9 @@
 
 *Suggested by the Builder. One variable at a time; keep batch size (350 g), fan and room airflow
 fixed; cup blind; compare at equal roast degree (weight loss within ±0.5 % if no colour meter —
-**Inference**). Updated 2026-11-20 (Build 11).*
+**Inference**). Updated 2026-11-20 (Build 12).*
 
-**Next up, in order:** **11** (bitterness in all four cups — brewing now looks fine, so the new arm D, cleaning the roaster and repeating a roast, goes first) → **2** (the 2:15 arm was roasted on 2026-11-20 as id45; its 1:30 partner and the blind cup at 10–14 days are pending) → **2** (development: 1:30 beat the shorter roast on both coffees; repeat 1:30 before going shorter) → **9** (short Maillard) → **0** (a 10-minute idle-noise check).
+**Next up, in order:** **11** (bitterness in all four cups — brewing now looks fine, so the new arm D, cleaning the roaster and repeating a roast, goes first) → **2** (both arms were roasted on 2026-11-20: id44 at 1:30 and id45 at 2:14, same coffee; the blind cup at 10–14 days, about 2026-11-30 to 12-04, is pending) → **2** (development: 1:30 beat the shorter roast on both coffees; repeat 1:30 before going shorter) → **9** (short Maillard) → **0** (a 10-minute idle-noise check).
 
 ## 0. Setup first — Artisan RoR settings
 Set sampling to 1 s and delta span ≈ 15 s, minimal extra smoothing [S0008](../sources/S0008-rao-what-is-baked-coffee.md). If the RoR line becomes
