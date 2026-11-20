@@ -2,9 +2,9 @@
 
 *Suggested by the Builder. One variable at a time; keep batch size (350 g), fan and room airflow
 fixed; cup blind; compare at equal roast degree (weight loss within ±0.5 % if no colour meter —
-**Inference**). Updated 2026-11-20 (Build 10).*
+**Inference**). Updated 2026-11-20 (Build 11).*
 
-**Next up, in order:** **11** (bitterness in all four cups — arm B's coarser-grind half is done and did not remove it; next the cooler-water half, then arm A, picking out charcoal beans) → **2** (development: 1:30 beat the shorter roast on both coffees; repeat 1:30 before going shorter) → **9** (short Maillard) → **0** (a 10-minute idle-noise check).
+**Next up, in order:** **11** (bitterness in all four cups — brewing now looks fine, so the new arm D, cleaning the roaster and repeating a roast, goes first) → **2** (the 2:15 arm was roasted on 2026-11-20 as id45; its 1:30 partner and the blind cup at 10–14 days are pending) → **2** (development: 1:30 beat the shorter roast on both coffees; repeat 1:30 before going shorter) → **9** (short Maillard) → **0** (a 10-minute idle-noise check).
 
 ## 0. Setup first — Artisan RoR settings
 Set sampling to 1 s and delta span ≈ 15 s, minimal extra smoothing [S0008](../sources/S0008-rao-what-is-baked-coffee.md). If the RoR line becomes
@@ -36,6 +36,7 @@ heater doesn't jump to 100 % when you open the door [S0016](../sources/S0016-hom
 identical from roast to roast — it's part of the profile.
 
 ## 1. Measure the lamp lag
+**Result from your logs (Build 11, id39–id43, rough):** the BT RoR starts to react about 15–30 s after a heater step and has mostly settled by ~60 s. A −10 point step before first crack lowers it by about 1–2 °C/min over a minute; after first crack the effect is larger, roughly 0.35 °C/min per heater point (−17 points: 10.5 → 4.3 °C/min in 60 s). Natural RoR decline is mixed in, steps near the drop are cut off, and n is five roasts. A check on id45 predicted 3–4 °C/min at the drop and saw ~5.5, so the post-crack figure is probably slightly high. Plan changes about 30 s before you want to see them.
 **Why:** power changes act late on this machine [S0001](../sources/S0001-skywiki-infrared-roaster.md); you need to know how late to plan changes.
 **How:** in a normal roast, make one clean power step (e.g. −10 %) mid-Maillard. Note the time until
 the RoR visibly changes direction. Repeat once.
@@ -144,7 +145,9 @@ development and weight loss.
 
 - **A — sort:** pick out every fully black ("charcoal") bean, which lamp roasters throw up to lamp level [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md), and every pale, flat quaker [S0061](../sources/S0061-hoos-decoding-defects-immature.md). Brew sorted vs unsorted side by side, same recipe. If it's the black beans, taste a few of them alone in a small brew.
 - **B — brew (do this first, it is free):** same beans, two brews that differ in one thing only: one step coarser grind, *or* water 5 °C cooler. Use the same method for every roast you compare (you tasted id43 on a V60 one day and in a side-by-side the next, and judged it differently) and write down grind setting, dose, water and time. If bitterness moves with the brew, it's extraction, not the roast. Try it on id39 or id40 too, which are the bitterest and old enough that rest is no longer the question.
+**Status (Build 11):** you say store-bought coffee tastes good on your setup, your storage is the same as for store-bought, you cool with a custom cooler, and you always pick out charred beans — so brewing, storage, cooling and charcoal beans are unlikely causes, and arm A is already part of your routine. What is left: the roaster never having been cleaned (arm D), the profile, and the green coffee.
 **Result so far (Build 10, id40, 2026-11-20):** usual grind vs 10 micro-steps coarser, same roast (35 days rest), tasted at 8, 11 and 16 min. Coarser: more acidic, bitterness similar at first and little in either cup later; a second taster picked the finer cup blind (more body and acidity). So bitterness didn't fall with a coarser grind — keep your usual grind and try cooler water next. Don't go coarser again; if you want a second grind point, try one step *finer* only after the water test.
+- **D — clean the roaster (added Build 11, probably the most informative):** you have never cleaned it. Roast the 1:30 plan again right after cleaning (chaff tray, drum and chimney; keep liquid off the lamps and electronics) and taste it blind beside an uncleaned-roaster roast of the same plan (id45's 1:30 partner or id42's, if you have any left). If the "infamous" flavour weakens, the dirty roaster was the cause. **Inference — test it.**
 - **C — rest:** keep a sealed portion and taste it again at week 4 (id42 changed a lot between days 1 and 4).
 
 **Taste for:** where the bitterness sits (front of the tongue, or "deep in the mouth" as in id41), whether it lingers, and whether the "infamous" flavour comes and goes with it. Name its family if you can (ashy/smoky, rubbery, papery, vegetal, burnt sugar).

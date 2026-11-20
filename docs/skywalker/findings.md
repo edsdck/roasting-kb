@@ -2,7 +2,7 @@
 
 *Maintained by the Builder from the [roast log](roast-log.md) and cupping notes. Personal evidence
 (grade **P**): the best evidence for this machine, but uncontrolled, one roaster, and five roasts
-cupped so far. Updated 2026-11-20 (Build 9, new cupping notes), 43 roasts (Jan–Nov 2026).*
+cupped so far. Updated 2026-11-20 (Build 11, id45), 44 roasts (Jan–Nov 2026).*
 
 !!! abstract "In short"
     - **First crack reads ~184 °C** on your machine (median of 41 roasts; range 174–193 °C) — matching other Skywalker owners (179–183 °C), far below the ~200 °C of convection roasters.
@@ -13,22 +13,23 @@ cupped so far. Updated 2026-11-20 (Build 9, new cupping notes), 43 roasts (Jan�
     - **First brew-split test (Build 10, id40, 2026-11-20): grind was not the bitterness.** Same roast brewed at your usual grind and 10 micro-steps coarser, tasted at 8, 11 and 16 minutes: the coarser cup was more acidic, bitterness similar at first and little in either cup later; a second taster picked the finer cup blind, with more body. So a coarser grind bought acidity, not less bitterness. One brew, small n — see [Cupped roasts](#cupped-roasts).
     - **Longer development won on the Colombia:** id41 (1:01) cupped "flat or baked" with a bit of smoke; id42 (1:30, only development changed) was sweeter, with tea-like body and weaker bitterness. Your best lead so far.
     - **id43 (Costa Rica, 2026-11-08)** ran your new plan: the earlier heater cuts brought RoR at first crack down from 11.5 (id39) to 9.1 °C/min, and with 1:30 of development it lost 14.6 % — the most of your five Costa Rica roasts — so you thought it too dark. **The cup disagreed:** fruity with balanced acidity at 3 days, tastier on a V60 at 10 days, and "more fruit-ish" than id39 and id40 at 11 days, with the "infamous" flavour weak and fading. Your best-tasting Costa Rica so far (P, n=1).
+    - **id45 (Colombia Santa Barbara Washed, 2026-11-20) — the 2:15 finish.** Followed the temperature-triggered plan almost to the second: development 2:14 (DTR 20.0 %), drop 200.5 °C (**+17.4 °C above first crack**, against your median +8.5), weight loss 15.1 % (second highest of 30 recorded). RoR declined smoothly with no stall: ~10 °C/min through first crack, 5.5 at 10:30, 5.7 at the drop (Artisan) — a bit above the 3–4 predicted from your heater-step responses. Not cupped; its 1:30 partner isn't in the folder yet, and the coffee is labelled differently from id41/id42 (Santa Barbara, not Striped Red Bourbon) — see [id45](#id45-colombia-santa-barbara-washed-2026-11-20-the-215-test).
     - **New in Build 6:** a higher charge goes with a faster roast (about −4 s per °C of charge, r = −0.58 among the 37 roasts charged at 170 °C or above) — the same order as a Colombian production test, where the cup did not change with charge at medium colour. Most of your roasts (29 of 41) end drying later than the 3:30–4:30 window one Skywalker owner uses. Weight loss rises from ~13 % at 1:00 development to ~14 % at 1:30 or more.
     - **Biggest gap now: one variable at a time.** The cupping notes are coming in — thank you. What's missing is pairs of roasts that differ in only one thing, so a cup difference can be pinned on something.
 
-## Your typical roast (median, 43 roasts)
+## Your typical roast (median, 44 roasts)
 
 | | Median | Range |
 |---|---|---|
 | Batch | 350 g | 325–385 g |
 | Charge BT | 181 °C | 108–205 °C |
-| Turning point | ~1:04 | — |
-| Dry end (yellow) | 4:40 @ ~145 °C | 3:55–7:00 |
-| First crack | 8:48 @ **184.5 °C** | 7:12–13:23 / 174–193 °C |
-| Development | **1:09** · DTR 11.2 % | 0:41–2:41 · 7–27 % |
-| Drop BT | 193.6 °C | 186–206 °C |
-| Total time | 10:18 | 8:27–14:23 |
-| Weight loss | 13.4 % (n=28) | 12.0–15.9 % |
+| Turning point | ~1:01 | — |
+| Dry end (yellow) | 4:42 @ ~145 °C | 3:55–7:00 |
+| First crack | 8:51 @ **184.5 °C** | 7:12–13:23 / 174–193 °C |
+| Development | **1:10** · DTR 11.3 % | 0:41–2:41 · 7–27 % |
+| Drop BT | 193.7 °C | 186–206 °C |
+| Total time | 10:26 | 8:27–14:23 |
+| Weight loss | 13.4 % (n=30) | 12.0–15.9 % |
 | RoR at first crack | 9.1 °C/min | 5.8–11.5 |
 
 ## Patterns
@@ -181,6 +182,15 @@ Charge 180.6 °C at 70 % / fan 40 %, 80 % after the turning point (1:07), fan 55
 - **First crack came at the same time anyway** (8:33 vs 8:32, 185.8 °C both), so the earlier cuts changed the *slope* into first crack, not its timing; Maillard 4:12 vs 3:56.
 - **It went dark:** weight loss 14.6 % — the highest of your five Costa Rica roasts (the other four: 12.0–14.3 %) and above your 13.4 % median; ΔT +10.4 °C. On your machine development time drives weight loss (r = 0.72), so 1:30 on this coffee lands past where id39–id40 stopped. Your note agrees ("too dark for 1:30"). Recipe-style sources give naturals a shorter finish than washed coffees (about 1:00 vs 1:30) [S0057](../sources/S0057-cooper-2026-standards-and-the-mother-sauce.md) [S0063](../sources/S0063-cooper-eqmr-roast-level-flavour-profile-strategies-chart.md).
 - **Cupped (2026-11-11 to 11-19):** fruity with good, non-sour acidity at day 3; at day 10 on a V60 "more tasty than before", light acidity, light body, the "infamous" only a tiny bit; at day 11 beside id39 and id40 it had "more fruit-ish flavours", and you thought it tasted much better on the V60 the day before. So the "too dark for 1:30" worry did not show up as roasty in the cup — "looks dark" on a lamp roaster isn't always "tastes dark" [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md). Against id39 (0:41, same coffee, cupped at 5 days and again at 41) it is the better cup, and its 1:30 development and earlier heater cuts are the differences. That matches id42 over id41: **both times the 1:30 roast beat the shorter one.** Caveats: id43 had only 11 days of rest against id39's 41 on the day you compared them, the brew method changed between tastings, and n = 2 pairs. The next Costa Rica could keep this plan and drop at ~1:10 to see if "dark" matters at all — one change — but the 1:30 repeat (experiment 2) comes first.
+
+### id45 (Colombia Santa Barbara Washed, 2026-11-20) — the 2:15 test
+The "Roast 2" arm of the development test, roasted today from the temperature-triggered plan (written into the Artisan notes). Charge 181.5 °C at 70 % / fan 40 %; heater 80 % at 1:07; fan 50 % at 5:34 (BT 147); heater 70 % at 6:02 (BT 153) and 65 % at 8:13 (BT 176); first crack 8:54 at 183.1 °C; fan 70 % at 8:57; heater 55 / 50 / 45 % at first crack +0:15 / +0:55 / +1:35 (9:09 / 9:49 / 10:30); drop 11:07 at 200.5 °C. Dry end 5:27, Maillard 3:27, development 2:14.
+
+- **The plan was followed closely** — the first heater step came at the turning point (1:07, BT 82 °C rather than the BT 90 °C written in the plan), the fan and the two later pre-crack heater steps hit their BT targets within 1 °C, and the three post-crack cuts landed within a few seconds of plan.
+- **RoR check:** 10.1 at 8:30, 10.8 at 9:00, 9.6 at 9:30, 7.4 at 10:00, 5.5 at 10:30, 5.7 at the drop (Artisan). Smooth decline, no stall. The earlier "stalls if cut to 33 %" worry never came up because the plan was softened to 45 %. The model from your heater steps predicted 3–4 °C/min at the drop; the log shows about 5.5, so the response per heater point after first crack is probably a little smaller than estimated (n = 1 check).
+- **It is a dark roast for you:** +17.4 °C above first crack (range of all 44: +5.6 to +22.4), DTR 20.0 % (only id2 at 20.6 and id5 at 27.2 are higher), weight loss 15.1 % (second highest of 30; id2 15.9, id43 and id3 14.6). Of your earlier cupped roasts the longest was 1:30. Expect the 2:15 cup, if different from the 1:30 one, to differ in roast degree as well as development — the two can't be separated without a colour reading.
+- **Not yet a pair:** the 1:30 roast planned for today is not in the folder (the Artisan numbering skips id44). And the label reads *Santa Barbara*, not *Striped Red Bourbon* — if it is a different green lot from id41/id42, then neither roast can be compared with those two. Tell me which it is.
+- **No cupping notes yet.** Rest to ~10–14 days (about 2026-11-30 to 12-04), blind, with the same brew.
 
 *Cupped roasts: n = 5 — leads, not findings.*
 

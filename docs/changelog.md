@@ -2,6 +2,15 @@
 
 Every change the Builder makes to the knowledge base, newest first.
 
+## 2026-11-20 — Build 11
+Sources integrated: none · Roasts parsed: 1 new (id45; the planned 1:30 partner is not in the folder) · Cupping notes: none new
+- **ROASTS** [findings](skywalker/findings.md#id45-colombia-santa-barbara-washed-2026-11-20-the-215-test) — id45 (Colombia Santa Barbara Washed, 2:14 development, drop 200.5 °C, +17.4 °C above first crack, loss 15.1 %) added with a RoR check against the plan; not cupped. Medians table refreshed (n=44).
+- **EXTEND** [experiments § 1](skywalker/experiments.md) — lamp lag measured from logs: ~15–30 s dead time, mostly settled by 60 s, ~0.35 °C/min per heater point after first crack (rough, n=5; id45 suggests slightly less).
+- **EXTEND** [experiments § 11](skywalker/experiments.md) — new arm D (clean the roaster, repeat the 1:30 plan); status note: store-bought coffee tastes fine, storage and cooling match, charred beans already picked, so brewing/storage/cooling are unlikely causes.
+- **CORRECT** [Defects § Skywalker](kb/defects.md) — was: "check your brew with a one-step change … cooler water is untested" → now: brewing looks fine; test the roaster before/after cleaning. Reason: owner's statements of 2026-11-20.
+- **EXTEND** [Development](kb/development.md) and `gaps.md` — id45 noted; roaster-cleanliness angle added to item 18.
+- **OPEN** id45's label (Santa Barbara) differs from id41/id42 (Striped Red Bourbon); the 1:30 roast (numbering skips id44) is missing. Pair comparison waits on both.
+
 ## 2026-11-20 — Build 10
 Sources integrated: none · Roasts parsed: 0 new · Cupping notes: 1 new (id40, a grind test)
 - **ROASTS** [findings](skywalker/findings.md#cupped-roasts) — id40 now has notes: usual grind vs 10 micro-steps coarser. Coarser was more acidic with similar or little bitterness; a second taster picked the finer cup blind (more body). Five cupped roasts (n=5).

@@ -1,9 +1,10 @@
 # Roast log
 
-*43 roasts, newest first, generated from Artisan files. Click a date for the curve, phases, heater/fan changes and cupping notes.*
+*44 roasts, newest first, generated from Artisan files. Click a date for the curve, phases, heater/fan changes and cupping notes.*
 
 | Date | Coffee | g | Loss % | FC | Dev | DTR % | Drop °C | Cupped |
 |---|---|---|---|---|---|---|---|---|
+| [2026-11-20](roasts/id45.md) | Colombia Santa Barbara Washed | 350 | 15.1 | 8:54 | 2:14 | 20.0 | 200.5 |  |
 | [2026-11-08](roasts/id43.md) | Costa Rica Sarchimor | 350 | 14.6 | 8:33 | 1:30 | 14.9 | 196.2 | ✓ |
 | [2026-11-02](roasts/id42.md) | Colombia Washed - Striped Red Bourbon | 350 |  | 8:48 | 1:30 | 14.6 | 193.2 | ✓ |
 | [2026-10-16](roasts/id41.md) | Colombia Washed - Striped Red Bourbon | 350 | 12.3 | 8:05 | 1:01 | 11.1 | 190.4 | ✓ |

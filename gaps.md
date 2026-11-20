@@ -1,7 +1,7 @@
 # Gaps — what the Gatherer should look for next
 
 *Maintained by the Builder. Roughly most important first; numbers are kept stable between builds so
-source files can refer to them. Updated 2026-11-20 (Build 10).*
+source files can refer to them. Updated 2026-11-20 (Build 11).*
 
 1. **Very short development — controlled sensory evidence below 1:15, and the "degrees above first
    crack" idea** (Build 8: S0065 reaches 1:15 at Agtron 75 with a trained panel — body flat, sweetness
@@ -102,7 +102,7 @@ source files can refer to them. Updated 2026-11-20 (Build 10).*
 
 18. **Bitterness and a recurring off-flavour in light lamp roasts** (new, high priority — from the owner's cups) —
     bitterness in all four cupped roasts (0:41–1:30 development, two coffees, 1–41 days rest; mildest in id43)
-    plus a recurring unnamed flavour with a bitter aftertaste, described as smoky/ashy in id41 and id42, and the owner now questions his grind size (Build 9); a first coarser-grind test did not cut bitterness (Build 10). Also wanted: recommended grind/recipe for light roasts on a V60 and what over-extraction vs under-extraction tastes like. Need: what makes short light roasts
+    plus a recurring unnamed flavour with a bitter aftertaste, described as smoky/ashy in id41 and id42, and the owner now questions his grind size (Build 9); a first coarser-grind test did not cut bitterness (Build 10); store-bought coffee tastes fine on his setup, so brewing is unlikely (Build 11). New angle: roaster cleanliness — chaff/oil build-up in the drum, chimney and chaff tray as a cause of smoky/ashy bitterness on lamp roasters, and cleaning intervals and methods for the Skywalker. Also wanted: recommended grind/recipe for light roasts on a V60 and what over-extraction vs under-extraction tastes like. Need: what makes short light roasts
     bitter (charred/tipped beans, smoke or chaff on radiant roasters, quakers, extraction), any
     sensory vocabulary for "ashy/smoky" vs "roasty" faults, and Skywalker/Kaleido owners reporting
     bitterness with fixes. Angles: Home Roasters Skywalker threads (search "bitter", "smoke",
