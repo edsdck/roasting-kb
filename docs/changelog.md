@@ -2,6 +2,17 @@
 
 Every change the Builder makes to the knowledge base, newest first.
 
+## 2026-11-20 — Build 9
+Sources integrated: none (no new sources) · Roasts parsed: 0 new · Cupping notes: updated for id42 (day 9) and id43 (days 3, 10, 11)
+- **ROASTS** [findings](skywalker/findings.md#cupped-roasts) — now four cupped roasts (n=4). id43 cupped fruity with balanced acidity and "more fruit-ish" than id39/id40, despite the owner's "too dark for 1:30" note; id42 day 9: almost no acidity, light smoky/ashy bitterness. Roast pages regenerated from the notes.
+- **EXTEND** [findings](skywalker/findings.md#cupped-roasts) — bitterness in all four cups (mildest in id43), "smoky/ashy" as a lead on the "infamous" flavour, the owner's own doubt about brewing/grind, and the shorter-development-was-worse pattern now on two coffees (id39 vs id43; id41 vs id42). Rest caveat: id43 had 11 days against id39's 41.
+- **CORRECT** [findings](skywalker/findings.md) — was: id43 "Not cupped yet"; id39 rest "5 d" only; "three cupped roasts" → now: id43 cupped (days 3–11); id39 also tasted at 41 days; four cupped roasts. The id43 "what to do" (cup at 7–14 days first) is replaced by the cup result.
+- **EXTEND** [Development § Skywalker](kb/development.md) and [Defects § Skywalker](kb/defects.md) — cups-so-far updated to n=4; check the brew before blaming the profile.
+- **EXTEND** [experiments](skywalker/experiments.md) — experiment 11 arm B (brew split) now first, with a same-method rule; experiment 2 lead updated (1:30 has won twice).
+- **EXTEND** `gaps.md` — items 3 and 18 updated (four cups; smoky/ashy; brew/grind question).
+- **SKIP** `inbox/` (3 PDFs: a Foods paper, "Annes Roast Level/Flavour Profile Strategies", Smrke et al. 2022 on storage) — not a Builder input yet (the inbox is a Gatherer to-do, see TODO.md); left untouched for the Gatherer.
+- Note: dates in `roasts/id42.md` read "2016/11/08" and "2016/11/11"; read as 2026.
+
 ## 2026-11-08 — Fixes: id42 Artisan file
 - **CORRECT** id42 Artisan file (owner's confirmation): beans set to Colombia Washed - Striped Red Bourbon, batch 400 → 350 g; roasted weight unknown, left blank. Roast page and [roast log](skywalker/roast-log.md) regenerated; [findings](skywalker/findings.md) no longer ask for the fix. Original file backed up outside the repo before editing.
 

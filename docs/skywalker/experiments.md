@@ -2,9 +2,9 @@
 
 *Suggested by the Builder. One variable at a time; keep batch size (350 g), fan and room airflow
 fixed; cup blind; compare at equal roast degree (weight loss within ±0.5 % if no colour meter —
-**Inference**). Updated 2026-11-08 (Build 8).*
+**Inference**). Updated 2026-11-20 (Build 9).*
 
-**Next up, in order:** **11** (bitterness in all three cups) → **2** (development: 1:30 beat 1:01 on the Colombia; on the Costa Rica try ~1:10 with id43's plan) → **9** (short Maillard) → **0** (a 10-minute idle-noise check).
+**Next up, in order:** **11** (bitterness in all four cups — start with arm B, the brew split, since you now suspect the grind) → **2** (development: 1:30 beat the shorter roast on both coffees; repeat 1:30 before going shorter) → **9** (short Maillard) → **0** (a 10-minute idle-noise check).
 
 ## 0. Setup first — Artisan RoR settings
 Set sampling to 1 s and delta span ≈ 15 s, minimal extra smoothing [S0008](../sources/S0008-rao-what-is-baked-coffee.md). If the RoR line becomes
@@ -48,8 +48,8 @@ and your one cupped roast (0:41) was sharp and flat — see [findings](findings.
 **Why:** at equal colour, shorter development = brighter/sweeter, longer = roastier/bitter [S0006](../sources/S0006-alstrup-2020-development-time-sensory.md).
 Practitioners disagree on how short is too short: Rao (one practitioner's opinion) says 20–25 % DTR [S0018](../sources/S0018-rao-2014-development-time-ratio.md); light roasters use
 13–16 % / 1:20–1:30 [S0021](../sources/S0021-home-barista-development-time-light-roasts.md); an experienced Skywalker owner's best early cup was ~1:35 (18 %) [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md). Newer: a 2026 recipe proposes 1:00–1:20 for a very light roast [S0057](../sources/S0057-cooper-2026-standards-and-the-mother-sauce.md), a chart gives 1:00 (natural) or 1:30 (washed) [S0063](../sources/S0063-cooper-eqmr-roast-level-flavour-profile-strategies-chart.md), and a gas-drum thread wants 2:00–2:15 for a new machine or coffee [S0055](../sources/S0055-home-barista-underdeveloped-coffee-1kg-drum.md) — so the three arms below sit on those three numbers.
-**Lead (Build 8):** you already ran the first two arms on the Colombia — id41 at 1:01 and id42 at
-1:30, only development changed — and 1:30 tasted sweeter and less bitter. Add the 2:15 arm and repeat
+**Lead (Build 9):** you already ran the first two arms on the Colombia — id41 at 1:01 and id42 at
+1:30, only development changed — and 1:30 tasted sweeter and less bitter. On the Costa Rica, id43 (1:30, earlier heater cuts) cupped fruitier than id39 (0:41) despite looking too dark, so the 1:30 arm has now won twice (two coffees, different plans, small n). Add the 2:15 arm and repeat
 1:30 once; keep the heater step into drying at the same second (it slipped 38 s in id42).
 **How:** one coffee (the Costa Rican Natural or Colombia you have now), three roasts with your usual
 path to first crack; development ≈ **1:00 / 1:30 / 2:15**. On your machine development time drives
@@ -137,13 +137,13 @@ development and weight loss.
 **Outcome:** whether you taste the closure at all. If not, it does not matter for your volumes.
 
 ## 11. Hunt the bitterness — one roast, split several ways
-*Bitterness is in all three of your cupped roasts, across development 0:41–1:30, two coffees and 5–23 days of rest, plus a recurring "infamous" flavour with a bitter aftertaste — see [findings](findings.md#cupped-roasts).*
+*Bitterness is in all four of your cupped roasts, across development 0:41–1:30, two coffees and 1–41 days of rest, plus a recurring "infamous" flavour with a bitter aftertaste — weakest in id43. On 2026-11-19 you wondered about your grind size — see [findings](findings.md#cupped-roasts).*
 
 **Why:** development time is a weak lever on bitterness at equal colour (one trained panel found no significant difference [S0065](../sources/S0065-alstrup-sca-body-roast-degree-development-time.md)), so the cause may be outside the profile. This experiment needs no new roasting skill: it splits **one** batch so the roast is held constant. **Inference — test it.**
 **How:** take one normal 350 g roast (rest 10–14 days).
 
 - **A — sort:** pick out every fully black ("charcoal") bean, which lamp roasters throw up to lamp level [S0015](../sources/S0015-homeroasters-skywalker-roasts-thread.md), and every pale, flat quaker [S0061](../sources/S0061-hoos-decoding-defects-immature.md). Brew sorted vs unsorted side by side, same recipe. If it's the black beans, taste a few of them alone in a small brew.
-- **B — brew:** same sorted beans, two brews that differ in one thing only: one step coarser grind, *or* water 5 °C cooler. If bitterness moves with the brew, it's extraction, not the roast.
+- **B — brew (do this first, it is free):** same beans, two brews that differ in one thing only: one step coarser grind, *or* water 5 °C cooler. Use the same method for every roast you compare (you tasted id43 on a V60 one day and in a side-by-side the next, and judged it differently) and write down grind setting, dose, water and time. If bitterness moves with the brew, it's extraction, not the roast. Try it on id39 or id40 too, which are the bitterest and old enough that rest is no longer the question.
 - **C — rest:** keep a sealed portion and taste it again at week 4 (id42 changed a lot between days 1 and 4).
 
 **Taste for:** where the bitterness sits (front of the tongue, or "deep in the mouth" as in id41), whether it lingers, and whether the "infamous" flavour comes and goes with it. Name its family if you can (ashy/smoky, rubbery, papery, vegetal, burnt sugar).

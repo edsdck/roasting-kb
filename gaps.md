@@ -1,7 +1,7 @@
 # Gaps — what the Gatherer should look for next
 
 *Maintained by the Builder. Roughly most important first; numbers are kept stable between builds so
-source files can refer to them. Updated 2026-11-08 (Build 8).*
+source files can refer to them. Updated 2026-11-20 (Build 9).*
 
 1. **Very short development — controlled sensory evidence below 1:15, and the "degrees above first
    crack" idea** (Build 8: S0065 reaches 1:15 at Agtron 75 with a trained panel — body flat, sweetness
@@ -23,7 +23,7 @@ source files can refer to them. Updated 2026-11-08 (Build 8).*
    "Roasting on a Kaleido" (2026-01), Kaleido Sniper thread, kaleidoroasters.com manual-mode article;
    Hoos "Tipping and its Avoidance"; Keys to the Shop RoR #18 and the Springer far-infrared paper
    (both needs-manual); Skywalker Discord summaries.
-3. **Skywalker at 350 g with cupping notes** — the owner now has three cupped roasts (all bitter; see item 18), but no other owner's 350 g V1 cup notes — still no V1 350 g profile with cup notes (S0027 has impressions only; recipes are 250 g). Angles: Home Roasters threads 7105
+3. **Skywalker at 350 g with cupping notes** — the owner now has four cupped roasts (all bitter, id43 least; see item 18), but no other owner's 350 g V1 cup notes — still no V1 350 g profile with cup notes (S0027 has impressions only; recipes are 250 g). Angles: Home Roasters threads 7105
    and 7103; HiBean community light-roast profiles; Nirecue videos; TomPoland's V1 review video;
    Roastetta Skywalker V1 entries with notes.
 4. **Why first crack reads different on one machine** — probe depth moved one Quest by ~11 °C
@@ -101,8 +101,8 @@ source files can refer to them. Updated 2026-11-08 (Build 8).*
     small radiant or hot-air roaster, and the Cooper/Hoos follow-up material.
 
 18. **Bitterness and a recurring off-flavour in light lamp roasts** (new, high priority — from the owner's cups) —
-    bitterness in all three cupped roasts (0:41–1:30 development, two coffees, 1–23 days rest)
-    plus a recurring unnamed flavour with a bitter aftertaste. Need: what makes short light roasts
+    bitterness in all four cupped roasts (0:41–1:30 development, two coffees, 1–41 days rest; mildest in id43)
+    plus a recurring unnamed flavour with a bitter aftertaste, described as smoky/ashy in id41 and id42, and the owner now questions his grind size (Build 9). Also wanted: recommended grind/recipe for light roasts on a V60 and what over-extraction vs under-extraction tastes like. Need: what makes short light roasts
     bitter (charred/tipped beans, smoke or chaff on radiant roasters, quakers, extraction), any
     sensory vocabulary for "ashy/smoky" vs "roasty" faults, and Skywalker/Kaleido owners reporting
     bitterness with fixes. Angles: Home Roasters Skywalker threads (search "bitter", "smoke",
