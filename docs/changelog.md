@@ -2,6 +2,9 @@
 
 Every change the Builder makes to the knowledge base, newest first.
 
+## 2026-11-20 — Fixes: id44/id45 coffee
+- **CORRECT** [findings](skywalker/findings.md) — was: "if Santa Barbara is a different green lot from id41/id42, id44/id45 can't be compared with them" → now: same coffee as id41/id42 (owner's confirmation); those four roasts form one series at 1:01 / 1:30 / 1:30 / 2:14 development.
+
 ## 2026-11-20 — Build 12
 Sources integrated: none · Roasts parsed: 1 new (id44) · Cupping notes: none new
 - **ROASTS** [findings](skywalker/findings.md#id44-colombia-santa-barbara-washed-2026-11-20-the-130-partner) — id44 (Colombia Santa Barbara Washed, 1:30 development, drop 193.8 °C, +12.1 °C above first crack, loss 13.7 %) added as the 1:30 partner of id45, with a side-by-side table. It reproduces id42 closely; id45 reached first crack 29 s later. Medians table refreshed (n=45).
