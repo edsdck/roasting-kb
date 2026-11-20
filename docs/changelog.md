@@ -2,6 +2,10 @@
 
 Every change the Builder makes to the knowledge base, newest first.
 
+## 2026-11-20 — Build 14: experiments page rewritten as a plain checklist
+- **EXTEND** [Experiments](skywalker/experiments.md) — owner found the status board with numbered experiments and "arms" unusable. Rewritten as: this weekend (clean the roaster, roast the id44 plan once, with the plan written out), a tasting day (about 2026-12-05, id44 vs id45 vs the cleaning roast, with an if/then table), the logging checklist, what is already done, and a short list of later ideas. The numbering and full reasoning stay in [Experiments — background](skywalker/experiments-detail.md).
+- **EXTEND** [Findings](skywalker/findings.md) — "Do next" matched to the new page. Links of the form "experiment N" in other pages now point to the background page.
+
 ## 2026-11-20 — Build 13: findings and experiments restructured
 Sources integrated: none · Roasts parsed: 0 new · Layout change only — no cited statement was removed
 - **EXTEND** [Findings](skywalker/findings.md) — rewritten as a short page: where things stand, what to do next, one table of the five cupped roasts, the id44 vs id45 test, the typical-roast table, and a one-row-per-pattern table. The long write-ups moved unchanged to [Findings — details](skywalker/findings-detail.md), with the bold pattern paragraphs turned into headings so they can be linked.

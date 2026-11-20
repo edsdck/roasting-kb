@@ -34,7 +34,7 @@ title: Resting & degassing
 ## On the Skywalker (IR)
 
 - Your roasts are light (median development 1:08, weight loss 13.4 %). By the lab data, light roasts degas little and roast speed barely changes it, so don't expect a faster or slower Skywalker roast to need a different rest. **Inference — test it:** the data are from a gas drum; no lamp-roaster data exist.
-- Your one cupped roast (id39, Costa Rican Natural, 0:41 development) was tasted after 5 days. The forum range for light roasts is a week to several weeks, so part of "unpleasant bitterness, very acidic when cooled, no clear flavour" may be rest rather than roast. The sources do not show that; it is a reason to re-cup the same coffee at several rests — see [experiment 2](../skywalker/experiments.md). **Inference — test it.**
+- Your one cupped roast (id39, Costa Rican Natural, 0:41 development) was tasted after 5 days. The forum range for light roasts is a week to several weeks, so part of "unpleasant bitterness, very acidic when cooled, no clear flavour" may be rest rather than roast. The sources do not show that; it is a reason to re-cup the same coffee at several rests — see [experiment 2](../skywalker/experiments-detail.md). **Inference — test it.**
 - **Inference — test it:** the closure result is roaster-independent, so it plausibly applies to your 350 g roasts too. If you keep the beans in a big container, the headspace is the least-tested part; weigh out what you will drink in the next week or two.
 
 ## Contested

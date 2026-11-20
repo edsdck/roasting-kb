@@ -8,13 +8,13 @@
     - **Bitterness and an unnamed "infamous" flavour show up in every cup** (five roasts, two coffees, 1–41 days of rest). It is mildest in id43.
     - **You have ruled out** your brewing (store-bought coffee tastes right on the same setup; a coarser grind only added acidity), storage, cooling and charred beans. **Still open:** the roaster itself (never cleaned), the profile, and the green coffee.
     - **The longer roast tasted better both times so far** (id41 → id42, id39 → id43). That is weak evidence: the tastings were not blind and other things changed too.
-    - **Test in progress:** id44 (1:30) vs id45 (2:14), same coffee, roasted 2026-11-20. Taste both at 10–14 days (about 2026-11-30 to 12-04).
+    - **Test in progress:** id44 (1:30) vs id45 (2:14), same coffee, roasted 2026-11-20. Taste both at 10–14 days, together with the cleaning roast (about 2026-12-05).
     - **Your plan is repeatable:** id44 reproduced id42's roast (drop +12 °C above first crack in both, RoR 10.4 vs 10.1 °C/min at first crack).
 
 ## Do next
 
-1. **Cup id44 and id45 blind** with a second taster, same brew, at 10–14 days. → [Experiment 2](experiments.md)
-2. **Clean the roaster, then repeat the 1:30 plan** and taste it beside id44. If the "infamous" flavour weakens, the dirty roaster was the cause. → [Experiment 11, arm D](experiments.md)
+1. **This weekend: clean the roaster, then roast the id44 plan (1:30) once.** → [What to do next](experiments.md)
+2. **Around 2026-12-05, taste id44, id45 and the weekend roast together,** blind, with your second taster and the same brew. If the weekend roast is clearly less "infamous", the dirty roaster was the cause.
 3. **Log the basics every roast:** roasted weight, how you marked first crack, probe depth, rest days at each tasting. → [Checklist](experiments.md#every-roast-log-these)
 
 ## Cupped roasts
@@ -78,7 +78,7 @@ Same coffee, same day, same temperature-triggered plan until first crack. Not cu
 | Heater around first crack | Usually 60 → 50 → 40–55 %, in modest steps; id39 cut to 17 % within 30 s of first crack. | [details](findings-detail.md#4-heater-handling-around-first-crack) |
 | Charge temperature | A higher charge goes with a faster roast, about −4 s per °C among charges ≥170 °C; a Colombian production test saw no cup change [S0043](../sources/S0043-osorio-2022-cenicafe-initial-roast-temperature-sensory-quality.md). | [details](findings-detail.md#6-charge-temperature-is-a-time-lever-new-n41) |
 | Dry end | Median 4:43, later than the 3:30–4:30 one Skywalker owner uses [S0029](../sources/S0029-homeroasters-roast-assistant-for-skywalker.md). No cup data tie it to anything yet. | [details](findings-detail.md#7-dry-end-is-later-than-other-owners-new-n41) |
-| Heater lag (new) | RoR reacts about 15–30 s after a heater step and is mostly settled by 60 s; after first crack about 0.35 °C/min per heater point (rough, five roasts). | [experiment 1](experiments.md) |
+| Heater lag (new) | RoR reacts about 15–30 s after a heater step and is mostly settled by 60 s; after first crack about 0.35 °C/min per heater point (rough, five roasts). | [experiment 1](experiments-detail.md) |
 | Repeatability (new) | id44 reproduced id42 with the temperature-triggered plan. | [details](findings-detail.md#id44-colombia-santa-barbara-washed-2026-11-20-the-130-partner) |
 
 ## What would make these findings stronger

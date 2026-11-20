@@ -56,7 +56,7 @@ title: Charge & batch size
 - Heatsink mod fitted → back-to-back roasts are reasonable; watch drum-motor heat in long
   sessions [S0009](../sources/S0009-skywiki-putrid-upstairs-response.md).
 - **Inference — test it:** "10 °C per kg" doesn't scale down meaningfully; a 50 g change is
-  ~14 % of your batch. Measure it instead: [experiment 4](../skywalker/experiments.md).
+  ~14 % of your batch. Measure it instead: [experiment 4](../skywalker/experiments-detail.md).
 - A Gen 1 owner calls the machine "very stable for a 400 g load" [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md); two V1 owners work at
   350–400 g (one with 45 batches) [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md). A V2 owner's light-roast recipe uses 250 g with a charge BT of
   180 °C at 60 % power [S0027](../sources/S0027-coffeesnobs-skywalker-roasters-thread.md) — different model, smaller batch. `conf: low`
